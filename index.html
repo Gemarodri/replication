@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Reproducibility Package by Gemarodri</title>
+    <title>Replication Package by Gemarodri</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -11,12 +11,12 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Reproducibility Package (Working Progress)</h1>
+      <h1 class="project-name">Replication Package (Work in Progress)</h1>
       <h2 class="project-tagline"> At this web page, all the data used in our study is available as well as a detailed guide about the methodology and the scripts used through the research. Our reseach involves the study of how fixed bugs have been inserted into the source code, focusing the main effort in a manual validation that answers whether a previous change in the code is the cause of the bug or not.</h2>
-      <a href="https://github.com/Gemarodri/Reprodu-Package/tree/gh-pages
+      <a href="https://github.com/Gemarodri/replication/tree/gh-pages
 " class="btn">View on GitHub</a>
-      <a href="https://github.com/Gemarodri/Reprodu-Package/archive/gh-pages.zip" class="btn">Download .zip</a>
-      <a href="https://github.com/Gemarodri/Reprodu-Package
+      <a href="https://github.com/Gemarodri/replication/archive/gh-pages.zip" class="btn">Download .zip</a>
+      <a href="https://github.com/Gemarodri/replication
 /tarball/gh-pages" class="btn">Download .tar.gz</a>
     </section>
 
@@ -27,8 +27,8 @@
 <p>In the next link you can find a json file with the identifier of the tickets analyzed in each proyect. If you can see the information of each ticket you must know that Nova uses <a href="https://bugs.launchpad.net/nova/+bugs">Launchpad</a> whereas ElasticSearch uses <a href="https://github.com/elastic/elasticsearch/issues/">Github</a>.</p>
 
  <ul>
-  <li><a href="https://github.com/Gemarodri/Reprodu-Package/blob/gh-pages/Nova.json">Nova</li>
-  <li><a href="https://github.com/Gemarodri/Reprodu-Package/blob/gh-pages/ElasticSearch.json">ElasticSearch</li>
+  <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/Nova.json">Nova</li>
+  <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/ElasticSearch.json">ElasticSearch</li>
 </ul> 
       <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> How to analize a bug report.</h3>
@@ -127,7 +127,7 @@
   </ol>
     
 
-<p>At the end, we have semi-automatized this methodology. In ElasticSearch building a python script 'elastic.py' which interact with the research asking for the bug ID, the fix commit and the previous commits. The script opens many web pages where you can find all the information and decide if the previous commit inserted a clen lines or a buggy lines in the moment in which they was merged into the source code. Also, this script save the information in a json file. In Nova using the web tool <a href="bugtracking.libresoft.es">BugTracking</a> which help us with this anlaisis in Openstack projects. </p>
+<p>At the end, we have semi-automatized this methodology. In ElasticSearch building a python script 'elastic.py' which interact with the research asking for the bug ID, the fix commit and the previous commits. The script opens many web pages where you can find all the information and decide if the previous commit inserted a clen lines or a buggy lines in the moment in which they was merged into the source code. Also, this script save the information in a json file. In Nova using the web tool <a href="bugtracking.libresoft.info">BugTracking</a> which help us with this anlaisis in Openstack projects. </p>
 <p style="font-family:sans-serif;" >What information we need to save?
   <ul>
     <li>ID fix commit</li>
@@ -138,18 +138,6 @@
     <li>The number/numbers of previous commit that caused the bug</li>
     <li>Comments from the researcher with a description of the previous commits involved.</li></p>
   </ul></p>
-<p style="font-family:sans-serif;">What should we do in the next situations?</p>
-<p>We found some situations in which we were not sure how to handle them, so it was easier defined some rules to follow in these situations.</p>
-  <p> 1. Only added lines was inserted in the bug fix.
-    <ul>
-      <li>When there is only one previous commit above and below the new lines</li><p>See the context and understand if the fix commit added these lines because the previous commit has forgotted them or not</p>
-      <li>When there is more than one previous commit in the lines below and above the new lines inserted.</li><p>See the context and understand if the fix commit added these lines because some of the previous commit has forgotted them or not</p>
-    </ul></p>
-  <p>2.When there are more than one previous commit tha caused the bug.
-    <ul>
-      <li>Have some of them more responsability than the others?</li><p>No, all of them has the same responsability. But we know that in some cases this is not real.</p>
-    </ul>
-  </p>
 </p>
 
 <h3>
@@ -159,7 +147,7 @@
 <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scripts</h3>
 
 <ul>
-  <li><a href="https://github.com/Gemarodri/Reprodu-Package/blob/gh-pages/elastic.py">elastic.py: </a></li> It is a python script that we use to analyse a Bug report in ElasticSearch. We must run it under the original reporitory of elasticsearch (https://github.com/elastic/elasticsearch) and it needs the number of the bug report. This script saves some information (id of Bug report, id of Pull request, id of fix commit, files involved in the fix commit, id of previous commits founded). The script asks you for some information after running it. An example is show below:
+  <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/elastic.py">elastic.py: </a></li> It is a python script that we use to analyse a Bug report in ElasticSearch. We must run it under the original reporitory of elasticsearch (https://github.com/elastic/elasticsearch) and it needs the number of the bug report. This script saves some information (id of Bug report, id of Pull request, id of fix commit, files involved in the fix commit, id of previous commits founded). The script asks you for some information after running it. An example is show below:
   <pre>
     $ python elastic.py 8438
     // If there is any Pull request in the bug report type NONE
@@ -187,9 +175,9 @@
       ]
     }
  </pre>
-  <li><a href="https://github.com/Gemarodri/Reprodu-Package/blob/gh-pages/elastic.sh">elastic.sh</a></li> It is a bash script which only open the chromium-browser, and is being use by the elastic.py to open a different browser from mozilla, this way you can see in one browser the fix commit changes and in the other browser the git blame file.
-  <li><a href="https://github.com/Gemarodri/Reprodu-Package/blob/gh-pages/elasticIDBugs.py">elasticIDBugs.py</a></li> It is a python script that give you the id of the bug reports in a random way.
-  <li><a href="https://github.com/Gemarodri/Reprodu-Package/blob/gh-pages/studyOfTokens.py">studyOfTokens.py</a></li> It is a python script that we use to analyze the commit that inserted the buggy token, this script opens some webpages where you can track easily all the changes done in a file and the blame. The script asks you for some information after running it.
+  <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/elastic.sh">elastic.sh</a></li> It is a bash script which only open the chromium-browser, and is being use by the elastic.py to open a different browser from mozilla, this way you can see in one browser the fix commit changes and in the other browser the git blame file.
+  <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/elasticIDBugs.py">elasticIDBugs.py</a></li> It is a python script that give you the id of the bug reports in a random way.
+  <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/studyOfTokens.py">studyOfTokens.py</a></li> It is a python script that we use to analyze the commit that inserted the buggy token, this script opens some webpages where you can track easily all the changes done in a file and the blame. The script asks you for some information after running it.
   <pre>
     //You must insert the fix commit change that you want analyze
     $ python studyOfTokens.py 50636a881b60f112027494bcd84af66888db8c1c
@@ -211,7 +199,7 @@
 <p> Gregorio Robles (<a href="https://github.com/gregoriorobles" class="user-mention">@grex</a>), Jesus M. Gonzalez-Barahora (<a href="https://github.com/jgbarah" class="user-mention">@jgbarah</a>), and Gema Rodriguez (<a href="https://github.com/gemarodri" class="user-mention">@gemarodri</a>).</p>
 
       <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/Gemarodri/Reprodu-Package">Reproducibility Package</a> is maintained by <a href="https://github.com/Gemarodri">Gemarodri</a>.</span>
+        <span class="site-footer-owner"><a href="https://github.com/Gemarodri/replication">Replication Package</a> is maintained by <a href="https://github.com/Gemarodri">Gemarodri</a>.</span>
       </footer>
 
     </section>
