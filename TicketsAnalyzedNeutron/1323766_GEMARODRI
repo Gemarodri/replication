@@ -1,0 +1,16 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1323766",
+  "Id": "1323766",
+  "Gerrit": "https://review.openstack.org/#/c/197168",
+  "IdGerrit": "197168",
+  "IdCommit": "991ea00e6c115343eabecc62e86072175823f81f",
+  "Files": "neutron_lbaas/drivers/radware/base_v2_driver.py",
+  "Lines_Inseted": "5",
+  "Lines_Deleted": "2",
+  "CommitParent": "fbfeb80b6a619da5626ea59a387a02b509cf5329",
+  "Classification": "Unknown",
+  "KeywordsTitle": "Incorrect, Floating,",
+  "Description": "issues, tests, won't be supported,needs to be",
+  "KeywordsCommit": "",
+  "Comments": "I don't know, looking for the review in the master branch I found that in Launchpad the patch for this branch is abandoned because it was not necessary."
+}

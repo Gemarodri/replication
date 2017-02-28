@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1398319",
+  "Id": "1398319",
+  "Gerrit": "https://review.openstack.org/138287",
+  "IdGerrit": "138287",
+  "IdCommit": "d496b7879517c1891a8ea260cb205c4a4694e247",
+  "Files": [
+    "bin/cinder-manage"
+  ],
+  "Lines_Inseted": 6,
+  "Lines_Deleted": 7,
+  "CommitParent": "dd006ad496900f4599af41d047bac39b23d05fe8",
+  "Classification": "Bug",
+  "KeywordsTitle": "doesn't work",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": "It's a bug report"
+}

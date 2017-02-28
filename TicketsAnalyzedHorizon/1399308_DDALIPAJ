@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1399308",
+  "Id": "1399308",
+  "Gerrit": "https://review.openstack.org/157000",
+  "IdGerrit": "157000",
+  "IdCommit": "86b1da4203c40b3cfc5b71093b2e4c5512bcbf4a",
+  "Files": [
+    "openstack_dashboard/dashboards/identity/groups/tables.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "673bfed6c8f8c344c0bd9d2ec84985a4c140b8c2",
+  "Classification": "Bug",
+  "KeywordsTitle": "is not translatable",
+  "Description": "False is not translatable",
+  "KeywordsCommit": "Make translatable,to make it translatable we are using",
+  "Comments": ""
+}

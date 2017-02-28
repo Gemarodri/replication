@@ -1,0 +1,10 @@
+{
+  "Id": "1370590",
+  "IdGerrit": "214816",
+  "Files": "nova/virt/libvirt/driver.py",
+  "CommitParent": "09ffb87eb5e98a6c9aac1b4682a41127d187f88e",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "In this case i don't know how to proceed because this fix-commit overwrite the previous fix-commit so, the next lines was done to fix the bug in a first time, but now the data are corrupted. Have I to analyze the first fix-commit? this is a special case where the commits founds in this patch are: \na7a0b4e54 the date is after the bug was opened\n5e650e368 the date is after the bug was opened"
+}

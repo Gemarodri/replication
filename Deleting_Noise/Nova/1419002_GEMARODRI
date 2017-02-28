@@ -1,0 +1,10 @@
+{
+  "Id": "1419002",
+  "IdGerrit": "153906",
+  "Files": "nova/compute/utils.py,nova/virt/libvirt/driver.py",
+  "CommitParent": "6c90c96d7ce3f12252e8db97587af8924192c969",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "It's difficult to know because there is only added lines."
+}

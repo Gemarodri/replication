@@ -1,0 +1,21 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1407105",
+  "Id": "1407105",
+  "Gerrit": "https://review.openstack.org/142481",
+  "IdGerrit": "142481",
+  "IdCommit": "878c703fd006569219d3fc5be459f6ab76a48a15",
+  "Files": [
+    "horizon/exceptions.py",
+    "horizon/middleware.py",
+    "openstack_dashboard/dashboards/project/instances/tests.py",
+    "openstack_dashboard/dashboards/project/overview/tests.py"
+  ],
+  "Lines_Inseted": 11,
+  "Lines_Deleted": 2,
+  "CommitParent": "e69a1c28683e47b8b5443d9877fb637800bad280",
+  "Classification": "Bug",
+  "KeywordsTitle": "Doesn't invalidate",
+  "Description": "potential security risk, security vulnerabilities, bug, security concerns",
+  "KeywordsCommit": "no valid, revoked, unauthorized, unauthorized-error, exceptions ",
+  "Comments": ""
+}

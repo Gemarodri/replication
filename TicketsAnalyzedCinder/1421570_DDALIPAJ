@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1421570",
+  "Id": "1421570",
+  "Gerrit": "https://review.openstack.org/157356",
+  "IdGerrit": "157356",
+  "IdCommit": "7fe917a740878d8587c87f2e6f489654d2cec52e",
+  "Files": [
+    "cinder/tests/targets/test_scst_driver.py",
+    "cinder/volume/targets/scst.py"
+  ],
+  "Lines_Inseted": 55,
+  "Lines_Deleted": 12,
+  "CommitParent": "8bda008dd0594f006e21d2745b616a97d7119065",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

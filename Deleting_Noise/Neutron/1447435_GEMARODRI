@@ -1,0 +1,10 @@
+{
+  "Id": "1447435",
+  "IdGerrit": "176589",
+  "Files": "neutron_fwaas/db/firewall/firewall_db.py,neutron_fwaas/extensions/firewall.py",
+  "CommitParent": "f5f28ec6fa46fcb4009c2105bf09dfdbe0b7041b",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible":"NSNC",
+  "Comments": "we can not know if the previous commit is responsible because the bug was fixed in other repository called neutron-fwass(master)"
+}

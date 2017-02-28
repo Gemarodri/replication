@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1477253",
+  "Id": "1477253",
+  "Gerrit": "https://review.openstack.org/222206",
+  "IdGerrit": "222206",
+  "IdCommit": "a19e64c9d95781982d28113c667dbc90d0ea11eb",
+  "Files": [
+    "neutron/plugins/ml2/drivers/openvswitch/agent/ovs_neutron_agent.py",
+    "neutron/tests/unit/plugins/ml2/drivers/openvswitch/agent/test_ovs_neutron_agent.py"
+  ],
+  "Lines_Inseted": 5,
+  "Lines_Deleted": 1,
+  "CommitParent": "bcafe20a14048b90d1f3153dad6076e42bf571f5",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "1424647",
+  "IdGerrit": "158327",
+  "Files": "nova/cmd/baseproxy.py,nova/cmd/novncproxy.py,nova/cmd/serialproxy.py,\tnova/cmd/spicehtml5proxy.py",
+  "CommitParent": "7f7ecb2f634f9155436bc01a3b279d62aa59a693",
+  "CommitPrevious": "d2cbb9ad",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "d2cbb9ad is responsible\n"
+}

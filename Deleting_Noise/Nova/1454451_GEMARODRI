@@ -1,0 +1,10 @@
+{
+  "Id": "1454451",
+  "IdGerrit": "182766",
+  "Files": "nova/compute/manager.py,nova/compute/resource_tracker.py",
+  "CommitParent": "3841b8254e0dd820d26377312b6c004f4bd9b58e",
+  "CommitPrevious": "53099f3bf\n7b39ef95\ndf7aca88\nd32d5b25\n34f7685f",
+  "Responsible": "Atleastone",
+  "N_responsible": "3",
+  "Comments": "53099f3bf is responsible\n7b39ef95 is responsible, one of the argument was wrong\ndf7aca88 is responsible\nd32d5b25 in my opinion is not responsible because this commit only create a variable from a dictionary, and in the current commit they do the same but in other way\n34f7685f  in my opinion is not responsible because this commit only create a variable from a dictionary,and in the current commit they do the same but in other way\n"
+}

@@ -1,0 +1,21 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1445471",
+  "Id": "1445471",
+  "Gerrit": "https://review.openstack.org/188539",
+  "IdGerrit": "188539",
+  "IdCommit": "6de763ddcb8a93c3a7887709a9e3e158cddf0b6b",
+  "Files": [
+    "openstack_dashboard/contrib/sahara/content/data_processing/jobs/templates/data_processing.jobs/config_template.html",
+    "openstack_dashboard/contrib/sahara/content/data_processing/jobs/tests.py",
+    "openstack_dashboard/contrib/sahara/content/data_processing/jobs/workflows/launch.py",
+    "openstack_dashboard/test/test_data/sahara_data.py"
+  ],
+  "Lines_Inseted": 18,
+  "Lines_Deleted": 1,
+  "CommitParent": "d49f66935c68c97ddfab2cf405190bac7bf82b29",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "add",
+  "Description": " It would be nice if could simply check a box to set this config, user currently must add this by hand",
+  "KeywordsCommit": "Adding option, unit test, new option",
+  "Comments": ""
+}

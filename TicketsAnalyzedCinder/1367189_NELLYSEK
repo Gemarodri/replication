@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1367189",
+  "Id": "1367189",
+  "Gerrit": "https://review.openstack.org/148533",
+  "IdGerrit": "148533",
+  "IdCommit": "3f781f32d0aaa6adf9ef6c54ab6114de92b64917",
+  "Files": [
+    "cinder/tests/test_storwize_svc.py",
+    "cinder/volume/drivers/ibm/storwize_svc/__init__.py"
+  ],
+  "Lines_Inseted": 4,
+  "Lines_Deleted": 0,
+  "CommitParent": "fadc8334740ac4b98e4755c28fe29b15cc1541bc",
+  "Classification": "Bug",
+  "KeywordsTitle": "not working ",
+  "Description": " ERROR,  disable ",
+  "KeywordsCommit": "failed, enabled",
+  "Comments": "."
+}

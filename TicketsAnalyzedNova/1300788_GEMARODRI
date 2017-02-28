@@ -1,0 +1,16 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1300788",
+  "Id": "1300788",
+  "Gerrit": "https://review.openstack.org/124310",
+  "IdGerrit": "124310",
+  "IdCommit": "3e8043349f02ae69f4b721d1f965e574b66e0d3b",
+  "Files": "nova/virt/vmwareapi/vmops.py",
+  "Lines_Inseted": "4",
+  "Lines_Deleted": "0",
+  "CommitParent": "5f65637dfb54491c9ed0b73cdbb301db5f39fef3",
+  "Classification": "Bug",
+  "KeywordsTitle": "exceptions, no body",
+  "Description": "logs, warning",
+  "KeywordsCommit": "deletion, does not exist,",
+  "Comments": "It's a bug report, in the begining I though that there was a feature but they described a logs where you can see the bug, so in my opinion it's a bug report."
+}

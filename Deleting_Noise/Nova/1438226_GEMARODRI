@@ -1,0 +1,10 @@
+{
+  "Id": "1438226",
+  "IdGerrit": "170190",
+  "Files": "nova/virt/libvirt/driver.py,nova/virt/libvirt/host.py,nova/exception.py",
+  "CommitParent": "bf70df295b0529da9f4381f52fc94d328fa2fdb3",
+  "CommitPrevious": "296b09e97\nd4706b88e\n069ad9a5",
+  "Responsible": "Responsible",
+  "N_responsible": "2",
+  "Comments": "296b09e97 it's responsible\nd4706b88e it's responsible\n069ad9a5 it's not responsible, the code does the same after and before fix-commit"
+}

@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1311820",
+  "Id": "1311820",
+  "Gerrit": "https://review.openstack.org/89913",
+  "IdGerrit": "89913",
+  "IdCommit": "af8e4965cb3702264c7e6f47fd9ba8b206a350da",
+  "Files": [
+    "openstack_dashboard/dashboards/project/networks/workflows.py"
+  ],
+  "Lines_Inseted": 3,
+  "Lines_Deleted": 3,
+  "CommitParent": "84ca8a9da854da60c3055e412d55f02f893b47ca",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "has invalid",
+  "Description": "Detail,should be left,not be embedded ",
+  "KeywordsCommit": "Fixing Details, Removing",
+  "Comments": ""
+}

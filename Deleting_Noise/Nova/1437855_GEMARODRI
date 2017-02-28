@@ -1,0 +1,10 @@
+{
+  "Id": "1437855",
+  "IdGerrit": "168701",
+  "Files": "nova/api/openstack/compute/contrib/floating_ips.py,nova/api/openstack/compute/plugins/v3/floating_ips.py",
+  "CommitParent": "6ae446bb17cd5580aff445f5eb0ac2082d5676a2",
+  "CommitPrevious": "1b2c121f\n186c4940\nb4ee0d16\n9a47137f",
+  "Responsible": "Atleastone",
+  "N_responsible": "2",
+  "Comments": "(nova/api/openstack/compute/contrib/floating_ips.py)\n1b2c121f is responsible\n186c4940 is not responsible\nb4ee0d16 is not responsible\n(nova/api/openstack/compute/plugins/v3/floating_ips.py)\n9a47137f is responsible"
+}

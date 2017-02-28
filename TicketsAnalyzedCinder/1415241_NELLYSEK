@@ -1,0 +1,21 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1415241",
+  "Id": "1415241",
+  "Gerrit": "https://review.openstack.org/220246",
+  "IdGerrit": "220246",
+  "IdCommit": "b7fc72c688ab0eaeb4a85a9af3a26428a94854c5",
+  "Files": [
+    "HACKING.rst",
+    "cinder/hacking/checks.py",
+    "cinder/tests/unit/test_hacking.py",
+    "cinder/volume/drivers/netapp/eseries/library.py"
+  ],
+  "Lines_Inseted": 70,
+  "Lines_Deleted": 2,
+  "CommitParent": "de64f5ad716676b7180365798efc3ea69a4fef0e",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "dont cover",
+  "Description": "error",
+  "KeywordsCommit": "added",
+  "Comments": "new feature "
+}

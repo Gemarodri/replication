@@ -1,0 +1,20 @@
+{
+	"Id" : "10113",
+	"num_pc_L" : 0,
+	"LA" : 10906,
+	"LM" : 0,
+	"LD" : 2206,
+	"Files" : 1,
+	"pcSET_L": "",
+	"ONL_L" : "No",
+	"BIC_L" : "No" ,
+	"BICinpcSET_L" : "No",
+	"idBIC_L" : "",
+	"num_pc_T" : 0,
+	"pcSET_T": "",
+	"newLines_T" : "No",
+	"BIC_T" : "" ,
+	"BICinpcSET_T" : "",
+	"idBIC_T" : "",
+	"Match": ["" ]
+}

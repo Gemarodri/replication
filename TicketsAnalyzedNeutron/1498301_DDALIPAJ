@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1498301",
+  "Id": "1498301",
+  "Gerrit": "https://review.openstack.org/226192",
+  "IdGerrit": "226192",
+  "IdCommit": "c4e4ee5752bbb212905382b90b0e73bbe706742d",
+  "Files": [
+    "neutron_lbaas/tests/tempest/v2/api/test_health_monitors_non_admin.py"
+  ],
+  "Lines_Inseted": 0,
+  "Lines_Deleted": 0,
+  "CommitParent": "79b1e6ec7e593527a985f43400117bdd8a3017ba",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": "tests cases"
+}

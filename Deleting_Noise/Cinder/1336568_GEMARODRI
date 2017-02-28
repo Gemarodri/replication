@@ -1,0 +1,10 @@
+{
+  "Id": "1336568",
+  "IdGerrit": "104714",
+  "Files": "cinder/brick/iscsi/iscsi.py,,cinder/volume/driver.py,cinder/volume/drivers/lvm.py,cinder/volume/iscsi.py,etc/cinder/cinder.conf.sample",
+  "CommitParent": "27536de4e03dbd6aa5415bf7c29b8db2629597e5",
+  "CommitPrevious": "f004634a \nac15e1df \n1b21d499\nbdf6e2b5",
+  "Responsible": "Neither",
+  "N_responsible":"0",
+  "Comments": "f004634a is not responsible\nac15e1df is not responsible\n1b21d499 is not responsible\nbdf6e2b5 is not responsible"
+}

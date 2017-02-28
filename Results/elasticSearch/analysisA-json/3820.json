@@ -1,0 +1,20 @@
+{
+	"Id" : "3820",
+	"num_pc_L" : 1,
+	"LA" : 1,
+	"LM" : 1,
+	"LD" : 0,
+	"Files" : 1,
+	"pcSET_L": ["bccf0b1"],
+	"ONL_L" : "No",
+	"BIC_L" : "No" ,
+	"BICinpcSET_L" : "No",
+	"idBIC_L" : "",
+	"num_pc_T" : 1,
+	"pcSET_T": ["5e47600"],
+	"newLines_T" : "No",
+	"BIC_T" : "" ,
+	"BICinpcSET_T" : "",
+	"idBIC_T" : "",
+	"Match": ["bccf0b1-5e47600"]
+}

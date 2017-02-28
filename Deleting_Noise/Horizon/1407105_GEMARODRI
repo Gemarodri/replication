@@ -1,0 +1,10 @@
+{
+  "Id": "1407105",
+  "IdGerrit": "142481",
+  "Files": "horizon/exceptions.py,horizon/middleware.py",
+  "CommitParent": "e69a1c28683e47b8b5443d9877fb637800bad280",
+  "CommitPrevious": "3b24bca0",
+  "N_responsible": "0",
+  "Comments": "3b24bca0 is not responsible, they add and extra argument in the function, the responsible\n",
+  "Responsible": "Not_Responsible"
+}

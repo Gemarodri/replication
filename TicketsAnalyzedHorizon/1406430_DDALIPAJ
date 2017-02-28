@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1406430",
+  "Id": "1406430",
+  "Gerrit": "https://review.openstack.org/144413",
+  "IdGerrit": "144413",
+  "IdCommit": "f090fbcb33671d1264221dd98d1881a8bf8b82db",
+  "Files": [
+    "openstack_dashboard/static/dashboard/scss/horizon.scss"
+  ],
+  "Lines_Inseted": 5,
+  "Lines_Deleted": 0,
+  "CommitParent": "3a492dd1eafc6b87503c15e02f6a0228c4804659",
+  "Classification": "Bug",
+  "KeywordsTitle": "missing",
+  "Description": "lost the ",
+  "KeywordsCommit": "Adding back ",
+  "Comments": ""
+}

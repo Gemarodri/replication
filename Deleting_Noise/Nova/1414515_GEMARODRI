@@ -1,0 +1,10 @@
+{
+  "Id": "1414515",
+  "IdGerrit": "149923",
+  "Files": "nova/servicegroup/api.py,nova/servicegroup/drivers/base.py,nova/servicegroup/drivers/db.py,nova/servicegroup/drivers/zk.py",
+  "CommitParent": "5a9d7abb98ffc9af8380fdf6429915f80bb19656",
+  "CommitPrevious": "64e167eb\nedec3e1b\n8c53d87a\n8880aadb\nc7718b2d",
+  "Responsible": "Atleastone",
+  "N_responsible": "1",
+  "Comments": "64e167eb is not responsible, it change the name of an argument\nedec3e1b is not responsible, it's a debug log\n8c53d87a is not responsible, it's an importation \n8880aadb it's responsible\nc7718b2d is not responsible, it's a debug log."
+}

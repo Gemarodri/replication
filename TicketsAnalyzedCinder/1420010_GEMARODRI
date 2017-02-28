@@ -1,0 +1,20 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1420010",
+  "Id": "1420010",
+  "Gerrit": "https://review.openstack.org/154249",
+  "IdGerrit": "154249",
+  "IdCommit": "19a31d33a4fa732eedc3a6c6c9a5956c70498779",
+  "Files": [
+    "cinder/tests/targets/test_lio_driver.py",
+    "cinder/tests/targets/test_tgt_driver.py",
+    "cinder/volume/targets/tgt.py"
+  ],
+  "Lines_Inseted": 8,
+  "Lines_Deleted": 4,
+  "CommitParent": "940f6ca0ead392fe031dbebb9a10223e2d895c63",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "delete fails, doesn't exist",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": "It's a feature"
+}

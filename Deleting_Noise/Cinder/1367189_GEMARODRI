@@ -1,0 +1,10 @@
+{
+  "Id": "1367189",
+  "IdGerrit": "148533",
+  "Files": "cinder/volume/drivers/ibm/storwize_svc/__init__.py",
+  "CommitParent": "fadc8334740ac4b98e4755c28fe29b15cc1541bc",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "It's diffcult to know, because the current commit only added new lines and we can not be sure which previous commit forgot these lines. In my opinion is this commit the responsible 'c7859db1'"
+}

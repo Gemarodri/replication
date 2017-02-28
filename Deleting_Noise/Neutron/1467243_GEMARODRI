@@ -1,0 +1,10 @@
+{
+  "Id": "1467243",
+  "IdGerrit": "193895",
+  "Files": "neutron_lbaas/drivers/radware/base_v2_driver.py",
+  "CommitParent": "fbfeb80b6a619da5626ea59a387a02b509cf5329",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible":"NSNC",
+  "Comments": "We cannot got the information, the repository in which the bug was resolved, it was not neutron was in neutron-Ibaas"
+}

@@ -1,0 +1,12 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1482671",
+  "Id": "1482671",
+  "Files": [],
+  "Lines_Inseted": 0,
+  "Lines_Deleted": 0,
+  "Classification": "Bug",
+  "KeywordsTitle": "orting by IP addresses is broken ",
+  "Description": "aise the lower bound , ensure that sorting by IP address works",
+  "KeywordsCommit": " will fix the sorting by IP addresses",
+  "Comments": "Malfunctioning of IP adress\n- tool does not display commit message , find it @https://review.openstack.org/#/c/210474/"
+}

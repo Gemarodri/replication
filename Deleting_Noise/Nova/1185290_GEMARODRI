@@ -1,0 +1,10 @@
+{
+  "Id": "1185290",
+  "IdGerrit": "52919",
+  "Files": "nova/api/openstack/compute/plugins/v3/servers.py",
+  "CommitParent": "fd4a658141ae683bf89fbbe9a72969694d4d57b4",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "I'm not sure that this ticket is a real bug report, so in order to only there is added lines, i cannot be sure which previous commit is responsible"
+}

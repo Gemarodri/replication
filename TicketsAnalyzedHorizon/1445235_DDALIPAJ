@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1445235",
+  "Id": "1445235",
+  "Gerrit": "https://review.openstack.org/174636",
+  "IdGerrit": "174636",
+  "IdCommit": "b7de0333b13f73f6a66380623d7579373709c756",
+  "Files": [
+    "openstack_dashboard/static/dashboard/launch-instance/launch-instance.model.js"
+  ],
+  "Lines_Inseted": 7,
+  "Lines_Deleted": 1,
+  "CommitParent": "4dcb0c0cd43200146b00b15abf9d0b892102ee7c",
+  "Classification": "Bug",
+  "KeywordsTitle": "Security error",
+  "Description": "launch Errors,Error,unable to create ",
+  "KeywordsCommit": " Instance Fix,needs to be by, this solves that issue",
+  "Comments": ""
+}

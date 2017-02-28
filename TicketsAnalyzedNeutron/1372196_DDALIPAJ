@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1372196",
+  "Id": "1372196",
+  "Gerrit": "https://review.openstack.org/123022",
+  "IdGerrit": "123022",
+  "IdCommit": "d1f1722e0edb63c73b60c80abafa63749349cd8e",
+  "Files": [
+    "neutron/plugins/ofagent/agent/arp_lib.py"
+  ],
+  "Lines_Inseted": 6,
+  "Lines_Deleted": 6,
+  "CommitParent": "da4433e1af75a7ad0a03b3e48e7b12af9a4d0e55",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

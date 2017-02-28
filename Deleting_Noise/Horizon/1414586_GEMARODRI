@@ -1,0 +1,10 @@
+{
+  "Id": "1414586",
+  "IdGerrit": "150060",
+  "Files": "openstack_dashboard/dashboards/project/data_processing/cluster_templates/templates/data_processing.cluster_templates/cluster_templates.html,openstack_dashboard/dashboards/project/data_processing/clusters/templates/data_processing.clusters/clusters.html,openstack_dashboard/dashboards/project/data_processing/job_executions/templates/data_processing.job_executions/job_executions.html,openstack_dashboard/dashboards/project/data_processing/jobs/templates/data_processing.jobs/jobs.html,openstack_dashboard/dashboards/project/data_processing/nodegroup_templates/templates/data_processing.nodegroup_templates/nodegroup_templates.html",
+  "CommitParent": "2af8034ffc9766a0f4fb8beef833ca7f8c045ef5",
+  "CommitPrevious": "d38189c0\n0be5fb4e\n636eba18",
+  "Responsible": "All",
+  "N_responsible": "3",
+  "Comments": "d38189c0 is responsible\n0be5fb4e is responsible\n636eba18 is responsible\n"
+}

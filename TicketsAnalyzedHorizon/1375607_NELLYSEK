@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1375607",
+  "Id": "1375607",
+  "Gerrit": "https://review.openstack.org/125329",
+  "IdGerrit": "125329",
+  "IdCommit": "8d89f09bfd502aa42e8a83c2c5e5c7e4a2d8aefb",
+  "Files": [
+    "horizon/test/test_dashboards/dogs/puppies/tables.py"
+  ],
+  "Lines_Inseted": 0,
+  "Lines_Deleted": 0,
+  "CommitParent": "35487bf8a00ae8c0c445637443c7ee951a29fb10",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "don't contain comments ",
+  "Description": "no comments, problem , caused",
+  "KeywordsCommit": ".",
+  "Comments": "test case"
+}

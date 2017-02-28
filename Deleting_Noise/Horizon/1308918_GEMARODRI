@@ -1,0 +1,10 @@
+{
+  "Id": "1308918",
+  "IdGerrit": "88220",
+  "Files": "horizon/middleware.py,openstack_dashboard/settings.py",
+  "CommitParent": "d614789da298b2e7ce3466db2845a5041ab813c0",
+  "CommitPrevious": "953d1b97\n97428427\n13355dac\n4865cb6a\n74c2b8ab",
+  "N_responsible": "1",
+  "Comments": "(horizon/middleware.py)\n953d1b97 is not responsible, the commit added this import method but in the current commit they decided deleted, although it's works.\n97428427 is not responsible, it only create the def function that in the current commit has changed the name.\n13355dac is the responsible it should have done all the verification\n4865cb6a is not responsible\n74c2b8ab is not responsible\nCould be another responsible but it's so difficult to know for me.",
+  "Responsible": "Atleastone"
+}

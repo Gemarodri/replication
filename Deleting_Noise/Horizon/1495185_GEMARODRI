@@ -1,0 +1,10 @@
+{
+  "Id": "1495185",
+  "IdGerrit": "222902",
+  "Files": "openstack_dashboard/dashboards/project/firewalls/tables.py,openstack_dashboard/dashboards/project/loadbalancers/workflows.py,openstack_dashboard/dashboards/project/network_topology/views.py,openstack_dashboard/dashboards/project/routers/extensions/extraroutes/views.py,openstack_dashboard/dashboards/project/routers/extensions/routerrules/views.py",
+  "CommitParent": "32e72a13b21ec9479efe2935f81ee8730b6a6c3d",
+  "CommitPrevious": "fb9bcd31\n3b8788f5\ne0ac95be\n11001691\n440bd190\nbb248e1d",
+  "Responsible": "Neither",
+  "N_responsible": "0",
+  "Comments": "fb9bcd31 is not responsible, some commit changed the name \n3b8788f5  is not responsible, some commit changed the name \ne0ac95be  is not responsible, some commit changed the name \n11001691  is not responsible, some commit changed the name \n440bd190  is not responsible, some commit changed the name \nbb248e1d  is not responsible, some commit changed the name "
+}

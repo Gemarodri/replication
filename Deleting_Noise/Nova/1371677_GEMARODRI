@@ -1,0 +1,10 @@
+{
+  "Id": "1371677",
+  "IdGerrit": "174836",
+  "Files": "nova/virt/libvirt/driver.py",
+  "CommitParent": "d1fb8d0fbdd6cb95c43b02f754409f1c728e8cd0",
+  "CommitPrevious": "5fa74bc0b",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "5fa74bc0b is responsible because it didn't provide information about block devices, and this makes incorrect guesses"
+}

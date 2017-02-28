@@ -1,0 +1,10 @@
+{
+  "Id": "1455012",
+  "IdGerrit": "182993",
+  "Files": "openstack_dashboard/dashboards/project/firewalls/views.py",
+  "CommitParent": "e3b220baa09ada562f4bca5a705ab94442e124b4",
+  "CommitPrevious": "db27b594",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "db27b594 is responsible, the title was in a wrong line"
+}

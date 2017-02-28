@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1437477",
+  "Id": "1437477",
+  "Gerrit": "https://review.openstack.org/168477",
+  "IdGerrit": "168477",
+  "IdCommit": "181be53a2b0a54f7b4cd33dacbaa560e124e9421",
+  "Files": [
+    "cinder/image/glance.py",
+    "cinder/tests/unit/image/test_glance.py"
+  ],
+  "Lines_Inseted": 14,
+  "Lines_Deleted": 9,
+  "CommitParent": "fac178fd58f06c146d96711e454c9397a574d15f",
+  "Classification": "Bug",
+  "KeywordsTitle": "fails",
+  "Description": "fails",
+  "KeywordsCommit": "fix ,this fixes ",
+  "Comments": "logic error"
+}

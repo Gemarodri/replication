@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1421843",
+  "Id": "1421843",
+  "Gerrit": "https://review.openstack.org/159231",
+  "IdGerrit": "159231",
+  "IdCommit": "5a49754f2acd76e2583685b215de549eb9f27c63",
+  "Files": [
+    "cinder/volume/drivers/eqlx.py"
+  ],
+  "Lines_Inseted": 2,
+  "Lines_Deleted": 2,
+  "CommitParent": "05a3022bc5dc3cd4bce98fe0735eefb5edecc88f",
+  "Classification": "Bug",
+  "KeywordsTitle": "cleanup",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": "It's a bug their rules say that only infinite values can be used for default"
+}

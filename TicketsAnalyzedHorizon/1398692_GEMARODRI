@@ -1,0 +1,16 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1398692",
+  "Id": "1398692",
+  "Gerrit": "https://review.openstack.org/#/c/138840",
+  "IdGerrit": "138840",
+  "IdCommit": "c13aad1b95b1d84e73f2565a18a5a8e2bd2194a7",
+  "Files": ".gitreview,.tx/config,horizon/locale/ca/LC_MESSAGES/django.po,horizon/locale/ca/LC_MESSAGES/djangojs.po,horizon/locale/cs/LC_MESSAGES/django.po,horizon/locale/cs/LC_MESSAGES/djangojs.po,horizon/locale/en_AU/LC_MESSAGES/django.po,horizon/locale/en_AU/LC_MESSAGES/djangojs.po,horizon/locale/es/LC_MESSAGES/django.po,horizon/locale/es/LC_MESSAGES/djangojs.po,horizon/locale/es_MX/LC_MESSAGES/django.po,horizon/locale/fi_FI/LC_MESSAGES/django.po,horizon/locale/fi_FI/LC_MESSAGES/djangojs.po,horizon/locale/fil/LC_MESSAGES/django.po,horizon/locale/fr/LC_MESSAGES/djangojs.po,horizon/locale/he/LC_MESSAGES/djangojs.po,horizon/locale/hi/LC_MESSAGES/django.po,horizon/locale/hi/LC_MESSAGES/djangojs.po,horizon/locale/hu/LC_MESSAGES/django.po,horizon/locale/id/LC_MESSAGES/django.po,horizon/locale/id/LC_MESSAGES/djangojs.po,horizon/locale/it/LC_MESSAGES/django.po,horizon/locale/ja/LC_MESSAGES/djangojs.po,horizon/locale/ka_GE/LC_MESSAGES/djangojs.po,horizon/locale/nl_NL/LC_MESSAGES/django.po,horizon/locale/nl_NL/LC_MESSAGES/djangojs.po,horizon/locale/pa_IN/LC_MESSAGES/django.po,horizon/locale/pa_IN/LC_MESSAGES/djangojs.po,horizon/locale/pl_PL/LC_MESSAGES/django.po,horizon/locale/pl_PL/LC_MESSAGES/djangojs.po,horizon/locale/pt/LC_MESSAGES/django.po,horizon/locale/pt/LC_MESSAGES/djangojs.po,horizon/locale/sl_SI/LC_MESSAGES/django.po,horizon/locale/sr/LC_MESSAGES/django.po,horizon/locale/sr/LC_MESSAGES/djangojs.po,horizon/locale/te_IN/LC_MESSAGES/djangojs.po,horizon/locale/tr_TR/LC_MESSAGES/django.po,horizon/locale/tr_TR/LC_MESSAGES/djangojs.po,horizon/locale/zh_CN/LC_MESSAGES/djangojs.po,openstack_dashboard/dashboards/project/instances/utils.py,openstack_dashboard/locale/cs/LC_MESSAGES/django.po,openstack_dashboard/locale/de/LC_MESSAGES/django.po,openstack_dashboard/locale/en/LC_MESSAGES/django.po,openstack_dashboard/locale/en_AU/LC_MESSAGES/django.po,openstack_dashboard/locale/es/LC_MESSAGES/django.po,openstack_dashboard/locale/fr/LC_MESSAGES/django.po,openstack_dashboard/locale/hi/LC_MESSAGES/django.po,openstack_dashboard/locale/ja/LC_MESSAGES/django.po,openstack_dashboard/locale/kn/LC_MESSAGES/django.po,openstack_dashboard/locale/ko_KR/LC_MESSAGES/django.po,openstack_dashboard/locale/nl_NL/LC_MESSAGES/django.po,openstack_dashboard/locale/pl_PL/LC_MESSAGES/django.po,openstack_dashboard/locale/pt_BR/LC_MESSAGES/django.po,openstack_dashboard/locale/ru/LC_MESSAGES/django.po,openstack_dashboard/locale/sr/LC_MESSAGES/django.po,openstack_dashboard/locale/zh_CN/LC_MESSAGES/django.po,openstack_dashboard/locale/zh_TW/LC_MESSAGES/django.po,openstack_dashboard/settings.py,requirements.txt",
+  "Lines_Inseted": "961",
+  "Lines_Deleted": "577",
+  "CommitParent": "040422bdc8554eb040ccf6d42d5913a7a9c035d0",
+  "Classification": "Bug",
+  "KeywordsTitle": "Missing",
+  "Description": "missing,need to update to fix",
+  "KeywordsCommit": "the version are missing",
+  "Comments": "It's a bug report. Here we can't find any responsible, only the evolution of the time.\nThe bug was fixed doing a updating and touching several files."
+}

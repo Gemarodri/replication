@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1367673",
+  "Id": "1367673",
+  "Gerrit": "https://review.openstack.org/120387",
+  "IdGerrit": "120387",
+  "IdCommit": "a07147ed3ccad3642be3d93815aeb0611c8a1a0b",
+  "Files": [
+    "horizon/static/horizon/js/horizon.forms.js"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "e68f63f03caa9fbccda925e0a2007fcc71cd9fb5",
+  "Classification": "Bug",
+  "KeywordsTitle": "bug, upload",
+  "Description": "input is not auto-filled anymore, empty",
+  "KeywordsCommit": "fix, add, check",
+  "Comments": ""
+}

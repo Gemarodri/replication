@@ -1,0 +1,20 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1260436",
+  "Id": "1260436",
+  "Gerrit": "https://review.openstack.org/65793",
+  "IdGerrit": "65793",
+  "IdCommit": "faee0c0c9284ded67a35b57fed4a68b4cfacea15",
+  "Files": [
+    "openstack_dashboard/dashboards/project/instances/tests.py",
+    "openstack_dashboard/dashboards/project/instances/workflows/create_instance.py",
+    "openstack_dashboard/test/test_data/neutron_data.py"
+  ],
+  "Lines_Inseted": 40,
+  "Lines_Deleted": 19,
+  "CommitParent": "f0e1e3bdb3d66d8849f5be44cbd2cfa606109930",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "cannot be lunched, this bug, issue",
+  "KeywordsCommit": "fix, fixes, modifying existing to handle, exceptions are added",
+  "Comments": ""
+}

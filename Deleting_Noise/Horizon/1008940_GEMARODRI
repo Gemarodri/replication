@@ -1,0 +1,10 @@
+{
+  "Id": "1008940",
+  "IdGerrit": "17845",
+  "Files": "openstack_dashboard/api/swift.py,openstack_dashboard/dashboards/admin/networks/forms.py,\nopenstack_dashboard/dashboards/project/containers/forms.py,openstack_dashboard/dashboards/project/containers/tables.py,openstack_dashboard/dashboards/project/containers/views.py",
+  "CommitParent": "648c8a582be274e400125b74b9572c2aebbab18a",
+  "CommitPrevious": "ab35449e",
+  "N_responsible": "1",
+  "Comments": "(openstack_dashboard/api/swift.py)\nab35449e is responsible\n",
+  "Responsible": "Responsible"
+}

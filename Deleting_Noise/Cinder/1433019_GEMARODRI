@@ -1,0 +1,10 @@
+{
+  "Id": "1433019",
+  "IdGerrit": "167134",
+  "Files": "cinder/volume/manager.py",
+  "CommitParent": "ebe3234d9efc949979dd8097ab25e70b6c5ff09b",
+  "CommitPrevious": "31ad23c4",
+  "Responsible": "Not_Responsible",
+  "N_responsible":"0",
+  "Comments": "31ad23c4 touch the line, but it in the line was not the bug."
+}

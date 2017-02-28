@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1483916",
+  "Id": "1483916",
+  "Gerrit": "https://review.openstack.org/211804",
+  "IdGerrit": "211804",
+  "IdCommit": "91ad18ef4111361b3ce2abf382f75bda9e281663",
+  "Files": [
+    "cinder/tests/unit/test_pure.py",
+    "cinder/volume/drivers/pure.py"
+  ],
+  "Lines_Inseted": 12,
+  "Lines_Deleted": 5,
+  "CommitParent": "27c2689a22d61d868d10d9b77638acd9ff745903",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

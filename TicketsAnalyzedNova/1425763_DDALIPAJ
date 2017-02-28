@@ -1,0 +1,17 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1425763",
+  "Id": "1425763",
+  "Gerrit": "https://review.openstack.org/159304",
+  "IdGerrit": "159304",
+  "Files": [
+    "nova/tests/functional/wsgi/test_flavor_manage.py"
+  ],
+  "Lines_Inseted": 0,
+  "Lines_Deleted": 0,
+  "CommitParent": "3412d294ad0df4be5536695f5babd62e8c9399b2",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": " test, invalid",
+  "Description": "test, can fail occasionally, exception, Invalid input, OpenStackApiException, Unexpected status code",
+  "KeywordsCommit": " failure of the test",
+  "Comments": "the only file included is a testfile"
+}

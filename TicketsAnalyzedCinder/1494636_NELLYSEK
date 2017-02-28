@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1494636",
+  "Id": "1494636",
+  "Gerrit": "https://review.openstack.org/222516",
+  "IdGerrit": "222516",
+  "IdCommit": "f06001accc0bdee6e5eacd1407c192d63c828606",
+  "Files": [
+    "cinder/tests/unit/test_vmware_vmdk.py",
+    "cinder/volume/drivers/vmware/vmdk.py"
+  ],
+  "Lines_Inseted": 22,
+  "Lines_Deleted": 19,
+  "CommitParent": "ccd1692325c1b2681d8552bc4b2551100ad793df",
+  "Classification": "Bug",
+  "KeywordsTitle": "invalid",
+  "Description": "correct product name",
+  "KeywordsCommit": "fix invalid product name ",
+  "Comments": "."
+}

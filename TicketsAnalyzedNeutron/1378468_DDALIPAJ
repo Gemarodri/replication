@@ -1,0 +1,21 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1378468",
+  "Id": "1378468",
+  "Gerrit": "https://review.openstack.org/126793",
+  "IdGerrit": "126793",
+  "Files": [
+    "neutron/api/rpc/agentnotifiers/l3_rpc_agent_api.py",
+    "neutron/db/l3_agentschedulers_db.py",
+    "neutron/plugins/nec/nec_router.py",
+    "neutron/scheduler/l3_agent_scheduler.py",
+    "neutron/tests/unit/test_l3_schedulers.py"
+  ],
+  "Lines_Inseted": 40,
+  "Lines_Deleted": 19,
+  "CommitParent": "f0aef106e0feca893e64165b1c4718c83f9438dd",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": "this is a partial bug"
+}

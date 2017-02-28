@@ -1,0 +1,10 @@
+{
+  "Id": "1435469",
+  "IdGerrit": "169870",
+  "Files": "horizon/static/horizon/js/angular/services/hz.api.glance.js,openstack_dashboard/api/glance.py,openstack_dashboard/api/rest/glance.py",
+  "CommitParent": "b2fc84d7f6a93385e607a2ba1d3fd5158f3ae8ea",
+  "CommitPrevious": "2cca73ff\n1126054c",
+  "Responsible": "Atleastone",
+  "N_responsible": "1",
+  "Comments": "(horizon/static/horizon/js/angular/services/hz.api.glance.js)\n1126054c in my opinion it is responsible, futhermore is the first time that this file was created. This commit didn't have into account how glance process the data causing the failure.\n(openstack_dashboard/api/glance.py)\nOnly have been added lines\n(openstack_dashboard/api/rest/glance.py)\n1126054c is responsible\n2cca73ff this commit is not responsible only changed the format\n"
+}

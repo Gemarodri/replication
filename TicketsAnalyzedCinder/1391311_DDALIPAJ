@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1391311",
+  "Id": "1391311",
+  "Gerrit": "https://review.openstack.org/133831",
+  "IdGerrit": "133831",
+  "IdCommit": "ab4f57212683baec45d5b682bdd3952ff58249ed",
+  "Files": [
+    "cinder/tests/zonemanager/test_brcd_fc_san_lookup_service.py",
+    "cinder/zonemanager/drivers/brocade/brcd_fc_san_lookup_service.py"
+  ],
+  "Lines_Inseted": 12,
+  "Lines_Deleted": 9,
+  "CommitParent": "3c52d06611c7be0f9588bc088c2f0c2015f17ed6",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

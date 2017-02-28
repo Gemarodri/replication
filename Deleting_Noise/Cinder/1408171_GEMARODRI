@@ -1,0 +1,10 @@
+{
+  "Id": "1408171",
+  "IdGerrit": "145415",
+  "Files": "cinder/volume/drivers/block_device.py,cinder/volume/drivers/drbdmanagedrv.py,cinder/volume/drivers/lvm.py,cinder/volume/drivers/srb.py,cinder/volume/targets/driver.py,cinder/volume/targets/fake.py,cinder/volume/targets/iet.py,cinder/volume/targets/iser.py,cinder/volume/targets/lio.py,cinder/volume/targets/tgt.py",
+  "CommitParent": "9742b7d3611aa6eece0abc3c6479290a825b5c40",
+  "CommitPrevious": "9651f547\nb75378d4\na23f17f8\nc505cb80",
+  "Responsible": "Atleastone",
+  "N_responsible":"2",
+  "Comments": "9651f547 is not responsible in the current commit they do the same than in this previous commit but in other way.\nb75378d4 is not responsible in the current commit they do the same than in this previous commit but in other way.\na23f17f8 is responsible\nc505cb80 is repsonsible"
+}

@@ -1,0 +1,25 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1489337",
+  "Id": "1489337",
+  "Gerrit": "https://review.openstack.org/187270",
+  "IdGerrit": "187270",
+  "IdCommit": "f586043fa969b9d1dcf4933aacbf615f53691093",
+  "Files": [
+    "cinder/tests/unit/test_rbd.py",
+    "cinder/tests/unit/test_volume.py",
+    "cinder/tests/unit/test_volume_rpcapi.py",
+    "cinder/tests/unit/test_volume_utils.py",
+    "cinder/volume/drivers/rbd.py",
+    "cinder/volume/manager.py",
+    "cinder/volume/rpcapi.py",
+    "cinder/volume/utils.py"
+  ],
+  "Lines_Inseted": 277,
+  "Lines_Deleted": 15,
+  "CommitParent": "25d90467b176463b609834ceb5851920896c6975",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

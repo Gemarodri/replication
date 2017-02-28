@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1405228",
+  "Id": "1405228",
+  "Gerrit": "https://review.openstack.org/143695",
+  "IdGerrit": "143695",
+  "IdCommit": "892afe9aa5799e7556586d24dc57ef760f62369b",
+  "Files": [
+    "cinder/tests/test_rbd.py",
+    "cinder/volume/drivers/rbd.py"
+  ],
+  "Lines_Inseted": 5,
+  "Lines_Deleted": 0,
+  "CommitParent": "d1b89778f97fe235bef68a81215249ea590f327b",
+  "Classification": "Bug",
+  "KeywordsTitle": "failed",
+  "Description": "failing, getting failures",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

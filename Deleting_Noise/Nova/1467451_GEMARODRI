@@ -1,0 +1,10 @@
+{
+  "Id": "1467451",
+  "IdGerrit": "194070",
+  "Files": "nova/virt/hyperv/vmutils.py,nova/virt/hyperv/vmutilsv2.py",
+  "CommitParent": "06e83e825f66ddfb9a0a5b1fcad231d6a145b978",
+  "CommitPrevious": "0e02db29",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "0e02db29 is responsible"
+}

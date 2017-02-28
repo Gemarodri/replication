@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1472486",
+  "Id": "1472486",
+  "Gerrit": "https://review.openstack.org/200237",
+  "IdGerrit": "200237",
+  "IdCommit": "8a944bc8573eee775de8ea983191e0a4e808aaba",
+  "Files": [
+    "cinder/tests/unit/test_volume.py",
+    "cinder/volume/drivers/lvm.py"
+  ],
+  "Lines_Inseted": 7,
+  "Lines_Deleted": 3,
+  "CommitParent": "a5c988f93eda5581899ad67c514ed1cb5666ac27",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": ".",
+  "Description": "am not sure ",
+  "KeywordsCommit": "patches enables ",
+  "Comments": "."
+}

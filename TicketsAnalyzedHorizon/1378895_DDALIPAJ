@@ -1,0 +1,30 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1378895",
+  "Id": "1378895",
+  "Gerrit": "https://review.openstack.org/151226",
+  "IdGerrit": "151226",
+  "IdCommit": "14b2e700e8157ccefecb323962358e31d0676e69",
+  "Files": [
+    "openstack_dashboard/dashboards/admin/routers/extensions/__init__.py",
+    "openstack_dashboard/dashboards/admin/routers/extensions/routerrules/__init__.py",
+    "openstack_dashboard/dashboards/admin/routers/extensions/routerrules/tables.py",
+    "openstack_dashboard/dashboards/admin/routers/ports/tables.py",
+    "openstack_dashboard/dashboards/admin/routers/tabs.py",
+    "openstack_dashboard/dashboards/admin/routers/templates/routers/_detail_overview.html",
+    "openstack_dashboard/dashboards/admin/routers/templates/routers/detail.html",
+    "openstack_dashboard/dashboards/project/routers/extensions/routerrules/tabs.py",
+    "openstack_dashboard/dashboards/project/routers/tabs.py",
+    "openstack_dashboard/dashboards/project/routers/templates/routers/_detail_overview.html",
+    "openstack_dashboard/dashboards/project/routers/templates/routers/detail.html",
+    "openstack_dashboard/dashboards/project/routers/tests.py",
+    "openstack_dashboard/dashboards/project/routers/views.py"
+  ],
+  "Lines_Inseted": 88,
+  "Lines_Deleted": 118,
+  "CommitParent": "4fdc42cf6332579c162de57ec5ec833343bff3e5",
+  "Classification": "Bug",
+  "KeywordsTitle": "inconsistent",
+  "Description": "inconsistent",
+  "KeywordsCommit": "fixes inconsistent,Fixed bug,Increased,to reduce",
+  "Comments": ""
+}

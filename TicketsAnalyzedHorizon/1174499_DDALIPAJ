@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1174499",
+  "Id": "1174499",
+  "Gerrit": "https://review.openstack.org/116510",
+  "IdGerrit": "116510",
+  "IdCommit": "372d033d89c0f5d305959a6ad5fd3e1159cc91ed",
+  "Files": [
+    "doc/source/topics/settings.rst",
+    "openstack_dashboard/local/local_settings.py.example"
+  ],
+  "Lines_Inseted": 18,
+  "Lines_Deleted": 0,
+  "CommitParent": "9f5156cf162c27a85359f0ea30a22e01662a81a6",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "deprecated mechanism,it should be replaces,should be able to support ",
+  "KeywordsCommit": "will support a new option,security hardening, DocImpact, SecurityImpact",
+  "Comments": ""
+}

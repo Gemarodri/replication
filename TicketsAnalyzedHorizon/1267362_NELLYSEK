@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1267362",
+  "Id": "1267362",
+  "Gerrit": "https://review.openstack.org/130670",
+  "IdGerrit": "130670",
+  "IdCommit": "13f56fc1bc4958679a43dcba3a5520bd0a1c1862",
+  "Files": [
+    "openstack_dashboard/usage/tables.py"
+  ],
+  "Lines_Inseted": 2,
+  "Lines_Deleted": 0,
+  "CommitParent": "f97a650686d024a862c49c46ea0f986030a653ea",
+  "Classification": "Bug",
+  "KeywordsTitle": "not clear",
+  "Description": ".",
+  "KeywordsCommit": "Clarify meaning ",
+  "Comments": "run time error"
+}

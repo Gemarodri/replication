@@ -1,0 +1,10 @@
+{
+  "Id": "1416948",
+  "IdGerrit": "151982",
+  "Files": "openstack_dashboard/dashboards/project/stacks/mappings.py,",
+  "CommitParent": "1bff6943a7e4cd2b0b4bd15acaabb4fbd041bd47",
+  "CommitPrevious": "1f71152b",
+  "Responsible": "Not_Responsible",
+  "N_responsible": "0",
+  "Comments": "1f71152b is not responsible, the system needs an update in the files because it's failing"
+}

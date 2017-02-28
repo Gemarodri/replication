@@ -1,0 +1,16 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1314677",
+  "Id": "1314677",
+  "Gerrit": "https://review.openstack.org/124811",
+  "IdGerrit": "124811",
+  "IdCommit": "bfeae680bc0632e0129b647d45e4b80328a33535",
+  "Files": "nova/cells/state.py,nova/tests/cells/test_cells_state_manager.py",
+  "Lines_Inseted": "6",
+  "Lines_Deleted": "6",
+  "CommitParent": "b0a08154e51f065576279e47252dc3b23491749b",
+  "Classification": "Bug",
+  "KeywordsTitle": "fails, ",
+  "Description": "recommended, creating,fails error, logs, ",
+  "KeywordsCommit": "Fix, to failure,Currently,  turn stops,  reason is, creates, have updated ,  that change, added unit tests, to catch this bug , to check, correct ",
+  "Comments": "It's a bug report, the athor is trying to configure something and they got an error"
+}

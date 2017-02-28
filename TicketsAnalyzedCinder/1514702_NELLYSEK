@@ -1,0 +1,29 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1514702",
+  "Id": "1514702",
+  "Gerrit": "https://review.openstack.org/243433",
+  "IdGerrit": "243433",
+  "IdCommit": "7ef20e1b910498e5a7952ec373286e69485a8533",
+  "Files": [
+    "cinder/service.py",
+    "cinder/tests/unit/zonemanager/test_brcd_fc_san_lookup_service.py",
+    "cinder/tests/unit/zonemanager/test_cisco_fc_san_lookup_service.py",
+    "cinder/volume/driver.py",
+    "cinder/volume/drivers/dell/dell_storagecenter_common.py",
+    "cinder/volume/drivers/prophetstor/options.py",
+    "cinder/volume/drivers/remotefs.py",
+    "cinder/volume/drivers/san/san.py",
+    "cinder/volume/drivers/sheepdog.py",
+    "cinder/volume/drivers/solidfire.py",
+    "cinder/zonemanager/drivers/brocade/brcd_fabric_opts.py",
+    "cinder/zonemanager/drivers/cisco/cisco_fabric_opts.py"
+  ],
+  "Lines_Inseted": 34,
+  "Lines_Deleted": 46,
+  "CommitParent": "8e03c3b3358b59999b5727bb3d87c41eee563615",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "use",
+  "Description": "use",
+  "KeywordsCommit": "use ",
+  "Comments": "option featurte"
+}

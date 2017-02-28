@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1443970",
+  "Id": "1443970",
+  "Gerrit": "https://review.openstack.org/173362",
+  "IdGerrit": "173362",
+  "IdCommit": "f697befdd3a0f9b81ff9a74f55e4460cd3783692",
+  "Files": [
+    "nova/network/manager.py",
+    "nova/tests/unit/network/test_manager.py"
+  ],
+  "Lines_Inseted": 2,
+  "Lines_Deleted": 4,
+  "CommitParent": "1e3412deeca725cc3ecfd12ff4e185515f9fda1b",
+  "Classification": "Bug",
+  "KeywordsTitle": "wrong",
+  "Description": "wrong, incorrectly used",
+  "KeywordsCommit": "Fixed, incorrect value",
+  "Comments": ""
+}

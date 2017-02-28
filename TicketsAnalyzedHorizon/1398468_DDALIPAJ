@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1398468",
+  "Id": "1398468",
+  "Gerrit": "https://review.openstack.org/138472",
+  "IdGerrit": "138472",
+  "IdCommit": "a1416b6d1dbb084eeca1b489f77983449c7a5ed4",
+  "Files": [
+    "openstack_dashboard/dashboards/project/instances/templates/instances/_instance_flavor.html",
+    "openstack_dashboard/dashboards/project/instances/views.py"
+  ],
+  "Lines_Inseted": 12,
+  "Lines_Deleted": 7,
+  "CommitParent": "569228ae992b80249f1087d6e364c5f39d88223e",
+  "Classification": "Bug",
+  "KeywordsTitle": "Unable to terminate",
+  "Description": "get error, AttributeError",
+  "KeywordsCommit": "fix, it failed",
+  "Comments": ""
+}

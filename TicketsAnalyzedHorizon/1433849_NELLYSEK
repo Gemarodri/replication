@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1433849",
+  "Id": "1433849",
+  "Gerrit": "https://review.openstack.org/187604",
+  "IdGerrit": "187604",
+  "IdCommit": "ea2f6b35da70d7a9d3f441553dac0f88f6ef9218",
+  "Files": [
+    "horizon/static/horizon/js/horizon.tables.js",
+    "openstack_dashboard/static/dashboard/scss/horizon.scss"
+  ],
+  "Lines_Inseted": 33,
+  "Lines_Deleted": 2,
+  "CommitParent": "d645696f143848ab740b244b7c2cd90bebab3a35",
+  "Classification": "Bug",
+  "KeywordsTitle": "crashes, ",
+  "Description": "crashes, error: Cannot 'confirmResize'",
+  "KeywordsCommit": "disables any table row actions, changes the cursor, closes bug",
+  "Comments": "."
+}

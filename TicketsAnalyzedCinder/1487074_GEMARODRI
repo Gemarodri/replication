@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1487074",
+  "Id": "1487074",
+  "Gerrit": "https://review.openstack.org/221972",
+  "IdGerrit": "221972",
+  "IdCommit": "bb4321c61d40174b7314315568068a213697c370",
+  "Files": [
+    "cinder/tests/unit/test_netapp_nfs.py",
+    "cinder/volume/drivers/netapp/dataontap/nfs_base.py"
+  ],
+  "Lines_Inseted": 4,
+  "Lines_Deleted": 7,
+  "CommitParent": "de64f5ad716676b7180365798efc3ea69a4fef0e",
+  "Classification": "Bug",
+  "KeywordsTitle": "can miss",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

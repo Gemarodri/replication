@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1501772",
+  "Id": "1501772",
+  "Gerrit": "https://review.openstack.org/229958",
+  "IdGerrit": "229958",
+  "IdCommit": "80e3d9be4923ecad17377b1d15c8392b8a43dac6",
+  "Files": [
+    "neutron/agent/metadata/namespace_proxy.py",
+    "neutron/tests/unit/agent/metadata/test_namespace_proxy.py"
+  ],
+  "Lines_Inseted": 2,
+  "Lines_Deleted": 1,
+  "CommitParent": "68f1a07600860a534cda8237be463bb189d8bdba",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

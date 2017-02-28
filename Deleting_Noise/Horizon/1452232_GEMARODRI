@@ -1,0 +1,10 @@
+{
+  "Id": "1452232",
+  "IdGerrit": "",
+  "Files": "",
+  "CommitParent": "",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "I don't know, this bug report was fixed in other repository 'openstack/django_openstack_auth 1.2.1' in where the commit only add a line"
+}

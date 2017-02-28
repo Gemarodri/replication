@@ -1,0 +1,10 @@
+{
+  "Id": "1373513",
+  "IdGerrit": "148747",
+  "Files": "cinder/brick/local_dev/lvm.py,cinder/volume/drivers/lvm.py,etc/cinder/rootwrap.d/volume.filters",
+  "CommitParent": "107e564ea7b37a672b71c7527cdac2fa9bc8b872",
+  "CommitPrevious": "62fb1ac4\n9c1ad54e\n32d4f14c\n7429cc45\n0fbe00f7\n69ce1142",
+  "Responsible": "Atleastone",
+  "N_responsible": "1",
+  "Comments": "62fb1ac4 is not responsible add an extra value in the api caller\n9c1ad54e is responsible\n32d4f14c is not responsible\n7429cc45  is not responsible\n0fbe00f7  is not responsible\n69ce1142  is not responsible, the current commit adds a new argument"
+}

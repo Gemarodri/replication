@@ -1,0 +1,10 @@
+{
+  "Id": "1460079",
+  "IdGerrit": "187251",
+  "Files": "nova/compute/api.py,nova/compute/manager.py,nova/compute/utils.py,nova/conductor/manager.py,nova/conductor/tasks/live_migrate.py,nova/virt/libvirt/driver.py",
+  "CommitParent": "9fc47e63466f7e7e0e60edaca22e4118bf6a83af",
+  "CommitPrevious": "4389f2292\n512226914\n15ef6089e\nd04b8a3a2\n27a5296f\n4af821a4\n8e575be7\n7f53a8c9\na2ba455e\nc6869914",
+  "Responsible": "All",
+  "N_responsible": "10",
+  "Comments": "4389f2292 is responsible\n512226914 is responsible\n15ef6089e is responsible\nd04b8a3a2 is responsible\n27a5296f is responsible\n4af821a4 is responsible\n8e575be7 is responsible\n7f53a8c9 is responsible\na2ba455e is responsible\nc6869914 is not responsible\n"
+}

@@ -1,0 +1,20 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1442346",
+  "Id": "1442346",
+  "Gerrit": "https://review.openstack.org/172198",
+  "IdGerrit": "172198",
+  "IdCommit": "de62d8be2a80c512aa7bd18a783cf7a861849829",
+  "Files": [
+    "cinder/tests/test_dellscapi.py",
+    "cinder/volume/drivers/dell/dell_storagecenter_api.py",
+    "cinder/volume/drivers/dell/dell_storagecenter_iscsi.py"
+  ],
+  "Lines_Inseted": 93,
+  "Lines_Deleted": 60,
+  "CommitParent": "c7ca4b95b56539dd560dc88038ab994d50c8394d",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "",
+  "Description": "would be",
+  "KeywordsCommit": "",
+  "Comments": "It's not a bug in the description they said that would be a problem"
+}

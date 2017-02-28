@@ -1,0 +1,10 @@
+{
+  "Id": "1408024",
+  "IdGerrit": "144451",
+  "Files": "nova/network/security_group/neutron_driver.py",
+  "CommitParent": "3ae2ddd4a2519b0af4130237cf4b3b2f0ca23dfc",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "It's difficult to know which commit is the responsible because in this case, one of the previous commits forgot add this case in a 'elif'"
+}

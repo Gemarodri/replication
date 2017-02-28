@@ -1,0 +1,10 @@
+{
+  "Id": "1448075",
+  "IdGerrit": "177186",
+  "Files": "nova/compute/api.py,\tnova/compute/manager.py,nova/compute/rpcapi.py",
+  "CommitParent": "f1d215315a63afd813b7ae7623027fbf39017fb5",
+  "CommitPrevious": "d562012f3\n123b28cd1\n1a91aacb\n2afbbab2\n6b238a5c",
+  "Responsible": "Atleastone",
+  "N_responsible": "2",
+  "Comments": "d562012f3 is not responsible, the only change is the name of the function.\n123b28cd1 is not responsible,the only change is the name of the function.\n1a91aacb is responsible\n2afbbab2 not responsible, is it a false positive because the lines were added from the previous commit?????\n6b238a5c is responsible.\n"
+}

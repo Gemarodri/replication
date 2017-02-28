@@ -1,0 +1,20 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1467451",
+  "Id": "1467451",
+  "Gerrit": "https://review.openstack.org/194070",
+  "IdGerrit": "194070",
+  "IdCommit": "a02deffcfab6cc9a7b0764dd36b8514f6cb1a108",
+  "Files": [
+    "nova/tests/unit/virt/hyperv/test_vmutils.py",
+    "nova/virt/hyperv/vmutils.py",
+    "nova/virt/hyperv/vmutilsv2.py"
+  ],
+  "Lines_Inseted": 10,
+  "Lines_Deleted": 3,
+  "CommitParent": "06e83e825f66ddfb9a0a5b1fcad231d6a145b978",
+  "Classification": "Bug",
+  "KeywordsTitle": "fail",
+  "Description": "fails, using the wrong ",
+  "KeywordsCommit": "fix fails,  This patch fixes the issue",
+  "Comments": ""
+}

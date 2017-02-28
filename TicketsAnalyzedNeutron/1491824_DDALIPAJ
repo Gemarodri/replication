@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1491824",
+  "Id": "1491824",
+  "Gerrit": "https://review.openstack.org/233652",
+  "IdGerrit": "233652",
+  "IdCommit": "cfc87662cc87e51e96251383a9776343f99a5b3a",
+  "Files": [
+    "neutron/tests/unit/test_wsgi.py"
+  ],
+  "Lines_Inseted": 0,
+  "Lines_Deleted": 0,
+  "CommitParent": "9da4dfae56f22414e389bff560a9ee10991e1d7d",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

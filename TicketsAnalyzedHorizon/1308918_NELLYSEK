@@ -1,0 +1,23 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1308918",
+  "Id": "1308918",
+  "Gerrit": "https://review.openstack.org/88220",
+  "IdGerrit": "88220",
+  "IdCommit": "4824239730cf628df20d28d0e72ec02c4f7139a8",
+  "Files": [
+    "horizon/middleware.py",
+    "horizon/test/dummy_auth/backend.py",
+    "horizon/test/helpers.py",
+    "horizon/test/tests/middleware.py",
+    "openstack_dashboard/dashboards/settings/password/tests.py",
+    "openstack_dashboard/settings.py"
+  ],
+  "Lines_Inseted": 43,
+  "Lines_Deleted": 15,
+  "CommitParent": "d614789da298b2e7ce3466db2845a5041ab813c0",
+  "Classification": "Bug",
+  "KeywordsTitle": " login twice after session time out",
+  "Description": ".",
+  "KeywordsCommit": "token expiration was not checked, We now check both the timestamp ",
+  "Comments": "logic error"
+}

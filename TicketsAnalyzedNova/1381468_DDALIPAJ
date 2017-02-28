@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1381468",
+  "Id": "1381468",
+  "Gerrit": "https://review.openstack.org/128624",
+  "IdGerrit": "128624",
+  "IdCommit": "fdcf358eaeef6edb5c8d2dcc94f906a22882544a",
+  "Files": [
+    "nova/scheduler/filters/trusted_filter.py",
+    "nova/tests/unit/scheduler/filters/test_trusted_filters.py"
+  ],
+  "Lines_Inseted": 2,
+  "Lines_Deleted": 2,
+  "CommitParent": "2efc2a174bbba89ada7b95d18880a768648f6072",
+  "Classification": "Bug",
+  "KeywordsTitle": "type conflict ",
+  "Description": "leads to conflict",
+  "KeywordsCommit": " Type conflict, leads to conflict, bug fix",
+  "Comments": ""
+}

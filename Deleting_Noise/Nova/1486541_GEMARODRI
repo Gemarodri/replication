@@ -1,0 +1,10 @@
+{
+  "Id": "1486541",
+  "IdGerrit": "214583",
+  "Files": "nova/compute/cells_api.py",
+  "CommitParent": "760ec42c6b843d3ff5ba2ed9f27fd87c547df617",
+  "CommitPrevious": "f9a868e86\ndce646832\n171e5f8b1",
+  "Responsible": "Atleastone",
+  "N_responsible": "2",
+  "Comments": "f9a868e86 is not responsible, this commit added a import\ndce646832 is responsible\n171e5f8b1 is responsible"
+}

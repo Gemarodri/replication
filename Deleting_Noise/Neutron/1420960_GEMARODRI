@@ -1,0 +1,10 @@
+{
+  "Id": "1420960",
+  "IdGerrit": "155169",
+  "Files": "neutron_lbaas/db/loadbalancer/loadbalancer_dbv2.py",
+  "CommitParent": "fdcc097c3ca234669b69426d556d5dae0bb4abcd",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible":"NSNC",
+  "Comments": "We cannot be sure because the patch that fix the bug report was done in other repository, concretely in neutron_Ibaas"
+}

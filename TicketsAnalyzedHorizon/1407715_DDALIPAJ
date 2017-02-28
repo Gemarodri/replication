@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1407715",
+  "Id": "1407715",
+  "Gerrit": "https://review.openstack.org/119427",
+  "IdGerrit": "119427",
+  "IdCommit": "087ccfe740b627ca687b5c8727453dedcf2998cd",
+  "Files": [
+    "horizon/templates/horizon/common/_limit_summary.html",
+    "horizon/templatetags/horizon.py"
+  ],
+  "Lines_Inseted": 17,
+  "Lines_Deleted": 7,
+  "CommitParent": "20ef6b4accaf175068b83048010198b8d9819435",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "",
+  "Description": "not helpful behaviour,should change ",
+  "KeywordsCommit": "updated",
+  "Comments": ""
+}

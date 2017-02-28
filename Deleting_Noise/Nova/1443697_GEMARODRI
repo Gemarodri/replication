@@ -1,0 +1,10 @@
+{
+  "Id": "1443697",
+  "IdGerrit": "173170",
+  "Files": "nova/virt/vmwareapi/vmops.py",
+  "CommitParent": "3e503e2a60c531a09e22e5f8893b51d17c69482a",
+  "CommitPrevious": "f3f1a53f",
+  "Responsible": "Not_Responsible",
+  "N_responsible": "0",
+  "Comments": "f3f1a53f is not responsible."
+}

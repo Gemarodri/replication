@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1475244",
+  "Id": "1475244",
+  "Gerrit": "https://review.openstack.org/216633",
+  "IdGerrit": "216633",
+  "IdCommit": "3565c6561a7eb1432103650dce5e532573a6285b",
+  "Files": [
+    "neutron_fwaas/services/firewall/fwaas_plugin.py",
+    "neutron_fwaas/tests/unit/services/firewall/test_fwaas_plugin.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "859df990fcdb1299a1ca62d18c7e4d92914debff",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

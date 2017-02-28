@@ -1,0 +1,10 @@
+{
+  "Id": "1494467",
+  "IdGerrit": "222346",
+  "Files": "/etc/nova/rootwrap.d/compute.filters",
+  "CommitParent": "b6e5d68c666a1fa2f0dd90de47cd7ec0a2e32438",
+  "CommitPrevious": "96bb7f9a",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "96bb7f9a is responsible"
+}

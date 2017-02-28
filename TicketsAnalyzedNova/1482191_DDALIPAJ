@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1482191",
+  "Id": "1482191",
+  "Gerrit": "https://review.openstack.org/209897",
+  "IdGerrit": "209897",
+  "IdCommit": "b292f47e1b2575a97c40935df87f799fe487400d",
+  "Files": [
+    "nova/compute/manager.py"
+  ],
+  "Lines_Inseted": 3,
+  "Lines_Deleted": 1,
+  "CommitParent": "27e9db8feab940f276c615467819c89539529341",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "Error message too generic",
+  "Description": "should be solved by the user",
+  "KeywordsCommit": "more specific error message, user will get a clearer message, still not use friendly",
+  "Comments": ""
+}

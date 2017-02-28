@@ -1,0 +1,16 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1253174",
+  "Id": "1253174",
+  "Gerrit": "https://review.openstack.org/86068",
+  "IdGerrit": "86068",
+  "IdCommit": "",
+  "Files": "horizon/tables/actions.py,horizon/test/tests/tables.py,openstack_dashboard/dashboards/admin/aggregates/tables.py,openstack_dashboard/dashboards/admin/domains/tables.py,openstack_dashboard/dashboards/admin/flavors/extras/tables.py,openstack_dashboard/dashboards/admin/flavors/tables.py,openstack_dashboard/dashboards/admin/groups/tables.py,openstack_dashboard/dashboards/admin/instances/tables.py,openstack_dashboard/dashboards/admin/networks/ports/tables.py,openstack_dashboard/dashboards/admin/networks/subnets/tables.py,openstack_dashboard/dashboards/admin/networks/tables.py,openstack_dashboard/dashboards/admin/projects/tables.py,openstack_dashboard/dashboards/admin/roles/tables.py,openstack_dashboard/dashboards/admin/users/tables.py,openstack_dashboard/dashboards/admin/volumes/tables.py,openstack_dashboard/dashboards/project/access_and_security/floating_ips/tables.py,openstack_dashboard/dashboards/project/access_and_security/keypairs/tables.py,openstack_dashboard/dashboards/project/access_and_security/security_groups/tables.py,openstack_dashboard/dashboards/project/containers/tables.py,openstack_dashboard/dashboards/project/database_backups/tables.py,openstack_dashboard/dashboards/project/databases/tables.py,openstack_dashboard/dashboards/project/firewalls/tables.py,openstack_dashboard/dashboards/project/images/images/tables.py,openstack_dashboard/dashboards/project/instances/tables.py,openstack_dashboard/dashboards/project/loadbalancers/tables.py,openstack_dashboard/dashboards/project/networks/subnets/tables.py,openstack_dashboard/dashboards/project/networks/tables.py,openstack_dashboard/dashboards/project/routers/extensions/routerrules/tables.py,openstack_dashboard/dashboards/project/routers/ports/tables.py,openstack_dashboard/dashboards/project/routers/tables.py,openstack_dashboard/dashboards/project/stacks/tables.py,openstack_dashboard/dashboards/project/volumes/snapshots/tables.py,openstack_dashboard/dashboards/project/volumes/volumes/tables.py,openstack_dashboard/dashboards/project/vpn/tables.py,openstack_dashboard/dashboards/router/nexus1000v/tables.py,tox.ini",
+  "Lines_Inseted": "258",
+  "Lines_Deleted": "129",
+  "CommitParent": "84ca8a9da854da60c3055e412d55f02f893b47ca",
+  "Classification": "Bug",
+  "KeywordsTitle": "cannot control",
+  "Description": "only supports, cannot control, not sure it works, example",
+  "KeywordsCommit": "Support, patch creates",
+  "Comments": "It's a bug report, the program does not work how they expected when they need translating multiple plural forms. This bug was abandoned and only was partial fix in https://review.openstack.org/#/c/91338/"
+}

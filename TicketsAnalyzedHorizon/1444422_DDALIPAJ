@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1444422",
+  "Id": "1444422",
+  "Gerrit": "https://review.openstack.org/173777",
+  "IdGerrit": "173777",
+  "IdCommit": "636d7e619bb0c32c5dcff2ede13adadaa3f733a6",
+  "Files": [
+    "openstack_dashboard/dashboards/project/access_and_security/templates/access_and_security/api_access/_credentials.html"
+  ],
+  "Lines_Inseted": 3,
+  "Lines_Deleted": 1,
+  "CommitParent": "1bce788cc9536e0f252bff71cc8f478fe8f28c73",
+  "Classification": "Bug",
+  "KeywordsTitle": "position",
+  "Description": "Expected position should be",
+  "KeywordsCommit": "Fix the misplaced, fix of bug",
+  "Comments": ""
+}

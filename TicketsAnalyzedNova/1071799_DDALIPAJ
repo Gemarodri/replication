@@ -1,0 +1,17 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1071799",
+  "Id": "1071799",
+  "Gerrit": "https://review.openstack.org/123953",
+  "IdCommit": "336ffb6c446fedc1375b1570b1277055f12bb452",
+  "Files": [
+    "nova/virt/libvirt/driver.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "e7469a8c1bb9e8bd1c8fb593170b6ada7a241112",
+  "Classification": "Bug",
+  "KeywordsTitle": "crash",
+  "Description": "will result in a crash",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "1429889",
+  "IdGerrit": "165214",
+  "Files": "cinder/objects/snapshot.py,cinder/objects/volume.py,",
+  "CommitParent": "982c423dfefe85d498887d5d57ef6b5c8e4105cf",
+  "CommitPrevious": "21cda264",
+  "Responsible": "Responsible",
+  "N_responsible":"1",
+  "Comments": "21cda264 is responsible"
+}

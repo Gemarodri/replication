@@ -1,0 +1,10 @@
+{
+  "Id": "1421492",
+  "IdGerrit": "155607",
+  "Files": "cinder/volume/api.py,cinder/volume/manager.py",
+  "CommitParent": "c57aef777ce70a51b4c46ac4c9de4cc3eb854ec5",
+  "CommitPrevious": "c1052597\n74960fb8 ",
+  "Responsible": "Neither",
+  "N_responsible":"0",
+  "Comments": "c1052597 is not responsible, the current patch add a extra argument in the function\n74960fb8  is not responsible, the current patch add a extra argument in the function"
+}

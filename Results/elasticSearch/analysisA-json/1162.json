@@ -1,0 +1,20 @@
+{
+	"Id" : "1162",
+	"num_pc_L" : 1,
+	"LA" : 8,
+	"LM" : 1,
+	"LD" : 0,
+	"Files" : 1,
+	"pcSET_L": ["d4547c6"],
+	"ONL_L" : "No",
+	"BIC_L" : "No" ,
+	"BICinpcSET_L" : "No",
+	"idBIC_L" : "",
+	"num_pc_T" : 1,
+	"pcSET_T": ["fc31fa6"],
+	"newLines_T" : "No",
+	"BIC_T" : "" ,
+	"BICinpcSET_T" : "",
+	"idBIC_T" : "",
+	"Match": ["d4547c6-fc31fa6"]
+}

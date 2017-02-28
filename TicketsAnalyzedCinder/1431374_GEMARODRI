@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1431374",
+  "Id": "1431374",
+  "Gerrit": "https://review.openstack.org/165403",
+  "IdGerrit": "165403",
+  "IdCommit": "5f8a616b15b70ddba6a64689b547521c91b95c84",
+  "Files": [
+    "cinder/db/sqlalchemy/migrate_repo/versions/033_add_encryption_unique_key.py",
+    "tools/lintstack.py"
+  ],
+  "Lines_Inseted": 67,
+  "Lines_Deleted": 34,
+  "CommitParent": "d84c501a60e44e9db78bf257cf449cf38f450a70",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

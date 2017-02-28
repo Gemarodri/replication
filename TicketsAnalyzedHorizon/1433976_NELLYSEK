@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1433976",
+  "Id": "1433976",
+  "Gerrit": "https://review.openstack.org/165746",
+  "IdGerrit": "165746",
+  "IdCommit": "aeec7f351f0bf8b5a4a49bca49e70e43b5109b96",
+  "Files": [
+    "openstack_dashboard/dashboards/project/data_processing/wizard/views.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "b3518477b3b1b4189f85fb82ed91c058b92332a5",
+  "Classification": "Bug",
+  "KeywordsTitle": "small typo",
+  "Description": ".",
+  "KeywordsCommit": "fix small typo in error",
+  "Comments": "."
+}

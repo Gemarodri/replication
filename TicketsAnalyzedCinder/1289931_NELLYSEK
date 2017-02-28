@@ -1,0 +1,20 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1289931",
+  "Id": "1289931",
+  "Gerrit": "https://review.openstack.org/182327",
+  "IdGerrit": "182327",
+  "IdCommit": "706cbf40f5f8c6f756277057c92bf41f1ef1cd80",
+  "Files": [
+    "cinder/tests/unit/test_volume.py",
+    "cinder/volume/api.py",
+    "cinder/volume/utils.py"
+  ],
+  "Lines_Inseted": 46,
+  "Lines_Deleted": 8,
+  "CommitParent": "daa751a62e46befed0982c6ce16b26f080040c38",
+  "Classification": "Bug",
+  "KeywordsTitle": "cant restore,  complicated",
+  "Description": "complicated, cannot",
+  "KeywordsCommit": "check, invalid error, omit",
+  "Comments": "Logic bug"
+}

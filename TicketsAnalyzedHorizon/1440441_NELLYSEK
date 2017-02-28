@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1440441",
+  "Id": "1440441",
+  "Gerrit": "https://review.openstack.org/170691",
+  "IdGerrit": "170691",
+  "IdCommit": "13656108e50c911d358fd74912de6ef17d658db1",
+  "Files": [
+    "openstack_dashboard/dashboards/project/access_and_security/security_groups/tables.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "c6b2bc7e2263a744ea38134bb6493bb8a186bc72",
+  "Classification": "Unknown",
+  "KeywordsTitle": "no longer needed",
+  "Description": "unnecessary ",
+  "KeywordsCommit": "remove",
+  "Comments": "NOT sure if the existance CIDR malfunctions the system"
+}

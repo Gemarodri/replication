@@ -1,0 +1,21 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1429889",
+  "Id": "1429889",
+  "Gerrit": "https://review.openstack.org/165214",
+  "IdGerrit": "165214",
+  "IdCommit": "2d7d86fccd0923ac17f55431cf756f980a5abc9c",
+  "Files": [
+    "cinder/objects/snapshot.py",
+    "cinder/objects/volume.py",
+    "cinder/tests/objects/test_snapshot.py",
+    "cinder/tests/objects/test_volume.py"
+  ],
+  "Lines_Inseted": 17,
+  "Lines_Deleted": 4,
+  "CommitParent": "982c423dfefe85d498887d5d57ef6b5c8e4105cf",
+  "Classification": "Bug",
+  "KeywordsTitle": "not properly used",
+  "Description": "",
+  "KeywordsCommit": "fix, bug , problem",
+  "Comments": ""
+}

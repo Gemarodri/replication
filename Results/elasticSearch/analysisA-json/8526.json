@@ -1,0 +1,20 @@
+{
+	"Id" : "8526",
+	"num_pc_L" : 2,
+	"LA" : 0,
+	"LM" : 1,
+	"LD" : 2,
+	"Files" : 1,
+	"pcSET_L": ["58e68db","cd4aea8"],
+	"ONL_L" : "No",
+	"BIC_L" : "No" ,
+	"BICinpcSET_L" : "No",
+	"idBIC_L" : "",
+	"num_pc_T" : 1,
+	"pcSET_T": ["d4359ab"],
+	"newLines_T" : "No",
+	"BIC_T" : "" ,
+	"BICinpcSET_T" : "",
+	"idBIC_T" : "",
+	"Match": [""]
+}

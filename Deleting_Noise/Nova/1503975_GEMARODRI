@@ -1,0 +1,10 @@
+{
+  "Id": "1503975",
+  "IdGerrit": "232367",
+  "Files": "nova/cmd/consoleauth.py",
+  "CommitParent": "cffc768ca7f2adec70fd23f1f02d44bd88977aa0",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "I cannot be sure which is the responsible because there are only added lines"
+}

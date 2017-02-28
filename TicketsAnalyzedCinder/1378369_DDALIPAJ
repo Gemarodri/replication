@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1378369",
+  "Id": "1378369",
+  "Gerrit": "https://review.openstack.org/126591",
+  "IdGerrit": "126591",
+  "IdCommit": "c11aeb9f8385408502be06ffc5869eb142136127",
+  "Files": [
+    "cinder/tests/test_eqlx.py",
+    "cinder/volume/drivers/eqlx.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 2,
+  "CommitParent": "5e4e1f7ea71f9b4c7bd15809c58bc7a1838ed567",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

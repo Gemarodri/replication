@@ -1,0 +1,10 @@
+{
+  "Id": "1409892",
+  "IdGerrit": "146672",
+  "Files": "doc/source/ref/tables.rst,horizon/tables/actions.py",
+  "CommitParent": "ee711e5c11d3b4214bd03cdcd6a8af970385ef50",
+  "CommitPrevious": "62dd7b4e",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "62dd7b4e is responsible"
+}

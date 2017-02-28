@@ -1,0 +1,10 @@
+{
+  "Id": "1469983",
+  "IdGerrit": "194524",
+  "Files": "cinder/volume/drivers/infortrend/eonstor_ds_cli/common_cli.py,cinder/volume/drivers/infortrend/infortrend_fc_cli.py,cinder/volume/drivers/infortrend/infortrend_iscsi_cli.py",
+  "CommitParent": "87016e624b8dd5574d0c678e5869510b1358a7da",
+  "CommitPrevious": "28151950",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "28151950 is responsible"
+}

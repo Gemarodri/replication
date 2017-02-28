@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1489611",
+  "Id": "1489611",
+  "Gerrit": "https://review.openstack.org/217913",
+  "IdGerrit": "217913",
+  "IdCommit": "a3bfd82f594d3b36f1bd486c4db1519662ac8448",
+  "Files": [
+    "openstack_dashboard/dashboards/project/static/dashboard/project/workflow/launch-instance/source/source.help.html"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "8b33082f5d8e722336a4950a380763955ad05a1f",
+  "Classification": "Bug",
+  "KeywordsTitle": "Error",
+  "Description": "Error is displayed,undefined",
+  "KeywordsCommit": "Remove",
+  "Comments": ""
+}

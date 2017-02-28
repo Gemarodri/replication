@@ -1,0 +1,10 @@
+{
+  "Id": "1330632",
+  "IdGerrit": "101813",
+  "Files": "openstack_dashboard/dashboards/admin/projects/workflows.py",
+  "CommitParent": "0bd4350cb308d57b6afc69daee4a7823055be5a9",
+  "CommitPrevious": "3852d1ce",
+  "N_responsible": "1",
+  "Comments": "(openstack_dashboard/dashboards/admin/projects/workflows.py)\n3852d1ce is responsible",
+  "Responsible": "Responsible"
+}

@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1328546",
+  "Id": "1328546",
+  "Gerrit": "https://review.openstack.org/233702",
+  "IdGerrit": "233702",
+  "IdCommit": "b1263ff1b3cb5700136e2de136c9330e296c0f2c",
+  "Files": [
+    "neutron/plugins/linuxbridge/agent/linuxbridge_neutron_agent.py"
+  ],
+  "Lines_Inseted": 0,
+  "Lines_Deleted": 1,
+  "CommitParent": "91c59d73a53b98368e87502512bacec8645b5d88",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

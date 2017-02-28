@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1394051",
+  "Id": "1394051",
+  "Gerrit": "https://review.openstack.org/163728",
+  "IdGerrit": "163728",
+  "IdCommit": "be9f5738d563a8b2444cbdf283c0884bd2f37ab4",
+  "Files": [
+    "openstack_dashboard/api/neutron.py",
+    "openstack_dashboard/test/api_tests/network_tests.py"
+  ],
+  "Lines_Inseted": 5,
+  "Lines_Deleted": 1,
+  "CommitParent": "942deb150248df2f5f3f686b03b8473ad8359d1f",
+  "Classification": "Bug",
+  "KeywordsTitle": "Can't display",
+  "Description": "",
+  "KeywordsCommit": "Show, should be included, even though might not be visible",
+  "Comments": ""
+}

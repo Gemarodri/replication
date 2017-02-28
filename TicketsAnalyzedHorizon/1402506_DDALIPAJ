@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1402506",
+  "Id": "1402506",
+  "Gerrit": "https://review.openstack.org/142091",
+  "IdGerrit": "142091",
+  "Files": [
+    "openstack_dashboard/api/nova.py",
+    "openstack_dashboard/dashboards/project/instances/templates/instances/_detail_overview.html"
+  ],
+  "Lines_Inseted": 5,
+  "Lines_Deleted": 5,
+  "CommitParent": "926fa000734590958b73d0008624b5182594be5d",
+  "Classification": "Bug",
+  "KeywordsTitle": "not the conventional ",
+  "Description": "",
+  "KeywordsCommit": "fixes value, shows wrong value",
+  "Comments": ""
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "1414548",
+  "IdGerrit": "149947",
+  "Files": "neutron/db/l3_hamode_db.py",
+  "CommitParent": "f2f06faf893f2cbac282e324591312695cc23908",
+  "CommitPrevious": "7da31443",
+  "Responsible": "Responsible",
+  "N_responsible":"1",
+  "Comments": "7da31443 is responsible this commit unserted the line and in this line the if condition was not correct"
+}

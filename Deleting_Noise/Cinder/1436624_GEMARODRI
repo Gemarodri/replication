@@ -1,0 +1,10 @@
+{
+  "Id": "1436624",
+  "IdGerrit": "167858",
+  "Files": "cinder/volume/manager.py",
+  "CommitParent": "af809cdab14a6357162f179aa3591507978e5170",
+  "CommitPrevious": "7aa4f65a",
+  "Responsible": "Responsible",
+  "N_responsible":"1",
+  "Comments": "7aa4f65a is responsible"
+}

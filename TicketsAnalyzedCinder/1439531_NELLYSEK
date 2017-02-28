@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1439531",
+  "Id": "1439531",
+  "Gerrit": "https://review.openstack.org/173183",
+  "IdGerrit": "173183",
+  "IdCommit": "07d8c04a0e4e1d482e8ec8aed3e05821509447de",
+  "Files": [
+    "cinder/tests/unit/test_emc_vnxdirect.py",
+    "cinder/volume/drivers/emc/emc_vnx_cli.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 15,
+  "CommitParent": "cbcbc90cf64d91a33b7bcfb826c59d4b69697486",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "remove , redudant",
+  "Description": "duplicate,  should be removed",
+  "KeywordsCommit": "remove, redudant",
+  "Comments": "Redundant code "
+}

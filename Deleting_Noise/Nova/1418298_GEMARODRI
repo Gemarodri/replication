@@ -1,0 +1,10 @@
+{
+  "Id": "1418298",
+  "IdGerrit": "153123",
+  "Files": "nova/db/sqlalchemy/migrate_repo/version/279_fix_unique_constraint_for_compute_node.py,nova/db/sqlalchemy/models.py",
+  "CommitParent": "1cdedccf9ef04167d294e7b70c102e01388bdbf6",
+  "CommitPrevious": "ba925464",
+  "Responsible": "Not_Responsible",
+  "N_responsible": "0",
+  "Comments": "ba925464 is not responsible"
+}

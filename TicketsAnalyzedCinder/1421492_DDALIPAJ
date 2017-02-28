@@ -1,0 +1,20 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1421492",
+  "Id": "1421492",
+  "Gerrit": "https://review.openstack.org/155607",
+  "IdGerrit": "155607",
+  "IdCommit": "2bb08765abf2d5f8ee60ed25e42fea0bab62dbbd",
+  "Files": [
+    "cinder/tests/unit/test_volume.py",
+    "cinder/volume/api.py",
+    "cinder/volume/manager.py"
+  ],
+  "Lines_Inseted": 6,
+  "Lines_Deleted": 3,
+  "CommitParent": "c57aef777ce70a51b4c46ac4c9de4cc3eb854ec5",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

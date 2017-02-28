@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1451633",
+  "Id": "1451633",
+  "Gerrit": "https://review.openstack.org/179991",
+  "IdGerrit": "179991",
+  "IdCommit": "9240fef1b29fefd125a3e5c0066fe9a89519437c",
+  "Files": [
+    "cinder/tests/unit/test_vmware_vmdk.py",
+    "cinder/volume/drivers/vmware/vmdk.py"
+  ],
+  "Lines_Inseted": 11,
+  "Lines_Deleted": 2,
+  "CommitParent": "39478338bb4a1cbd625a6176d4403bb34a2a0630",
+  "Classification": "Bug",
+  "KeywordsTitle": "insecure",
+  "Description": " insecure boolean, exposed",
+  "KeywordsCommit": "insecure ",
+  "Comments": "security concern"
+}

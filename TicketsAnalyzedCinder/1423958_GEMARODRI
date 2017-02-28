@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1423958",
+  "Id": "1423958",
+  "Gerrit": "https://review.openstack.org/157879",
+  "IdGerrit": "157879",
+  "IdCommit": "72957abe4098abd969dfa775eb5dc6409cde3349",
+  "Files": [
+    "cinder/tests/test_hp3par.py",
+    "cinder/volume/drivers/san/hp/hp_3par_iscsi.py"
+  ],
+  "Lines_Inseted": 23,
+  "Lines_Deleted": 4,
+  "CommitParent": "f4f46e972004eca66e4751a836156c342e448621",
+  "Classification": "Bug",
+  "KeywordsTitle": "failures",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

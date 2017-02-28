@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1405228",
+  "Id": "1405228",
+  "Gerrit": "https://review.openstack.org/143695",
+  "IdGerrit": "143695",
+  "IdCommit": "892afe9aa5799e7556586d24dc57ef760f62369b",
+  "Files": [
+    "cinder/cmd/rtstool.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "7588e834b4545ca184cc67cc976426f63ec9d3bd",
+  "Classification": "Bug",
+  "KeywordsTitle": "failed , causes failure",
+  "Description": "failing, invalid, failed ",
+  "KeywordsCommit": "revert till fix",
+  "Comments": "compilation / run time bug"
+}

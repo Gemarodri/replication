@@ -1,0 +1,10 @@
+{
+  "Id": "1424244",
+  "IdGerrit": "158079",
+  "Files": "openstack_dashboard/dashboards/project/instances/templates/instances/_detail_log.html",
+  "CommitParent": "807245e3ce304c3a248eabd452c3879034ec4b49",
+  "CommitPrevious": "92146772",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "92146772 is the responsible"
+}

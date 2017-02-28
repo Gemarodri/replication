@@ -1,0 +1,16 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1325684",
+  "Id": "1325684",
+  "Gerrit": "https://review.openstack.org/97337",
+  "IdGerrit": "97337",
+  "IdCommit": "e34a848a39bcaea92e28a30888b91b43dab9ba39",
+  "Files": "openstack_dashboard/dashboards/project/instances/templates/instances/_launch_network_help.html,openstack_dashboard/dashboards/project/instances/templates/instances/_update_networks.html,openstack_dashboard/static/dashboard/less/horizon.less",
+  "Lines_Inseted": "4",
+  "Lines_Deleted": "4",
+  "CommitParent": "d9bb2169688483b795fe8b048e184528885afd33",
+  "Classification": "Bug",
+  "KeywordsTitle": "should be",
+  "Description": "Genarally, don't follow conventions",
+  "KeywordsCommit": "patch solves, not follow convention",
+  "Comments": "It a bug report, it's a change in the code to follow the rules, this bug report has short range because the program works fine. The commit only change comments"
+}

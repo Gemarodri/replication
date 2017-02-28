@@ -1,0 +1,23 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1492221",
+  "Id": "1492221",
+  "Gerrit": "https://review.openstack.org/220461",
+  "IdGerrit": "220461",
+  "IdCommit": "ea987d3aba36177b0705c8a8c88365ebf4b40c17",
+  "Files": [
+    "cinder/tests/unit/test_vmware_datastore.py",
+    "cinder/tests/unit/test_vmware_vmdk.py",
+    "cinder/tests/unit/test_vmware_volumeops.py",
+    "cinder/volume/drivers/vmware/datastore.py",
+    "cinder/volume/drivers/vmware/vmdk.py",
+    "cinder/volume/drivers/vmware/volumeops.py"
+  ],
+  "Lines_Inseted": 23,
+  "Lines_Deleted": 2,
+  "CommitParent": "6dba657a2987955248e781ae9df28351ef10420d",
+  "Classification": "Bug",
+  "KeywordsTitle": "fails",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

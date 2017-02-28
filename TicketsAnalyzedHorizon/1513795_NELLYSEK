@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1513795",
+  "Id": "1513795",
+  "Gerrit": "https://review.openstack.org/242454",
+  "IdGerrit": "242454",
+  "IdCommit": "79c634422dbc50cb33ba2b37ad83acf7a3e8cad2",
+  "Files": [
+    "openstack_dashboard/dashboards/project/access_and_security/floating_ips/tests.py",
+    "openstack_dashboard/usage/quotas.py"
+  ],
+  "Lines_Inseted": 6,
+  "Lines_Deleted": 0,
+  "CommitParent": "0cd1a4e375bc36f9b07e0c2fa8a7350c3010224d",
+  "Classification": "Bug",
+  "KeywordsTitle": ".",
+  "Description": "disabled, doesnot work,  fails ",
+  "KeywordsCommit": ".",
+  "Comments": "logic error "
+}

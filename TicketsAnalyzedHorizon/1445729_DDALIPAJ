@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1445729",
+  "Id": "1445729",
+  "Gerrit": "https://review.openstack.org/226983",
+  "IdGerrit": "226983",
+  "IdCommit": "ea052467245d343ed91de000efc8b42cb47bfbdf",
+  "Files": [
+    "openstack_dashboard/dashboards/project/static/dashboard/project/workflow/launch-instance/source/source.html"
+  ],
+  "Lines_Inseted": 4,
+  "Lines_Deleted": 4,
+  "CommitParent": "8d08abdc9f64036bd0685c21ae4c482f76718691",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "error need more obvious outline",
+  "Description": "should have more obvious line / glow around",
+  "KeywordsCommit": "Made more visible,should have a more obvious line/glow around,This change simply switches,easier to see  ",
+  "Comments": ""
+}

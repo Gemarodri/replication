@@ -1,0 +1,10 @@
+{
+  "Id": "1454512",
+  "IdGerrit": "",
+  "Files": "",
+  "CommitParent": "",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "we cannot access to the gerrit, it looks like this bug report was fixed in other ticket"
+}

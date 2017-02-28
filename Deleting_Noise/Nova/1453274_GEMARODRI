@@ -1,0 +1,10 @@
+{
+  "Id": "1453274",
+  "IdGerrit": "181708",
+  "Files": "nova/virt/libvirt/driver.py",
+  "CommitParent": "2a5b1db132a9ae6c0b37f8e1854d7e23991720a4",
+  "CommitPrevious": "60c90f732",
+  "Responsible": "Not_Responsible",
+  "N_responsible": "0",
+  "Comments": "60c90f732 in my opinion it's not responsible because probably before the utf-8 was not supported but now it is and they want to fix."
+}

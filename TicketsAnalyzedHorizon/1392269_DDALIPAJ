@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1392269",
+  "Id": "1392269",
+  "Gerrit": "https://review.openstack.org/134162",
+  "IdGerrit": "134162",
+  "IdCommit": "bbd4ac5a59b6e08a632a1b48651fb56d88999881",
+  "Files": [
+    "openstack_dashboard/test/integration_tests/horizon.conf"
+  ],
+  "Lines_Inseted": 0,
+  "Lines_Deleted": 0,
+  "CommitParent": "57201b2a13bf00426d54d9cc6379dc28114a3e78",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "test job failing, wrong",
+  "Description": "test job failing, does not match,should be updated ",
+  "KeywordsCommit": "tests update",
+  "Comments": "it's a test file bug..."
+}

@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1457971",
+  "Id": "1457971",
+  "Gerrit": "https://review.openstack.org/185222",
+  "IdGerrit": "185222",
+  "IdCommit": "9b893767a5214177e30f596b6eed8324278d5050",
+  "Files": [
+    "neutron/agent/linux/iptables_firewall.py",
+    "neutron/tests/unit/agent/linux/test_iptables_firewall.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 0,
+  "CommitParent": "6ba78cec1a77921a591f99b717ff093ca3688c31",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

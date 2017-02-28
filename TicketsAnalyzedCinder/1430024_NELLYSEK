@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1430024",
+  "Id": "1430024",
+  "Gerrit": "https://review.openstack.org/162774",
+  "IdGerrit": "162774",
+  "IdCommit": "a754f317a708d9932aea743588468f0bb1cabdbb",
+  "Files": [
+    "cinder/tests/volume/drivers/datera.py",
+    "cinder/volume/drivers/datera.py"
+  ],
+  "Lines_Inseted": 4,
+  "Lines_Deleted": 4,
+  "CommitParent": "09225f75835f10728103e9338db28a7482672ba8",
+  "Classification": "Bug",
+  "KeywordsTitle": "expects",
+  "Description": "used to ",
+  "KeywordsCommit": "update,  deprected",
+  "Comments": "dependency bug"
+}

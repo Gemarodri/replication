@@ -1,0 +1,10 @@
+{
+  "Id": "1347598",
+  "IdGerrit": "120755",
+  "Files": "openstack_dashboard/api/swift.py",
+  "CommitParent": "354c0c1baaaf942e4a0f1f5409f9e0edb8cd2712",
+  "CommitPrevious": "52957cc7\n97428427",
+  "N_responsible": "1",
+  "Comments": "(openstack_dashboard/api/swift.py)\n52957cc7  is not responsible, it only change \"it's\" to \"it is\" in the error message\nAlso, they added a verification in the API to delete the folders\n97428427 is responsible because it forgot to add some comprobations.",
+  "Responsible": "AtLeastOne"
+}

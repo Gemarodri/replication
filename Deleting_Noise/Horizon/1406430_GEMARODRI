@@ -1,0 +1,10 @@
+{
+  "Id": "1406430",
+  "IdGerrit": "144413",
+  "Files": "openstack_dashboard/static/dashboard/scss/horizon.scss",
+  "CommitParent": "3a492dd1eafc6b87503c15e02f6a0228c4804659",
+  "CommitPrevious": "1f771e29",
+  "Responsible": "Responsible", 
+  "N_responsible": "1",
+  "Comments": "The responsible of this bug was 1f771e29ece9687fdf270f7710a8c66d383dccaa, because this commit delete the lines that were added in this patch"
+}

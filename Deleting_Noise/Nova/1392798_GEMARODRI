@@ -1,0 +1,10 @@
+{
+  "Id": "1392798",
+  "IdGerrit": "134603",
+  "Files": "nova/compute/manager.py",
+  "CommitParent": "767797a23884891e33005c3ca708d364f4523212",
+  "CommitPrevious": "",
+  "Responsible": "Not_Responsible",
+  "N_responsible": "NSNC",
+  "Comments": "It's only added lines"
+}

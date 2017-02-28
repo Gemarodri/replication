@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1445896",
+  "Id": "1445896",
+  "Gerrit": "https://review.openstack.org/175203",
+  "IdGerrit": "175203",
+  "IdCommit": "bf6d10bdc4ca94b6b525e0fcefbff8ca907ff237",
+  "Files": [
+    "neutron_lbaas/drivers/radware/v2_driver.py",
+    "neutron_lbaas/tests/unit/drivers/radware/test_v2_plugin_driver.py"
+  ],
+  "Lines_Inseted": 9,
+  "Lines_Deleted": 5,
+  "CommitParent": "dd0d2910af8a9647a50deb38c3b780b3364b86c8",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

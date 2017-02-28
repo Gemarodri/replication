@@ -1,0 +1,16 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1384392",
+  "Id": "1384392",
+  "Gerrit": "https://review.openstack.org/198959",
+  "IdGerrit": "198959",
+  "IdCommit": "6b93494bfda1385244fed3bbadbe2a26b38f9a09",
+  "Files": "nova/compute/api.py,nova/tests/unit/compute/test_compute_api.py",
+  "Lines_Inseted": "28",
+  "Lines_Deleted": "22",
+  "CommitParent": "8cf2d41344785a0752fbfe8745032aed2ec11e27",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "does not handle, correctly",
+  "Description": "does not handle, , does not include",
+  "KeywordsCommit": "Consolidate ,require , few differences, this patch introduces, fixes,  bug.",
+  "Comments": "In my opinion it is not  bug report because the ticket describes that the system doesn't handle metadata correctly, but infact there is any bug."
+}

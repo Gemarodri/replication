@@ -1,0 +1,10 @@
+{
+  "Id": "1505677",
+  "IdGerrit": "",
+  "Files": "",
+  "CommitParent": "",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "We can be able to see the patch in Nova because this bug was fix in other repository"
+}

@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1428034",
+  "Id": "1428034",
+  "Gerrit": "https://review.openstack.org/161143",
+  "IdGerrit": "161143",
+  "IdCommit": "ed346a6939896ef0e9dc32fec011a992c33fbb74",
+  "Files": [
+    "cinder/volume/driver.py"
+  ],
+  "Lines_Inseted": 6,
+  "Lines_Deleted": 4,
+  "CommitParent": "d2af7faf2dfa0f60724fe9cf3b64f24e2566d3a1",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1289496",
+  "Id": "1289496",
+  "Gerrit": "https://review.openstack.org/132854",
+  "IdGerrit": "132854",
+  "IdCommit": "debd142fb27337ff2debd2224b8a48256693618c",
+  "Files": [
+    "openstack_dashboard/dashboards/project/access_and_security/floating_ips/workflows.py"
+  ],
+  "Lines_Inseted": 12,
+  "Lines_Deleted": 1,
+  "CommitParent": "57201b2a13bf00426d54d9cc6379dc28114a3e78",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "error messages, failing",
+  "Description": "error message are displayed ",
+  "KeywordsCommit": "error message",
+  "Comments": "feature request, though looks like a logic error"
+}

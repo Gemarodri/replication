@@ -1,0 +1,10 @@
+{
+  "Id": "1508692",
+  "IdGerrit": "238729",
+  "Files": "openstack_dashboard/static/dashboard/scss/horizon.scss,openstack_dashboard/themes/material/static/horizon/_styles.scss",
+  "CommitParent": "bd9b9a73852d6cf7eacac08f33ecd9201e06b31c",
+  "CommitPrevious": "ba1b9007",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "ba1b9007 is the responsible\n(openstack_dashboard/themes/material/static/horizon/_styles.scss)\nIn this file there is only addition lines, so it's difficult to know who is the responsible."
+}

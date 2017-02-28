@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1421163",
+  "Id": "1421163",
+  "Gerrit": "https://review.openstack.org/159733",
+  "IdGerrit": "159733",
+  "IdCommit": "3fd6af2ce490f4b1fb3bb320fcb903043de1a998",
+  "Files": [
+    "cinder/tests/test_emc_vnxdirect.py",
+    "cinder/volume/drivers/emc/emc_vnx_cli.py"
+  ],
+  "Lines_Inseted": 15,
+  "Lines_Deleted": 0,
+  "CommitParent": "33ccaf8efc079049b77bedeac23f3cd8f9229454",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "reject",
+  "Description": " cannot , reject",
+  "KeywordsCommit": "more validation ",
+  "Comments": "new feature"
+}

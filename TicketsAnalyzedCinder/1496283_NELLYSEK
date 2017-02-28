@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1496283",
+  "Id": "1496283",
+  "Gerrit": "https://review.openstack.org/240196",
+  "IdGerrit": "240196",
+  "IdCommit": "2ce285ecfb261c09e1b93de85b8e5415c2cb56fe",
+  "Files": [
+    "cinder/tests/unit/zonemanager/test_cisco_fc_zone_client_cli.py",
+    "cinder/zonemanager/drivers/cisco/cisco_fc_zone_client_cli.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "99dc6d34754954a27f6998406a94743c41b93981",
+  "Classification": "Bug",
+  "KeywordsTitle": "fails ",
+  "Description": "incorrect type, fails,  causes error, ",
+  "KeywordsCommit": "fix ",
+  "Comments": "Malfunctioning"
+}

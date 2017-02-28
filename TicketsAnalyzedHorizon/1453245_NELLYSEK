@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1453245",
+  "Id": "1453245",
+  "Gerrit": "https://review.openstack.org/181501",
+  "IdGerrit": "181501",
+  "IdCommit": "9347cb43cc23b3acb2d059b5278f3b5335cee334",
+  "Files": [
+    "openstack_dashboard/api/rest/keystone.py",
+    "openstack_dashboard/test/api_tests/keystone_rest_tests.py"
+  ],
+  "Lines_Inseted": 0,
+  "Lines_Deleted": 8,
+  "CommitParent": "a21329d98a40f7b986371fa2150befdb7890a508",
+  "Classification": "Bug",
+  "KeywordsTitle": "incorrectly ",
+  "Description": "error",
+  "KeywordsCommit": "fixes",
+  "Comments": "logic error"
+}

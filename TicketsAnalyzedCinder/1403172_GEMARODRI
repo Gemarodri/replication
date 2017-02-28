@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1403172",
+  "Id": "1403172",
+  "Gerrit": "https://review.openstack.org/121688",
+  "IdGerrit": "121688",
+  "IdCommit": "ddc8d7a4233aee139f9c91aeee885d7f2e45f8ac",
+  "Files": [
+    "cinder/tests/test_rbd.py",
+    "cinder/volume/drivers/rbd.py"
+  ],
+  "Lines_Inseted": 5,
+  "Lines_Deleted": 0,
+  "CommitParent": "d1b89778f97fe235bef68a81215249ea590f327b",
+  "Classification": "Bug",
+  "KeywordsTitle": "crashes, exception",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

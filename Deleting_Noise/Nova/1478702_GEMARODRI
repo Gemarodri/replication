@@ -1,0 +1,10 @@
+{
+  "Id": "1478702",
+  "IdGerrit": "206236",
+  "Files": "nova/network/neutronv2/api.py",
+  "CommitParent": "f79e8cf09d31d1d489e7eee182bcc792a3b9755c",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "It's difficult to know, because there are only added lines."
+}

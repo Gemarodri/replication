@@ -1,0 +1,10 @@
+{
+  "Id": "1394051",
+  "IdGerrit": "163728",
+  "Files": "openstack_dashboard/api/neutron.py",
+  "CommitParent": "942deb150248df2f5f3f686b03b8473ad8359d1f",
+  "CommitPrevious": "277c7bc7",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "277c7bc7 it's responsible because this commit didn't taken into account the correct logic implementation as comment #4 in launchpad said. \"Akihiro Motoki (amotoki) wrote on 2014-12-29: Re: Can't display port list in \"Manage Floating IP Associations\" page -\n It seems the problem only occurs when the internal network is a shared network. If so, the bug reported is correct. The logic implemented in bug 1388305 does not consider the case.\"\n"
+}

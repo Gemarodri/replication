@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1330632",
+  "Id": "1330632",
+  "Gerrit": "https://review.openstack.org/101813",
+  "IdGerrit": "101813",
+  "IdCommit": "1246cd32e33451831255236a3abd8e5e4bf236b1",
+  "Files": [
+    "openstack_dashboard/dashboards/admin/projects/tests.py",
+    "openstack_dashboard/dashboards/admin/projects/workflows.py"
+  ],
+  "Lines_Inseted": 10,
+  "Lines_Deleted": 4,
+  "CommitParent": "0bd4350cb308d57b6afc69daee4a7823055be5a9",
+  "Classification": "Bug",
+  "KeywordsTitle": "optional",
+  "Description": "doesn't support, error",
+  "KeywordsCommit": "This patch fixes the problem, excluding",
+  "Comments": ""
+}

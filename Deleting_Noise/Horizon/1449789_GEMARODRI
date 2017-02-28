@@ -1,0 +1,10 @@
+{
+  "Id": "1449789",
+  "IdGerrit": "178504",
+  "Files": "requirements.txt",
+  "CommitParent": "33042c48fba86aeb61d198ae242e043392817715",
+  "CommitPrevious": "ebc5a9fc\ne0fdcc09",
+  "Responsible": "Neither",
+  "N_responsible": "0",
+  "Comments": "ebc5a9fc is not responsible is a evolution of the versions in the requirements\ne0fdcc09  is not responsible is a evolution of the versions in the requirements"
+}

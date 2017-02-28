@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1382825",
+  "Id": "1382825",
+  "Gerrit": "https://review.openstack.org/129432",
+  "IdGerrit": "129432",
+  "IdCommit": "863fa952509e24f4544667dd47e3df6b5b42c432",
+  "Files": [
+    "horizon/static/horizon/js/horizon.networktopology.js"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "e63d8a4506985919f80f70d725342cbb698269b9",
+  "Classification": "Bug",
+  "KeywordsTitle": "missing",
+  "Description": "fix",
+  "KeywordsCommit": "add",
+  "Comments": "."
+}

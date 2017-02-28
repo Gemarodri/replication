@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1499207",
+  "Id": "1499207",
+  "Gerrit": "https://review.openstack.org/227170",
+  "IdGerrit": "227170",
+  "IdCommit": "401657acc48c58a9b91a15edd2a6d4ecaca729af",
+  "Files": [
+    "cinder/volume/drivers/emc/xtremio.py"
+  ],
+  "Lines_Inseted": 2,
+  "Lines_Deleted": 2,
+  "CommitParent": "57d01641941fe210bc15e85d1e449023b578fa55",
+  "Classification": "Bug",
+  "KeywordsTitle": "ends in an error",
+  "Description": "error,",
+  "KeywordsCommit": "formatting error   ",
+  "Comments": "."
+}

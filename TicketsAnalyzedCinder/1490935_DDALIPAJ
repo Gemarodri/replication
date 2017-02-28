@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1490935",
+  "Id": "1490935",
+  "Gerrit": "https://review.openstack.org/219239",
+  "IdGerrit": "219239",
+  "IdCommit": "f3d3c34895b0271c43e4eb7b5248396a2be5be61",
+  "Files": [
+    "cinder/volume/drivers/huawei/rest_client.py"
+  ],
+  "Lines_Inseted": 10,
+  "Lines_Deleted": 7,
+  "CommitParent": "126e4f215e5fc0275a3c660990504b4e758de099",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

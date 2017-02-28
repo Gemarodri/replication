@@ -1,0 +1,10 @@
+{
+  "Id": "1496058",
+  "IdGerrit": "223756",
+  "Files": "cinder/api/contrib/quotas.py",
+  "CommitParent": "97529ef9eb8aedf06b160a026d81a3272cf46701",
+  "CommitPrevious": "8a7ab267",
+  "Responsible": "Responsible",
+  "N_responsible":"1",
+  "Comments": "8a7ab267 is respnsible"
+}

@@ -1,0 +1,20 @@
+{
+	"Id" : "1449028",
+	"num_pc_L" : 1,
+	"LA" : 4,
+	"LM" : 1,
+	"LD" : 0,
+	"Files" : 1,
+	"pcSET_L": ["c380987"],
+	"ONL_L" : "No",
+	"BIC_L" : "No" ,
+	"BICinpcSET_L" : "No",
+	"idBIC_L" : "",
+	"num_pc_T" : 1,
+	"pcSET_T": ["976425c"],
+	"newLines_T" : "No",
+	"BIC_T" : "No" ,
+	"BICinpcSET_T" : "No",
+	"idBIC_T" : "",
+	"Match": ["c380987-976425c"]
+}

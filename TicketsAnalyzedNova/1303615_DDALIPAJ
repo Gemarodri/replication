@@ -1,0 +1,17 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1303615",
+  "Id": "1303615",
+  "Gerrit": "https://review.openstack.org/98076",
+  "IdGerrit": "98076",
+  "Files": [
+    "nova/openstack/common/service.py"
+  ],
+  "Lines_Inseted": 7,
+  "Lines_Deleted": 2,
+  "CommitParent": "3ffa40cc9a6c4fd2a04a9bc72cee22e1772176b0",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "never change",
+  "Description": "doesn't work correctly",
+  "KeywordsCommit": "Reload config",
+  "Comments": ""
+}

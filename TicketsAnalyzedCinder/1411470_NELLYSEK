@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1411470",
+  "Id": "1411470",
+  "Gerrit": "https://review.openstack.org/148097",
+  "IdGerrit": "148097",
+  "IdCommit": "009a6c301bb9f366eaaa76e1026ae962deda6d3b",
+  "Files": [
+    "cinder/volume/driver.py",
+    "cinder/volume/targets/iser.py"
+  ],
+  "Lines_Inseted": 23,
+  "Lines_Deleted": 1,
+  "CommitParent": "42bda60d9bb63411f273f9c24fdf91ce6470696c",
+  "Classification": "Bug",
+  "KeywordsTitle": "broken",
+  "Description": "broken, mismatch, prefixes ",
+  "KeywordsCommit": "fix, mismatch",
+  "Comments": "."
+}

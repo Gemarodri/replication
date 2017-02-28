@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1496058",
+  "Id": "1496058",
+  "Gerrit": "https://review.openstack.org/223756",
+  "IdGerrit": "223756",
+  "IdCommit": "9a668a0a48135c423a4deda23bb161f6b917ac39",
+  "Files": [
+    "cinder/api/contrib/quotas.py",
+    "cinder/tests/unit/api/contrib/test_quotas.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "97529ef9eb8aedf06b160a026d81a3272cf46701",
+  "Classification": "Bug",
+  "KeywordsTitle": "error",
+  "Description": "error",
+  "KeywordsCommit": "fix",
+  "Comments": "runtime"
+}

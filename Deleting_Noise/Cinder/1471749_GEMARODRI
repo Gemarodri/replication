@@ -1,0 +1,10 @@
+{
+  "Id": "1471749",
+  "IdGerrit": "198692",
+  "Files": "cinder/volume/drivers/ibm/storwize_svc/__init__.py",
+  "CommitParent": "2cd5904eb809c117e849d4e5c1794ac8079ee14c",
+  "CommitPrevious": "0de6b379",
+  "Responsible": "Responsible",
+  "N_responsible":"1",
+  "Comments": "0de6b379 is responsible, one parameter had to be configured as True."
+}

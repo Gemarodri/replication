@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1308342",
+  "Id": "",
+  "Gerrit": "https://review.openstack.org/121800",
+  "IdCommit": "222d44532c65ddf3f26532ced217890628352536",
+  "Files": [
+    "nova/tests/unit/virt/vmwareapi/test_vmops.py",
+    "nova/virt/vmwareapi/vmops.py"
+  ],
+  "Lines_Inseted": 2,
+  "Lines_Deleted": 1,
+  "CommitParent": "3e503e2a60c531a09e22e5f8893b51d17c69482a",
+  "Classification": "Bug",
+  "KeywordsTitle": "Cannot delete",
+  "Description": "cannot be deleted",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

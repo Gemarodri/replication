@@ -1,0 +1,10 @@
+{
+  "Id": "1413817",
+  "IdGerrit": "174268",
+  "Files": "neutron/callbacks/resources.py,neutron/common/exceptions.py,neutron/db/db_base_plugin_v2.py,neutron/plugins/ml2/plugin.py,neutron/plugins/opencontrail/contrail_plugin.py\t\n",
+  "CommitParent": "2921d3c686b5f5cd68d51f906766983f975b1cf2",
+  "CommitPrevious": "3005d16f",
+  "Responsible": "Not_Responsible",
+  "N_responsible":"0",
+  "Comments": "3005d16f is not responsible.\nIn the others files there were only added lines so it's very impossible to know which prev commit was the responsible. \nThe possible responsible could be this 681d096e because this commit inserted the class in where the lines added in the current commit haven't taken into account"
+}

@@ -1,0 +1,21 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1373741",
+  "Id": "1373741",
+  "Gerrit": "https://review.openstack.org/151195",
+  "IdGerrit": "151195",
+  "IdCommit": "46bd4e4292648c0474e02ddc1560ce583fbe56d0",
+  "Files": [
+    "doc/api_samples/versions-get-resp.json",
+    "nova/api/openstack/compute/views/versions.py",
+    "nova/tests/functional/api_samples/versions-get-resp.json.tpl",
+    "nova/tests/unit/api/openstack/compute/test_versions.py"
+  ],
+  "Lines_Inseted": 3,
+  "Lines_Deleted": 3,
+  "CommitParent": "422b22eaf79c04e42e1b2257b7ab1feff54152bc",
+  "Classification": "Bug",
+  "KeywordsTitle": "doesn't show",
+  "Description": "does not show",
+  "KeywordsCommit": "This patch fixes the problem ",
+  "Comments": ""
+}

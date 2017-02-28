@@ -1,0 +1,20 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1383444",
+  "Id": "1383444",
+  "Gerrit": "https://review.openstack.org/143432",
+  "IdGerrit": "143432",
+  "IdCommit": "2a5a7a18280eec2125d212062ad6d97763356391",
+  "Files": [
+    "cinder/tests/volume/drivers/netapp/eseries/__init__.py",
+    "cinder/tests/volume/drivers/netapp/eseries/test_client.py",
+    "cinder/volume/drivers/netapp/eseries/client.py"
+  ],
+  "Lines_Inseted": 10,
+  "Lines_Deleted": 2,
+  "CommitParent": "90d7c0c2b3bf6f115e62b629679f262f04ca7573",
+  "Classification": "Unknown",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": "poor and unclear descriptions"
+}

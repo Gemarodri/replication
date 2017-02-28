@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1423797",
+  "Id": "1423797",
+  "Gerrit": "https://review.openstack.org/164284",
+  "IdGerrit": "164284",
+  "IdCommit": "cf152365cd68ffa7572efa2777faf7057dccb044",
+  "Files": [
+    "openstack_dashboard/dashboards/project/instances/templates/instances/_detail_overview.html"
+  ],
+  "Lines_Inseted": 3,
+  "Lines_Deleted": 2,
+  "CommitParent": "0a45b0ba1cf6de33c477362c3026e056ade3c346",
+  "Classification": "Bug",
+  "KeywordsTitle": "renders erroneous markup",
+  "Description": "",
+  "KeywordsCommit": "issue, fails, fix, saves",
+  "Comments": ""
+}

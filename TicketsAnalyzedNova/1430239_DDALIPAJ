@@ -1,0 +1,24 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1430239",
+  "Id": "1430239",
+  "Gerrit": "https://review.openstack.org/162999",
+  "IdGerrit": "162999",
+  "IdCommit": "3e42c7ae3f7a9353834c8c9c4dc79ee39dd0783b",
+  "Files": [
+    "nova/tests/unit/virt/hyperv/test_hypervapi.py",
+    "nova/tests/unit/virt/hyperv/test_vmops.py",
+    "nova/tests/unit/virt/hyperv/test_vmutils.py",
+    "nova/tests/unit/virt/hyperv/test_vmutilsv2.py",
+    "nova/virt/hyperv/vmops.py",
+    "nova/virt/hyperv/vmutils.py",
+    "nova/virt/hyperv/vmutilsv2.py"
+  ],
+  "Lines_Inseted": 16,
+  "Lines_Deleted": 4,
+  "CommitParent": "1fb09cc821589cde69da293c7d74f8e10b08d128",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "not set ",
+  "Description": "does not set, can cause issues, needs to be set",
+  "KeywordsCommit": "Sets the path",
+  "Comments": ""
+}

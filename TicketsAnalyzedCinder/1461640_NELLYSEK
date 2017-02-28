@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1461640",
+  "Id": "1461640",
+  "Gerrit": "https://review.openstack.org/189381",
+  "IdGerrit": "189381",
+  "IdCommit": "891722fe371b3c518b9dd04c21672202088d49a8",
+  "Files": [
+    "cinder/volume/drivers/san/hp/hp_3par_common.py"
+  ],
+  "Lines_Inseted": 4,
+  "Lines_Deleted": 3,
+  "CommitParent": "c5b169cfe508c3f098331236767a0f2294bf697f",
+  "Classification": "Bug",
+  "KeywordsTitle": "fails ",
+  "Description": "fails, invalid input, bad request",
+  "KeywordsCommit": "fixes",
+  "Comments": "Logic error "
+}

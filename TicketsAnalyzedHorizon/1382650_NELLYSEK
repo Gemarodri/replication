@@ -1,0 +1,22 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1382650",
+  "Id": "1382650",
+  "Gerrit": "https://review.openstack.org/129379",
+  "IdGerrit": "129379",
+  "IdCommit": "4f9d5b186e5d3784fbabef831e0c278910b2d5db",
+  "Files": [
+    "doc/source/topics/settings.rst",
+    "openstack_dashboard/dashboards/identity/projects/tables.py",
+    "openstack_dashboard/local/local_settings.py.example",
+    "openstack_dashboard/templates/_header.html",
+    "openstack_dashboard/templatetags/context_selection.py"
+  ],
+  "Lines_Inseted": 43,
+  "Lines_Deleted": 4,
+  "CommitParent": "264ad3edd940aeecec93a4139e47783e1080ff3c",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "not implemented ",
+  "Description": ".",
+  "KeywordsCommit": "replaces",
+  "Comments": "new feature request"
+}

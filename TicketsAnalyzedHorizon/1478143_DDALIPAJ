@@ -1,0 +1,17 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1478143",
+  "Id": "",
+  "Gerrit": "https://review.openstack.org/205709",
+  "IdCommit": "49f9d15488b115a49a97bb65a74dee9886060d65",
+  "Files": [
+    "openstack_dashboard/dashboards/project/access_and_security/templates/access_and_security/api_access/_credentials.html"
+  ],
+  "Lines_Inseted": 3,
+  "Lines_Deleted": 1,
+  "CommitParent": "1bce788cc9536e0f252bff71cc8f478fe8f28c73",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "Without changing error is encountered,exceptions,BadRequest",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

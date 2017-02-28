@@ -1,0 +1,22 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1495185",
+  "Id": "1495185",
+  "Gerrit": "https://review.openstack.org/222902",
+  "IdGerrit": "222902",
+  "IdCommit": "a0d94c23c8aaa19540779fbfd712d104a9e42933",
+  "Files": [
+    "openstack_dashboard/dashboards/project/firewalls/tables.py",
+    "openstack_dashboard/dashboards/project/loadbalancers/workflows.py",
+    "openstack_dashboard/dashboards/project/network_topology/views.py",
+    "openstack_dashboard/dashboards/project/routers/extensions/extraroutes/views.py",
+    "openstack_dashboard/dashboards/project/routers/extensions/routerrules/views.py"
+  ],
+  "Lines_Inseted": 7,
+  "Lines_Deleted": 7,
+  "CommitParent": "32e72a13b21ec9479efe2935f81ee8730b6a6c3d",
+  "Classification": "Bug",
+  "KeywordsTitle": "should fix ",
+  "Description": "should fix ",
+  "KeywordsCommit": "Fix all,  file has changed ",
+  "Comments": ""
+}

@@ -1,0 +1,24 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1444745",
+  "Id": "1444745",
+  "Gerrit": "https://review.openstack.org/174148",
+  "IdGerrit": "174148",
+  "IdCommit": "78a8b5802ca148dcf37c5651f75f2126d261266e",
+  "Files": [
+    "nova/cells/rpcapi.py",
+    "nova/cert/rpcapi.py",
+    "nova/conductor/rpcapi.py",
+    "nova/console/rpcapi.py",
+    "nova/consoleauth/rpcapi.py",
+    "nova/network/rpcapi.py",
+    "nova/scheduler/rpcapi.py"
+  ],
+  "Lines_Inseted": 30,
+  "Lines_Deleted": 8,
+  "CommitParent": "e77edeee0e7bf4c710b42023da6d9ae2e31cd8b1",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "Updates",
+  "Description": "Updated, upgrade",
+  "KeywordsCommit": "Update, upgrades",
+  "Comments": ""
+}

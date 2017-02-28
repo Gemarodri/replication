@@ -1,0 +1,10 @@
+{
+  "Id": "1270825",
+  "IdGerrit": "90321",
+  "Files": "nova/virt/libvirt/driver.py,nova/virt/libvirt/utils.py",
+  "CommitParent": "f75fea973cdd6da9dec677afa17d14cb1023c01b",
+  "CommitPrevious": "3a3ad540\n44d543bf9\n659ec75ea\n2ee5ac3b5",
+  "Responsible": "Atleastone",
+  "N_responsible": "1",
+  "Comments": "3a3ad540 not responsible, it's an APi change added an extra argument.\n44d543bf9 is responsible\n659ec75ea is not responsible, it added an extra arguments in the call APi.\n2ee5ac3b5 is not responsible, it added an extra arguments in the call APi."
+}

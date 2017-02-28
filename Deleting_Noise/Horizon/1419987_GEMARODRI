@@ -1,0 +1,10 @@
+{
+  "Id": "1419987",
+  "IdGerrit": "154223",
+  "Files": "horizon/templates/horizon/jasmine/jasmine.html",
+  "CommitParent": "6a1e50853c780f0b79bedd6e7319e1344a72a0f3",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "It's impossible to know how is the responsible of this, because is only added lines and there is many previous commit in the lines of the file."
+}

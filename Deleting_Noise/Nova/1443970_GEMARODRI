@@ -1,0 +1,10 @@
+{
+  "Id": "1443970",
+  "IdGerrit": "173362",
+  "Files": "nova/network/manager.py",
+  "CommitParent": "1e3412deeca725cc3ecfd12ff4e185515f9fda1b",
+  "CommitPrevious": "44764197\n231347eb",
+  "Responsible": "All",  
+  "N_responsible": "2",
+  "Comments": "44764197 is responsible\n231347eb is responsible"
+}

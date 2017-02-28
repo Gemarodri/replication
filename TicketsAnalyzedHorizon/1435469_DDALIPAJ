@@ -1,0 +1,20 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1435469",
+  "Id": "1435469",
+  "Gerrit": "https://review.openstack.org/169870",
+  "IdGerrit": "169870",
+  "Files": [
+    "horizon/static/horizon/js/angular/services/hz.api.glance.js",
+    "openstack_dashboard/api/glance.py",
+    "openstack_dashboard/api/rest/glance.py",
+    "openstack_dashboard/test/api_tests/glance_rest_tests.py"
+  ],
+  "Lines_Inseted": 28,
+  "Lines_Deleted": 45,
+  "CommitParent": "b2fc84d7f6a93385e607a2ba1d3fd5158f3ae8ea",
+  "Classification": "Bug",
+  "KeywordsTitle": "does not handle,correctly",
+  "Description": "displays differently, doesn't resolve correctly,doesn't actually delete, wrong ",
+  "KeywordsCommit": "",
+  "Comments": "Launch Instance Fix, Adds,retrieved,proper"
+}

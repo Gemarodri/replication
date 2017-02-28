@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1415523",
+  "Id": "1415523",
+  "Gerrit": "https://review.openstack.org/150826",
+  "IdGerrit": "150826",
+  "IdCommit": "7076d9edee29b852833d934761052efcbc6e8fcf",
+  "Files": [
+    "neutron/plugins/hyperv/agent/hyperv_neutron_agent.py",
+    "neutron/tests/unit/hyperv/test_hyperv_neutron_agent.py"
+  ],
+  "Lines_Inseted": 4,
+  "Lines_Deleted": 0,
+  "CommitParent": "9184832b9ab6a4b60c9c7f6607f60b80eafe3c98",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1381073",
+  "Id": "1381073",
+  "Gerrit": "https://review.openstack.org/128295",
+  "IdGerrit": "128295",
+  "IdCommit": "9a1c15338bbdfa8e9563bebc1e654d3c05173cd2",
+  "Files": [
+    "openstack_dashboard/test/test_data/nova_data.py"
+  ],
+  "Lines_Inseted": 0,
+  "Lines_Deleted": 0,
+  "CommitParent": "123840a43aaeff05becc08044b9cc33977ece2bb",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "KeyError, tests",
+  "Description": "tests,needs to mock,to avoid the KeyError",
+  "KeywordsCommit": "fixes keyerror, test",
+  "Comments": "all files influenced are tests files "
+}

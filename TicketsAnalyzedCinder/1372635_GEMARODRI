@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1372635",
+  "Id": "1372635",
+  "Gerrit": "https://review.openstack.org/130923",
+  "IdGerrit": "130923",
+  "Files": [
+    "cinder/volume/drivers/emc/emc_vmax_common.py",
+    "cinder/volume/drivers/emc/emc_vmax_utils.py"
+  ],
+  "Lines_Inseted": 39,
+  "Lines_Deleted": 4,
+  "CommitParent": "8707458a98bd1e4059939325659a7290757d972f",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "vulnerability",
+  "Description": "without validation, attack",
+  "KeywordsCommit": "",
+  "Comments": "In my opinion is not a Bug Report, it's a feature because now there is not any validation in the certificate"
+}

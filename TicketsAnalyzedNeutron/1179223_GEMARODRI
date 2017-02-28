@@ -1,0 +1,16 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1179223",
+  "Id": "1179223",
+  "Gerrit": "https://review.openstack.org/#/c/121000",
+  "IdGerrit": "121000",
+  "IdCommit": "67c4c6d809e4c9e112d9fb848b5bdce9d5cd04ac",
+  "Files": "tox.ini",
+  "Lines_Inseted": "0",
+  "Lines_Deleted": "13",
+  "CommitParent": "d4e477d2c515d80a66cf7e5f60a452edc89219d9",
+  "Classification": "Bug",
+  "KeywordsTitle": "retired",
+  "Description": "setup, available, cannot be, come back, ",
+  "KeywordsCommit": "",
+  "Comments": "Bug report"
+}

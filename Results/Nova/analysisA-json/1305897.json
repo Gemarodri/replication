@@ -1,0 +1,20 @@
+{
+	"Id" : "1305897",
+	"num_pc_L" : 1,
+	"LA" : 2,
+	"LM" : 3,
+	"LD" : 0,
+	"Files" : 2,
+	"pcSET_L": ["73da55e"],
+	"ONL_L" : "No",
+	"BIC_L" : "No" ,
+	"BICinpcSET_L" : "No",
+	"idBIC_L" : "",
+	"num_pc_T" : 0,
+	"pcSET_T": "",
+	"newLines_T" : "Yes",
+	"BIC_T" : "No" ,
+	"BICinpcSET_T" : "No",
+	"idBIC_T" : "",
+	"Match": "" 
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "1336127",
+  "IdGerrit": "106477",
+  "Files": "nova/compute/manager.py",
+  "CommitParent": "70feb102ae86d3421e46a07710e4cbab35408d02",
+  "CommitPrevious": "2c62e344e\n5ad1af72c",
+  "Responsible": "Atleastone",
+  "N_responsible": "1",
+  "Comments": "2c62e344e is responsible\n5ad1af72c is not responsible it used a object rather than dictionaries for instances after a new upadate"
+}

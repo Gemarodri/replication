@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1392316",
+  "Id": "1392316",
+  "Gerrit": "https://review.openstack.org/134277",
+  "IdGerrit": "134277",
+  "IdCommit": "5c4e827568be429ac5227a950c9f24c578ca8fd8",
+  "Files": [
+    "openstack_dashboard/dashboards/admin/hypervisors/compute/tabs.py",
+    "openstack_dashboard/dashboards/admin/hypervisors/tests.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 0,
+  "CommitParent": "b17ba715aa2ee34208b32903b71f7b27d77b572d",
+  "Classification": "Bug",
+  "KeywordsTitle": "TemplateSyntaxError, error message",
+  "Description": "TemplateSyntaxError",
+  "KeywordsCommit": "Fix TemplateSyntaxError",
+  "Comments": "-"
+}

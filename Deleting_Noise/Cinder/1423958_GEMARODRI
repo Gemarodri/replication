@@ -1,0 +1,10 @@
+{
+  "Id": "1423958",
+  "IdGerrit": "157879",
+  "Files": "cinder/volume/drivers/san/hp/hp_3par_iscsi.py",
+  "CommitParent": "f4f46e972004eca66e4751a836156c342e448621",
+  "CommitPrevious": "9ef47c28",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "9ef47c28 is responsible"
+}

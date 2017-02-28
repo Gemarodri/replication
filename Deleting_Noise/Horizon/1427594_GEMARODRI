@@ -1,0 +1,10 @@
+{
+  "Id": "1427594",
+  "IdGerrit": "160741",
+  "Files": "openstack_dashboard/dashboards/project/firewalls/tables.py",
+  "CommitParent": "e26232633dc038d3e3b5deaa6396d1edaa894b4e",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "I don't know it's added code and it's difficult find any responsible at this cases"
+}

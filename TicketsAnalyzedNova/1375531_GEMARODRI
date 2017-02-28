@@ -1,0 +1,16 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1375531",
+  "Id": "1375531",
+  "Gerrit": "https://review.openstack.org/125208",
+  "IdGerrit": "125208",
+  "IdCommit": "beae8b764c48fcb3f6bfb245f75be04e428e1942",
+  "Files": "nova/tests/unit/virt/libvirt/test_driver.py,nova/virt/libvirt/driver.py",
+  "Lines_Inseted": "8",
+  "Lines_Deleted": "0",
+  "CommitParent": "0eee9cbfa720c94ba11683d349f4dcc64a8f4672",
+  "Classification": "Unknown",
+  "KeywordsTitle": "does not save",
+  "Description": "bug reported, review, does not save, changes, update, are lost, we need, ",
+  "KeywordsCommit": "does not save, is made to, modifies, update, not saved, need to be saved",
+  "Comments": "I'm not sure, they need save things into the DB but, is this a new feauture? or they need do it because now the system fails."
+}

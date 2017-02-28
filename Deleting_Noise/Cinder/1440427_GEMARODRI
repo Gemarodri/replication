@@ -1,0 +1,10 @@
+{
+  "Id": "1440427",
+  "IdGerrit": "170689",
+  "Files": "cinder/volume/drivers/emc/emc_vmax_common.py,cinder/volume/drivers/emc/emc_vmax_fc.py,cinder/volume/drivers/emc/emc_vmax_masking.py,cinder/volume/drivers/emc/emc_vmax_utils.py",
+  "CommitParent": "07f716c2cdbdf1d04843096b6fb7d03651521f3f",
+  "CommitPrevious": "95b1943f\nd4d7b536\n18544b93",
+  "Responsible": "Atleastone",
+  "N_responsible": "2",
+  "Comments": "95b1943f is responsible.\nd4d7b536 is responsible\n18544b93 is not responsible, change LI fro LE in a log"
+}

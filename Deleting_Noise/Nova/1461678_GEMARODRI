@@ -1,0 +1,10 @@
+{
+  "Id": "1461678",
+  "IdGerrit": "",
+  "Files": "",
+  "CommitParent": "",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "the bug report was fixed in other project, so we cannot have access to know the previous commit responsible"
+}

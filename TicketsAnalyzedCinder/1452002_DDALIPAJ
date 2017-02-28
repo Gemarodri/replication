@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1452002",
+  "Id": "1452002",
+  "Gerrit": "https://review.openstack.org/180300",
+  "IdGerrit": "180300",
+  "IdCommit": "418cf4b989c8df983c1109c8c8851d9d4c3ffbfe",
+  "Files": [
+    "cinder/tests/unit/test_hds_hnas_backend.py",
+    "cinder/volume/drivers/hds/hnas_backend.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "9d1650d5fd175c0d538bf3effe75addfa01d2b33",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

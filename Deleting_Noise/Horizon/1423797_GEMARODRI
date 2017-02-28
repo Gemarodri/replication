@@ -1,0 +1,10 @@
+{
+  "Id": "1423797",
+  "IdGerrit": "164284",
+  "Files": "openstack_dashboard/dashboards/project/instances/templates/instances/_detail_overview.html",
+  "CommitParent": "0a45b0ba1cf6de33c477362c3026e056ade3c346",
+  "CommitPrevious": "43958510",
+  "Responsible": "Not_Responsible",
+  "N_responsible": "0",
+  "Comments": "43958510 this commit is not responsible, because in its commit parent you can see that in fact the it copy the lines from 7b2082a2 and this commit copied the lines from the commit before and so on."
+}

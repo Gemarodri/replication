@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1384379",
+  "Id": "1384379",
+  "Gerrit": "https://review.openstack.org/159374",
+  "IdGerrit": "159374",
+  "IdCommit": "2eb25ab8803214cb3beb5d8fe3efbf70a462c414",
+  "Files": [
+    "cinder/api/views/versions.py",
+    "cinder/tests/api/test_versions.py"
+  ],
+  "Lines_Inseted": 16,
+  "Lines_Deleted": 1,
+  "CommitParent": "1e2ac58e7c18a1cad72b1e6b70b434da96510243",
+  "Classification": "Unknown",
+  "KeywordsTitle": "may be incorrect",
+  "Description": "may be  incorrect",
+  "KeywordsCommit": "add, set properly",
+  "Comments": "not enough evidence "
+}

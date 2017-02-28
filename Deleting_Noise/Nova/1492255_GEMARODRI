@@ -1,0 +1,10 @@
+{
+  "Id": "1492255",
+  "IdGerrit": "220490",
+  "Files": "devstack/tempest-dsvm-cells-rc",
+  "CommitParent": "8c23a5033588ba096c6d8941b99e34db2f0e294f",
+  "CommitPrevious": "78ed3ae2",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "78ed3ae2  is responsible"
+}

@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1477822",
+  "Id": "1477822",
+  "Gerrit": "https://review.openstack.org/205367",
+  "IdGerrit": "205367",
+  "IdCommit": "a0dd5f40852af01d83451fd213f57a61a4fe0cc5",
+  "Files": [
+    "openstack_dashboard/dashboards/project/images/snapshots/urls.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "6f2867770cde858c56ba7ce528b3c36281f9a085",
+  "Classification": "Bug",
+  "KeywordsTitle": "too loose url",
+  "Description": "too loose url, wrong input",
+  "KeywordsCommit": "fix  too loose url, added",
+  "Comments": "."
+}

@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1490375",
+  "Id": "1490375",
+  "Gerrit": "https://review.openstack.org/218713",
+  "IdGerrit": "218713",
+  "IdCommit": "cc37b8fd64994cddff0b3f85ca6718d981b6fbe2",
+  "Files": [
+    "openstack_dashboard/dashboards/admin/volumes/volume_types/extras/views.py",
+    "openstack_dashboard/dashboards/admin/volumes/volume_types/qos_specs/views.py"
+  ],
+  "Lines_Inseted": 10,
+  "Lines_Deleted": 4,
+  "CommitParent": "69d6d50ef4a26e2629643ed35ebd661e82e10586",
+  "Classification": "Bug",
+  "KeywordsTitle": "wrong url",
+  "Description": " wrong url, cast error, same error ",
+  "KeywordsCommit": "Correct wrong cancel action url, fix, ",
+  "Comments": "run time bug"
+}

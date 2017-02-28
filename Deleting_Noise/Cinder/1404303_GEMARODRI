@@ -1,0 +1,10 @@
+{
+  "Id": "1404303",
+  "IdGerrit": "143129",
+  "Files": "cinder/db/sqlalchemy/migrate_repo/versions/033_add_encryption_unique_key.py",
+  "CommitParent": "a20330d64fc24d1421660b49d196609cd6127979",
+  "CommitPrevious": "a21979c1",
+  "Responsible": "Not_Responsible",
+  "N_responsible": "0",
+  "Comments": "a21979c1 is not responsible, in the patch they added some lines but left the one that this previous commit added."
+}

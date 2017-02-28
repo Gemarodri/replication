@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1456996",
+  "Id": "1456996",
+  "Gerrit": "https://review.openstack.org/184458",
+  "IdGerrit": "184458",
+  "IdCommit": "b37cda69f0a73f9f565e3c45be7f5843938d3040",
+  "Files": [
+    "cinder/zonemanager/drivers/brocade/brcd_fc_zone_client_cli.py"
+  ],
+  "Lines_Inseted": 0,
+  "Lines_Deleted": 1,
+  "CommitParent": "0acf257464bbb8a4528bea4d125ca0b053880d0c",
+  "Classification": "Bug",
+  "KeywordsTitle": "does not handle, ",
+  "Description": "does not handle",
+  "KeywordsCommit": "not paarsing, error, patch ensures",
+  "Comments": "Malfunctioning"
+}

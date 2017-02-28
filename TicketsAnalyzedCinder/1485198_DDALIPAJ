@@ -1,0 +1,20 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1485198",
+  "Id": "1485198",
+  "Gerrit": "https://review.openstack.org/213723",
+  "IdGerrit": "213723",
+  "IdCommit": "480b8737e3bec677fd76b68b8887efe5cb1ab8de",
+  "Files": [
+    "cinder/api/openstack/wsgi.py",
+    "cinder/tests/unit/api/contrib/test_consistencygroups.py",
+    "cinder/tests/unit/api/openstack/test_wsgi.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 1,
+  "CommitParent": "31cb1f2377e0a0271a40e581b69048603af03de6",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

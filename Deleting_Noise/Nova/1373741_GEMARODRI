@@ -1,0 +1,10 @@
+{
+  "Id": "1373741",
+  "IdGerrit": "151195",
+  "Files": "doc/api_samples/versions-get-resp.json,nova/api/openstack/compute/views/versions.py",
+  "CommitParent": "422b22eaf79c04e42e1b2257b7ab1feff54152bc",
+  "CommitPrevious": "fe5f22de\na1baa247",
+  "Responsible": "Neither",
+  "N_responsible": "0",
+  "Comments": "fe5f22de is not responsible because the version in a JSON has changed\na1baa247 is not responsible because the version has changed"
+}

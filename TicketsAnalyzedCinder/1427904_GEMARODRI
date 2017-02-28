@@ -1,0 +1,23 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1427904",
+  "Id": "1427904",
+  "Gerrit": "https://review.openstack.org/161036",
+  "IdGerrit": "161036",
+  "IdCommit": "582b4dfc7833f2adfea787cff5bce8e858d80d0e",
+  "Files": [
+    "cinder/tests/conf_fixture.py",
+    "cinder/tests/test_volume.py",
+    "cinder/volume/driver.py",
+    "cinder/volume/targets/cxt.py",
+    "cinder/volume/targets/iscsi.py",
+    "cinder/volume/targets/iser.py"
+  ],
+  "Lines_Inseted": 14,
+  "Lines_Deleted": 24,
+  "CommitParent": "2ee7b38620eba0d09acaabb78ce360479872bf67",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

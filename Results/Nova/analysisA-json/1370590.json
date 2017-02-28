@@ -1,0 +1,20 @@
+{
+	"Id" : "1370590",
+	"num_pc_L" : 5,
+	"LA" : 10,
+	"LM" : 8,
+	"LD" : 0,
+	"Files" : 1,
+	"pcSET_L": ["2390857","7326bac","80deed6","1690a1a","8c6073d"],
+	"ONL_L" : "No",
+	"BIC_L" : "No" ,
+	"BICinpcSET_L" : "No",
+	"idBIC_L" : "",
+	"num_pc_T" : 4,
+	"pcSET_T": ["496f1076f","e1a7106db","28f9b155c","74877f6a4"],
+	"newLines_T" : "No",
+	"BIC_T" : "No" ,
+	"BICinpcSET_T" : "No",
+	"idBIC_T" : "",
+	"Match": ["2390857-74877f6a4" ]
+}

@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1353137",
+  "Id": "1353137",
+  "Gerrit": "https://review.openstack.org/124145",
+  "IdGerrit": "124145",
+  "IdCommit": "891aa3c6024bc68a2434a24244b66b3dc9942bb3",
+  "Files": [
+    "cinder/tests/test_hplefthand.py",
+    "cinder/volume/drivers/san/hp/hp_lefthand_rest_proxy.py"
+  ],
+  "Lines_Inseted": 14,
+  "Lines_Deleted": 1,
+  "CommitParent": "309efa5db4fe2638d79eb8e1d1a0dc60d99683f4",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

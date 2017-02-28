@@ -1,0 +1,10 @@
+{
+  "Id": "1343080",
+  "IdGerrit": "129856",
+  "Files": "",
+  "CommitParent": "e8bf6c126f8200b505707a2fb76742b76d2a75c1",
+  "CommitPrevious": "",
+  "Responsible": "Undecided",
+  "N_responsible": "NSNC",
+  "Comments": "I think it's not a bug report, in this fix-commit the developer has removed a ULR because it aren't using more."
+}

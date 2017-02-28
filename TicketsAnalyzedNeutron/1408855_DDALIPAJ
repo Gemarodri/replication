@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1408855",
+  "Id": "1408855",
+  "Gerrit": "https://review.openstack.org/194455",
+  "IdGerrit": "194455",
+  "IdCommit": "cd45f16442b7c56c4876bef527c9c83ea0907c40",
+  "Files": [
+    "neutron/db/l3_dvr_db.py",
+    "neutron/tests/unit/db/test_l3_dvr_db.py"
+  ],
+  "Lines_Inseted": 1,
+  "Lines_Deleted": 76,
+  "CommitParent": "639f1893dde0d393a97b29ca5309dba716831a7f",
+  "Classification": "Bug",
+  "KeywordsTitle": "",
+  "Description": "",
+  "KeywordsCommit": "",
+  "Comments": ""
+}

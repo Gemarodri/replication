@@ -1,0 +1,20 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1418298",
+  "Id": "1418298",
+  "Gerrit": "https://review.openstack.org/153123",
+  "IdGerrit": "153123",
+  "IdCommit": "2db4a1accb78536cf0606addf9ca79938b408542",
+  "Files": [
+    "nova/db/sqlalchemy/migrate_repo/versions/279_fix_unique_constraint_for_compute_node.py",
+    "nova/db/sqlalchemy/models.py",
+    "nova/tests/unit/db/test_migrations.py"
+  ],
+  "Lines_Inseted": 53,
+  "Lines_Deleted": 2,
+  "CommitParent": "1cdedccf9ef04167d294e7b70c102e01388bdbf6",
+  "Classification": "Bug",
+  "KeywordsTitle": "can't restart",
+  "Description": "can't restart it again, error",
+  "KeywordsCommit": "Update, adds, fix this problem",
+  "Comments": ""
+}

@@ -1,0 +1,19 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1463214",
+  "Id": "1463214",
+  "Gerrit": "https://review.openstack.org/208573",
+  "IdGerrit": "208573",
+  "IdCommit": "48e95c2b36736d9ce1a518b8f6a8c324fd2ea7c8",
+  "Files": [
+    "cinder/tests/unit/test_nimble.py",
+    "cinder/volume/drivers/nimble.py"
+  ],
+  "Lines_Inseted": 9,
+  "Lines_Deleted": 7,
+  "CommitParent": "f2d44bc95ea871b41ecf361e544d33b1512b54de",
+  "Classification": "Bug",
+  "KeywordsTitle": "unlimited, fix ",
+  "Description": "should apply as well",
+  "KeywordsCommit": "extending, update",
+  "Comments": "new feature"
+}

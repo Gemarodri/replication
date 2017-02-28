@@ -1,0 +1,24 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1430009",
+  "Id": "1430009",
+  "Gerrit": "https://review.openstack.org/164942",
+  "IdGerrit": "164942",
+  "IdCommit": "da3d27b23b1801f917fcf8e3656ea55a9f83863e",
+  "Files": [
+    "cinder/tests/fake_vmem_client.py",
+    "cinder/tests/test_v6000_common.py",
+    "cinder/tests/test_v6000_fcp.py",
+    "cinder/tests/test_v6000_iscsi.py",
+    "cinder/volume/drivers/violin/v6000_common.py",
+    "cinder/volume/drivers/violin/v6000_fcp.py",
+    "cinder/volume/drivers/violin/v6000_iscsi.py"
+  ],
+  "Lines_Inseted": 18,
+  "Lines_Deleted": 14,
+  "CommitParent": "b8d0acbc78dcb9cf054bfb38aa0b9f7141a0af9a",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "name changed",
+  "Description": "increase clarity, was chaned, should be updated",
+  "KeywordsCommit": "Update, fixed, ",
+  "Comments": "It's a change in the name of a driver client library, it's not a bug report"
+}

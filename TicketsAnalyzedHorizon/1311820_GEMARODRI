@@ -1,0 +1,16 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1311820",
+  "Id": "1311820",
+  "Gerrit": "https://review.openstack.org/135226",
+  "IdGerrit": "135226",
+  "IdCommit": "ad1a893ee38b8db921827ed56c2ff5dfe8b88bc8",
+  "Files": "openstack_dashboard/dashboards/project/networks/workflows.py",
+  "Lines_Inseted": "3",
+  "Lines_Deleted": "3",
+  "CommitParent": "51e836967ec26300d579de15ca018df2fb6cb78a",
+  "Classification": "Bug",
+  "KeywordsTitle": "invalid",
+  "Description": "should be",
+  "KeywordsCommit": "Fixing, wrongly displayed, ",
+  "Comments": "It a bug report, there is a problem with the format and the developers of OpenStack should follow the rules, so it's a bug report of short range because the program works fine."
+}

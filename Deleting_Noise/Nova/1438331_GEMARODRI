@@ -1,0 +1,10 @@
+{
+  "Id": "1438331",
+  "IdGerrit": "169446",
+  "Files": "nova/virt/libvirt/rbd_utils.py",
+  "CommitParent": "3ce8e8f90be67fb49efd0c60e2a4f5ae9da503c5",
+  "CommitPrevious": "13e2bd02",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "13e2bd02 is responsible"
+}

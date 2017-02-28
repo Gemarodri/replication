@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1420016",
+  "Id": "1420016",
+  "Gerrit": "https://review.openstack.org/154266",
+  "IdGerrit": "154266",
+  "IdCommit": "3331a72e8266d110d63d845547a05abdd1e57350",
+  "Files": [
+    "doc/source/topics/deployment.rst"
+  ],
+  "Lines_Inseted": 7,
+  "Lines_Deleted": 1,
+  "CommitParent": "6a1e50853c780f0b79bedd6e7319e1344a72a0f3",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "fix autocomplete documentation",
+  "Description": "ssuggests, etting autocomplete by updating, default value ",
+  "KeywordsCommit": "fix, current, suggests, setting, This patch updates",
+  "Comments": ""
+}

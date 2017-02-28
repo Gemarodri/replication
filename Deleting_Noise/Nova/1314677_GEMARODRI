@@ -1,0 +1,10 @@
+{
+  "Id": "1314677",
+  "IdGerrit": "108733",
+  "Files": "nova/cells/state.py",
+  "CommitParent": "b6e5d68c666a1fa2f0dd90de47cd7ec0a2e32438",
+  "CommitPrevious": "88ab9369\n84b02ca1",
+  "Responsible": "All",
+  "N_responsible": "2",
+  "Comments": "88ab9369 is responsible\n84b02ca1 is resposnible"
+}

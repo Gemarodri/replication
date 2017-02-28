@@ -1,0 +1,10 @@
+{
+  "Id": "1441000",
+  "IdGerrit": "171079",
+  "Files": "nova/virt/libvirt/driver.py",
+  "CommitParent": "c0c7d2bd6cc726278d9a6da6deb0ce203407646e",
+  "CommitPrevious": "7dd6a4a19",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "7dd6a4a19 is responsible"
+}

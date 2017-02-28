@@ -1,0 +1,16 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1382564",
+  "Id": "1382564",
+  "Gerrit": "https://review.openstack.org/136351",
+  "IdGerrit": "136351",
+  "IdCommit": "746fb8ea7488575d1043b5d66c4fe6d16b7f9be6",
+  "Files": "nova/servicegroup/drivers/mc.py",
+  "Lines_Inseted": "5",
+  "Lines_Deleted": "1",
+  "CommitParent": "c1ef7efa6665e5ca6accfd6df9c7e45883327e4b",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "does not log, issues",
+  "Description": "does not exists,log indicates, unsuccessful, debug, success",
+  "KeywordsCommit": "service is down, didn't log, patch add a log, DEBUG",
+  "Comments": "it's a feauture, the system before did't log and after the patch they add a log"
+}

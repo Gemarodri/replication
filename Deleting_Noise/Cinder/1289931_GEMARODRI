@@ -1,0 +1,10 @@
+{
+  "Id": "1289931",
+  "IdGerrit": "182327",
+  "Files": "cinder/volume/api.py,cinder/volume/utils.py",
+  "CommitParent": "daa751a62e46befed0982c6ce16b26f080040c38",
+  "CommitPrevious": "68228eb7",
+  "Responsible": "Neither",
+  "N_responsible":"0",
+  "Comments": "68228eb7 is not responsible, The bug was caused by a migration "
+}

@@ -1,0 +1,18 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1410173",
+  "Id": "1410173",
+  "Gerrit": "https://review.openstack.org/147274",
+  "IdGerrit": "147274",
+  "IdCommit": "c2348cd6a5db99940e13eb38e2a48f8091e4ac98",
+  "Files": [
+    "openstack_dashboard/dashboards/project/networks/subnets/workflows.py"
+  ],
+  "Lines_Inseted": 0,
+  "Lines_Deleted": 2,
+  "CommitParent": "2af1512912bb3eefb846433a7ca9babb64683f4a",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": " should support update ",
+  "Description": "update not available",
+  "KeywordsCommit": "enables",
+  "Comments": ""
+}

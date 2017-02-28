@@ -1,0 +1,21 @@
+{
+  "Launchpad": "https://bugs.launchpad.net/bugs/1268480",
+  "Id": "1268480",
+  "Gerrit": "https://review.openstack.org/262560",
+  "IdGerrit": "262560",
+  "IdCommit": "f96797a006735f41a61fca9d81bec8b69d6fe33b",
+  "Files": [
+    "openstack_dashboard/dashboards/admin/overview/tests.py",
+    "openstack_dashboard/dashboards/identity/projects/tests.py",
+    "openstack_dashboard/dashboards/project/overview/tests.py",
+    "openstack_dashboard/dashboards/project/volumes/volumes/tests.py"
+  ],
+  "Lines_Inseted": 0,
+  "Lines_Deleted": 0,
+  "CommitParent": "0c2b84321e88d6aa4ecb749f7b7b2fa8d26a5566",
+  "Classification": "Not_Bug",
+  "KeywordsTitle": "tests should be replaced",
+  "Description": "tests use different, the correct way is to use",
+  "KeywordsCommit": "tests",
+  "Comments": "all files influenced are tests files "
+}

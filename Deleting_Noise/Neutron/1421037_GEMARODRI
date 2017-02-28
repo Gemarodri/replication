@@ -1,0 +1,10 @@
+{
+  "Id": "1421037",
+  "IdGerrit": "156198",
+  "Files": "neutron/services/metering/drivers/iptables/iptables_driver.py",
+  "CommitParent": "361bf4d1dcd52197184c24be5246da1282415d1d",
+  "CommitPrevious": "3f44c9e2\ne19178e1",
+  "Responsible": "Atleastone",
+  "N_responsible": "1",
+  "Comments": "3f44c9e2 is not responsible , is an importation and the current commit delete one of the importations.\ne19178e1 is responsible"
+}

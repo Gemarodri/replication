@@ -1,0 +1,10 @@
+{
+  "Id": "1410622",
+  "IdGerrit": "152112",
+  "Files": "nova/api/ec2/__init__.py",
+  "CommitParent": "0eee9cbfa720c94ba11683d349f4dcc64a8f4672",
+  "CommitPrevious": "f7b1af9e",
+  "Responsible": "Responsible",
+  "N_responsible": "1",
+  "Comments": "f7b1af9e is responsible"
+}
