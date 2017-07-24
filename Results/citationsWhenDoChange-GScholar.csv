@@ -1,0 +1,490 @@
+﻿Authors,Title,Publication,Volume,Number,Pages,Year,Publisher
+"Oyetoyan, Tosin Daniel; Conradi, Reidar; Cruzes, Daniela Soares; ",Criticality of defects in cyclic dependent components,"Source Code Analysis and Manipulation (SCAM), 2013 IEEE 13th International Working Conference on",,,21-30,2013,IEEE
+"Ayewah, Nathaniel; Pugh, William; ",Learning from defect removals,2009 6th IEEE International Working Conference on Mining Software Repositories,,,179-182,2009,IEEE
+"Meneely, Andrew; Srinivasan, Harshavardhan; Musa, Ayemi; Tejeda, Alberto Rodríguez; Mokary, Matthew; Spates, Brian; ",When a patch goes bad: Exploring the properties of vulnerability-contributing commits,2013 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement,,,65-74,2013,IEEE
+"Tantithamthavorn, Chakkrit; Teekavanich, Rattamont; Ihara, Akinori; Matsumoto, Ken-ichi; ",Mining A change history to quickly identify bug locations: A case study of the Eclipse project,"Software Reliability Engineering Workshops (ISSREW), 2013 IEEE International Symposium on",,,108-113,2013,IEEE
+"Mauczka, Andreas; Schanes, Christian; Fankhauser, Florian; Bernhart, Mario; Grechenig, Thomas; ",Mining security changes in FreeBSD,2010 7th IEEE Working Conference on Mining Software Repositories (MSR 2010),,,90-93,2010,IEEE
+"Romo, Bilyaminu Auwal; Capiluppi, Andrea; Hall, Tracy; ",Filling the gaps of development logs and bug issue data,Proceedings of The International Symposium on Open Collaboration,,,8,2014,ACM
+"李宁; 李战怀; ",软件缺陷数据处理研究综述,计算机科学,36,8,21-25,2009,
+"Wang, Shaohua; Khomh, Foutse; Zou, Ying; ",Improving bug management using correlations in crash reports,Empirical Software Engineering,21,2,337-367,2016,Springer
+"Khomh, Foutse; Adams, Bram; Dhaliwal, Tejinder; Zou, Ying; ",Understanding the impact of rapid releases on software quality,Empirical Software Engineering,20,2,336-373,2015,Springer
+"Canfora, Gerardo; Lucia, Andrea De; Penta, Massimiliano Di; Oliveto, Rocco; Panichella, Annibale; Panichella, Sebastiano; ",Defect prediction as a multiobjective optimization problem,"Software Testing, Verification and Reliability",25,4,426-459,2015,Wiley Online Library
+"Massacci, Fabio; Nguyen, Viet Hung; ",An empirical methodology to evaluate vulnerability discovery models,IEEE Transactions on Software Engineering,40,12,1147-1162,2014,IEEE
+"Hall, Tracy; Bowes, David; Liebchen, Gernot; Wernick, Paul; ",Evaluating three approaches to extracting fault data from software change repositories,International Conference on Product Focused Software Process Improvement,,,107-115,2010,Springer
+"VanHilst, Michael; Huang, Shihong; Lindsay, Hugh; ",Process analysis of a waterfall project using repository data,International Journal of Computers and Applications,33,1,49-56,2011,Taylor & Francis
+"Liang, Guangtai; Wang, Qianxiang; Xie, Tao; Mei, Hong; ",Inferring project-specific bug patterns for detecting sibling bugs,Proceedings of the 2013 9th Joint Meeting on Foundations of Software Engineering,,,565-575,2013,ACM
+"Jung, Yungbum; Oh, Hakjoo; Yi, Kwangkeun; ",Identifying static analysis techniques for finding non-fix hunks in fix revisions,Proceedings of the ACM first international workshop on Data-intensive software management and mining,,,13-18,2009,ACM
+"Kawrykow, David; ",Enabling precise interpretations of software change data,,,,,2011,McGill University
+"Sun, Xiaobing; Li, Bin; Li, Yun; Chen, Ying; ",What information in software historical repositories do we need to support software maintenance tasks? an approach based on topic model,Computer and Information Science,,,27-37,2015,Springer
+"Jaafar, Fehmi; Guéhéneuc, Yann-Gaël; Hamel, Sylvie; Khomh, Foutse; ",Mining the relationship between anti-patterns dependencies and fault-proneness.,WCRE,,,351-360,2013,
+"Nugroho, Ariadi; Chaudron, Michel RV; ",The impact of UML modeling on defect density and defect resolution time in a proprietary system,Empirical Software Engineering,19,4,926-954,2014,Springer
+"Mockus, Audris; ",Domain-specific defect models,"International Workshop on Defects in Large Software System, Seattle, WA",,,,2008,
+"Vivanco, Rodrigo; ",Improving predictive models of software quality using search-based metric selection and decision trees,,,,,2010,University of Manitoba
+"Kim, Youngsoo; Jiang, Lingxiao; ",The Learning Curves in Open-Source Software (OSS) Development Network,Proceedings of the Sixteenth International Conference on Electronic Commerce,,,41,2014,ACM
+"BOEHME, MARCEL; ",Automated Regression Testing and Verification of Complex Code Changes,,,,,2014,
+"Çaglayan, Bora; Bener, Ayşe Başar; ",Effect of developer collaboration activity on software quality in two large scale projects,Journal of Systems and Software,118,,288-296,2016,Elsevier
+"Poley, Henk; ",The Promises and Perils of Mining Ohloh. net,,,,,,
+"Ruohonen, Jukka; Hyrynsalmi, Sami; Leppänen, Ville; ",Time series trends in software evolution,Journal of Software: Evolution and Process,27,12,990-1015,2015,Wiley Online Library
+"Davies, Steven; Roper, Marc; Wood, Murray; ",Strathprints Institutional Repository,,,,,2011,
+"Tóth, Zoltán; Gyimesi, Péter; Ferenc, Rudolf; ",A Public Bug Database of GitHub Projects and Its Application in Bug Prediction,International Conference on Computational Science and Its Applications,,,625-638,2016,Springer
+"Hora, André Cavalcante; ",Assessing and Improving Rules to Support Software Evolution,,,,,2014,Université Lille 1-Sciences et Technologies
+"Yang, Cheng-Zen; Chen, Xiang; Fan-Chiang, Chin-Sung; ",Exploiting Module Locality to Improve Software Fault Prediction,"Parallel and Distributed Processing with Applications Workshops (ISPAW), 2011 Ninth IEEE International Symposium on",,,342-347,2011,IEEE
+"Stojanov, Zeljko; Dobrilovic, Dalibor; Stojanov, Jelena; Jevtic, Vesna; ",Estimating Software Maintenance Effort by Analyzing Historical Data in a Very Small Software Company,"Scientific Bulletin of The “Politehnica” University of Timişoara, Transactions on Automatic Control and Computer Science",58,2,131-138,2013,
+"Mauša, Goran; ",Improvement of Software Defect Prediction Methods Based On Machine Learning,,,,,2016,"Fakultet elektrotehnike i računarstva, Sveučilište u Zagrebu"
+"Kagdi, Huzefa H; ",Towards Source Code Aware Mining of Software Repositories,,,,,,
+"Illes-Seifert, Timea Monika; ",Justified test foci definition an empirical approach,,,,,2011,
+"Venkatasubramanyam, Radhika D; Gupta, Shrinath; ",An automated approach to detect violations with high confidence in incremental code using a learning system,Companion Proceedings of the 36th International Conference on Software Engineering,,,472-475,2014,ACM
+"Fejzer, Mikołaj; Wojtyna, Michał; Burzańska, Marta; Wiśniewski, Piotr; Stencel, Krzysztof; ",Supporting Code Review by Automatic Detection of Potentially Buggy Changes,"International Conference: Beyond Databases, Architectures and Structures",,,473-482,2015,Springer
+"Do, Thanh D; ",Towards Reliable Cloud Systems,,,,,2014,University of Wisconsin-Madison
+"Shippey, Thomas; Hall, Tracy; Counsell, Steve; Bowes, David; ",So You Need More Method Level Datasets for Your Software Defect Prediction?: Voilà!,Proceedings of the 10th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement,,,12,2016,ACM
+"Kagdi, Huzefa; Maletic, Jonathan I; ",Mining Traceability Links,,,,,,
+"Martinsson, Christoffer; ",Requirements Specifications Simplified and Adapted,,,,,2008,
+"Zhang, Feng; ",Towards Generalizing Defect Prediction Models,,,,,2016,Canadian theses
+"Jongyindee, Anakorn; Ohira, Masao; Ihara, Akinori; Matsumoto, Ken-ichi; ",A Case Study of Committers’ Activities on the Bug Fixing Process in the Eclipse Project,International Workshop on Empirical Software Engineering in Practice 2011 (IWESEP 2011),,,9,,
+"Mizuno, Osamu; Hata, Hideaki; ",A metric to detect fault-prone software modules using text filtering,International Journal of Reliability and Safety,7,1,17-31,2013,Inderscience Publishers Ltd
+"Bird, Christian; Nagappan, Nachiappan; Murphy, Brendan; Gall, Harald; Devanbu, Premkumar; ","An Analysis of the Effect of Code Ownership on Software Quality across Windows, Eclipse, and Firefox",,,,,,
+"Cook, Devin; Choe, Yung Ryn; Hamilton Jr, John A; ",Finding bugs in source code using commonly available development metadata,8th Workshop on Cyber Security Experimentation and Test (CSET 15),,,,2015,
+"IZQUIERDO-CORTAZAR, Daniel; ",Software Engineering Artifact in Software Development Process-Linkage Between Issues and Code Review Processes,"New Trends in Software Methodologies, Tools and Techniques: Proceedings of the Fifteenth SoMeT_16",286,,115,2016,IOS Press
+"Monden, Akito; Keung, Jacky; Morisaki, Shuji; Kamei, Yasutaka; Matsumoto, Ken-ichi; ",A Heuristic Rule Reduction Approach to Software Fault-proneness Prediction,2012 19th Asia-Pacific Software Engineering Conference,1,,838-847,2012,IEEE
+"Yang, Haoyu; Wang, Chen; Shi, Qingkai; Feng, Yang; Chen, Zhenyu; ",Bug Inducing Analysis to Prevent Fault Prone Bug Fixes.,SEKE,,,620-625,2014,
+"Thompson, C Albert; Murphy, Gail C; Palyart, Marc; Gašparič, Marko; ",How software developers use work breakdown relationships in issue repositories,Proceedings of the 13th International Workshop on Mining Software Repositories,,,281-285,2016,ACM
+"Hirohisa, AMAN; Amasaki, Sousuke; Sasaki, Takashi; Kawahara, Minoru; ",Lines of Comments as a Noteworthy Metric for Analyzing Fault-Proneness in Methods,IEICE TRANSACTIONS on Information and Systems,98,12,2218-2228,2015,"The Institute of Electronics, Information and Communication Engineers"
+"Zhang, Yi; Whitehead, E; Kim, Sunghun; ",Classifying Software Changes: Clean or Buggy?,,,,,2008,the IEEE Computer Society
+"Melo, Jean Carlos de Carvalho; ",Modular Reasoning For Software Product Lines With Emergent Feature Interfaces,,,,,2014,Universidade Federal de Pernambuco
+"Ray, Baishakhi; ",Analysis of cross-system porting and porting errors in software projects,,,,,2013,
+"Rodriguez, Gema; Gonzalez-Barahona, Jesus M; Robles, Gregorio; Sekitoleko, Nelson; Dalipaj, Dorealda; ",BugTracking: A tool to assist in the identification of bug reports,,,,,,
+"Bomersbach, Agnieszka; ",Data Mining of Source Code Changes,,,,,,
+"Thung, Ferdian; Lo, David; Jiang, Lingxiao; ",Diffusion of Software Features: An Exploratory Study,2012 19th Asia-Pacific Software Engineering Conference,1,,368-373,2012,IEEE
+"Thung, Ferdian; Lo, David; Jiang, Lingxiao; Rahman, Foyzur; Devanbu, Premkumar T; ",To what extent could we detect field defects? An extended empirical study of false negatives in static bug-finding tools,Automated Software Engineering,22,4,561-602,2015,Springer
+"Pinhey, Graham; ",Bug-Introducing Changes: A Case Study with Chrome,,,,,,
+"Rana, Rakesh; Staron, Miroslaw; ",When Do Software Issues and Bugs get Reported in Large Open Source Software Project?,,,,,,
+"David, Zhongxian Gu Earl T Barr; Su, J Hamilton Zhendong; ",Has the Bug Really Been Fixed?,,,,,2010,
+"Tufano, Michele; Bavota, Gabriele; Poshyvanyk, Denys; Di Penta, Massimiliano; Oliveto, Rocco; De Lucia, Andrea; ",An empirical study on developer‐related factors characterizing fix‐inducing commits,Journal of Software: Evolution and Process,,,,2016,Wiley Online Library
+"Hassan, Ahmed E; ",The Impact of Classifier Configuration and Classifier Combination on Bug Localization,,,,,,
+"Home, FEB; Hall, Tracy; Bowes, David; Counsell, Steve; Shippey, Thomas; Petric, Jean; ",Home Research,,,,,,
+"Cavezza, Davide Giacomo; Pietrantuono, Roberto; Russo, Stefano; ",Performance of defect prediction in rapidly evolving software,"Release Engineering (RELENG), 2015 IEEE/ACM 3rd International Workshop on",,,8-11,2015,IEEE
+"Fujiwara, Shin; Hata, Hideaki; Monden, Akito; Matsumoto, Kenichi; ",Bug report recommendation for code inspection,"Software Analytics (SWAN), 2015 IEEE 1st International Workshop on",,,9-12,2015,IEEE
+"Yamashita, Kazuhiro; Huang, Changyun; Nagappan, Meiyappan; Kamei, Yasutaka; Mockus, Audris; Hassan, Ahmed E; Ubayashi, Naoyasu; ",Thresholds for Size and Complexity Metrics: A Case Study from the Perspective of Defect Density,"Software Quality, Reliability and Security (QRS), 2016 IEEE International Conference on",,,191-201,2016,IEEE
+"Jiang, Lu; Zhang, Zhiyi; Zhao, Zhihong; ",AST Based JAVA Software Evolution Analysis,"Web Information System and Application Conference (WISA), 2013 10th",,,180-183,2013,IEEE
+"Yuan, Zi; Yu, Lili; Liu, Chao; ",Bug Prediction for Fine-Grained Source Code Changes.,SEKE,,,381-387,2013,
+"da Costa, Daniel Alencar; Kulesza, Uirá; Aranha, Eduardo; Coelho, Roberta; ",Unveiling developers contributions behind code commits: an exploratory study,Proceedings of the 29th Annual ACM Symposium on Applied Computing,,,1152-1157,2014,ACM
+"Bettenburg, Nicolas; Adams, Bram; Hassan, Ahmed E; Smidt, Michel; ",A Lightweight Approach to Uncover Technical Information in Unstructured Data,,,,,,Citeseer
+"Dumitras, Tudor; Narasimhan, Priya; Tilevich, Eli; ",To Upgrade or Not to Upgrade,,,,,2010,
+"Yang, Yibiao; Zhou, Yuming; Liu, Jinping; Zhao, Yangyang; Lu, Hongmin; Xu, Lei; Xu, Baowen; Leung, Hareton; ",Effort-aware just-in-time defect prediction: simple unsupervised models could be better than supervised models,Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering,,,157-168,2016,ACM
+"Elmishali, Amir; Stern, Roni; Kalech, Meir; ",Data-Augmented Software Diagnosis,,,,,,
+"Syer, Mark D; Adams, Bram; Hassan, Ahmed E; ",On the Use of Survival Analysis for Defect Modelling: A Case Study of the Eclipse Project,,,,,,
+"Ferzund, Javed; Ahsan, Syed Nadeem; Wotawa, Franz; ",Bug-Inducing Language Constructs,2009 16th Working Conference on Reverse Engineering,,,155-159,2009,IEEE
+"Kouroshfar, Ehsan; ",An Empirical Study of the Interplay between Architecture and Software Quality using Evolutionary History of Software,,,,,2016,George Mason University
+"Mauša, Goran; Grbac, Tihana Galinac; Bašić, Bojana Dalbelo; ",A Systematic Data Collection Procedure for Software Defect Prediction,Computer Science and Information Systems,,Online first,1-24,2016,
+"Hosseini, Seyedrebvar; Turhan, Burak; Mäntylä, Mika; ",Search Based Training Data Selection For Cross Project Defect Prediction,Proceedings of the The 12th International Conference on Predictive Models and Data Analytics in Software Engineering,,,3,2016,ACM
+"Yu, Yue; Vasilescu, Bogdan; Wang, Huaimin; Filkov, Vladimir; Devanbu, Premkumar; ",Initial and Eventual Software Quality Relating to Continuous Integration in GitHub,arXiv preprint arXiv:1606.00521,,,,2016,
+"Miura, Keisuke; McIntosh, Shane; Kamei, Yasutaka; Hassan, Ahmed E; Ubayashi, Naoyasu; ",The Impact of Task Granularity on Co-evolution Analyses,Proceedings of the 10th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement,,,47,2016,ACM
+"Di Nucci, Dario; Palomba, Fabio; Siravo, Sandro; Bavota, Gabriele; Oliveto, Rocco; De Lucia, Andrea; ",On the role of developer's scattered changes in bug prediction,"Software Maintenance and Evolution (ICSME), 2015 IEEE International Conference on",,,241-250,2015,IEEE
+"Taipale, Taneli; ",IMPROVING SOFTWARE QUALITY WITH SOFTWARE ERROR PREDICTION,,,,,2015,
+"Mori, Keita; Mizuno, Osamu; ",An Implementation of Just-in-Time Fault-Prone Prediction Technique Using Text Classifier,"Computer Software and Applications Conference (COMPSAC), 2015 IEEE 39th Annual",3,,609-612,2015,IEEE
+"Bowes, David; Hall, Tracy; Harman, Mark; Jia, Yue; Sarro, Federica; Wu, Fan; ",Mutation-Aware Fault Prediction,,,,,,
+"Zimmermann, Thomas; ",Learning from Project History to Support Programmers.,GI Jahrestagung (1),,,387-390,2005,
+"Guerrouj, Latifa; Kermansaravi, Zeinab; Arnaoudova, Venera; Fung, Benjamin CM; Khomh, Foutse; Antoniol, Giuliano; Guéhéneuc, Yann-Gaël; ",Investigating the relation between lexical smells and change-and fault-proneness: an empirical study,Software Quality Journal,,,1-30,,Springer
+"Shivaji, Shivkumar; ",DOCTOR OF PHILOSOPHY in COMPUTER SCIENCE,,,,,2013,Citeseer
+"Ma, David; ",Are Developers Predictive of Defects?,Applied Machine Learning,,,70,2009,
+"Wang, Linlin; ",Implementation and Evaluation of an Automatic Recommender for Integration,,,,,,
+"Amann, Sven; Beyer, Stefanie; Kevic, Katja; Gall, Harald; ","Software Mining Studies: Goals, Approaches, Artifacts, and Replicability",Software Engineering,,,121-158,2015,Springer
+"Johnson, Steven; Welch, Zach; ",Bad Commit Smells,,,,,2013,Citeseer
+"Glinz, Martin; ",Software Quality,,,,,2014,
+"Dai, Meixi; Shen, Beijun; Zhang, Tao; Zhao, Min; ",Impact of consecutive changes on later file versions,Proceedings of the 2014 3rd International Workshop on Evidential Assessment of Software Technologies,,,17-24,2014,ACM
+"MUJTABA, GHULAM; MAHMOOD, DR TARIQ; NASIR, ZAFAR; ",A QUALITATIVE APPROACH TO DEFECT FIXATION IN SOFTWARE MAINTENANCE,,,,,,
+"Chanchal, Muhammad Asaduzzaman Michael C Bullock; Schneider, K Roy Kevin A; ",Bug Introducing Changes: A Study with Android,,,,,,
+"Prechelt, Lutz; Pepper, Alexander; ",bflinks: Reliable Bugfix links via bidirectional references and tuned heuristics,International Scholarly Research Notices,2014,,,2014,Hindawi Publishing Corporation
+"Jongyindee, Anakorn; Ohira, Masao; Ihara, Akinori; Matsumoto, Ken-ichi; ",Good or Bad Committers?––A Case Study of Committer's Activities on the Eclipse's Bug Fixing Process,IEICE TRANSACTIONS on Information and Systems,95,9,2202-2210,2012,"The Institute of Electronics, Information and Communication Engineers"
+"Gupta, Varuna; Ganeshan, N; Singhal, Tarun Kumar; ",Determining the root causes of various software bugs through software metrics,"Computing for Sustainable Global Development (INDIACom), 2015 2nd International Conference on",,,1211-1215,2015,IEEE
+"Wen, Ming; Wu, Rongxin; Cheung, Shing-Chi; ",Locus: locating bugs from software changes,Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering,,,262-273,2016,ACM
+"Князев, Евгений Геннадьевич; ",Автоматизированная классификация изменений исходного кода на основе кластеризации метрик в процессе разработки программного обеспечения,,,,,2009,Диссертация на соискание ученой степени кандидата технических наук
+"Lischkowitz, Christoph; ",Erweiterung von BugzillaMetrics zur Auswertung von Daten aus Versionskontrollsystemen,,,,,2008,"Diplomarbeit, RWTH Aachen University"
+"王辉; 杜庆峰; ",基于软件信息库挖掘的软件缺陷预测方法,计算机工程与设计,33,8,3094-3098,2012,
+"Jureczko, Marian; ",Metody zarządzania zapewnianiem jakości oprogramowania wykorzystujące modele predykcji defektów,"Dysertacja doktorska, Politechnika Wrocławska, Wrocław",,,,2011,
+"von Luxburg, Leonie; Fischer, Ulrike; Dreschler, Ingrid; ",Extracting Evidence of a Software Project Extrayendo Evidencias de un Proyecto Software,,,,,2015,
+"Cao, Yaxin; ","Investigating the Impact of Personal, Temporal and Participation Factors on Code Review Quality",,,,,2015,
+"Ohira, Masao; Koyama, Kiwako; Ihara, Akinori; Matsumoto, Shinsuke; Kamei, Yasutaka; Matsumoto, Ken-ichi; ",A Time-Lag Analysis toward Improving the Efficiency of Communications among OSS Developers,Supporting Knowledge Collaboration in Software Development,,,49,2009,Citeseer
+"Bettenburg, Nicolas; ",Studying the Impact of Developer Communication on the Quality and Evolution of a Software System,,,,,2014,Queen’s University
+"Green, Pamela Dilys; ",Extracting group relationships within changing software using text analysis,,,,,2013,University of Hertfordshire
+"Luijten, BJH; ",The Inﬂuence of Software Maintainability on Issue Handling,,,,,2010,"TU Delft, Delft University of Technology"
+"Chen, Tse-Hsun; Shang, Weiyi; Nagappan, Meiyappan; Hassan, Ahmed E; Thomas, Stephen W; ",Topic-based software defect explanation,Journal of Systems and Software,,,,2016,Elsevier
+"Taylor, Quinn C; ",Analysis and Characterization of Author Contribution Patterns in Open Source Software Development,,,,,2012,Brigham Young University
+"Gawęda, Tomasz; Nestorowicz, Ewa; Wołk, Oskar; Madeyski, Lech; Majchrzak, Marek; ",How to Improve Linking Between Issues and Commits for the Sake of Software Defect Prediction?,,,,,,
+"Demir, Melih; ",Predicting Component Failures at Early Design Time,,,,,2006,Saarland University
+"Hindle, Abram; ",Software Process Recovery,,,,,2009,
+"Alhindawi, Nouh Talal; ",Supporting Source Code Comprehension During Software Evolution and Maintenance,,,,,2013,Kent State University
+"Inozemtseva, Laura; ",Understanding the software fault introduction process,2015 IEEE/ACM 37th IEEE International Conference on Software Engineering,2,,843-846,2015,IEEE
+"Nguyen, Viet Hung; ",THE EVOLUTION OF SOFTWARE VULNERABILITIES,,,,,,
+"Anquetil, Nicolas; ",PREDICTING SOFTWARE DEFECTS WITH CAUSALITY TESTS,,,,,2013,
+"Negara, Stanislav; ",Towards a change-oriented programming environment,,,,,2013,University of Illinois at Urbana-Champaign
+"López, Lara; Trujillo, Alejandra; Pezuela, Clara; Ortega, Felipe; Panagiotou, Dimitris; Leban, Gregor; ",As-Is and To-Be Analysis,Materials Performance,,,,2012,
+"Mukala, Patrick; Cerone, Antonio; Turini, Franco; ",Process mining event logs from FLOSS data: state of the art and perspectives,International Conference on Software Engineering and Formal Methods,,,182-198,2014,Springer
+"Inozemtseva, Laura; Hemmati, Hadi; Holmes, Reid; ",Using fault history to improve mutation reduction,Proceedings of the 2013 9th Joint Meeting on Foundations of Software Engineering,,,639-642,2013,ACM
+"Neuhaus, Stephan; ",Repeating the past experimental and empirical methods in system and software security,,,,,2010,
+"Duala-Ekoko, Ekwa; Robillard, Martin P; ",A detailed examination of the correlation between imports and failure-proneness of software components,Proceedings of the 2009 3rd International Symposium on Empirical Software Engineering and Measurement,,,34-43,2009,IEEE Computer Society
+"Schermann, Gerald; Brandtner, Martin; Panichella, Sebastiano; Leitner, Philipp; Gall, Harald; ",Discovering loners and phantoms in commit and issue data,Proceedings of the 2015 IEEE 23rd International Conference on Program Comprehension,,,4-14,2015,IEEE Press
+"Ray, Baishakhi; Hellendoorn, Vincent; Godhane, Saheel; Tu, Zhaopeng; Bacchelli, Alberto; Devanbu, Premkumar; ",On the naturalness of buggy code,Proceedings of the 38th International Conference on Software Engineering,,,428-439,2016,ACM
+"Shippey, Thomas Joshua; ",Exploiting Abstract Syntax Trees to Locate Software Defects,,,,,2015,University of Hertfordshire
+"Devanbu, Prem; Zimmermann, Thomas; Bird, Christian; ",Belief & evidence in empirical software engineering,Proceedings of the 38th International Conference on Software Engineering,,,108-119,2016,ACM
+"Tourani, Parastou; Adams, Bram; ",The Impact of Human Discussions on Just-in-Time Quality Assurance: An Empirical Study on OpenStack and Eclipse,"2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",1,,189-200,2016,IEEE
+"Edwards, Alex; Tucker, Sean; Worms, Sébastien; Vaidya, Rahul; Demsky, Brian; ",AFID: an automated fault identification tool,Proceedings of the 2008 international symposium on Software testing and analysis,,,179-188,2008,ACM
+"Yu, Yue; Yin, Gang; Wang, Tao; Yang, Cheng; Wang, Huaimin; ",Determinants of pull-based development in the context of continuous integration,Science China Information Sciences,59,8,080104,2016,Springer
+"Xia, Xin; Shihab, Emad; Kamei, Yasutaka; Lo, David; Wang, Xinyu; ",Predicting crashing releases of mobile applications,Proceedings of the 10th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement,,,29,2016,ACM
+"Hemmati, Hadi; Nagappan, Meiyappan; Hassan, Ahmed E; ",Investigating the effect of “defect co-fix” on quality assurance resource allocation: A search-based approach,Journal of Systems and Software,103,,412-422,2015,Elsevier
+"Shao, Danhua; Khurshid, Sarfraz; Perry, Dewayne E; ",Predicting Faults from Direct Semantic Interference: An Evaluative Experiment,,,,,2007,January
+"Pinto, Felipe Alves Pereira; ",An automated approach for performance deviation analysis of evolving software systems,,,,,2015,Universidade Federal do Rio Grande do Norte
+"Shivaji, Shivkumar; ",Efficient bug prediction and fix suggestions,,,,,2013,
+"Babic, Djuradj; ",Adaptive software fault prediction approach using object-oriented metrics,,,,,2012,
+"Kramp, M; ",Entwicklung eines Werkzeugs zur Extraktion von Mustern aus Software-Archiven zur Quellcode-Optimierung,"Bachelorarbeit, Friedrich-Alexander-Universität Erlangen-Nürnberg, Department Informatik",6,,2012,2012,
+"Xiang, CHEN; Chien-Hung, LI; Cheng-Zen, YANG; ",Mining co-location relationships among bug reports to localize fault-prone modules,IEICE TRANSACTIONS on Information and Systems,93,5,1154-1161,2010,"The Institute of Electronics, Information and Communication Engineers"
+"Koponen, Timo; ",Evaluation of Maintenance Processes in Open Source Software Projects Through Defect and Version Management Systems,,,,,2007,University of Kuopio
+"An, Le; Khomh, Foutse; ",An Empirical Study of Highly Impactful Bugs in Mozilla Projects,"Software Quality, Reliability and Security (QRS), 2015 IEEE International Conference on",,,262-271,2015,IEEE
+"Davies, Steven; Roper, Marc; Wood, Murray; ",A preliminary evaluation of text-based and dependency-based techniques for determining the origins of bugs,2011 18th Working Conference on Reverse Engineering,,,201-210,2011,IEEE
+"Cavalcanti, Diego; Guerrero, Dalton; Figueiredo, Jorge; ",A Case Study on the Similarity Between Source Code and Bug Reports Vocabularies,"Software Practices laboratory (SPLab) Universidade Federal de Campina Grande–Campina Grande, PB–Brasil",,,,2011,
+"Izquierdo-Cortazar, Daniel; Capiluppi, Andrea; Gonzalez-Barahona, Jesus M; ",Are developers fixing their own bugs?: Tracing bug-fixing and bug-seeding committers,,,,,2011,IGI Global
+"Wang, Wei; Ding, Xuan; Li, Chunping; Wang, Hui; ",A Novel Evaluation Method for Defect Prediction in Software Systems,"Computational Intelligence and Software Engineering (CiSE), 2010 International Conference on",,,1-5,2010,IEEE
+"Romo, Bilyaminu Auwal; Capiluppi, Andrea; ",Towards an automation of the traceability of bugs from development logs: a study based on open source software,Proceedings of the 19th International Conference on Evaluation and Assessment in Software Engineering,,,33,2015,ACM
+"Martinez, Matias; ",Extraction and analysis of knowledge for automatic software repair,,,,,2014,Université Lille 1
+"De Swart, Jerry; ",Selecting bug-prone components to study the effectiveness of reengineering and unit testing,,,,,2013,"TU Delft, Delft University of Technology"
+"Oyetoyan, Tosin Daniel; Conradi, Reidar; Cruzes, Daniela Soares; ",A Comparison of Different Defect Measures to Identify Defect-Prone Components,"Software Measurement and the 2013 Eighth International Conference on Software Process and Product Measurement (IWSM-MENSURA), 2013 Joint Conference of the 23rd International Workshop on",,,181-190,2013,IEEE
+"Tan, Shin Hwei; Yoshida, Hiroaki; Prasad, Mukul R; Roychoudhury, Abhik; ",Anti-patterns in search-based program repair,Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering,,,727-738,2016,ACM
+"Steff, Maximilian; Russo, Barbara; ",Characterizing the roles of classes and their fault-proneness through change metrics,Proceedings of the 2012 ACM-IEEE International Symposium on Empirical Software Engineering and Measurement,,,59-68,2012,IEEE
+"Izquierdo-Cortázar, Daniel; Robles, Gregorio; González-Barahona, Jesús M; ",Do more experienced developers introduce fewer bugs?,IFIP International Conference on Open Source Systems,,,268-273,2012,Springer
+"Mizuno, Osamu; Nakai, Michi; ",Can faulty modules be predicted by warning messages of static code analyzer?,Advances in Software Engineering,2012,,4,2012,Hindawi Publishing Corp.
+"Marinescu, Paul Dan; ",Transparently improving regression testing using symbolic execution,,,,,2013,Imperial College London
+"伊原彰紀; 松本健一; ",OSS プロジェクトにおけるユーザ用メーリングリストの実態調査,研究報告グループウェアとネットワークサービス (GN),2013,5,1-6,2013,
+"Glinz, Martin; ",Software-Qualität–Ausgewählte Kapitel,,,,,2007,
+"伏田享平; 飯田元; ",チュートリアルシリーズ 『ソフトウェア工学の実証的アプローチ』 第 3 回 ソフトウェアプロセスのモデリングとそれに基づく管理手法,コンピュータ ソフトウェア,29,1,1_61-1_74,2012,Japan Society for Software Science and Technology
+"Foucault, Matthieu; ",Organisation des développeurs open-source et fiabilité logicielle,,,,,2015,Université de Bordeaux
+"MAUDER, MARKUS; ",AUTOMATISCHES ABSCHATZEN DER FEHLERHAUFIGKEIT IN PROGRAMMCODE,,,,,,
+"Lorenz, Knut; ",Identifizierung von Refactorings in historischen Prozessdaten,,,,,2008,
+"Sablatschan, Michael; ",Fehlervorhersage in Softwareprojekten basierend auf historischen Daten,Facetten des Software Testens,,,22,,
+"内宮秀明; 小形真平; 海尻賢二; ",Method Mining に基づく error-prone モジュールの予測,バイオメディカル・ファジィ・システム学会誌,16,2,45-58,2014,バイオメディカル・ファジィ・システム学会
+"Jekutsch, Sebastian; ",Promotionsvorhaben: Mikroprozessanalysen von Fehlerverhaltensmustern beim Programmieren,,,,,2006,
+"原子; 于莉莉; 刘超; ",面向细粒度源代码变更的缺陷预测方法,软件学报,25,11,2499-2517,2014,
+"Illes-Seifert, Timea Monika; ",Justified test foci definition an empirical approach Systematische Auswahl des Testfocus ein empirischer Ansatz,,,,,,
+"陈翔; 顾庆; 刘望舒; 刘树龙; 倪超; ",静态软件缺陷预测方法研究,Journal of Software,27,1,,2016,
+"門田暁人; 伊原彰紀; 松本健一; ",『ソフトウェア工学の実証的アプローチ』 シリーズ第 5 回 ソフトウェアリポジトリマイニング,コンピュータ ソフトウェア,30,2,2_52-2_65,2013,日本ソフトウェア科学会
+"畑秀明; 水野修; 菊野亨; ",開発履歴メトリクスを用いた細粒度な Fault-prone モジュール予測,情報処理学会論文誌,53,6,1635-1643,2012,情報処理学会
+"水野修; ",Fault-proneness Filtering--スパムフィルタに基づく不具合混入ソフトウェアモジュールの予測手法,生産と技術,61,1,38-43,2009,生産技術振興協会
+"van der Beek, M; van Buuren, A; Pingen, R; van Paridon, O; ",Mining Software Repositories en Bug Databases,,,,,,
+"西川朋希; 門田暁人; 森崎修司; 松本健一; ",fault-prone モジュール判別のための相関ルールの絞り込み,研究報告ソフトウェア工学 (SE),2011,20,1-6,2011,情報処理学会
+"亀井靖高; 門田暁人; 松本健一; ",開発者メトリックスに基づくソフトウェア信頼性の分析,電子情報通信学会論文誌 D,93,8,1576-1589,2010,"The Institute of Electronics, Information and Communication Engineers"
+"吉岡一樹; 岡野浩三; 楠本真二; ",契約記述の変更傾向の開発履歴情報を用いた調査,"電子情報通信学会技術研究報告. SS, ソフトウェアサイエンス",112,458,121-126,2013,一般社団法人電子情報通信学会
+"藤原賢二; 伏田享平; 吉田則裕; 飯田元; ",ソースコード履歴情報に基づくリファクタリングと欠陥の関係分析,平成 22 年度情報処理学会関西支部支部大会講演論文集,2010,,,2010,
+"Ahmad, Aakash; Jamshidi, Pooyan; Pahl, Claus; Khaliq, Fawad; ",Special Issue of the First Workshop on Patterns Promotion and Anti-patterns Prevention (PPAP 2013),Electronic Communications of the EASST,59,,,2013,Citeseer
+"Ando, Reou; Sato, Seiji; Uchida, Chihiro; Washizaki, Hironori; Fukazawa, Yoshiaki; Inoue, Sakae; Ono, Hiroyuki; Hanai, Yoshiiku; Kanazawa, Masanobu; Sone, Kazutaka; ",How Does Defect Removal Activity of Developer Vary with Development Experience?,,,,,,
+"Vibhav Garg, V; Zimmermann, T; Sherwood, K; Eaddy, M; Murphy, G; ","Crosscutting concerns, fault proneness, feature location, requirements traceability, mining software repositories, metrics, statistical analysis, empirical software engineering, open source software.",,,,,2008,the IEEE Computer Society.
+"Khurshid, Sarfraz; Perry, Dewayne E; Person, Suzette; ",Analysis of Cross-System Porting and Porting Errors in Software Projects,,,,,,
+"Hellendoorn, VJ; ","Empirical Software Linguistics: An Investigation of Code Reviews, Recommendations and Faults",,,,,2015,"TU Delft, Delft University of Technology"
+"da Costa, Daniel Alencar; McIntosh, Shane; Shang, Weiyi; Kulesza, Uira; Coelho, Roberta; Hassan, Ahmed; ",A Framework for Evaluating the Results of the SZZ Approach for Identifying Bug-Introducing Changes,IEEE Transactions on Software Engineering,,,,2016,IEEE
+"Yamada, Akihisa; Mizuno, Osamu; ",A Text Filtering Based Approach to Classify Bug Injected and Fixed Changes,"Advanced Applied Informatics (IIAIAAI), 2014 IIAI 3rd International Conference on",,,680-686,2014,IEEE
+"Sun, Yan; Wang, Qing; Li, Mingshu; ",Understanding the Contribution of Non-source Documents in Improving Missing Link Recovery: An Empirical Study,Proceedings of the 10th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement,,,39,2016,ACM
+"Ell, Jordan; ",An Exploration of Indirect Conflicts,,,,,2014,University of Victoria
+"Kaur, Prabhdeep; Mittal, Puneet; Singh, Amandeep; ",Prediction model for bug re-opens in Mozilla Firefox,,,,,,
+"Ihara, Akinori; Kamei, Yasutaka; Ohira, Masao; Hassan, Ahmed E; Ubayashi, Naoyasu; Matsumoto, Ken-ichi; ",Early Identification of Future Committers in Open Source Software Projects,2014 14th International Conference on Quality Software,,,47-56,2014,IEEE
+"Cunha, André Amarante dos Santos; ",An empirical investigation of source code metrics and findbugs warnings,,,,,2012,
+"神田哲也; 石尾隆; 井上克郎; ",ソースファイルの派生関係の自動抽出,,,,,2012,
+"川本公章; 水野修; ",ソフトウェアモジュールにおける識別子の語長と不具合出現に関する分析,研究報告ソフトウェア工学 (SE),2011,4,1-6,2011,
+"藏本達也; 亀井靖高; 門田暁人; 松本健一; ",ソフトウェア開発プロジェクトをまたがる fault-prone モジュール判別の試み―18 プロジェクトの実験から得た教訓―,電子情報通信学会論文誌 D,95,3,425-436,2012,"The Institute of Electronics, Information and Communication Engineers"
+"Pingen, RA; ",Investigation of the impact of cohesion on the change-proneness of Java interfaces,,,,,2012,"TU Delft, Delft University of Technology"
+"Кирносенко, СИ; Лукьянов, ВС; ",Идентификация исправляющих ревизий в системах контроля версий,Известия Волгоградского государственного технического университета,11,9,,2010,Государственное образовательное учреждение высшего профессионального образования «Волгоградский государственный технический университет»
+"小須田光; 亀井靖高; 鵜林尚靖; ",クラッシュレポートの送信頻度と不具合との関連付けに関する実証的評価,コンピュータ ソフトウェア,32,4,4_131-4_140,2015,Japan Society for Software Science and Technology
+"甘水滔; 秦晓军; 陈左宁; 王林章; ",一种基于特征矩阵的软件脆弱性代码克隆检测方法,软件学报,2,,013,2015,
+"亀井靖高; 本真佑; 門田暁人; 松本健一; ",粗粒度モジュールに対するバグ密度予測の精度評価,"電子情報通信学会技術研究報告. SS, ソフトウェアサイエンス",109,456,145-150,2010,一般社団法人電子情報通信学会
+"Boogerd, Cathal; Moonen, Leon; ",Using software history to guide deployment of coding standards,,,,,,
+"Sliwerski, Jacek; Zimmermann, Thomas; Zeller, Andreas; ",Don’t Program on Fridays!,,,,,,Citeseer
+"Nguyen, Viet Hung; Massacci, Fabio; ",The (Un) Reliability of NVD Vulnerable Versions Data: an Empirical Experiment on Browsers’ Vulnerabilities,,,,,,
+"Sun, Boya; ",Precision improvement and cost reduction for defect mining and testing,,,,,2012,Case Western Reserve University
+"Kim, Youngsoo; Jiang, Lingxiao; ",The Knowledge Accumulation and Transfer in Open-Source Software (OSS) Development,"System Sciences (HICSS), 2015 48th Hawaii International Conference on",,,3811-3820,2015,IEEE
+"Hulette, Geoffrey Compton; ",Predicting Fault Locations from Failures Using a Machine Learning Classifier,,,,,2007,Citeseer
+"Kawamoto, Kimiaki; Mizuno, Osamu; ",Predicting Fault-Prone Modules Using the Length of Identifiers,"Empirical Software Engineering in Practice (IWESEP), 2012 Fourth International Workshop on",,,30-34,2012,IEEE
+"Cook, Devin C; ",Augmenting Traditional Static Analysis With Commonly Available Metadata,,,,,2015,Auburn University
+"Burhandenny, Aji Ery; Nakano, Takashi; ",Empirical Study of Change-Prone and Fault-Prone Method Prediction Focusing on Comment Ownership,,,,,,
+"Ciancarini, Paolo; Poggi, Francesco; Rossi, Davide; Sillitti, Alberto; ",Mining Concurrency Bugs,,,,,,
+"Ramaraju, Aditya; Tebbal, Youcef; ",Predicting the Likelihood of a Software Bug to be Re-Opened,,,,,,
+"Gasparic, Marko; Murphy, Gail C; Ricci, Francesco; ",A context model for IDE-based recommendation systems,Journal of Systems and Software,,,,2016,Elsevier
+"Bohlooli, Saeed; ",Analysis on a release history database to assist management of the software maintenance,,,,,2013,Concordia University
+"Shehzad, Muhammad Faisal; Lali, Muhammad IkramUllah; Nawaz, Muhammad Saqib; ",PATTERNS OF PROPAGATING BUGS IN OPEN SOURCE SOFTWARES,NED University Journal of Research,,,79,2014,NED University of Engineering & Technology
+"Agrawal, Tarun Kumar; ",Software Artifacts based Change Controller,,,,,2008,THAPAR UNIVERSITY PATIALA
+"Herzig, Kim; Premraj, Rahul; Zimmermann, Thomas; Zeller, Andreas; Heymann, Jürgen; ",Predicting Defects in SAP Products: A Replicated Study,,,,,2008,Citeseer
+"Kumari, Madhu; Sharma, Meera; Yadav, Nikita; ",UNDERSTANDING THE DEVELOPER PARTICIPATION IN BUG FIX PROCESS,INTERNATIONAL JOURNAL OF COMPUTERS & TECHNOLOGY,12,8,3823-3828,2014,
+"Nguyen, Viet Hung; Dashevskyi, Stanislav; Massacci, Fabio; ",An automatic method for assessing the versions affected by a vulnerability,Empirical Software Engineering,,,1-30,2015,Springer
+"Murgia, Alessandro; Concas, Giulio; Marchesi, Michele; Pinna, Sandro; Tonelli, Roberto; ",Empirical study on software metrics and issues in object oriented systems,Emerging Trends in Software Metrics,,,33,2009,
+"Lee, Taek; Nam, Jaechang; Han, Donggyun; Kim, Sunghun; In, Hoh; ",Developer Micro Interaction Metrics for Software Defect Prediction,,,,,,IEEE
+"Nam, Jaechang; ",Survey on software defect prediction,"Department of Compter Science and Engineerning, The Hong Kong University of Science and Technology, Tech. Rep",,,,2014,Citeseer
+"Edwards, H Keith; ",System utilization and changes in implemented information systems: a case study,IAENG International Journal of Computer Science,33,1,68-73,2007,
+"Syer, Mark D; Nagappan, Meiyappan; Adams, Bram; Hassan, Ahmed E; ",Replicating and re-evaluating the theory of relative defect-proneness,IEEE Transactions on Software Engineering,41,2,176-197,2015,IEEE
+"Green, PD; Lane, Peter CR; Rainer, Austen; Scholz, Sven-Bodo; ",Building Classifiers to Identify Split Files.,,,,,2009,IbaI (Institute of Computer Vision & Applied Computer Sciences)
+"Kamei, Yasutaka; Fukushima, Takafumi; McIntosh, Shane; Yamashita, Kazuhiro; Ubayashi, Naoyasu; Hassan, Ahmed E; ",Studying just-in-time defect prediction using cross-project models,Empirical Software Engineering,,,1-35,2015,Springer
+"Zhang, Min; Baddoo, Nathan; Wernick, Paul; Hall, Tracy; ",Prioritising refactoring using code bad smells,"Software Testing, Verification and Validation Workshops (ICSTW), 2011 IEEE Fourth International Conference on",,,458-464,2011,IEEE
+"Koponen, Timo; ",RaSOSS-Remote Analysis System for Open Source Software,"Software Engineering Advances, International Conference on",,,54-54,2006,IEEE
+"Ramler, Rudolf; Klammer, Claus; Natschläger, Thomas; ",The usual suspects: a case study on delivered defects per developer,Proceedings of the 2010 ACM-IEEE International Symposium on Empirical Software Engineering and Measurement,,,48,2010,ACM
+"Ferzund, Javed; Ahsan, Syed Nadeem; Wotawa, Franz; ",Empirical evaluation of hunk metrics as bug predictors,International Workshop on Software Measurement,,,242-254,2009,Springer
+"Ghezzi, Giacomo; Gall, Harald C; ",Distributed and collaborative software analysis,Collaborative Software Engineering,,,241-263,2010,Springer
+"Prechelt, Lutz; Pepper, Alexander; ",Why software repositories are not used for defect-insertion circumstance analysis more often: A case study,Information and Software Technology,56,10,1377-1389,2014,Elsevier
+"Jongyindee, Anakorn; Ohira, Masao; Ihara, Akinori; Matsumoto, Ken-ichi; ",Good or Bad Committers? A Case Study of Committers' Cautiousness and the Consequences on the Bug Fixing Process in the Eclipse Project,"Software Measurement, 2011 Joint Conference of the 21st Int'l Workshop on and 6th Int'l Conference on Software Process and Product Measurement (IWSM-MENSURA)",,,116-125,2011,IEEE
+"Ghezzi, Giacomo; Gall, Harald C; ",Replicating mining studies with SOFAS,Proceedings of the 10th working conference on mining software repositories,,,363-372,2013,IEEE Press
+"Zhao, Yangyang; Yang, Yibiao; Lu, Hongmin; Zhou, Yuming; Song, Qinbao; Xu, Baowen; ",An empirical analysis of package-modularization metrics: Implications for software fault-proneness,Information and Software Technology,57,,186-203,2015,Elsevier
+"Hayashi, Hironori; Ihara, Akinori; Monden, Akito; Matsumoto, Ken-ichi; ",Why is collaboration needed in oss projects? a case study of eclipse project,Proceedings of the 2013 International Workshop on Social Software Engineering,,,17-20,2013,ACM
+"Schackmann, Holger; Schaefer, Henning; Lichter, Horst; ",Evaluating Process Quality based on Change Request Data–An Empirical Study of the Eclipse Project,International Workshop on Software Measurement,,,227-241,2009,Springer
+"Nadi, Sarah; ",DRACA: Decision-support for Root Cause Analysis and Change Impact Analysis,,,,,2009,University of Waterloo
+"Eunjoo, LEE; Chisu, WU; ",A Survey on Mining Software Repositories,IEICE TRANSACTIONS on Information and Systems,95,5,1384-1406,2012,"The Institute of Electronics, Information and Communication Engineers"
+"Hata, Hideaki; Mizuno, Osamu; Kikuno, Tohru; ",Reconstructing fine-grained versioning repositories with git for method-level bug prediction,IWESEP ‘10,,,27-32,2010,
+"Rosen, Christoffer; Grawi, Ben; Shihab, Emad; ",Commit guru: Analytics and risk prediction of software commits,Proceedings of the 2015 10th Joint Meeting on Foundations of Software Engineering,,,966-969,2015,ACM
+"Taipale, Taneli; Qvist, Mika; Turhan, Burak; ",Constructing defect predictors and communicating the outcomes to practitioners,2013 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement,,,357-362,2013,IEEE
+"Mizuno, Osamu; Hata, Hideaki; ",Prediction of Fault-prone Modules Using A Text Filtering Based Metric,International Journal of Software Engineering and Its Applications,4,1,43-52,2010,
+"Guo, Qi; Chen, Tianshi; Chen, Yunji; Wang, Rui; Chen, Huanhuan; Hu, Weiwu; Chen, Guoliang; ",Pre-silicon bug forecast,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,33,3,451-463,2014,IEEE
+"Herzig, Kim Sebastian; ",Mining and untangling change genealogies,,,,,2013,"Saarbrücken, Universität des Saarlandes, Diss., 2013"
+"Hirata, Yukinao; Mizuno, Osamu; ",Do comments explain codes adequately?: investigation by text filtering,Proceedings of the 8th Working Conference on Mining Software Repositories,,,242-245,2011,ACM
+"Mauša, Goran; Perković, Paolo; Grbac, Tihana Galinac; Štajduhar, Ivan; ",Techniques for Bug–Code Linking,"Third Workshop on Software Quality Analysis, Monitoring, Improvement and Applications",,,,2014,
+"Sato, Seiji; Washizaki, Hironori; Fukazawa, Yoshiaki; Inoue, Sakae; Ono, Hiroyuki; Hanai, Yoshiiku; Yamamoto, Mikihiko; ",Effects of organizational changes on product metrics and defects,2013 20th Asia-Pacific Software Engineering Conference (APSEC),1,,132-139,2013,IEEE
+"Poncin, Wouter; ",Process mining software repositories,"Master's thesis, Eindhoven University of Technology",,,,2010,
+"Ahsan, Syed Nadeem; Ferzund, Javed; Wotawa, Franz; ",A Database for the Analysis of Program Change Patterns,"Networked Computing and Advanced Information Management, 2008. NCM'08. Fourth International Conference on",2,,32-39,2008,IEEE
+"Ell, Jordan; ",Identifying failure inducing developer pairs within developer networks,Proceedings of the 2013 International Conference on Software Engineering,,,1471-1473,2013,IEEE Press
+"Zimmermann, Thomas; ",Taking lessons from history,Proceedings of the 28th international conference on Software engineering,,,1001-1005,2006,ACM
+"Yu, Liguo; Schach, Stephen R; ",Applying association mining to change propagation,International Journal of Software Engineering and Knowledge Engineering,18,08,1043-1061,2008,World Scientific
+"Edwards, Alex; Tucker, Sean; Demsky, Brian; ",AFID: an automated approach to collecting software faults,Automated Software Engineering,17,3,347-372,2010,Springer
+"Murgia, Alessandro; Concas, Giulio; Marchesi, Michele; Tonelli, Roberto; Turnu, Ivana; ",An analysis of bug distribution in object oriented systems,arXiv preprint arXiv:0905.3296,,,,2009,
+"Nguyen, Viet Hung; Massacci, Fabio; ",An idea of an independent validation of vulnerability discovery models,International Symposium on Engineering Secure Software and Systems,,,89-96,2012,Springer
+"Gray, David Philip Harry; ",Software defect prediction using static code metrics: formulating a methodology,,,,,2013,University of Hertfordshire
+"de Carvalho Melo, Jean Carlos; Borba, Paulo Henrique Monteiro; ",Improving modular reasoning on preprocessor-based systems,"Software Components, Architectures and Reuse (SBCARS), 2013 VII Brazilian Symposium on",,,11-19,2013,IEEE
+"Hryszko, Jarosław; Madeyski, Lech; ",Bottlenecks in software defect prediction implementation in industrial projects,Foundations of Computing and Decision Sciences,40,1,17-33,2015,
+"Bavota, Gabriele; ",Using structural and semantic information to support software refactoring,Proceedings of the 34th International Conference on Software Engineering,,,1479-1482,2012,IEEE Press
+"Mizuno, Osamu; Hata, Hideaki; ",An integrated approach to detect fault-prone modules using complexity and text feature metrics,Advances in Computer Science and Information Technology,,,457-468,2010,Springer
+"Bettenburg, Nicolas; ",Mining development repositories to study the impact of collaboration on software systems,Proceedings of the 19th ACM SIGSOFT symposium and the 13th European conference on Foundations of software engineering,,,376-379,2011,ACM
+"Zajac, Petr; Briš, Radim; ",Critical software defects are located in important source code,"Risk, Quality and Reliability-RQR 2007",,,,2007,
+"Ayewah, Nathaniel; ",Static analysis in practice,,,,,2010,
+"Makedonski, Philip; Sudau, Fabian; Grabowski, Jens; ",Towards a model-based software mining infrastructure,ACM SIGSOFT Software Engineering Notes,40,1,1-8,2015,ACM
+"Dal Sasso, Tommaso; Mocci, Andrea; Lanza, Michele; ",Misery loves company: CrowdStacking traces to aid problem detection,"2015 IEEE 22nd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",,,131-140,2015,IEEE
+"Murgia, Alessandro; ",Time evolution and distribution analysis of software bugs from a complex network perspective,,,,,2011,Universita'degli Studi di Cagliari
+"Shao, Danhua; Khurshid, Sarfraz; Perry, Dewayne E; ",Detecting Semantic Interference in Parallel Changes: An Exploratory Case Study,Submitted for publication,,,,2006,
+"Oliva, Gustavo Ansaldi; Gerosa, Marco Aurélio; ",A Method for the Identification of Logical Dependencies,2012 IEEE Seventh International Conference on Global Software Engineering Workshops,,,70-72,2012,IEEE
+"Nguyen, Viet Hung; Massacci, Fabio; ",A Systematically Empirical Evaluation of Vulnerability Discovery Models: a Study on Browsers' Vulnerabilities,arXiv preprint arXiv:1306.2476,,,,2013,
+"Bavota, Gabriele; Russo, Barbara; ",Four eyes are better than two: On the impact of code reviews on software quality,"Software Maintenance and Evolution (ICSME), 2015 IEEE International Conference on",,,81-90,2015,IEEE
+"Avgustinov, Pavel; Baars, Arthur I; Henriksen, Anders S; Lavender, Greg; Menzel, Galen; de Moor, Oege; Schäfer, Max; Tibble, Julian; ",Tracking static analysis violations over time to capture developer characteristics,Proceedings of the 37th International Conference on Software Engineering-Volume 1,,,437-447,2015,IEEE Press
+"Ohira, Masao; Koyama, Kiwako; Ihara, Akinori; Matsumoto, Shinsuke; Kamei, Yasutaka; Matsumoto, Ken-ichi; ",A time-lag analysis for improving communication among OSS developers,JSAI International Symposium on Artificial Intelligence,,,135-146,2009,Springer
+"Jaafar, Fehmi; Guéhéneuc, Yann-Gaël; Hamel, Sylvie; Khomh, Foutse; Zulkernine, Mohammad; ",Evaluating the impact of design pattern and anti-pattern dependencies on changes and faults,Empirical Software Engineering,21,3,896-931,2016,Springer
+"Mathew, George; Agarwal, Amritanshu; Menzies, Tim; ",Trends in topics at SE conferences (1993-2013),arXiv preprint arXiv:1608.08100,,,,2016,
+"Fujiwara, Kenji; Fushida, Kyohei; Yoshida, Norihiro; Iida, Hajimu; ",Assessing refactoring instances and the maintainability benefits of them from version archives,International Conference on Product Focused Software Process Improvement,,,313-323,2013,Springer
+"Misirli, Ayse Tosun; Shihab, Emad; Kamei, Yasukata; ",Studying high impact fix-inducing changes,Empirical Software Engineering,21,2,605-641,2016,Springer
+"Davies, Steven; Roper, Marc; Wood, Murray; ",Comparing text‐based and dependence‐based approaches for determining the origins of bugs,Journal of Software: Evolution and Process,26,1,107-139,2014,Wiley Online Library
+"Zajac, Petr; Briš, Radim; TU-Ostrava, VŠB; ",Mining software repositories with modified compiler,International Workshop Control and Information Technology-IWCIT,,,,2007,Citeseer
+"Silva, Luciana Lourdes; Valente, Marco Tulio; Maia, Marcelo de A; ",Co-change clusters: Extraction and application on assessing software modularity,Transactions on Aspect-Oriented Software Development XII,,,96-131,2015,Springer
+"Rahman, Foyzur; Devanbu, Premkumar; ",Ownership and experience in fix-inducing code,"UC Davis Department of Computer Science, Tech. Rep. CSE-2010",,,,2010,
+"Gu, Zhongxian; ",Toward Effective Debugging by Capturing and Reusing Knowledge,,,,,2013,UNIVERSITY OF CALIFORNIA DAVIS
+"An, Le; Khomh, Foutse; ",An empirical study of crash-inducing commits in mozilla firefox,Proceedings of the 11th International Conference on Predictive Models and Data Analytics in Software Engineering,,,5,2015,ACM
+"Yu, Liguo; Ramaswamy, Srini; ",Using bug report as a software quality measure: an empirical study,International Journal of Information Quality,3,2,164-183,2013,Inderscience Publishers
+"Kamei, Yasutaka; Shihab, Emad; ",Defect prediction: Accomplishments and future challenges,"2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",5,,33-45,2016,IEEE
+"Sun, Bo; ",A Methodology for Analyzing Cost and Cost-Drivers of Technical Software Documentation,,,,,2012,University of Calgary
+"Yu, Xingliang; Li, Jing; Zhong, Hua; ",On Reducing the Pre-release Failures of Web Plug-In on Social Networking Site,International Conference on Software Process,,,236-245,2009,Springer
+"Edwards, H Keith; ","Post-implementation management in large-scale management information systems: Changes, incident reports, help desk calls, and business process",International Journal of Business and Information,3,2,,2015,
+"Perl, Henning; Dechand, Sergej; Smith, Matthew; Arp, Daniel; Yamaguchi, Fabian; Rieck, Konrad; Fahl, Sascha; Acar, Yasemin; ",Vccfinder: Finding potential vulnerabilities in open-source projects to assist code audits,Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security,,,426-437,2015,ACM
+"Oyetoyan, Tosin Daniel; Cruzes, Daniela Soares; Conradi, Reidar; ",Transition and defect patterns of components in dependency cycles during software evolution,"Software Maintenance, Reengineering and Reverse Engineering (CSMR-WCRE), 2014 Software Evolution Week-IEEE Conference on",,,283-292,2014,IEEE
+"Simpson, Braden; ",Changeset based developer communication to detect software failures,2013 35th International Conference on Software Engineering (ICSE),,,1468-1470,2013,IEEE
+"Zhang, Feng; Mockus, Audris; Keivanloo, Iman; Zou, Ying; ",Towards building a universal defect prediction model with rank transformed predictors,Empirical Software Engineering,,,1-39,2015,Springer
+"Mizuno, Osamu; Hirata, Yukinao; ",Fault-prone module prediction using contents of comment lines,Proc. of International Workshop on Empirical Software Engineering in Practice 2010 (IWESEP2010),12,,39-44,2010,
+"Mizuno, Osamu; Hata, Hideaki; ",Yet Another Metric for Predicting Fault-Prone Modules,International Conference on Advanced Software Engineering and Its Applications,,,296-304,2009,Springer
+"Diehl, Stephan; Zeller, Andreas; Zimmermann, Thomas; ",Was Software-Archive erzählen.,Software Engineering,,,39-50,2006,
+"Zhang, Feng; Hassan, Ahmed E; McIntosh, Shane; Zou, Ying; ",The use of summation to aggregate software metrics hinders the performance of defect prediction models,IEEE Transactions on Software Engineering,1,,1-16,2016,IEEE
+"Hata, Hideaki; Mizuno, Osamu; Kikuno, Tohru; ",Comparative Study of Fault-Proneness Filtering with PMD,2008 19th International Symposium on Software Reliability Engineering (ISSRE),,,,2008,
+"Hindle, Abram; ",Evidence-based software process recovery,,,,,2010,University of Waterloo
+"Yuan, Zi; Yu, Lili; Liu, Chao; Zhang, Linghua; ",Predicting bugs in source code changes with incremental learning method,Journal of Software,8,7,1620-1633,2013,
+"Wehaibi, Sultan; Shihab, Emad; Guerrouj, Latifa; ",Examining the impact of self-admitted technical debt on software quality,"2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)",1,,179-188,2016,IEEE
+"Kouroshfar, Ehsan; Mirakhorli, Mehdi; Bagheri, Hamid; Xiao, Lu; Malek, Sam; Cai, Yuanfang; ",A Study on the Role of Software Architecture in the Evolution and Quality of Software,Proceedings of the 12th Working Conference on Mining Software Repositories,,,246-257,2015,IEEE Press
+"Giger, Emanuel; Pinzger, Martin; Gall, Harald; ",Using the gini coefficient for bug prediction in eclipse,Proceedings of the 12th International Workshop on Principles of Software Evolution and the 7th annual ERCIM Workshop on Software Evolution,,,51-55,2011,ACM
+"Herzig, Kim Sebastian; ",Capturing the long-term impact of changes,Proceedings of the 32nd ACM/IEEE International Conference on Software Engineering-Volume 2,,,393-396,2010,ACM
+"Voinea, Stefan-Lucian; ",Software evolution visualization,Dissertation Abstracts International,68,04,,2007,Citeseer
+"Bettenburg, Nicolas; Adams, Bram; Hassan, Ahmed E; Smidt, Michel; ",A lightweight approach to uncover technical artifacts in unstructured data,"Program Comprehension (ICPC), 2011 IEEE 19th International Conference on",,,185-188,2011,IEEE
+"Chen, Tse-Hsun; Nagappan, Meiyappan; Shihab, Emad; Hassan, Ahmed E; ",An empirical study of dormant bugs,Proceedings of the 11th Working Conference on Mining Software Repositories,,,82-91,2014,ACM
+"Eaddy, Marc; ",An empirical assessment of the crosscutting concern problem,,,,,2008,Citeseer
+"Mizuno, Osamu; Ikami, Shiro; Nakaichi, Shuya; Kikuno, Tohru; ",Fault-prone filtering: Detection of fault-prone modules using spam filtering technique,First International Symposium on Empirical Software Engineering and Measurement (ESEM 2007),,,374-383,2007,IEEE
+"Sun, Boya; Shu, Gang; Podgurski, Andy; Li, Shirong; Zhang, Shijie; Yang, Jiong; ",Propagating bug fixes with fast subgraph matching,2010 IEEE 21st International Symposium on Software Reliability Engineering,,,21-30,2010,IEEE
+"Hata, Hideaki; Mizuno, Osamu; Kikuno, Tohru; ",An extension of fault-prone filtering using precise training and a dynamic threshold,Proceedings of the 2008 international working conference on Mining software repositories,,,89-98,2008,ACM
+"Siy, Harvey; Chundi, Parvathi; Rosenkrantz, Daniel J; Subramaniam, Mahadevan; ",Discovering dynamic developer relationships from software version histories by time series segmentation,2007 IEEE International Conference on Software Maintenance,,,415-424,2007,IEEE
+"Nguyen, Viet Hung; Massacci, Fabio; ",An independent validation of vulnerability discovery models,"Proceedings of the 7th ACM Symposium on Information, Computer and Communications Security",,,6-7,2012,ACM
+"An, Le; Khomh, Foutse; Adams, Bram; ",Supplementary Bug Fixes vs. Re-opened Bugs.,SCAM,,,205-214,2014,
+"Ghezzi, Giacomo; Gall, Harald C; ",A framework for semi-automated software evolution analysis composition,Automated Software Engineering,20,3,463-496,2013,Springer
+"Bettenburg, Nicolas; Thomas, Stephen W; Hassan, Ahmed E; ",Using fuzzy code search to link code fragments in discussions to source code,"Software Maintenance and Reengineering (CSMR), 2012 16th European Conference on",,,319-328,2012,IEEE
+"Zhang, Min; Baddoo, Nathan; ",Performance comparison of software complexity metrics in an open source project,European Conference on Software Process Improvement,,,160-174,2007,Springer
+"Berdou, Evangelia; ","Managing the Bazaar: Commercialization and peripheral participation in mature, community-led Free/Open source software projects",,,,,2007,London School of Economics and Political Science
+"Monden, Akito; Hayashi, Takuma; Shinoda, Shoji; Shirai, Kumiko; Yoshida, Junichi; Barker, Mike; Matsumoto, Kenichi; ",Assessing the cost effectiveness of fault prediction in acceptance testing,IEEE Transactions on Software Engineering,39,10,1345-1357,2013,IEEE
+"Marinescu, Paul; Hosek, Petr; Cadar, Cristian; ","Covrig: A framework for the analysis of code, test, and coverage evolution in real software",Proceedings of the 2014 International Symposium on Software Testing and Analysis,,,93-104,2014,ACM
+"Kim, Miryung; ",Analyzing and inferring the structure of code change,,,,,2008,ProQuest
+"Tan, Ming; Tan, Lin; Dara, Sashank; Mayeux, Caleb; ",Online defect prediction for imbalanced data,Proceedings of the 37th International Conference on Software Engineering-Volume 2,,,99-108,2015,IEEE Press
+"Bangcharoensap, Phiradet; Ihara, Akinori; Kamei, Yasutaka; Matsumoto, Ken-ichi; ",Locating source code to be fixed based on initial bug reports-a case study on the eclipse project,"Empirical Software Engineering in Practice (IWESEP), 2012 Fourth International Workshop on",,,10-15,2012,IEEE
+"Ray, Baishakhi; Kim, Miryung; Person, Suzette; Rungta, Neha; ",Detecting and characterizing semantic inconsistencies in ported code,"Automated Software Engineering (ASE), 2013 IEEE/ACM 28th International Conference on",,,367-377,2013,IEEE
+"Toth, Zoltan; Novak, Gabor; Ferenc, Rudolf; Siket, Istvan; ",Using version control history to follow the changes of source code elements,"Software Maintenance and Reengineering (CSMR), 2013 17th European Conference on",,,319-322,2013,IEEE
+"Würsch, Michael; Reif, Gerald; Demeyer, Serge; Gall, Harald C; ",Fostering synergies: how semantic web technology could influence software repositories,"Proceedings of 2010 ICSE Workshop on Search-driven Development: Users, Infrastructure, Tools and Evaluation",,,45-48,2010,ACM
+"Schackmann, Holger; Lichter, Horst; ",Comparison of process quality characteristics based on change request data,Software Process and Product Measurement,,,127-140,2008,Springer
+"Lintula, Heli; Koponen, Timo; Hotti, Virpi; ",Exploring the Maintenance Process through the Defect Management in the Open Source Projects-Four Case Studies,"Software Engineering Advances, International Conference on",,,53-53,2006,IEEE
+"Sadowski, Caitlin; Lewis, Chris; Lin, Zhongpeng; Zhu, Xiaoyan; Whitehead Jr, E James; ",An empirical analysis of the FixCache algorithm,Proceedings of the 8th Working Conference on Mining Software Repositories,,,219-222,2011,ACM
+"Böhme, Marcel; Roychoudhury, Abhik; ",Corebench: Studying complexity of regression errors,Proceedings of the 2014 International Symposium on Software Testing and Analysis,,,105-115,2014,ACM
+"Silva, Luciana Lourdes; Valente, Marco Tulio; Maia, Marcelo de A; ",Assessing modularity using co-change clusters,Proceedings of the 13th international conference on Modularity,,,49-60,2014,ACM
+"Zhang, Jie; Wang, Xiaoyin; Hao, Dan; Xie, Bing; Zhang, Lu; Mei, Hong; ",A survey on bug-report analysis,Science China Information Sciences,58,2,1-24,2015,Springer
+"Rastkar, Sarah; Murphy, Gail C; ",On what basis to recommend: Changesets or interactions?,2009 6th IEEE International Working Conference on Mining Software Repositories,,,155-158,2009,IEEE
+"刘英博; 王建民; ",面向缺陷分析的软件库挖掘方法综述,计算机科学,34,9,1-4,2007,
+"Eyolfson, Jon; Tan, Lin; Lam, Patrick; ",Correlations between bugginess and time-based commit characteristics,Empirical Software Engineering,19,4,1009-1039,2014,Springer
+"Pirklbauer, Guenter; ",Empirical evaluation of strategies to detect logical change dependencies,International Conference on Current Trends in Theory and Practice of Computer Science,,,651-662,2010,Springer
+"Hu, Wei; Wong, Kenny; ",Using citation influence to predict software defects,Proceedings of the 10th Working Conference on Mining Software Repositories,,,419-428,2013,IEEE Press
+"Dallmeier, Valentin; Zimmermann, Thomas; ",Automatic extraction of bug localization benchmarks from history,Proc. Int’l Conf. on Automated Software Eng,,,433-436,2007,Citeseer
+"Kononenko, Oleksii; Baysal, Olga; Guerrouj, Latifa; Cao, Yaxin; Godfrey, Michael W; ",Investigating code review quality: Do people and participation matter?,"Software Maintenance and Evolution (ICSME), 2015 IEEE International Conference on",,,111-120,2015,IEEE
+"Jureczko, Marian; Madeyski, Lech; ",A review of process metrics in defect prediction studies,Metody Informatyki Stosowanej,5,,133-145,2011,
+"Shihab, Emad; ",Pragmatic prioritization of software quality assurance efforts,2011 33rd International Conference on Software Engineering (ICSE),,,1106-1109,2011,IEEE
+"Thomas, STEPHEN; ",Mining unstructured software repositories using ir models,,,,,2012,Canadian theses
+"Meng, Xiaozhu; Miller, Barton P; Williams, William R; Bernat, Andrew R; ",Mining Software Repositories for Accurate Authorship.,ICSM,,,250-259,2013,
+"Siy, Harvey; Chundi, Parvathi; Rosenkrantz, Daniel J; Subramaniam, Mahadevan; ",A segmentation‐based approach for temporal analysis of software version repositories,Journal of Software Maintenance and Evolution: Research and Practice,20,3,199-222,2008,Wiley Online Library
+"Tarvo, Alexander; Zimmermann, Thomas; Czerwonka, Jacek; ",An integration resolution algorithm for mining multiple branches in version control systems,"Software Maintenance (ICSM), 2011 27th IEEE International Conference on",,,402-411,2011,IEEE
+"Neuhaus, Stephan; Plattner, Bernhard; ","Software security economics: Theory, in practice",The Economics of Information Security and Privacy,,,75-92,2013,Springer
+"Oliva, Gustavo Ansaldi; Santana, FW; Gerosa, MA; de Souza, CR; ",Preprocessing change-sets to improve logical dependencies identification,Proceedings of the 6th International Workshop on Software Quality and Maintainability,,,,2012,
+"Nadi, Sarah; Holt, Ric; Mankovskii, Serge; ",Does the past say it all? Using history to predict change sets in a CMDB,"Software Maintenance and Reengineering (CSMR), 2010 14th European Conference on",,,97-106,2010,IEEE
+"Do, Thanh; Harter, Tyler; Liu, Yingchao; Gunawi, Haryadi S; Arpaci-Dusseau, Andrea C; Arpaci-Dusseau, Remzi H; ",HARDFS: hardening HDFS with selective and lightweight versioning,Presented as part of the 11th USENIX Conference on File and Storage Technologies (FAST 13),,,105-118,2013,
+"Yu, Liguo; Ramaswamy, S; Nail, A; ",Using bug reports as a software quality measure,Proceedings of the 16th International Conference on Information Quality (ICIQ),,,277-286,2011,
+"Ferzund, Javed; Ahsan, Syed Nadeem; Wotawa, Franz; ",Software change classification using hunk metrics,"Software Maintenance, 2009. ICSM 2009. IEEE International Conference on",,,471-474,2009,IEEE
+"Yu, Yue; Wang, Huaimin; Filkov, Vladimir; Devanbu, Premkumar; Vasilescu, Bogdan; ",Wait for it: Determinants of pull request evaluation latency on GitHub,2015 IEEE/ACM 12th Working Conference on Mining Software Repositories,,,367-371,2015,IEEE
+"Thung, Ferdian; Lo, David; Jiang, Lingxiao; ",Automatic recovery of root causes from bug-fixing changes,2013 20th Working Conference on Reverse Engineering (WCRE),,,92-101,2013,IEEE
+"Kamei, Yasutaka; Sato, Hiroki; Monden, Akito; Kawaguchi, Shinji; Uwano, Hidetake; Nagura, Masataka; Matsumoto, Ken-Ichi; Ubayashi, Naoyasu; ",An empirical study of fault prediction with code clone metrics,"Software Measurement, 2011 Joint Conference of the 21st Int'l Workshop on and 6th Int'l Conference on Software Process and Product Measurement (IWSM-MENSURA)",,,55-61,2011,IEEE
+"Zimmermann, Thomas; Zeller, Andreas; Weissgerber, Peter; Diehl, Stephan; ",Mining version histories to guide software changes,IEEE Transactions on Software Engineering,31,6,429-445,2005,IEEE
+"Nagappan, Nachiappan; Ball, Thomas; Zeller, Andreas; ",Mining metrics to predict component failures,Proceedings of the 28th international conference on Software engineering,,,452-461,2006,ACM
+"Zimmermann, Thomas; Premraj, Rahul; Zeller, Andreas; ",Predicting defects for eclipse,"Predictor Models in Software Engineering, 2007. PROMISE'07: ICSE Workshops 2007. International Workshop on",,,9-9,2007,IEEE
+"Zeller, Andreas; ",Why programs fail: a guide to systematic debugging,,,,,2009,Elsevier
+"Kagdi, Huzefa; Collard, Michael L; Maletic, Jonathan I; ",A survey and taxonomy of approaches for mining software repositories in the context of software evolution,Journal of software maintenance and evolution: Research and practice,19,2,77-131,2007,Wiley Online Library
+"Fluri, Beat; Wuersch, Michael; PInzger, Martin; Gall, Harald; ",Change distilling: Tree differencing for fine-grained source code change extraction,IEEE Transactions on Software Engineering,33,11,725-743,2007,IEEE
+"Kim, Sunghun; Zimmermann, Thomas; Whitehead Jr, E James; Zeller, Andreas; ",Predicting faults from cached history,Proceedings of the 29th international conference on Software Engineering,,,489-498,2007,IEEE Computer Society
+"Eaddy, Marc; Zimmermann, Thomas; Sherwood, Kaitlin D; Garg, Vibhav; Murphy, Gail C; Nagappan, Nachiappan; Aho, Alfred V; ",Do crosscutting concerns cause defects?,IEEE Transactions on Software Engineering,34,4,497-515,2008,IEEE
+"Bird, Christian; Bachmann, Adrian; Aune, Eirik; Duffy, John; Bernstein, Abraham; Filkov, Vladimir; Devanbu, Premkumar; ",Fair and balanced?: bias in bug-fix datasets,Proceedings of the the 7th joint meeting of the European software engineering conference and the ACM SIGSOFT symposium on The foundations of software engineering,,,121-130,2009,ACM
+"Neuhaus, Stephan; Zimmermann, Thomas; Holler, Christian; Zeller, Andreas; ",Predicting vulnerable software components,Proceedings of the 14th ACM conference on Computer and communications security,,,529-540,2007,ACM
+"Antoniol, Giuliano; Ayari, Kamel; Di Penta, Massimiliano; Khomh, Foutse; Guéhéneuc, Yann-Gaël; ",Is it a bug or an enhancement?: a text-based approach to classify change requests,Proceedings of the 2008 conference of the center for advanced studies on collaborative research: meeting of minds,,,23,2008,ACM
+"Krinke, Jens; ",A study of consistent and inconsistent changes to code clones,14th working conference on reverse engineering (WCRE 2007),,,170-178,2007,IEEE
+"Schröter, Adrian; Zimmermann, Thomas; Zeller, Andreas; ",Predicting component failures at design time,Proceedings of the 2006 ACM/IEEE international symposium on Empirical software engineering,,,18-27,2006,ACM
+"Kim, Sunghun; Zimmermann, Thomas; Pan, Kai; James Jr, E; ",Automatic identification of bug-introducing changes,21st IEEE/ACM International Conference on Automated Software Engineering (ASE'06),,,81-90,2006,IEEE
+"Guo, Philip J; Zimmermann, Thomas; Nagappan, Nachiappan; Murphy, Brendan; ",Characterizing and predicting which bugs get fixed: an empirical study of Microsoft Windows,2010 ACM/IEEE 32nd International Conference on Software Engineering,1,,495-504,2010,IEEE
+"Kim, Sunghun; Pan, Kai; Whitehead Jr, EE; ",Memories of bug fixes,Proceedings of the 14th ACM SIGSOFT international symposium on Foundations of software engineering,,,35-45,2006,ACM
+"Fluri, Beat; Gall, Harald C; ",Classifying change types for qualifying change couplings,14th IEEE International Conference on Program Comprehension (ICPC'06),,,35-45,2006,IEEE
+"Bird, Christian; Nagappan, Nachiappan; Gall, Harald; Murphy, Brendan; Devanbu, Premkumar; ",Putting it all together: Using socio-technical networks to predict failures,2009 20th International Symposium on Software Reliability Engineering,,,109-119,2009,IEEE
+"Wu, Rongxin; Zhang, Hongyu; Kim, Sunghun; Cheung, Shing-Chi; ",Relink: recovering links between bugs and changes,Proceedings of the 19th ACM SIGSOFT symposium and the 13th European conference on Foundations of software engineering,,,15-25,2011,ACM
+"Dallmeier, Valentin; Zimmermann, Thomas; ",Extraction of bug localization benchmarks from history,Proceedings of the twenty-second IEEE/ACM international conference on Automated software engineering,,,433-436,2007,ACM
+"Kim, Sunghun; Ernst, Michael D; ",Which warnings should I fix first?,Proceedings of the the 6th joint meeting of the European software engineering conference and the ACM SIGSOFT symposium on The foundations of software engineering,,,45-54,2007,ACM
+"Bachmann, Adrian; Bird, Christian; Rahman, Foyzur; Devanbu, Premkumar; Bernstein, Abraham; ",The missing links: bugs and bug-fix commits,Proceedings of the eighteenth ACM SIGSOFT international symposium on Foundations of software engineering,,,97-106,2010,ACM
+"Herzig, Kim; Just, Sascha; Zeller, Andreas; ","It's not a bug, it's a feature: how misclassification impacts bug prediction",Proceedings of the 2013 International Conference on Software Engineering,,,392-401,2013,IEEE Press
+"Yin, Zuoning; Yuan, Ding; Zhou, Yuanyuan; Pasupathy, Shankar; Bairavasundaram, Lakshmi; ",How do fixes become bugs?,Proceedings of the 19th ACM SIGSOFT symposium and the 13th European conference on Foundations of software engineering,,,26-36,2011,ACM
+"Nagappan, Nachiappan; Zeller, Andreas; Zimmermann, Thomas; Herzig, Kim; Murphy, Brendan; ",Change bursts as defect predictors,2010 IEEE 21st International Symposium on Software Reliability Engineering,,,309-318,2010,IEEE
+"Kim, Sunghun; Zhang, Hongyu; Wu, Rongxin; Gong, Liang; ",Dealing with noise in defect prediction,2011 33rd International Conference on Software Engineering (ICSE),,,481-490,2011,IEEE
+"Rahman, Foyzur; Bird, Christian; Devanbu, Premkumar; ",Clones: What is that smell?,Empirical Software Engineering,17,4-5,503-530,2012,Springer
+"Krinke, Jens; ",Is cloned code more stable than non-cloned code?,"Source Code Analysis and Manipulation, 2008 Eighth IEEE International Working Conference on",,,57-66,2008,IEEE
+"Pan, Kai; Kim, Sunghun; Whitehead Jr, E James; ",Toward an understanding of bug fix patterns,Empirical Software Engineering,14,3,286-315,2009,Springer
+"Kim, Miryung; Notkin, David; ",Program element matching for multi-version program analyses,Proceedings of the 2006 international workshop on Mining software repositories,,,58-64,2006,ACM
+"Kim, Sunghun; Whitehead Jr, E James; ",How long did it take to fix bugs?,Proceedings of the 2006 international workshop on Mining software repositories,,,173-174,2006,ACM
+"Kim, Sunghun; Pan, Kai; Whitehead, E James; ",When functions change their names: Automatic detection of origin relationships,12th Working Conference on Reverse Engineering (WCRE'05),,,10 pp.-152,2005,IEEE
+"Kamei, Yasutaka; Matsumoto, Shinsuke; Monden, Akito; Matsumoto, Ken-ichi; Adams, Bram; Hassan, Ahmed E; ",Revisiting common bug prediction findings using effort-aware models,"Software Maintenance (ICSM), 2010 IEEE International Conference on",,,1-10,2010,IEEE
+"Rahman, Foyzur; Devanbu, Premkumar; ","Ownership, experience and defects: a fine-grained study of authorship",Proceedings of the 33rd International Conference on Software Engineering,,,491-500,2011,ACM
+"Schröter, Adrian; Zimmermann, Thomas; Premraj, Rahul; Zeller, Andreas; ",If your bug database could talk,Proceedings of the 5th international symposium on empirical software engineering,2,,18-20,2006,Citeseer
+"Kagdi, Huzefa; Maletic, Jonathan I; Sharif, Bonita; ",Mining software repositories for traceability links,15th IEEE International Conference on Program Comprehension (ICPC'07),,,145-154,2007,IEEE
+"Shihab, Emad; Ihara, Akinori; Kamei, Yasutaka; Ibrahim, Walid M; Ohira, Masao; Adams, Bram; Hassan, Ahmed E; Matsumoto, Ken-ichi; ",Predicting re-opened bugs: A case study on the eclipse project,2010 17th Working Conference on Reverse Engineering,,,249-258,2010,IEEE
+"Giger, Emanuel; Pinzger, Martin; Gall, Harald C; ",Comparing fine-grained source code changes and code churn for bug prediction,Proceedings of the 8th Working Conference on Mining Software Repositories,,,83-92,2011,ACM
+"Lee, Taek; Nam, Jaechang; Han, DongGyun; Kim, Sunghun; In, Hoh Peter; ",Micro interaction metrics for defect prediction,Proceedings of the 19th ACM SIGSOFT symposium and the 13th European conference on Foundations of software engineering,,,311-321,2011,ACM
+"Chowdhury, Istehad; Zulkernine, Mohammad; ","Using complexity, coupling, and cohesion metrics as early indicators of vulnerabilities",Journal of Systems Architecture,57,3,294-313,2011,Elsevier
+"Zaman, Shahed; Adams, Bram; Hassan, Ahmed E; ",Security versus performance bugs: a case study on firefox,Proceedings of the 8th working conference on mining software repositories,,,93-102,2011,ACM
+"Kim, Miryung; Cai, Dongxiang; Kim, Sunghun; ",An empirical investigation into the role of API-level refactorings during software evolution,Proceedings of the 33rd International Conference on Software Engineering,,,151-160,2011,ACM
+"Bettenburg, Nicolas; Hassan, Ahmed E; ",Studying the impact of social structures on software quality,"Program Comprehension (ICPC), 2010 IEEE 18th International Conference on",,,124-133,2010,IEEE
+"Śliwerski, Jacek; Zimmermann, Thomas; Zeller, Andreas; ",Hatari: raising risk awareness,ACM SIGSOFT Software Engineering Notes,30,5,107-110,2005,ACM
+"Negara, Stas; Vakilian, Mohsen; Chen, Nicholas; Johnson, Ralph E; Dig, Danny; ",Is it dangerous to use version control histories to study source code evolution?,European Conference on Object-Oriented Programming,,,79-103,2012,Springer
+"Kamei, Yasutaka; Shihab, Emad; Adams, Bram; Hassan, Ahmed E; Mockus, Audris; Sinha, Anand; Ubayashi, Naoyasu; ",A large-scale empirical study of just-in-time quality assurance,IEEE Transactions on Software Engineering,39,6,757-773,2013,IEEE
+"Schroter, Adrian; Schröter, Adrian; Bettenburg, Nicolas; Premraj, Rahul; ",Do stack traces help developers fix bugs?,2010 7th IEEE Working Conference on Mining Software Repositories (MSR 2010),,,118-121,2010,IEEE
+"Shihab, Emad; Jiang, Zhen Ming; Ibrahim, Walid M; Adams, Bram; Hassan, Ahmed E; ",Understanding the impact of code and process metrics on post-release defects: a case study on the eclipse project,Proceedings of the 2010 ACM-IEEE International Symposium on Empirical Software Engineering and Measurement,,,4,2010,ACM
+"Shihab, Emad; Ihara, Akinori; Kamei, Yasutaka; Ibrahim, Walid M; Ohira, Masao; Adams, Bram; Hassan, Ahmed E; Matsumoto, Ken-ichi; ",Studying re-opened bugs in open source software,Empirical Software Engineering,18,5,1005-1042,2013,Springer
+"English, Michael; Exton, Chris; Rigon, Irene; Cleary, Brendan; ",Fault detection and prediction in an open-source software project,Proceedings of the 5th International Conference on Predictor Models in Software Engineering,,,17,2009,ACM
+"Tian, Yuan; Lawall, Julia; Lo, David; ",Identifying linux bug fixing patches,2012 34th International Conference on Software Engineering (ICSE),,,386-396,2012,IEEE
+"Ayari, Kamel; Meshkinfam, Peyman; Antoniol, Giuliano; Di Penta, Massimiliano; ",Threats on building models from cvs and bugzilla repositories: the mozilla case study,Proceedings of the 2007 conference of the center for advanced studies on Collaborative research,,,215-228,2007,IBM Corp.
+"Pan, Kai; Kim, Sunghun; Whitehead Jr, E James; ",Bug classification using program slicing metrics,2006 Sixth IEEE International Workshop on Source Code Analysis and Manipulation,,,31-42,2006,IEEE
+"Bachmann, Adrian; Bernstein, Abraham; ",Software process data quality and characteristics: a historical view on open and closed source projects,Proceedings of the joint international and annual ERCIM workshops on Principles of software evolution (IWPSE) and software evolution (Evol) workshops,,,119-128,2009,ACM
+"Eyolfson, Jon; Tan, Lin; Lam, Patrick; ",Do time of day and developer experience affect commit bugginess?,Proceedings of the 8th Working Conference on Mining Software Repositories,,,153-162,2011,ACM
+"D'Ambros, Marco; Lanza, Michele; Pinzger, Martin; ",""" A Bug's Life"" Visualizing a Bug Database",2007 4th IEEE International Workshop on Visualizing Software for Understanding and Analysis,,,113-120,2007,IEEE
+"Zimmermann, Thomas; Kim, Sunghun; Zeller, Andreas; Whitehead Jr, E James; ",Mining version archives for co-changed lines,Proceedings of the 2006 international workshop on Mining software repositories,,,72-75,2006,ACM
+"Shivaji, Shivkumar; Whitehead, E James; Akella, Ram; Kim, Sunghun; ",Reducing features to improve code change-based bug prediction,IEEE Transactions on Software Engineering,39,4,552-569,2013,IEEE
+"Boogerd, Cathal; Moonen, Leon; ",Assessing the value of coding standards: An empirical study,"Software Maintenance, 2008. ICSM 2008. IEEE International Conference on",,,277-286,2008,IEEE
+"Shivaji, Shivkumar; Whitehead, Jr E James; Akella, Ram; Kim, Sunghun; ",Reducing features to improve bug prediction,Proceedings of the 2009 IEEE/ACM International Conference on Automated Software Engineering,,,600-604,2009,IEEE Computer Society
+"Boogerd, Cathal; Moonen, Leon; ",Evaluating the relation between coding standard violations and faultswithin and across software versions,2009 6th IEEE International Working Conference on Mining Software Repositories,,,41-50,2009,IEEE
+"Abreu, Roberto; Premraj, Rahul; ",How developer communication frequency relates to bug introducing changes,Proceedings of the joint international and annual ERCIM workshops on Principles of software evolution (IWPSE) and software evolution (Evol) workshops,,,153-158,2009,ACM
+"Posnett, Daryl; D'Souza, Raissa; Devanbu, Premkumar; Filkov, Vladimir; ",Dual ecological measures of focus in software development,2013 35th International Conference on Software Engineering (ICSE),,,452-461,2013,IEEE
+"Aversano, Lerina; Cerulo, Luigi; Del Grosso, Concettina; ",Learning from bug-introducing changes to prevent fault prone code,Ninth international workshop on Principles of software evolution: in conjunction with the 6th ESEC/FSE joint meeting,,,19-26,2007,ACM
+"Bavota, Gabriele; De Carluccio, Bernardino; De Lucia, Andrea; Di Penta, Massimiliano; Oliveto, Rocco; Strollo, Orazio; ",When does a refactoring induce bugs? an empirical study,"Source Code Analysis and Manipulation (SCAM), 2012 IEEE 12th International Working Conference on",,,104-113,2012,IEEE
+"Illes-Seifert, Timea; Paech, Barbara; ",Exploring the relationship of a file’s history and its fault-proneness: An empirical method and its application to open source programs,Information and Software Technology,52,5,539-558,2010,Elsevier
+"Mizuno, Osamu; Kikuno, Tohru; ",Training on errors experiment to detect fault-prone software modules by spam filter,Proceedings of the the 6th joint meeting of the European software engineering conference and the ACM SIGSOFT symposium on The foundations of software engineering,,,405-414,2007,ACM
+"Hata, Hideaki; Mizuno, Osamu; Kikuno, Tohru; ",Bug prediction based on fine-grained module histories,Proceedings of the 34th International Conference on Software Engineering,,,200-210,2012,IEEE Press
+"Jiang, Tian; Tan, Lin; Kim, Sunghun; ",Personalized defect prediction,"Automated Software Engineering (ASE), 2013 IEEE/ACM 28th International Conference on",,,279-289,2013,IEEE
+"Rahman, Foyzur; Posnett, Daryl; Hindle, Abram; Barr, Earl; Devanbu, Premkumar; ",BugCache for inspections: hit or miss?,Proceedings of the 19th ACM SIGSOFT symposium and the 13th European conference on Foundations of software engineering,,,322-331,2011,ACM
+"Voinea, Lucian; Telea, Alexandru; ",Visual data mining and analysis of software repositories,Computers & Graphics,31,3,410-428,2007,Elsevier
+"Shihab, Emad; Hassan, Ahmed E; Adams, Bram; Jiang, Zhen Ming; ",An industrial study on the risk of software changes,Proceedings of the ACM SIGSOFT 20th International Symposium on the Foundations of Software Engineering,,,62,2012,ACM
+"Mizuno, Osamu; Ikami, Shiro; Nakaichi, Shuya; Kikuno, Tohru; ",Spam filter based approach for finding fault-prone software modules,Proceedings of the Fourth International Workshop on Mining Software Repositories,,,4,2007,IEEE Computer Society
+"Khomh, Foutse; Chan, Brian; Zou, Ying; Hassan, Ahmed E; ",An entropy evaluation approach for triaging field crashes: A case study of mozilla firefox,2011 18th Working Conference on Reverse Engineering,,,261-270,2011,IEEE
+"Bijlsma, Dennis; Ferreira, Miguel Alexandre; Luijten, Bart; Visser, Joost; ",Faster issue resolution with higher technical quality of software,Software quality journal,20,2,265-285,2012,Springer
+"Nguyen, Anh Tuan; Nguyen, Tung Thanh; Nguyen, Hoan Anh; Nguyen, Tien N; ",Multi-layered approach for recovering links between bug reports and fixes,Proceedings of the ACM SIGSOFT 20th International Symposium on the Foundations of Software Engineering,,,63,2012,ACM
+"Kim, Sunghun; Zimmermann, Thomas; Kim, Miryung; Hassan, Ahmed; Mockus, Audris; Girba, Tudor; Pinzger, Martin; Whitehead Jr, E James; Zeller, Andreas; ",TA-RE: An exchange language for mining software repositories,Proceedings of the 2006 international workshop on Mining software repositories,,,22-25,2006,ACM
+"Zhang, Feng; Mockus, Audris; Keivanloo, Iman; Zou, Ying; ",Towards building a universal defect prediction model,Proceedings of the 11th Working Conference on Mining Software Repositories,,,182-191,2014,ACM
+"Matsumoto, Shinsuke; Kamei, Yasutaka; Monden, Akito; Matsumoto, Ken-ichi; Nakamura, Masahide; ",An analysis of developer metrics for fault prediction,Proceedings of the 6th International Conference on Predictive Models in Software Engineering,,,18,2010,ACM
+"Canfora, Gerardo; Cerulo, Luigi; Di Penta, Massimiliano; ",Ldiff: An enhanced line differencing tool,Proceedings of the 31st International Conference on Software Engineering,,,595-598,2009,IEEE Computer Society
+"Kim, Sunghun; Pan, Kai; Whitehead Jr, E James; ",Micro pattern evolution,Proceedings of the 2006 international workshop on Mining software repositories,,,40-46,2006,ACM
+"Holschuh, Tilman; Pauser, Markus; Herzig, Kim; Zimmermann, Thomas; Premraj, Rahul; Zeller, Andreas; ",Predicting defects in SAP Java code: An experience report,"Software Engineering-Companion Volume, 2009. ICSE-Companion 2009. 31st International Conference on",,,172-181,2009,IEEE
+"Shihab, Emad; Kamei, Yasutaka; Bhattacharya, Pamela; ",Mining challenge 2012: The android platform,Proceedings of the 9th IEEE Working Conference on Mining Software Repositories,,,112-115,2012,IEEE Press
+"Palix, Nicolas; Lawall, Julia; Muller, Gilles; ",Tracking code patterns over multiple software versions with Herodotos,Proceedings of the 9th International Conference on Aspect-Oriented Software Development,,,169-180,2010,ACM
+"Luijten, Bart; Visser, Joost; ",Faster defect resolution with higher technical quality of software,,,,,2010,"Delft University of Technology, Software Engineering Research Group"
+"Giger, Emanuel; D'Ambros, Marco; Pinzger, Martin; Gall, Harald C; ",Method-level bug prediction,Proceedings of the ACM-IEEE international symposium on Empirical software engineering and measurement,,,171-180,2012,ACM
+"Bissyande, Tegawende F; Thung, Ferdian; Wang, Shaowei; Lo, David; Jiang, Lingxiao; Reveillere, Laurent; ",Empirical evaluation of bug linking,"Software Maintenance and Reengineering (CSMR), 2013 17th European Conference on",,,89-98,2013,IEEE
+"Bhattacharya, Pamela; Neamtiu, Iulian; ",Assessing programming language impact on development and maintenance: A study on C and C++,2011 33rd International Conference on Software Engineering (ICSE),,,171-180,2011,IEEE
+"Bachmann, Adrian; Bernstein, Abraham; ",When process data quality affects the number of bugs: Correlations in software engineering datasets,2010 7th IEEE Working Conference on Mining Software Repositories (MSR 2010),,,62-71,2010,IEEE
+"Anvik, John; ",Assisting bug report triage through recommendation,,,,,2007,University of British Columbia
+"Massacci, Fabio; Nguyen, Viet Hung; ",Which is the right source for vulnerability studies?: An empirical analysis on mozilla firefox,Proceedings of the 6th International Workshop on Security Measurements and Metrics,,,4,2010,ACM
+"Gray, David; Bowes, David; Davey, Neil; Sun, Y; Christianson, Bruce; ",Reflections on the NASA MDP data sets,IET software,6,6,549-558,2012,IET
+"Voinea, Lucian; Lukkien, Johan; Telea, Alexandru; ",Visual assessment of software evolution,Science of Computer Programming,65,3,222-248,2007,Elsevier
+"Bird, Christian; Bachmann, Adrian; Rahman, Foyzur; Bernstein, Abraham; ",Linkster: enabling efficient manual inspection and annotation of mined data,Proceedings of the eighteenth ACM SIGSOFT international symposium on Foundations of software engineering,,,369-370,2010,ACM
+"Williams, Chadd; Spacco, Jaime; ",Szz revisited: verifying when changes induce fixes,Proceedings of the 2008 workshop on Defects in large software systems,,,32-36,2008,ACM
+"Ihara, Akinori; Ohira, Masao; Matsumoto, Ken-ichi; ",An analysis method for improving a bug modification process in open source software development,Proceedings of the joint international and annual ERCIM workshops on Principles of software evolution (IWPSE) and software evolution (Evol) workshops,,,135-144,2009,ACM
+"Rahman, Foyzur; Khatri, Sameer; Barr, Earl T; Devanbu, Premkumar; ",Comparing static bug finders and statistical prediction,Proceedings of the 36th International Conference on Software Engineering,,,424-434,2014,ACM
+"Hall, Tracy; Zhang, Min; Bowes, David; Sun, Yi; ",Some code smells have a significant but small effect on faults,ACM Transactions on Software Engineering and Methodology (TOSEM),23,4,33,2014,ACM
+"Dumitras, Tudor; Narasimhan, Priya; Tilevich, Eli; ",To upgrade or not to upgrade: impact of online upgrades across multiple administrative domains,ACM Sigplan Notices,45,10,865-876,2010,ACM
+"Shao, Danhua; Khurshid, Sarfraz; Perry, Dewayne E; ",Evaluation of semantic interference detection in parallel changes: an exploratory experiment,2007 IEEE International Conference on Software Maintenance,,,74-83,2007,IEEE
+"Hemmati, Hadi; Nadi, Sarah; Baysal, Olga; Kononenko, Oleksii; Wang, Wei; Holmes, Reid; Godfrey, Michael W; ",The msr cookbook: Mining a decade of research,"Mining Software Repositories (MSR), 2013 10th IEEE Working Conference on",,,343-352,2013,IEEE
+"Corley, Christopher S; Kraft, Nicholas A; Etzkorn, Letha H; Lukins, Stacy K; ",Recovering traceability links between source code and fixed bugs via patch analysis,Proceedings of the 6th International Workshop on Traceability in Emerging Forms of Software Engineering,,,31-37,2011,ACM
+"Nadi, Sarah; Dietrich, Christian; Tartler, Reinhard; Holt, Richard C; Lohmann, Daniel; ",Linux variability anomalies: What causes them and how do they get fixed?,Proceedings of the 10th Working Conference on Mining Software Repositories,,,111-120,2013,IEEE Press
+"Halkidi, Maria; Spinellis, Diomidis; Tsatsaronis, George; Vazirgiannis, Michalis; ",Data mining in software engineering,Intelligent Data Analysis,15,3,413-441,2011,IOS Press
+"Kim, Sunghun; Whitehead Jr, E James; Bevan, Jennifer; ",Properties of Signature Change Patterns.,ICSM,6,,4-13,2006,
+"Bird, Christian; Nagappan, Nachiappan; ",Who? where? what?: examining distributed development in two large open source projects,Proceedings of the 9th IEEE Working Conference on Mining Software Repositories,,,237-246,2012,IEEE Press
+"Mizuno, Osamu; Kikuno, Tohru; ",Prediction of fault-prone software modules using a generic text discriminator,IEICE transactions on information and systems,91,4,888-896,2008,"The Institute of Electronics, Information and Communication Engineers"
+"Tarvo, Alexander; ",Mining software history to improve software maintenance quality: A case study,IEEE Software,26,1,34,2009,IEEE Computer Society
+"Würsch, Michael; Ghezzi, Giacomo; Hert, Matthias; Reif, Gerald; Gall, Harald C; ",SEON: a pyramid of ontologies for software evolution and its applications,Computing,94,11,857-885,2012,Springer
+"Tan, Lin; Liu, Chen; Li, Zhenmin; Wang, Xuanhui; Zhou, Yuanyuan; Zhai, Chengxiang; ",Bug characteristics in open source software,Empirical Software Engineering,19,6,1665-1705,2014,Springer
+"Bird, Christian; ",Sociotechnical coordination and collaboration in open source software,"Software Maintenance (ICSM), 2011 27th IEEE International Conference on",,,568-573,2011,IEEE
+"Walker, Robert J; Holmes, Reid; Hedgeland, Ian; Kapur, Puneet; Smith, Andrew; ",A lightweight approach to technical risk estimation via probabilistic impact analysis,Proceedings of the 2006 international workshop on Mining software repositories,,,98-104,2006,ACM
+"Madeyski, Lech; Jureczko, Marian; ",Which process metrics can significantly improve defect prediction models? An empirical study,Software Quality Journal,23,3,393-422,2015,Springer
+"Bachmann, Adrian; Bernstein, Abraham; ","Data retrieval, processing and linking for software process data analysis","University of Zurich, Technical Report",,,,2009,
+"Ghezzi, Giacomo; Gall, Harald C; ",SOFAS: a lightweight architecture for software analysis as a service,"Software Architecture (WICSA), 2011 9th Working IEEE/IFIP Conference on",,,93-102,2011,IEEE
+"Taylor, Quinn; Giraud-Carrier, Christophe; Knutson, Charles D; ",Applications of data mining in software engineering,International Journal of Data Analysis Techniques and Strategies,2,3,243-257,2010,Inderscience Publishers
+"Wang, Shaohua; Khomh, Foutse; Zou, Ying; ",Improving bug localization using correlations in crash reports,"Mining Software Repositories (MSR), 2013 10th IEEE Working Conference on",,,247-256,2013,IEEE
+"Kagdi, Huzefa; Maletic, J; ",Software repositories: A source for traceability links,International Workshop on Traceability in Emerging Forms of Software Engineering (GCT/TEFSEâ07),,,32-39,2007,
+"Hindle, Abram; Godfrey, Michael W; Holt, Richard C; ",Mining recurrent activities: Fourier analysis of change events,"Software Engineering-Companion Volume, 2009. ICSE-Companion 2009. 31st International Conference on",,,295-298,2009,IEEE
+"Li, Sihan; Zhou, Hucheng; Lin, Haoxiang; Xiao, Tian; Lin, Haibo; Lin, Wei; Xie, Tao; ",A characteristic study on failures of production distributed data-parallel programs,Proceedings of the 2013 International Conference on Software Engineering,,,963-972,2013,IEEE Press
+"Bettenburg, Nicolas; Hassan, Ahmed E; ",Studying the impact of social interactions on software quality,Empirical Software Engineering,18,2,375-431,2013,Springer
+"Shihab, Emad; ",An exploration of challenges limiting pragmatic software defect prediction,,,,,2012,Citeseer
+"Sureka, Ashish; Lal, Sangeeta; Agarwal, Lucky; ",Applying fellegi-sunter (fs) model for traceability link recovery between bug databases and version archives,2011 18th Asia-Pacific Software Engineering Conference,,,146-153,2011,IEEE
+"Hata, Hideaki; Mizuno, Osamu; Kikuno, Tohru; ",Fault-prone module detection using large-scale text features based on spam filtering,Empirical Software Engineering,15,2,147-165,2010,Springer
+"Asaduzzaman, Muhammad; Bullock, Michael C; Roy, Chanchal K; Schneider, Kevin A; ",Bug introducing changes: A case study with Android,Proceedings of the 9th IEEE Working Conference on Mining Software Repositories,,,116-119,2012,IEEE Press
+"Athanasiou, Dimitrios; Nugroho, Ariadi; Visser, Joost; Zaidman, Andy; ",Test code quality and its relation to issue handling performance,IEEE Transactions on Software Engineering,40,11,1100-1125,2014,IEEE
+"Murgia, Alessandro; Concas, Giulio; Marchesi, Michele; Tonelli, Roberto; ",A machine learning approach for text categorization of fixing-issue commits on CVS,Proceedings of the 2010 ACM-IEEE International Symposium on Empirical Software Engineering and Measurement,,,6,2010,ACM
+"Athanasiou, Dimitrios; ",Constructing a test code quality model and empirically assessing its relation to issue handling performance,,,,,2011,"TU Delft, Delft University of Technology"
+"Chen, Xiang; Yang, Cheng-Zen; Lu, Ting-Kun; Jaygarl, Hojun; ",Implicit social network model for predicting and tracking the location of faults,2008 32nd Annual IEEE International Computer Software and Applications Conference,,,136-143,2008,IEEE
+"Oyetoyan, Tosin Daniel; Cruzes, Daniela S; Conradi, Reidar; ",A study of cyclic dependencies on defect profile of software components,Journal of Systems and Software,86,12,3162-3182,2013,Elsevier
+"Hora, André; Anquetil, Nicolas; Ducasse, Stéphane; Valente, Marco Tulio; ",Mining system specific rules from change patterns,Working Conference on Reverse Engineering (WCRE'13),,,,2013,
+"Dallmeier, Valentin; ",Mining and checking object behavior,,,,,2010,
+"Fluri, Beat; Zuberbühler, Jonas; Gall, Harald C; ",Recommending method invocation context changes,Proceedings of the 2008 international workshop on Recommendation systems for software engineering,,,1-5,2008,ACM
+"Thung, Ferdian; Lo, David; Jiang, Lingxiao; Rahman, Foyzur; Devanbu, Premkumar T; ",To what extent could we detect field defects? an empirical study of false negatives in static bug finding tools,Proceedings of the 27th IEEE/ACM International Conference on Automated Software Engineering,,,50-59,2012,ACM
+"Fukushima, Takafumi; Kamei, Yasutaka; McIntosh, Shane; Yamashita, Kazuhiro; Ubayashi, Naoyasu; ",An empirical study of just-in-time defect prediction using cross-project models,Proceedings of the 11th Working Conference on Mining Software Repositories,,,172-181,2014,ACM
+"Liang, Guangtai; Wu, Ling; Wu, Qian; Wang, Qianxiang; Xie, Tao; Mei, Hong; ",Automatic construction of an effective training set for prioritizing static analysis warnings,Proceedings of the IEEE/ACM international conference on Automated software engineering,,,93-102,2010,ACM
+"Parnin, Chris; Görg, Carsten; Rugaber, Spencer; ",Enriching revision history with interactions,Proceedings of the 2006 international workshop on Mining software repositories,,,155-158,2006,ACM
+"Goulão, Miguel; Fonte, Nelson; Wermelinger, Michel; e Abreu, Fernando Brito; ",Software evolution prediction using seasonal time analysis: a comparative study,"Software Maintenance and Reengineering (CSMR), 2012 16th European Conference on",,,213-222,2012,IEEE
+"Hora, Andre; Anquetil, Nicolas; Ducasse, Stéphane; Allier, Simon; ",Domain specific warnings: Are they any better?,"Software Maintenance (ICSM), 2012 28th IEEE International Conference on",,,441-450,2012,IEEE
+"Koponen, Timo; Lintula, Heli; ",Are the Changes Induced by the Defect Reports in the Open Source Software Maintenance?,Software Engineering Research and Practice,,,429-435,2006,Citeseer
+"Sinha, Vibha Singhal; Sinha, Saurabh; Rao, Swathi; ",BUGINNINGS: identifying the origins of a bug,Proceedings of the 3rd India software engineering conference,,,3-12,2010,ACM
+"Nguyen, Viet Hung; Massacci, Fabio; ",The (un) reliability of nvd vulnerable versions data: an empirical experiment on google chrome vulnerabilities,"Proceedings of the 8th ACM SIGSAC symposium on Information, computer and communications security",,,493-498,2013,ACM
+"Khomh, Foutse; Yuan, Hao; Zou, Ying; ",Adapting Linux for mobile platforms: An empirical study of Android,"Software Maintenance (ICSM), 2012 28th IEEE International Conference on",,,629-632,2012,IEEE
