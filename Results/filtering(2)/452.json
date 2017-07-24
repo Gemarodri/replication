@@ -1,0 +1,36 @@
+{
+    "Title" : "Properties of Signature Change Patterns",
+    "Id" : 452,
+    "Date" : 2006,
+    "Published" : "Software Maintenance, 2006. ICSM'06. 22nd IEEE International Conference on",
+    "Authors": {
+        "Name": ["Sunghun Kim"],
+        "Name2": ["E. James Whitehead, Jr"],
+        "Name3": ["Jennifer Bevan"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "long (10)",
+    "Project" :{ 
+        "Name": ["Apache HTTP 1.3","Apache HTTP 2.0", "Apache Portable Runtime","APR utility","CVS","GCC","Subversion"], 
+        "Dates":["01/01/1996-01/03/2005","01/07/1999 - 01/08/2003","01/01/1999 - 01/02/2005","01/07/1999 - 01/02/2005","01/12/1994 - 01/09/2003","01/11/1988 - 01/02/1993","01/08/2001 - 01/03/2005"],
+        },
+    "Volume_data":{
+        "Metric": ["#Transactions"],
+        "Size":[7747,3877,5990,1353,2873,3012,6029 ]
+        },
+    "Versioning":["Subversion/CVS"],
+    "Language_used":["C"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" software evolution analysis",
+    "Elements_risk_assessment":" the function at transaction n-
+1 has one or more problematic lines, which are fixed in transaction n by changing them",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To identify bug introducing changes",
+    "Summary": " provide detailed signature change properties by analyzing seven software project histories 
+    to reveal multiple properties of signature changes, including their kind, frequency, correlation with 
+    other changes, number of parameter changes, and evolution patterns of signature change kinds.",
+    "Outcome": "They show that signature changes can be used as measurement aid for software evolution analysis "
+}

@@ -1,0 +1,30 @@
+{
+    "Title" : "Learning from Defect Removals",
+    "Id" : 3,
+    "Date" : 2009,
+    "Published" : " Minning software repository",
+    "Authors": {
+        "Name": "Nathaniel Ayewah",
+        "Name2": "William Pugh",
+        "Country":"USA"
+        },
+    "Type_paper" : "short",
+    "Project" :{ 
+        "Name": ["CherryPy "," Eclipse", "Groovy"], 
+        "Dates":["NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#reports"],
+        "Size":[103, 50, 60]},
+    "Versioning":["SVN","CVS","SVN"],
+    "Language_used":["Python","Java","Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "Yes(1)",
+    "Purpose":"empirical study, how many defects are in the scope of static analysis tools, missclasification",
+    "Elements_risk_assessment":"None, they assume a theroy similar to us: 'the fixes may not have been directly induced by a previous modification of the same lines'. Their results should impacts efforts to determine which earlier changes may have introduced bugs",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative",
+    "Collection": ["Track", "Bugzilla", "Jira"],
+    "UseOF-SZZ": "They used the SZZ algorithm to link",
+    "Summary": "The goal is  a  manual review of several software projects, and use this opportunity to see how many defects are in the scope of static analysis tools (FindBugs and Pylint), they know that not all fixed commit are applied at the point in the code where the bug was originally introduced."
+}

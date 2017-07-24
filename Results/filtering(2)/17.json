@@ -1,0 +1,33 @@
+{
+    "Title" : " ENABLING PRECISE INTERPRETATIONS OF SOFTWARE CHANGE DATA",
+    "Id" : 17,
+    "Date" : 2011,
+    "Published" : "McGill University",
+    "Authors": {
+        "Name": ["David Kawrykow"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : "Master thesis (95)",
+
+    "Project" :{ 
+        "Name": ["Ant", "Azureus", "Hibernate","JDR-Core","JDT-UI","JEdit","Nutch","Spring","Structs","Xerces"  ], 
+        "Dates":["12/06/2001-07/17/2007","11/12/2003-07/14/2004","12/4/2003-08/19/2005","01/17/2002-07/15/2003","08/20/2001-05/15/2002","02/11/2001-06/10/2011","06/2/2005-05/23/2011","02/1/2004-02/6/2006","07/16/2000-09/16/2009","05/17/2001-11/8/2007"],
+        },
+    "Volume_data":{
+        "Metric": ["change set"],
+        "Size":[ 30000]
+        },
+    "Versioning":[""],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":"new technique,change based",
+    "Elements_risk_assessment":"They don't look if the changes done were or weren't the real cause of the bug",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative&quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "Similar heuristics to map commits and ids",
+    "Summary": " computes a fine-grained edit script describing
+    changes within a change set,identifies changes that we consider to be non-essential,and identifies subtasks within change sets, or groups of changes that are related to each other, but unrelated to other groups of changes within the same change set",
+    "Outcome": "Proposed a catalog of non-essential changes and describe an automated technique for detecting such changes within version histories, between 3% and 26% of all modified code lines and between 2% and 16% of all method updates consisted entirely of non-essential modifications. "
+}

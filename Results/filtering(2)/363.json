@@ -1,0 +1,36 @@
+{
+    "Title" : "Memories of Bug Fixes",
+    "Id" : 363,
+    "Date" : 2006,
+    "Published" : "SIGSOFT",
+    "Authors": {
+        "Name": ["Sunghun Kim"],
+        "Name2": ["Kai Pan"],
+        "Name3": ["E. James Whitehead, Jr."],
+        "Country":["USA"]
+        },
+    "Type_paper" : "long (11)",
+    "Project" :{ 
+        "Name": ["ArgoUML","Columba","Eclipse","jEdit","Scarab"], 
+        "Dates":["01/01/1998-01/09/2005","01/11/2002 - 01/12/2005","01/06/2001- 01/01/2006","01/09/2001-01/01/2006","01/12/2000 -01/02/2006"],
+        },
+    "Volume_data":{
+        "Metric": ["#oftransactions"],
+        "Size":[4685,2362,6394,1190,2962 ]
+        },
+    "Versioning":["CVS/Subversion"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Bug detection",
+    "Elements_risk_assessment":" The code in bug hunks represents the mistakes developers have
+made throughout a project’s history",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To locate the bug hunks",
+    "Summary": " It presents a bug finding algorithm using bug fix memories: a project-specific bug and fix knowledge base developed by
+analyzing the history of bug fixes",
+    "Outcome": "project-specific bug fix patterns occur frequently enough to be
+useful as a bug detection technique. "
+}

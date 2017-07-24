@@ -1,0 +1,36 @@
+{
+    "Title" : "Personalized Defect Prediction",
+    "Id" : 416,
+    "Date" : 2013,
+    "Published" : "ASE",
+    "Authors": {
+        "Name": ["Tian Jiang"],
+        "Name2": ["Lin Tan"],
+        "Name3": ["Sunghun Kim"],
+        "Country":["Canada"],
+        "Country2":["China"]
+        },
+    "Type_paper" : "long (11)",
+    "Project" :{ 
+        "Name": ["Linux kernel", "PostgreSQL", "Xorg", "Eclipse", "Lucene", "Jackrabbit"], 
+        "Dates":["2005/04/16-2010/11/21","1996/07/09-2011/01/25","1999/11/19-2012/06/28","2001/06/05-2012/07/24","2010/03/17-2013/01/16","2004/09/13-2013/01/14"],
+        },
+    "Volume_data":{
+        "Metric": ["#changes(K)"],
+        "Size":[429,89,46,73,76,61]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["C/Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Defect prediction ",
+    "Elements_risk_assessment":" The lines that the bug-fixing changes modified are assumed to be the location of a bug.
+     This approach has a precision of 75–88% in identifying bug-fixing commits in our data set",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To label bug-introducing changes.",
+    "Summary": " personalized defect prediction—building a separate prediction model
+     for each developer to predict software defects.",
+    "Outcome": " personalized approach can discover up to 155 more bugs than the traditional change classification"
+}

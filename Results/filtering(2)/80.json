@@ -1,0 +1,39 @@
+{
+    "Title" : "Initial and Eventual Software Quality Relating to Continuous Integration in GitHub",
+    "Id" : 80,
+    "Date" : 2016,
+    "Published" : "arXiv preprint",
+    "Authors": {
+        "Name": ["Yue Yu"],
+        "Name2": ["Bogdan Vasilescu"],
+        "Name3": [" Huaimin Wang"],
+        "Name4": ["Vladimir Filkov"],
+        "Name5": ["Premkumar Devanbu"],
+        "Country":["China"],
+        "Country2":["USA"]
+        },
+    "Type_paper" : "large (12)",
+    "Project" :{ 
+        "Name": ["ipython","pydata","scipy","numpy","cakephp"], 
+        "Dates":["NaN","NaN","NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["Git"],
+    "Language_used":["Python/C/PHP"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Study the nature of CI detected defects",
+    "Elements_risk_assessment":" The assumption of that a (buggy commits) where the fix-inducing lines had been last added or modified.",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Github"],
+    "UseOF-SZZ": "They addapted the SZZ to identify the fix-inducing code",
+    "Summary": "How many problems are exposed? Where do they occur? What factors affect CI failures? Does the “initial quality” as
+ascertained by CI predict how many bugs will later appear (“eventual quality”) in the code? In this paper, we undertake
+a large-scale, fine resolution study of these records, to better understand CI processes, the nature, and predictors of CI
+failures, and the relationship of CI failures to the eventual quality of the code ",
+    "Outcome": " CI detected bugs are distributed just like normal bugs. However, they do not correlate highly with eventual bugs.the interplay between initial and final quality is interesting, as it seems only weakly related. "
+}

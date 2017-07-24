@@ -1,0 +1,37 @@
+{
+    "Title" : "Dual Ecological Measures of Focus
+in Software Development",
+    "Id" : 410,
+    "Date" : 2013,
+    "Published" : "ICSE",
+    "Authors": {
+        "Name": ["Daryl Posnett"],
+        "Name2": ["Raissa D’Souza"],
+        "Name3": ["Premkumar Devanbu,"],
+        "Name4": ["Vladimir Filkov"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "Conference (10)",
+    "Project" :{ 
+        "Name": ["Avro","Cassandra","CXF","Ivy","Lucene","Shindig","Wicket"], 
+        "Dates":["NaN","NaN","NaN","NaN","NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#files", "releases"],
+        "Size":[[238,332,4097,498,957,812,1947],["1.3.2 - 1.4.1","0.6.0 - 0.6.8","2.11-2.3.1","2.0.0 - 2.2.0","1.9.1 - 3.0.3","2.0.0, 2.0.1","1.2.7 - 1.3.7"] ]
+        },
+    "Versioning":["Git"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Software maintenance",
+    "Elements_risk_assessment":"We then use git blame on only the changed lines to identify the revision responsible
+for the fix inducing code. ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Jira"],
+    "UseOF-SZZ": "To identify the fix inducing code",
+    "Summary": " Simultaneously study the module activity
+focus and developer attention focus in OSS.",
+    "Outcome": " more focused developers introduce fewer defects than defocused developers."
+}

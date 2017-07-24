@@ -1,0 +1,35 @@
+{
+    "Title" : "Supporting Code Review by Automatic Detection of Potentially Buggy Changes",
+    "Id" : 37,
+    "Date" : 2015,
+    "Published" : "International Conference: Beyond Databases, Architectures and Structures",
+    "Authors": {
+        "Name": ["Mikołaj Fejzer"],
+        "Name2": ["Michał Wojtyna"],
+        "Name3": ["Marta Burzańska"],
+        "Name4": ["Piotr Wiśniewski"],
+        "Name5": ["Krzysztof Stencel"],
+        "Country":["Poland"]
+        },
+    "Type_paper" : "large (10)",
+    "Project" :{ 
+        "Name": ["77 projectos"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["CVS/Git"],
+    "Language_used":[""],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" A Method to detect possibly buggy change based on a classifier trained using a project's history",
+    "Elements_risk_assessment":" The main assumption",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": ["GitHub"],
+    "UseOF-SZZ": "To locate the pc",
+    "Summary": " In this paper they present such a solution integrated with code review tools. It is based on a SVM classi er that indicates potentially buggy changes. ",
+    "Outcome": "An integration of the classi er into the code review system Gerrit, the implementation is availabe on https://github.com/mfejzer/CommitClassification"
+}

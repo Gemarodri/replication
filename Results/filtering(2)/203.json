@@ -1,0 +1,31 @@
+{
+    "Title" : "Augmenting Traditional Static Analysis With Commonly Available Metadata",
+    "Id" : 203,
+    "Date" : 2015,
+    "Published" : "Faculty of Auburn University",
+    "Authors": {
+        "Name": ["Devin C. Cook"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "PhD thesis (113)",
+    "Project" :{ 
+        "Name": ["Cpython"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#commits","#commiters"],
+        "Size":[ 93000,192]
+        },
+    "Versioning":["Subversion/Git/Mercurial"],
+    "Language_used":["Python/C"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" New method, vulnerability detection",
+    "Elements_risk_assessment":" they do a very good job, the same idea than ours looking for the test !!",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Roundup"],
+    "UseOF-SZZ": " To identify the changesets that have injected a particular bug.",
+    "Summary": "This dissertation provides a method for leveraging development metadata to find bugs that would otherwise be difficult to find using standard static analysis tools.",
+    "Outcome": "the ability to find 0day vulnerabilities in large and small software projects by finding new vulnerabilities in the cpython and Roundup open source projects"
+}

@@ -1,0 +1,34 @@
+{
+    "Title" : "An Extension of Fault-Prone Filtering Using Precise
+Training and a Dynamic Threshold",
+    "Id" : 304,
+    "Date" : 2008,
+    "Published" : "MSR",
+    "Authors": {
+        "Name": ["Hideaki Hata"],
+        "Name2": ["Osamu Mizuno"],
+        "Name3": ["Tohru Kikuno"],
+        "Country":[""]
+        },
+    "Type_paper" : "Conference (9)",
+    "Project" :{ 
+        "Name": ["Eclipse BIRT","Eclipse modeling framework"], 
+        "Dates":["01/12/2007"],
+        },
+    "Volume_data":{
+        "Metric": ["#issues"],
+        "Size":[ 2758, 629]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Fault-Prone Filtering",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": "FP(buggy) lines and FIX lines are extracted from source code repositories based on an algorithm",
+    "Summary": " a novel approach for detecting fault-prone modules using a spam-filtering technique, named Fault-Prone Filtering.",
+    "Outcome": " The result of the experiment shows that our extension leads to twice the precision with about the same re- call, and improves 15% on the best F 1 measurement."
+}

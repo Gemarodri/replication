@@ -1,0 +1,36 @@
+{
+    "Title" : "Pragmatic Prioritization of
+Software Quality Assurance Efforts",
+    "Id" : 334,
+    "Date" : 2011,
+    "Published" : "ICSE",
+    "Authors": {
+        "Name": ["Emad Shihab"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : "Short (4identify a set of challenges that need to be addressed
+to make previous work on quality assurance prioritization more
+pragmatic)",
+    "Project" :{ 
+        "Name": [""], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":[""],
+    "Improved_SZZ": "",
+    "TTV_SZZ": "",
+    "Purpose":" Software Quality",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To calculate the changes that introduced bugs",
+    "Summary": " identify a set of challenges that need to be addressed 
+    to make previous work on quality assurance prioritization more pragmatic",
+    "Outcome": " They present two approaches, at the code and change level, that demonstrate how prior approaches can
+    be more pragmatic"
+}

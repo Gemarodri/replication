@@ -1,0 +1,37 @@
+{
+    "Title" : "Evaluating the Relation Between Coding Standard Violations and
+Faults Within and Across Software Versions ∗",
+    "Id" : 408,
+    "Date" : 2009,
+    "Published" : "Mining Software Repositories, 2009. MSR'09. 6th IEEE International Working Conference on",
+    "Authors": {
+        "Name": ["Cathal Boogerd"],
+        "Name2": ["Leon Moonen"],
+        "Country": ["The Netherlands"],
+        "Country2":["Norway"]
+        },
+    "Type_paper" : "",
+    "Project" :{ 
+        "Name": ["NXP TV"], 
+        "Dates":["June 2006-April 2007"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":["C"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":"Bug origins ",
+    "Elements_risk_assessment":" trace the lines involved in a fault-
+fix, designated as faulty lines, to their origin.",
+    "EaseOf_Reproducibility":"",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "",
+    "Summary": " In this paper, they investigate three different aspects of the relation between violations and faults on a
+    larger case study",
+    "Outcome": " they find that 10 rules in the standard are signifi-
+cant predictors of fault location."
+}

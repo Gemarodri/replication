@@ -1,0 +1,31 @@
+{
+    "Title" : "Analysis of cross-system porting and porting errors in software projects",
+    "Id" : 54,
+    "Date" : 2013,
+    "Published" : "The University of Texas",
+    "Authors": {
+        "Name": ["Baishakhi Ray"],
+        "Country":["EE.UU"]
+        },
+    "Type_paper" : "PhD thesis (194)",
+    "Project" :{ 
+        "Name": ["Linux","FreeBSD"], 
+        "Dates":["NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["C/C++/Java/Cobol"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" To build a deeper understanding of the extent and characteristic of cross-system porting and porting errors.",
+    "Elements_risk_assessment":"pc could be not a BIC ",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "They use the SZZ to identify the fix inducing changes",
+    "Summary": " It presents tool support to monitor cross-system porting and to detect and diagnose potential porting errors.",
+    "Outcome": " These tools should help managers and architects to make informed decisions on how to maintain forked projects and assist developers in detecting and diagnosing porting inconsistencies."
+}

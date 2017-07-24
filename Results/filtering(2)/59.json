@@ -1,0 +1,31 @@
+{
+    "Title" : "Bug-Introducing Changes: A Case Study with Chrome",
+    "Id" : 59,
+    "Date" : 2013,
+    "Published" : "University of Waterloo",
+    "Authors": {
+        "Name": ["Graham Pinhey"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : "large (10)",
+    "Project" :{ 
+        "Name": ["Chromium"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#bugreports", "#fixed","#BFC","#BIC"],
+        "Size":[43177,22856,4951, 10291]
+        },
+    "Versioning":["Subversion"],
+    "Language_used":["C/C++/Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "yes",
+    "Purpose":" Empirical Study on how bugs are introduced.",
+    "Elements_risk_assessment":" The pc could be not the BIC",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "They use the SZZ to find the origins of a bug",
+    "Summary": " to identify changes that created bugs and examine the conditions surrounding these changes.",
+    "Outcome": " this paper summarizes known techniques for identifying bug-introducing changes and shows how generalizable these techniques are across different software projects."
+}

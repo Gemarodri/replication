@@ -1,0 +1,31 @@
+{
+    "Title" : "Learning from Project History to Support Programmers.",
+    "Id" : 86,
+    "Date" : 2005,
+    "Published" : "Book: GI Jahrestagung",
+    "Authors": {
+        "Name": ["Thomas Zimmermann"],
+        "Country":["Germany"]
+        },
+    "Type_paper" : "Technical (4)",
+    "Project" :{ 
+        "Name": [""], 
+        "Dates":[""],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":[""],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" Presenting tools",
+    "Elements_risk_assessment":"No ",
+    "EaseOf_Reproducibility":"",
+    "Design":"technical",
+    "Collection": [""],
+    "UseOF-SZZ": "They cited the SZZ to refer to their previous work",
+    "Summary": "The eROSE tool guides programmers along related changes in a similar way Amazon.com supports its customers. The HATARI tool warns programmers against risky locations: ",
+    "Outcome": " The description of two tools "
+}

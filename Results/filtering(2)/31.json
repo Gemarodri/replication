@@ -1,0 +1,34 @@
+{
+    "Title" : "Exploiting Module Locality to Improve Software Fault Prediction",
+    "Id" : 31,
+    "Date" : 2011,
+    "Published" : " Ninth IEEE International Symposium on Parallel and Distributed Processing with Applications Workshops",
+    "Authors": {
+        "Name": ["Cheng-Zen Yang"],
+        "Name2": ["Chin-Sung Fan-Chiang"],
+        "Name3": ["Ing-Xiang Chen"],
+        "Country":["Taiwan"]
+        },
+    "Type_paper" : "Workshop (6 pages)",
+    "Project" :{ 
+        "Name": ["SVN","AspectJ","ArgoUML"], 
+        "Dates":["2001/07/01-2005/03/01","2001/06/01-2006/10/01","2000/02/01-2007/04/01"],
+        },
+    "Volume_data":{
+        "Metric": ["# Fixed Bug Reports"],
+        "Size":[211,665,1.024 ]
+        },
+    "Versioning":["Subversion","CVS","Subversion"],
+    "Language_used":["C/C++","Java", "Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "Yes (1)",
+    "Purpose":"automatically predict the fault-prone files from bug reports. They have addressed a novel mechanism of exploiting module locality based on the previously fixed files.",
+    "Elements_risk_assessment":"They did not say anything about that the pc could be not the real ones",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative",
+    "Collection": ["Tigris","Bugzilla","Tigris"],
+    "UseOF-SZZ": "To identify the fixed components in the source files, the fixed information was retrieved from CVS/SVN and the bug repositories as in previous studies",
+    "Summary": " Our empirical observations show that the files of low revision frequencies in the same file directory or package of the files of high revision  
+frequencies may be potential bug-fixing candidates for future bug reports. In this paper, we present a novel enhancement by exploiting module locality to improve the frequency-based approaches",
+    "Outcome": " module locality can be employed to consistently improve the hit rate of a frequency-based approach and achieve the highest improvement of about 14%"
+}

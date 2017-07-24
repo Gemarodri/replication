@@ -1,0 +1,33 @@
+{
+    "Title" : "Ownership and Experience in Fix-Inducing Code",
+    "Id" : 275,
+    "Date" : ,
+    "Published" : "UC Davis Department of Computer Science, Technical Report CSE-2010",
+    "Authors": {
+        "Name": ["Foyzur Rahman"],
+        "Name2": ["Premkumar Devanbu"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "Report (11)",
+    "Project" :{ 
+        "Name": ["Apache","Evolution","Gimp","Nautilus"], 
+        "Dates":["NaN","NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["Subversion/Git"],
+    "Language_used":["C"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Software quality",
+    "Elements_risk_assessment":" to identify lines of code that are associated with changes that are identified as defect repairs.",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "to locate fix inducing",
+    "Summary": "improving quality via more effective code ownership, and the appropriate use of experienced personnel; ",
+    "Outcome": "fix-inducing code is more strongly associated with a single developer’s contribution; our findings 
+    also indicate that author’s specific experience in the target file is more important than general experience. "
+}

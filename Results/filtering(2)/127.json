@@ -1,0 +1,39 @@
+{
+    "Title" : "On the naturalness of buggy code",
+    "Id" : 127,
+    "Date" : 2016,
+    "Published" : "In Proceedings of the 38th International Conference on Software Engineering ",
+    "Authors": {
+        "Name": ["Baishakhi Ray"],
+        "Name2": ["Vincent Hellendoorn"],
+        "Name3": ["Zhaopeng Tu"],
+        "Name4": ["Connie Nguyen"],
+        "Name5": ["Saheel Godhane"],
+        "Name6": ["Alberto Bacchelli"],
+        "Name7": ["Premkumar Devanbu"],
+        "Country":["USA"],
+        "Country2":["China"],
+        "Country3":["Netherlands"]
+        },
+    "Type_paper" : "Conference (11)",
+    "Project" :{ 
+        "Name": [" 10 different projects"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["DataBase taken from Rahman et al. [28]."],
+        "Size":[ ]
+        },
+    "Versioning":["Git"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Empirical analysis",
+    "Elements_risk_assessment":" buggy lines could be not real buggy lines",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Jira"],
+    "UseOF-SZZ": "To mark the buggy lines",
+    "Summary": " Focusing on its language statistics, evaluating the naturalness of buggy code and the corresponding fixes",
+    "Outcome": " with bugs tends to be more entropic (i.e. unnatural), becoming less so as bugs are fixed"
+}

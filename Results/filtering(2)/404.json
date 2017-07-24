@@ -1,0 +1,38 @@
+{
+    "Title" : "Mining Version Archives for Co-changed Lines",
+    "Id" : 404,
+    "Date" : 2006,
+    "Published" : "MSR",
+    "Authors": {
+        "Name": ["Thomas Zimmermann"],
+        "Name2": ["Sunghun Kim"],
+        "Name3": ["Andreas Zeller"],
+        "Name3": ["E. James Whitehead Jr."],
+        "Country":["Germany"],
+        "Country2":["USA"]
+        },
+    "Type_paper" : "short (4)",
+    "Project" :{ 
+        "Name": ["Eclipse"], 
+        "Dates":["2005/11/23"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":[""],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" New algorithm ",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "it's an improvement of the SZZ algorithm using annotation graphs",
+    "Summary": " To identify line changes across several versions,
+we define the annotation graph which captures how lines evolve
+over time.",
+    "Outcome": " In this paper we presented the annotation graph which captures the
+evolution of linesSS"
+}

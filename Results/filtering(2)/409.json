@@ -1,0 +1,35 @@
+{
+    "Title" : "How Developer Communication Frequency Relates to
+Bug Introducing Changes",
+    "Id" : 409,
+    "Date" :2009 ,
+    "Published" : "IWPSE",
+    "Authors": {
+        "Name": ["Roberto Abreu"],
+        "Name2": ["Rahul Premraj"],
+        "Country":["The Netherlands"]
+        },
+    "Type_paper" : "short (5)",
+    "Project" :{ 
+        "Name": ["JDT"], 
+        "Dates":["2001/11/04-2006/11/24"],
+        },
+    "Volume_data":{
+        "Metric": ["dataSet"],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":["Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "Yes",
+    "Purpose":"Human factors ",
+    "Elements_risk_assessment":" The sataset",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "They use the data base available in the SZZ paper",
+    "Summary": " they investigate whether developer communication has any bearing with software quality by examining the relationship
+between communication frequency and number of bugs injected into the software",
+    "Outcome": "The results show a statistically significant positive correlation between communication frequency and number of injected bugs
+in the software."
+}

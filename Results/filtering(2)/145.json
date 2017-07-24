@@ -1,0 +1,37 @@
+{
+    "Title" : "Are developers fixing their own bugs?: Tracing bug-fixing and bug-seeding committers",
+    "Id" : 145,
+    "Date" : 2011,
+    "Published" : "IGI Global",
+    "Authors": {
+        "Name": ["Daniel Izquierdo-Cortazar"],
+        "Name2": ["Andrea Capiluppi"],
+        "Name3": ["Jesus M. Gonzalez-Barahona"],
+        "Country":["Spain"],
+        "Country2":["Uk"]
+        },
+    "Type_paper" : "long (22)",
+    "Project" :{ 
+        "Name": ["Thunderbird", "SeaMonkey", "Lightning", "Sunbird"], 
+        "Dates":["2008/07/22-2010/07/20"],
+        },
+    "Volume_data":{
+        "Metric": ["#commits"],
+        "Size":[ 2969]
+        },
+    "Versioning":["CVS/SVN/Mercurial"],
+    "Language_used":[""],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" bug seeding",
+    "Elements_risk_assessment":" the lines that have been removed of modified in the bug-fixing commit are the ones where the bug was located",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To locate the person who writte the origin of the bug",
+    "Summary": " Study whether those contributors fixing a bug are the same introducing and
+    seeding it in the first place",
+    "Outcome": " (1) in 80% of the cases, the bug-fixing activity
+involves source code modified by at most two developers. (2) that the developers
+fixing the bug are only responsible for 3.5% of the previous modifications to the lines affected;"
+}

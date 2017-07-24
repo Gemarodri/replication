@@ -1,0 +1,35 @@
+{
+    "Title" : "An automatic method for assessing the versions affected by a vulnerability",
+    "Id" : 213,
+    "Date" : 2016,
+    "Published" : "Empirical Software Engineering",
+    "Authors": {
+        "Name": ["Viet Hung Nguyen"],
+        "Name2": ["Stanislav Dashevskyi"],
+        "Name3": ["Fabio Massacci"],
+        "Country":["Italy"]
+        },
+    "Type_paper" : "Journal (30)",
+    "Project" :{ 
+        "Name": ["Chrome","Firefox"], 
+        "Dates":["NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#vulnerablefiles","#vulnerabilities"],
+        "Size":[7236,9800]
+        },
+    "Versioning":["CVS/Mercurial"],
+    "Language_used":[""],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Vulnerability analysis",
+    "Elements_risk_assessment":" the method identifies the lines of code that were changed to fix vulnerabilities. If an earlier version contains these deleted lines, 
+    it is highly likely that this version is vulnerable.",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [" "],
+    "UseOF-SZZ": " Their method is different from the SZZ in two points (1) They accept false positives but they try to avoid false negatives
+     (2) their methos focuses on the question: 'which versions are truly affected by which vulnerabilities?'",
+    "Summary": " A new method inspired by SZZ ",
+    "Outcome": " The experiment showed that there is a significant presence of spurious vulnerability claims in NVD"
+}

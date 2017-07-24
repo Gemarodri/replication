@@ -1,0 +1,37 @@
+{
+    "Title" : "Automatic Identification of Bug-Introducing Changes",
+    "Id" : 361,
+    "Date" : 2006,
+    "Published" : "International Conference on Automated Software Engineering",
+    "Authors": {
+        "Name": ["Sunghun Kim"],
+        "Name2": ["Thomas Zimmermann"],
+        "Name3": ["Kai Pan"],
+        "Name3": ["E. James Whitehead, Jr"],
+        "Country":["USA"],
+        "Country2":["Germany"]
+        },
+    "Type_paper" : "Large (10)",
+    "Project" :{ 
+        "Name": ["Columba","Eclipse"], 
+        "Dates":["01/11/2002-01/06/2003", "01/06/2001-01/03/2002"],
+        },
+    "Volume_data":{
+        "Metric": ["#fixrevisions"],
+        "Size":[ 143,158]
+        },
+    "Versioning":["CVS/Subversion"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" new algorithm",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To locate the bug-introducing change",
+    "Summary": " This is the improved SZZ paper, where the authors present algorithms to automatically
+and accurately identify bug-introducing changes.",
+    "Outcome": " algorithms can remove about 38%~51% of false positives and 14%~15% of false negatives
+compared to the previous algorithm"
+}

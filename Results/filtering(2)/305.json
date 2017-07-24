@@ -1,0 +1,37 @@
+{
+    "Title" : "Discovering Dynamic Developer Relationships from Software Version Histories
+by Time Series Segmentation",
+    "Id" : 305,
+    "Date" : 2007,
+    "Published" : "Software Maintenance, 2007. ICSM 2007. IEEE International Conference on",
+    "Authors": {
+        "Name": ["Harvey Siy"],
+        "Name2": ["Parvathi Chundi"],
+        "Name3": ["Daniel J. Rosenkrantz"],
+        "Name4": ["Mahadevan Subramaniam"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "",
+    "Project" :{ 
+        "Name": ["Mozilla"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["data set of Mozilla in MSR 2007"],
+        "Size":[ ]
+        },
+    "Versioning":["CVS"],
+    "Language_used":[""],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Software Quality",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To finding changes that most likely lead to future fixes",
+    "Summary": " A dynamic programming based algorithm to optimally segment an item-set time series is presented. The algorithm au-
+tomatically produces a compacted item-set time series that can be analyzed to discern temporal patterns.",
+    "Outcome": " the segmentation algorithm produces segments that capture meaningful information and is superior to the information
+content obtaining by arbitrarily segmenting time period into regular time intervals"
+}

@@ -1,0 +1,34 @@
+{
+    "Title" : "An Integrated Approach to Detect Fault-Prone Modules
+Using Complexity and Text Feature Metrics",
+    "Id" : 255,
+    "Date" : 2010,
+    "Published" : "Advances in Computer Science and Information Technology",
+    "Authors": {
+        "Name": ["Osamu Mizuno"],
+        "Name2": ["Hideaki Hata"],
+        "Country":["Japan"]
+        },
+    "Type_paper" : " Book (11)",
+    "Project" :{ 
+        "Name": ["promise-2.0a data set"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Defect Fault-Prone",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To collect the fault data",
+    "Summary": "Two approaches of fault-prone module detection ",
+    "Outcome": " Each approach has the pros and cons.The result of experiment shows that the proposed approach
+shows better accuracy than each approach"
+}

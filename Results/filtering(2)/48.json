@@ -1,0 +1,36 @@
+{
+    "Title" : "A Heuristic Rule Reduction Approach to Software Fault-proneness Prediction",
+    "Id" : 48,
+    "Date" : 2012,
+    "Published" : "Software Engineering Conference (APSEC)",
+    "Authors": {
+        "Name": ["Akito Monden"],
+        "Name2": ["Jacky Keung"],
+        "Name3": ["Shuji Morisaki"],
+        "Name4": ["Yasutaka Kamei"],
+        "Name5": ["Ken-ichi Matsumoto"],
+        "Country":["China"],
+        "Country2":["Japon"]
+        },
+    "Type_paper" : "large (10)",
+    "Project" :{ 
+        "Name": ["Mylyn","Eclipse PDE" ], 
+        "Dates":["NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":["Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "no",
+    "Purpose":" It proposes a rule reduction technique that can eliminate complex (long) and/or similar rules without sacrificing the prediction performance as much as possible. ",
+    "Elements_risk_assessment":" pc is not the BIC",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "We obtained the number of bugs in source code files using the SZZ algorithm",
+    "Summary": " Removing long and similar rules unless their confidence level as a heuristic is high enough than shorter rules.",
+    "Outcome": " The proposed method reduced the number of rules providing better understanding of the causes of faulty modules. "
+}

@@ -1,0 +1,33 @@
+{
+    "Title" : "Post-Implementation Management in Large-Scale Management Information Systems:
+Changes, Incident Reports, Help Desk Calls, and Business Process",
+    "Id" : 282,
+    "Date" : 2008,
+    "Published" : "Post-Implementation Management in Large-Scale Management Information Systems",
+    "Authors": {
+        "Name": ["H. Keith Edwards"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "book (26)",
+    "Project" :{ 
+        "Name": [""], 
+        "Dates":["2002/01/18-2006/09/29"],
+        },
+    "Volume_data":{
+        "Metric": ["#separatereports"],
+        "Size":[6329 ]
+        },
+    "Versioning":[""],
+    "Language_used":[""],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "",
+    "Purpose":"Software maintenance ",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "The revision history explored in this article is similar to Sliwerski, with regard to when changes induce fixes.",
+    "Summary": " This study examines the relationships among these aspects of system maintenance and process support for a key information system at a large,
+industrial Fortune 500 company.",
+    "Outcome": " provides empirical validation for strategic alignment philosophies and models, such as Leavitt’s Model, during the maintenance phase of the software development life cycle."
+}

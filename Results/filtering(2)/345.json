@@ -1,0 +1,36 @@
+{
+    "Title" : "Wait For It: Determinants of Pull Request Evaluation Latency on GitHub",
+    "Id" : 345,
+    "Date" : 2015,
+    "Published" : "Mining Software Repositories",
+    "Authors": {
+        "Name": ["Yue Yu"],
+        "Name2": ["Huaimin Wang"],
+        "Name3": ["Vladimir Filkov"],
+        "Name4": ["Premkumar Devanbu"],
+        "Name5": ["Bogdan Vasilescu"],
+        "Country":["China"],
+        "Country2":["USA"]
+        },
+    "Type_paper" : "Conference (5)",
+    "Project" :{ 
+        "Name": ["GHTorrent"], 
+        "Dates":["10/11/2014"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["Git"],
+    "Language_used":[""],
+    "Improved_SZZ": "",
+    "TTV_SZZ": "",
+    "Purpose":" ",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative&qualitative",
+    "Collection": ["GitHub"],
+    "UseOF-SZZ": "To evaluate the friday's bug inducing case.",
+    "Summary": " A report on a quantitative study that tries to resolve which factors affect pull request evaluation latency in GitHub.",
+    "Outcome": " latency is a complex issue, requiring many independent variables to explain adequately."
+}

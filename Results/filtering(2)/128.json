@@ -1,0 +1,31 @@
+{
+    "Title" : "Exploiting Abstract Syntax Trees to Locate Software Defects",
+    "Id" : 128,
+    "Date" : 2015,
+    "Published" : " University of Hertfordshire",
+    "Authors": {
+        "Name": ["THOMAS JOSHUA SHIPPEY"],
+        "Country":["UK"]
+        },
+    "Type_paper" : "PhD thesis (148)",
+    "Project" :{ 
+        "Name": ["EJDT","AspectJ","ArgoUML"], 
+        "Dates":["2015"],
+        },
+    "Volume_data":{
+        "Metric": ["#Revisions"],
+        "Size":[19357,7609,17749]
+        },
+    "Versioning":["Git"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" New tool",
+    "Elements_risk_assessment":" A fix-infducing is 'a change that later gets undone by a fix'",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": "To links defecr data to code changes, and also to determine the insertion point of a particular defect",
+    "Summary": " It provides a tool (ShipSZZ) which links defect data to code changes. The tool will also determine the insertion point of a particular defect",
+    "Outcome": " Created a database,"
+}

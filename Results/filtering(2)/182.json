@@ -1,0 +1,33 @@
+{
+    "Title" : "A Text Filtering Based Approach to Classify Bug Injected and Fixed Changes",
+    "Id" : 182,
+    "Date" : 2014,
+    "Published" : "International Conference on Advanced Applied Informatics",
+    "Authors": {
+        "Name": ["Akihisa Yamada"],
+        "Name2": ["Osamu Mizuno"],
+        "Country":["japan"]
+        },
+    "Type_paper" : "short (7)",
+    "Project" :{ 
+        "Name": ["OpenJPA","MINA"], 
+        "Dates":["NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["Git"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Bug-inducing approach",
+    "Elements_risk_assessment":" We assume that faults are reported just after they are injected in the software",
+    "EaseOf_Reproducibility":"",
+    "Design":"quantitative",
+    "Collection": ["Jira"],
+    "UseOF-SZZ": "To locate bug inducing changes",
+    "Summary": " To predict bug inducing changes by using source code differences of bug inducing changes and previous changes and a text filtering technique",
+    "Outcome": "the recall fell a little, and precision and F 1 value improved a little. In particular, the granularity of prediction is finer, and
+    the accuracy of prediction is higher. "
+}

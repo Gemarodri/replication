@@ -1,0 +1,40 @@
+{
+    "Title" : "Thresholds for Size and Complexity Metrics: A Case Study from the Perspective of Defect Density",
+    "Id" : 67,
+    "Date" : 2016,
+    "Published" : " Software Quality, Reliability and Security (QRS), 2016 IEEE International Conference on ",
+    "Authors": {
+        "Name": ["Kazuhiro Yamashita"],
+        "Name2": ["Changyun Huang"],
+        "Name3": ["Meiyappan Nagappan"],
+        "Name4": ["Yasutaka Kamei"],
+        "Name5": ["Audris Mockus"],
+        "Name6": ["Ahmed E. Hassan"],
+        "Name7": ["Naoyasu Ubayashi"],
+        "Country":["Japan"],
+        "Country2":["USA"],
+        "Country3":["Canada"]
+        },
+    "Type_paper" : "large (11)",
+    "Project" :{ 
+        "Name": ["Eclipse", "Mylyn", "Netbeans."], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["Dataset from Mockus et al.","industrial Java projects"],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":["Java/C/C++/C#"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Repliaction/Defect prediction",
+    "Elements_risk_assessment":" The defect commits",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To collect the defect commits",
+    "Summary": " Calculating the threshold-derived risk to (a) the probability that a file would have a defect, and (b) the defect density of the files in the high-risk group.",
+    "Outcome": "Risk thresholds for size and complexity metrics have to be
+used with caution if at all. Our findings have immediate practical implications: the redistribution of Java code into smaller and less complex files may be counterproductive. "
+}

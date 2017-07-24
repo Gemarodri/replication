@@ -1,0 +1,33 @@
+{
+    "Title" : "An automated approach for performance deviation analysis of evolving software systems",
+    "Id" : 136,
+    "Date" : 2015,
+    "Published" : "Universodad Federal Do Rio Grande Do Norte",
+    "Authors": {
+        "Name": ["Felipe Alves Pereira Pinto"],
+        "Country":["Brasil"]
+        },
+    "Type_paper" : "PhD Thesis (156)",
+    "Project" :{ 
+        "Name": ["ArgoUML","Netty","SIGAA"], 
+        "Dates":["2010/01/01-2011/12/01","2013/07/01-2014/04/01","2013/08/01-2013/12/01"],
+        },
+    "Volume_data":{
+        "Metric": ["#totalCommit"],
+        "Size":[997 ]
+        },
+    "Versioning":["SVN/GIT"],
+    "Language_used":["Java/"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" software quality ",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Issuezilla/GitHub"],
+    "UseOF-SZZ": "Identify the bug inducing change",
+    "Summary": " Improve the unserstanding of the performance degradation phenomenon by studying specific characteristics of commits
+    that can affect the likehood of introducing this problem.",
+    "Outcome": " Number of days before release and day of week were the most relevant variables of commits that cause performance in 
+    their model. Also they didn't find any relationship between the commit size and its probability to cause performance degradation"
+}

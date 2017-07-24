@@ -1,0 +1,33 @@
+{
+    "Title" : "Bad Commit Smells",
+    "Id" : 92,
+    "Date" : 2013,
+    "Published" : "University of Wisconsin Madison",
+    "Authors": {
+        "Name": ["Steven Johnson"],
+        "Name2": ["Zach Welch"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "large (15)",
+    "Project" :{ 
+        "Name": ["one","cyclus","Git","jedit","jquery","puppet","scala","scipy"], 
+        "Dates":["2013"],
+        },
+    "Volume_data":{
+        "Metric": ["features"],
+        "Size":["commit_attributeSET", "message_attributeSET"]
+        },
+    "Versioning":["Git"],
+    "Language_used":[""],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" New method to classify new commit",
+    "Elements_risk_assessment":" they flag as bug inducing the most-recent commit before the bug fix commit which altered that hunk of cod",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "to determine the set of commits for each repository that were bug inducing",
+    "Summary": " Their ensemble classifier correctly predicts bugginess of commits between 70 and 90% of the time, outperforming the baseline of random weighted guessing by 15 to 25%",
+    "Outcome": " Comparatively, attribute features are a much better approximation of a commit then comment features.. The sets of attribute and comment features are more predictive than random.
+    Combine attribute and comment features provide little additional performance benefit over simply using attributes"
+}

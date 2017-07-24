@@ -1,0 +1,36 @@
+{
+    "Title" : "How Does Defect Removal Activity of Developer Vary with Development Experience?",
+    "Id" : 177,
+    "Date" : 2016,
+    "Published" : "SEKE",
+    "Authors": {
+        "Name": ["Reou Ando, Seiji Sato, Chihiro Uchida,
+            Hironori Washizaki, Yoshiaki Fukazawa"],
+        "Name2": ["Sakae Inoue, Hiroyuki Ono, Yoshiiku Hanai,
+            Masanobu Kanazawa, Kazutaka Sone, Katsushi Namba, 
+            Mikihiko Yamamoto"],
+        "Country":["Japan"]
+        },
+    "Type_paper" : "book (6)",
+    "Project" :{ 
+        "Name": [""], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":[""],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Software quality",
+    "Elements_risk_assessment":" they said ' we assume that the person who injected defects into a file is the person who changed it' ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To collect the name of developer who changed defect files and the number of changed defect files",
+    "Summary": " An analysis method which investigates whether an evaluation of developers based on 
+    individual experience is feasible when targeting more than one project by the same organization transversely",
+    "Outcome": " "
+}

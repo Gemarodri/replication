@@ -1,0 +1,35 @@
+{
+    "Title" : "If Your Bug Database Could Talk...",
+    "Id" : 382,
+    "Date" : 2006,
+    "Published" : "Proceedings of the 5th international symposium on empirical software engineering",
+    "Authors": {
+        "Name": ["Adrian Schröter"],
+        "Name2": ["Thomas Zimmermann"],
+        "Name3": ["Rahul Premraj"],
+        "Name4": ["Andreas Zeller"],
+        "Country":["Germany"]
+        },
+    "Type_paper" : "short (3)",
+    "Project" :{ 
+        "Name": ["ECLIPSE"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":"Dataset ",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": "To locate every failure that has been fixed",
+    "Summary": "They have mined the Eclipse bug and version databases to map failures to Eclipse components ",
+    "Outcome": " The resulting data set lists the defect
+density of all Eclipse components."
+}

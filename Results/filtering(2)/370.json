@@ -1,0 +1,35 @@
+{
+    "Title" : "It’s Not a Bug, It’s a Feature:
+How Misclassification Impacts Bug Prediction",
+    "Id" : 370,
+    "Date" : 2013,
+    "Published" : "ICSE",
+    "Authors": {
+        "Name": ["Kim Herzig"],
+        "Name2": ["Sascha Just"],
+        "Name3": ["Andreas Zeller"],
+        "Country":["Germany"]
+        },
+    "Type_paper" : "",
+    "Project" :{ 
+        "Name": ["HTTPClient","Jackrabbit","Lucene-Java","Rhino","Tomcat5"], 
+        "Dates":["NaN","NaN","NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#issues"],
+        "Size":[ 746,2402,2443,1226,584]
+        },
+    "Versioning":[""],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Misclassification in bug Prediction",
+    "Elements_risk_assessment":" No, they do it manually",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Jira/Bugzilla"],
+    "UseOF-SZZ": "To locate the bug origins",
+    "Summary": " discuss the impact of this misclassification on earlier studies and recommend manual
+data validation for future studies.",
+    "Outcome": " 33.8% of all bug reports to be misclassified"
+}

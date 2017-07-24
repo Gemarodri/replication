@@ -1,0 +1,36 @@
+{
+    "Title" : "Do more experienced developers introduce fewer bugs?",
+    "Id" : 153,
+    "Date" : 2012,
+    "Published" : "IFIP International Conference on Open Source Systems",
+    "Authors": {
+        "Name": ["Daniel Izquierdo-Cortazar"],
+        "Name2": ["Gregorio Robles"],
+        "Name3": ["Jesus M.Gonzalez-Barahona"],
+        "Country":["Spain"]
+        },
+    "Type_paper" : "Short (5)",
+    "Project" :{ 
+        "Name": ["Mozilla (19)"], 
+        "Dates":["06/2011"],
+        },
+    "Volume_data":{
+        "Metric": ["#commits"],
+        "Size":[ 100000]
+        },
+    "Versioning":["Mercurial"],
+    "Language_used":[""],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Software maintenace ",
+    "Elements_risk_assessment":" modified or removed lines in a fixing commit are the ones suspicious of
+    having caused the fixing action (or being part of the error)",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "The identification of commits inducing fixing actions is based on the SZZ algorithm",
+    "Summary": " to study the relationships between experience and the bug introduction ratio using the 
+    Mozilla community as case of study",
+    "Outcome": " there is no correlation between any of the ways we measure experience and the bug seeding 
+    ratio"
+}

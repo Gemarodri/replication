@@ -1,0 +1,36 @@
+{
+    "Title" : "Correlations between Bugginess and Time-Based
+Commit Characteristics",
+    "Id" : 328,
+    "Date" : 2014,
+    "Published" : "Empirical Software Engineering",
+    "Authors": {
+        "Name": ["Jon Eyolfson"],
+        "Name2": ["Lin Tan"],
+        "Name3": ["Patrick Lam"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : "jorunal (32)",
+    "Project" :{ 
+        "Name": ["Linux kernel", "PostgreSQL", "Xorg server"], 
+        "Dates":["NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["Git"],
+    "Language_used":[""],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":"Empirical Study ",
+    "Elements_risk_assessment":" to identify the bug-introducing commits, which changed the lines .",
+    "EaseOf_Reproducibility":"No ",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "to discover when the corresponding bugs were introduced",
+    "Summary": " study the correlation between a commit’s bugginess and the time of day of the commit, the day of week of the commit, the commit
+    frequency and seniority of the commit authors, and whether or not the developers have marked a commit as a “stable” commit",
+    "Outcome": " (1)commits between midnight and 4 AM are significantly buggier and commits between 8 AM and noon are less buggy
+    (2) daily-committing developers produce less-buggy commits, (3) the bugginess of commits versus day-of-week varies for different software projects"
+}

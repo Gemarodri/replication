@@ -1,0 +1,39 @@
+{
+    "Title" : "An analysis of Developer Metrics for Fault Prediction",
+    "Id" : 426,
+    "Date" : 2010,
+    "Published" : "Promise",
+    "Authors": {
+        "Name": ["Shinsuke matsumoto"],
+        "Name2": ["Yasutaka Kamei"],
+        "Name3": ["Akito Monden"],
+        "Name4": ["Ken-ichi Matsumoto"],
+        "Name5": ["Masahide Nakamura"],
+        "Country":["Japan"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : "long (9)",
+    "Project" :{ 
+        "Name": ["EclipseDataset"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#modules", "releases"],
+        "Size":[ [8313,9663,11525],["3.00","3.10","3.20"]]
+        },
+    "Versioning":[""],
+    "Language_used":[""],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" Empirical study",
+    "Elements_risk_assessment":" SZZ assumes the fault was injected by the developer in the lines 
+    identified as modified or deleted",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To find when and who inject the bug",
+    "Summary": " Empirical study to analyze relationships between faults ain source code and some 
+    developer metrics that can be derived from a software repository",
+    "Outcome": " fault injection rate varies among different developers and the modules touched
+    by more developer contained more faults."
+}

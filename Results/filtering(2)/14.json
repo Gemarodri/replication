@@ -1,0 +1,33 @@
+{
+    "Title" : " PROCESS ANALYSIS OF A WATERFALL PROJECT USING REPOSITORY DATA",
+    "Id" : 14,
+    "Date" : 2011,
+    "Published" : "International Journal of Computers and Applications,",
+    "Authors": {
+        "Name": "Michael VanHilst", 
+        "Name2": "Shihong Huang", 
+        "Name3": "Hugh Lindsay",
+        "Country":"USA "
+        },
+    "Type_paper" : "large (9)",
+    "Project" :{ 
+        "Name": ["CMM"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["requirement task"],
+        "Size":[280]
+        },
+    "Versioning":[],
+    "Language_used":["C/C++/Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":"new approach",
+    "Elements_risk_assessment":"they assume the same that szz: 'the defect was causedin one of the artifacts that was later edited to correct the defect'",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative",
+    "Collection": ["repository data"],
+    "UseOF-SZZ": " They comment the approach of SZZ but because this algorith searchs for fault related key word ",
+    "Summary": " They used repository data to identify sources of potential inefficiency and waste in process design and execution.",
+    "Outcome": " an inexpensive and non-invasive approach to measurement."
+}

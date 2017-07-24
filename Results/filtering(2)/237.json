@@ -1,0 +1,34 @@
+{
+    "Title" : "Prediction   of  Fault-prone Modules Using   A   Text
+Filtering   Based   Metric",
+    "Id" : 237,
+    "Date" : 2010,
+    "Published" : "International Journal of Software Engineering and Its Applications",
+    "Authors": {
+        "Name": ["Osamu Mizuno"],
+        "Name2": ["Hideaki  Hata"],
+        "Country":["Japan"]
+        },
+    "Type_paper" : "Journal (10)",
+    "Project" :{ 
+        "Name": ["Eclipse BIRT","Eclipse Test and Performance Tools Platform"], 
+        "Dates":["2008/12/01"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":"fault-proneness detection ",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": "To identify faulty modules",
+    "Summary": " an approach to detect fault-prone modules using the spam-filtering technique",
+    "Outcome": " The result of experiment shows that use of a certain convention of metrics can achieve higher
+accuracy measures."
+}

@@ -1,0 +1,32 @@
+{
+    "Title" : "Towards an automation of the traceability of bugs from development logs: a study based on open source software",
+    "Id" : 147,
+    "Date" : 2015,
+    "Published" : " EASE '15 Proceedings of the 19th International Conference on Evaluation and Assessment in Software Engineering ",
+    "Authors": {
+        "Name": ["Bilyaminu Auwal Romo"], 
+        "Name2":["Andrea Capilupi" ],
+        "Country":["UK"]
+        },
+    "Type_paper" : "short(6)",
+    "Project" :{ 
+        "Name": [""], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#projects"],
+        "Size":[344]
+        },
+    "Versioning":["Github"],
+    "Language_used":[""],
+    "Improved_SZZ": "no",
+    "TTV_SZZ": "no",
+    "Purpose":"Bug traceability, approach",
+    "Elements_risk_assessment":"It's not a paper about the location of the bug, and they don't see commits. They are interested in linking/mapping",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [],
+    "UseOF-SZZ": "To identify bugs and to compare how the defect-fixing changes are recorded",
+    "Summary": " The aim is design a framework that automates the process of synchronizing and filling the gaps of the development logs and bug issue data for open source software projects.",
+    "Outcome": "They designed an automatic approach to re-align the two databases, filling the gaps"
+}

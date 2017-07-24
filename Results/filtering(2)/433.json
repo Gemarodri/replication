@@ -1,0 +1,42 @@
+{
+    "Title" : "Method-Level Bug Prediction",
+    "Id" : 433,
+    "Date" : 2012,
+    "Published" : "ESEM",
+    "Authors": {
+        "Name": ["Emanuel Giger"],
+        "Name2": ["Marco D’Ambros"],
+        "Name3": ["Martin Pinzger"],
+        "Name3": ["Harald C. Gall"],
+        "Country":["The Netherlands"],
+        "Country2":["Italy"],
+        "Country3":["Switzerland"]
+        },
+
+    "Type_paper" : "Long (10)",
+    "Project" :{ 
+        "Name": ["21 Projects"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#bugs"],
+        "Size":[ 23762]
+        },
+    "Versioning":["CVS/SVN/Git"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "",
+    "TTV_SZZ": "No",
+    "Purpose":"  bug Prediction",
+    "Elements_risk_assessment":" Whenever we find that a method was changed between two revisions of a file  and the commit mes-
+sage contains a bug reference, we consider the method to be affected by the bug",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "locate fault modules",
+    "Summary": " present bug prediction models at the level of individual methods
+rather than at file-level.",
+    "UsedTool":"ChangeDestiller",
+    "Outcome": " prediction models reach a precision and recall of 84% and 88%, respectively. Furthermore, the
+results indicate that change metrics significantly outperform
+source code metrics."
+}

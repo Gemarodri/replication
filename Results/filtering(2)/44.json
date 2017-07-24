@@ -1,0 +1,32 @@
+{
+    "Title" : "A metric to detect fault-prone software modules using text filtering",
+    "Id" : 44,
+    "Date" : 2013,
+    "Published" : "International Journal of Reliability and Safety",
+    "Authors": {
+        "Name": ["Osamu Mizuno"],
+        "Name2": ["Hideaki Hata"],
+        "Country":["Japan"]
+        },
+    "Type_paper" : "Journal (15)",
+    "Project" :{ 
+        "Name": ["Eclipse"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":[""],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" fault-prone detection",
+    "Elements_risk_assessment":"The data used in the article.",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "They used the fault data collected by the SZZ algorithm",
+    "Summary": " They conducted an experiment to show the effect of new metric. The result suggested that use of new metric as well as conventional metrics is effective for accuracy of fault-prone module prediction. ",
+    "Outcome": " An approach to detect fault-prone modules using the spam-filtering technique, using a new metric. "
+}

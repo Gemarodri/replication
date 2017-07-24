@@ -1,0 +1,41 @@
+{
+    "Title" : "Automatic Construction of an Effective Training Set for
+Prioritizing Static Analysis Warnings",
+    "Id" : 483,
+    "Date" : 2010,
+    "Published" : "ASE",
+    "Authors": {
+        "Name": ["Guangtai Liang"],
+        "Name2": ["Ling Wu"],
+        "Name3": ["Qian Wu"],
+        "Name4": ["Qianxiang Wang"],
+        "Name5": ["Tao Xie"],
+        "Name6": ["Hong Mei"],
+        "Country":["China"],
+        "Country2":["USA"]
+        },
+    "Type_paper" : "long (10)",
+    "Project" :{ 
+        "Name": ["Lucene","Spring","ANT","Log4j","JPF"], 
+        "Dates":["2001/09/01-2007/08/01","2007/04/01-2009/04/01","1998/10/01-2003/05/01","2007/08/01-2009/02/01","2002/07/01-2009/04/01"],
+        },
+    "Volume_data":{
+        "Metric": ["#revisions"],
+        "Size":[2630,3696,746,120,1212 ]
+        },
+    "Versioning":["SVN"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":"New approach ",
+    "Elements_risk_assessment":"the identical line in revision X is located and
+marked as a generic-bug-related line of revision X ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": ["Bugzilla/OW2-Gforge/Jira"],
+    "UseOF-SZZ": "Identifying Generic-bug-related Lines.",
+    "Summary": " propose an automatic approach for constructing an effective training set.",
+    "Outcome": " The precision of the top 22 warnings
+for Lucene, 20 for ANT, and 6 for Spring can achieve 100% with
+the help of our constructed training set"
+}

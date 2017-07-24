@@ -11,8 +11,10 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name"> Replication Package (Work in Progress)</h1>
-      <h2 class="project-tagline"> At this web page, all the data used in our study is available as well as a detailed guide about the methodology and the scripts used through the research. Our reseach involves the study of how fixed bugs have been inserted into the source code, focusing the main effort in a manual validation that answers whether a previous change in the code is the cause of the bug or not.</h2>
+      <h1 class="project-name"> Replication Package </h1>
+      <h2 class="project-tagline"> Reproducibility and Credibility in Empirical Software Engineering: A Case Study based on a Systematic Literature Review of the use of the SZZ algorithm</h2>
+      <h3>Gema Rodríguez-Pérez (1), Gregorio Robles (1), Jesús M. González-Barahona (1)</h3>
+      <h4 class="project-tagline">(1) Universidad Rey Juan Carlos (Madrid, Spain)</h4>
       <a href="https://github.com/Gemarodri/replication/tree/gh-pages
 " class="btn">View on GitHub</a>
       <a href="https://github.com/Gemarodri/replication/archive/gh-pages.zip" class="btn">Download .zip</a>
@@ -22,190 +24,17 @@
 
     <section class="main-content">
      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Data analyzed.</h3>
-<p>We have used tickets from two different projects, the first one was Nova written in Python, and the second one was ElasticSearch written in Java. We took a simple random sample of each project; 125 tickets from Nova, of those only 60 was real bug report with all the data related with the code review and version control system well documented. The sample of ElasticSearch was 60 due to ElasticSearch uses a strong labeled in its tickets we can be sure that the tickets labeled as bug report was real bug report, and because of the goals of the research was evaluate the main question in two different projects written in different programming languajes. </p>
-<p>In the next link you can find a json file with the identifier of the tickets analyzed in each proyect. If you can see the information of each ticket you must know that Nova uses <a href="https://bugs.launchpad.net/nova/+bugs">Launchpad</a> whereas ElasticSearch uses <a href="https://github.com/elastic/elasticsearch/issues/">Github</a>.</p>
-
- <ul>
-  <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/Nova.json">Nova</li>
-  <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/ElasticSearch.json">ElasticSearch</li>
-</ul> 
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> How to analize a bug report.</h3>
-<p>We explain how we have analized the bug reports in Launchpad and Github, describing the criteria that we have followed in some situations. </p>
-<h3>Nova and ElasticSearch</h3>
-<p> We start supposing that we already have all the identifiers of the tickets. So, we can go to the ulr of Launchpad and Github to see the description of the bug report.
-  <ol>
-    <li>In the bug report usualy there is a link to the code review system (Gerrit) in Nova, or a link to the pull request closed in ElasticSearch. In this page we can find the information related with the problem and the discussion of the possible solution and get more context about the problem.
-    Some Bug reports doesn't have this link because in the meanwhile the bug was fixed in other bug report. So,
-      <p> * Should we discard this Bugs report from the study?. We only discarded this tickets if we cannot find the fix commit in their comments, because sometimes the ticket didn't provide these link to the code review system (very inusual) or to the pull request (more usual) but it provided the fix commit link</p>
-      <p>Also, some bug reports have two different links with two different fix commits, so we took the last one done in master branch, usually these fix commit are not so different from each other.<p></li>
-    <li>In the Gerrit or pull request web page you can find information about the change in the code proposed and some comments from the reviewers, also, you can find the link to the commit that merge the fix commit into the source code. Sometimes in ElasticSearch you can find the link to the fix commit in some of the comments done in the ticket</li>
-    <li>In the web page of the fix commit, we find the parent of the each commit and the files involved. We extract this parent commit to see the last commit that touch this/these lines in all the files involved excluding test files. We notice that the files are test files because in the path we can see the ‘test’ word.
-
-      <p>Also, we can find the parents of a commit in the command line; This command will give you the parents of the current commit. The parents are in the first line. See example</p>
-        <pre>
-          git log --parents -1 commitId
-        </pre>  
-
-    The parent of the commit ffee1b34448333a5406d766feef85cea4f4be1dc is a4e15e329f9adbcfe72fbcd6acb94f0743ad02f8. See line starting with “commit” below. If a commit has more than 1 parent (a merge) the order of the commits matters. The first one is the branch where the merge is done, and the rest of the commits are the merged commits in the order specified in the command
-
-      <pre>
-        git log --parents -1 ffee1b34448333a5406d766feef85cea4f4be1dc
-        commit ffee1b34448333a5406d766feef85cea4f4be1dc a4e15e329f9adbcfe72fbcd6acb94f0743ad02f8
-        Author: jichenjc 
-        Date:   Sat Apr 23 01:56:55 2016 +0800
-
-        Complet Method Verification of availability-zone
-      </pre>
-
-    <p>Alternatively you can do the following command, and the parents are the commit ids after the commit id:</p>
-
-      <pre>
-        git log --no-abbrev --parents --oneline -1 ffee1b34448333a5406d766feef85cea4f4be1dc
-        ffee1b34448333a5406d766feef85cea4f4be1dc a4e15e329f9adbcfe72fbcd6acb94f0743ad02f8 \\
-        Complet Method Verification of availability-zone
-      </pre>  
-    </li>
-  </ol>
-  <p> At this moment we have all the information that we need in our empirical analysis, it's based on the stududy of the source code trying  to locate the origin of the bug. For this, we carried out two different methods, the first one is focused at line level whereas the other is focused on token level. The output is that sometimes we will find a commit that caused the bug but other times we don't. Also, this commit that caused the bug could be the last one that touch the line involved in the fix commit or could be other antecesor commit that we are ables/unables to locate. So, now we are going to describe the steps to locate the origin of the bug using the two methods.</p>
-
-<h3>Line level</h3>
-  <ol>
-    <li> For each previous commit, find his parent and display the same information that before in the web, to can understand the moment in which this/these line/s was/were inserted and to be sure that the previous commit was who inserted these lines, avoiding that way the lines copied from other commits.
-      <p>How we can know that the previous commit was clean in the moment in which it was inserted into the source code?</p>
-        <ul>  
-          <li>Incompatibility between versions or Hardware and Software</li>
-          <li>Optimization of the code</li>
-          <li>When the cahnge doesn’t have any relation with the bug reported</li>
-          <li>Changes in the LOGs to clarify the message</li>
-        </ul>
-      <p>How we can know that the previous commit was buggy in the moment in which it was inserted into the source code?</p>
-        <ul>
-          <li>If the previous commit is mentioned in the description as the reason of the bug</li>
-          <li>When we are not sure 100% if the previous commit was clean at the moment in which the lines were inserted.</li>
-          <li>Obvious cases when the values of the variables is not the correct, wrong sentences...</li></li>
-        </ul>
-    <li>Removing the false positives previous commits. When we are analyzing the previous commit we have to realise whether the date in which this commit was committed was done after the date in which the bug report was reported, and in that case discard the previous commit.</li>
-  </ol>
-<h3>Token level</h3>
-  <ol>
-    <li>We need the Tokenized Repository: Clone and fetch all the information from:
-      <p><a href="https://github.com/dmgerman/nova-token">https://github.com/dmgerman/nova-token</a></p></li> 
-
-    <li>We need the fix commit in each Bug report, we can extracte them from our previous analysis.</li>     
-    <li>For each commit we need its reference in the tokenized version. So, for example if we have the fix commit “3345ca029fd2527eec8de365a37779fd37809398” in Nova, to find the reference of this commit in the tokenized version of the repository we have to run the next command:
-      <pre>
-        nova-token$ git checkout p3345ca029fd2527eec8de365a37779fd37809398 
-        nova-token$ git log -1 | head -1
-        3190d69c63e36a5fb7297f190f4cedf5f454bdd7
-      </pre>
-
-      <p>And we have the reference: “3190d69c63e36a5fb7297f190f4cedf5f454bdd7”, Remember that before the id of the real commit in nova, we must write the 'p'</p>
-      <p>We could se the tokenized change in github in this url: <a href="https://github.com/dmgerman/nova-token/commit/3190d69c63e36a5fb7297f190f4cedf5f454bdd7"> https://github.com/dmgerman/nova-token/commit/3190d69c63e36a5fb7297f190f4cedf5f454bdd7 </a></p></li>
-
-    <li>To understand if the previous token caused the bug, we need extract the commit parent of the fix commit “3190d69c63e36a5fb7297f190f4cedf5f454bdd7”, to do that we can run the next command:
-      <pre>
-        nova-token$ git log --parents -1 3190d69c63e36a5fb7297f190f4cedf5f454bdd7
-        commit 3190d69c63e36a5fb7297f190f4cedf5f454bdd7 b5530c6fcea83d230040a4fd80b8619191c234b7
-        [...]
-      </pre>
-      <p> We obtain that the commit parent in the tokenized version is “b5530c6fcea83d230040a4fd80b8619191c234b7”.</p></li>
-    <li>To see each token before the fix commit and understand if it was the cause of the bug, we can Blame the files involved in the fix commit:
-      <p>Tokenized file Blame: <a href ="https://github.com/dmgerman/nova-token/blame/b5530c6fcea83d230040a4fd80b8619191c234b7/nova/virt/libvirt/driver.py">https://github.com/dmgerman/nova-token/blame/b5530c6fcea83d230040a4fd80b8619191c234b7/nova/virt/libvirt/driver.py</a></p></li>
-
-    <li>Look if the token that cause the bug was written in the previous commit or not. To do this we have to remember that the previous commit in the tokenized repository are different from the normal repository, so we have to look for the reference of this previous commit: example: commit that injected the bug token: 88ab9369 commit that injected the buggy line: 400f946
-      <pre>
-        nova-token/nova$ git checkout 400f946
-        Previous HEAD position was a567e1b... Fix CellStateManagerFile init to failure
-        HEAD is now at 400f946... Load cell data from a configuration file
-
-        /nova-token/nova$ git describe
-        p88ab9369e3ddfd8b8684bf280330ff8d37a74b2bç
-      </pre></li>
-      <p>In this case, the token that caused the bug was inserted in the previous commit.</p>
-  </ol>
-    
-
-<p>At the end, we have semi-automatized this methodology. In ElasticSearch building a python script 'elastic.py' which interact with the research asking for the bug ID, the fix commit and the previous commits. The script opens many web pages where you can find all the information and decide if the previous commit inserted a clen lines or a buggy lines in the moment in which they was merged into the source code. Also, this script save the information in a json file. In Nova using the web tool <a href="http://bugtracking.libresoft.info">BugTracking</a> which help us with this anlaisis in Openstack projects. </p>
-<p style="font-family:sans-serif;" >What information we need to save?
-  <ul>
-    <li>ID fix commit</li>
-    <li>ID commit parent</li>
-    <li>ID commit previous</li>
-    <li>ID Bug report</li>
-    <li>Files involved</li>
-    <li>The number/numbers of previous commit that caused the bug</li>
-    <li>Comments from the researcher with a description of the previous commits involved.</li></p>
-  </ul></p>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Data </h3>
+<p>The PDF files of the analyzed papers are available through OneDrive: <a href="https://urjc-my.sharepoint.com/personal/gema_rodriguez_urjc_es/_layouts/15/guestaccess.aspx?folderid=08d67fadcea264386b4dfea2cae536424&authkey=AacIvymk6KbTQR-eQeNOvic">here</a>
 </p>
+<p>The JSON files with the data of the papers analyzed after the filtering (2) are available <a href="https://github.com/Gemarodri/replication/blob/gh-pages/Results/filtering(2)">here</a>.</p>
 
 <h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Results</h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Results </h3>
+<p>The csv table with the data of each paper is available <a href="https://github.com/Gemarodri/replication/blob/gh-pages/Results/SZZ-Sheet1.csv(2)">here</a>.
 
-<ul>
-  <li>ElasticSearch:</li> After analyzing the tickets in ElasticSearch we could distinguish between those tickets with a Bug Introduction Change (BIC) from the ones that did not have a Bug Introduction Change. 
-    <ul>
-      <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/Results/elasticSearch/analysisA-json"> No BIC: </a></li>
-      <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/Results/elasticSearch/analysis(C)-json">BIC </a></li>
-    </ul>
-   
-  <li>Nova:</li> After analyzing the tickets in Nova we could distinguish between those tickets with a Bug Introduction Change (BIC) from the ones that did not have a Bug Introduction Change. 
-    <ul>
-      <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/Results/Nova/analysisA-json"> No BIC: </a></li>
-      <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/Results/Nova/analysis(C)-json">BIC </a></li>
-    </ul>
-</ul> 
+</p></p>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scripts</h3>
-
-<ul>
-  <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/elastic.py">elastic.py: </a></li> It is a python script that we use to analyse a Bug report in ElasticSearch. We must run it under the original reporitory of elasticsearch (https://github.com/elastic/elasticsearch) and it needs the number of the bug report. This script saves some information (id of Bug report, id of Pull request, id of fix commit, files involved in the fix commit, id of previous commits founded). The script asks you for some information after running it. An example is show below:
-  <pre>
-    $ python elastic.py 8438
-    // If there is any Pull request in the bug report type NONE
-    Please enter the FIX issue ID 8438: 8527
-    Please enter the commit ID :0c94314
-    // Insert the possible bug introducing commit, only one
-    Please enter the possible previous commits in src/main/.../aggregations/bucket/filter/FilterParser.java: c7f6c52
-    // When you have finished to inserting the possible bug introducing commits, press enter.
-    Please enter the possible previous commits in src/main/.../aggregations/bucket/filter/FilterParser.java: 
-    Please enter the possible previous commits in src/main/.../aggregations/bucket/filters/FiltersParser.java: 3c9c9f3
-    Please enter the possible previous commits in src/main/.../aggregations/bucket/filters/FiltersParser.java: 
-    // this is the data saved
-    {
-      "commitID": "0c94314", 
-      "files": [
-      "src/main/java/org/elasticsearch/search/aggregations/bucket/filter/FilterParser.java", 
-      "src/main/java/org/elasticsearch/search/aggregations/bucket/filters/FiltersParser.java", 
-      ], 
-      "fixedID": "8527", 
-      "issueID": "8438", 
-      "parentID": "4b5592c", 
-      "previousCommit": [
-        "c7f6c52@src/main/java/org/elasticsearch/search/aggregations/bucket/filter/FilterParser.java", 
-        "3c9c9f3@src/main/java/org/elasticsearch/search/aggregations/bucket/filters/FiltersParser.java", 
-      ]
-    }
- </pre>
-  <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/elastic.sh">elastic.sh</a></li> It is a bash script which only open the chromium-browser, and is being use by the elastic.py to open a different browser from mozilla, this way you can see in one browser the fix commit changes and in the other browser the git blame file.
-  <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/elasticIDBugs.py">elasticIDBugs.py</a></li> It is a python script that give you the id of the bug reports in a random way.
-  <li><a href="https://github.com/Gemarodri/replication/blob/gh-pages/studyOfTokens.py">studyOfTokens.py</a></li> It is a python script that we use to analyze the commit that inserted the buggy token, this script opens some webpages where you can track easily all the changes done in a file and the blame. The script asks you for some information after running it.
-  <pre>
-    //You must insert the fix commit change that you want analyze
-    $ python studyOfTokens.py 50636a881b60f112027494bcd84af66888db8c1c
-    //The script opens 2 web pages, one with the fix commit change in Nova and the other with the fix commit change in Nova tokenized 
-    ('Token Fixed Commit ID:', 'dc9c6ce72d95c35e89347207d9279034b393340c')
-    ('Token Parent Fix Commit ID:', '0d9f156')
-    ('Nova Parent Fix Commit ID:', 'b6a5ce0')
-    //The script opens 2 web pages, one with the blame file in Nova and the other with the blame file in Nova tokenized 
-    Please enter the file:nova/virt/hyperv/driver.py
-    Please enter the file:nova/tests/virt/hyperv/test_vmutils.py
-    // The script stops when doesn't has more files to blame
-    Please enter the file:
- </pre>
-</ul> 
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>

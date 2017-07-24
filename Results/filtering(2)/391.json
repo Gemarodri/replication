@@ -1,0 +1,35 @@
+{
+    "Title" : "HATARI: Raising Risk Awareness",
+    "Id" : 391,
+    "Date" : 2005,
+    "Published" : "ESEC-FSE",
+    "Authors": {
+        "Name": ["Jacek Śliwerski"],
+        "Name2": ["Thomas Zimmermann"],
+        "Name3": ["Andreas Zeller"],
+        "Country":["Germany"]
+        },
+    "Type_paper" : "short (4)",
+    "Project" :{ 
+        "Name": [""], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":[""],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" New Tool",
+    "Elements_risk_assessment":" This earlier change is the one that caused the later fix, 
+    which is why we call it fix-inducing.",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To locate fix inducing changes",
+    "Summary": " HATARI prototype relates a version history to a bug database
+    to detect those locations where changes have been risky in the past",
+    "Outcome": " a tool to analyze the risk history of a particular location"
+}

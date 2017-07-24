@@ -1,0 +1,39 @@
+{
+    "Title" : "Empirical Evaluation of Hunk Metrics as Bug Predictors",
+    "Id" : 224,
+    "Date" : 2009,
+    "Published" : "International Workshop on Software Measurement",
+    "Authors": {
+        "Name": ["Javed Ferzund"],
+        "Name2": ["Syed Nadeem Ahsan"],
+        "Name3": ["Franz Wotawa"],
+        "Country":["Austria"]
+        },
+    "Type_paper" : "Workshop (13)",
+    "Project" :{ 
+        "Name": ["Eclipse","Mozilla"], 
+        "Dates":["NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[]
+        },
+    "Versioning":["SVN"],
+    "Language_used":[""],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" Bug Prediction",
+    "Elements_risk_assessment":" For each bug-fix revision we find the bug-introducing revisions, and in each
+bug-introducing revision we mark the hunks as bug-introducing.",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [" "],
+    "UseOF-SZZ": " To identify the bug-introducing revisions using the SZZ approach",
+    "Summary": " empirically evaluate the use of hunk metrics as predictor of bugs. resent a technique for bug prediction
+that works at smallest units of code change called hunksOur classifier
+can classify individual hunks as buggy or bug-free with 86 % accuracy,
+83 % buggy hunk precision and 77% buggy hunk recall.",
+    "Outcome": " Our classifier
+can classify individual hunks as buggy or bug-free with 86 % accuracy,
+83 % buggy hunk precision and 77% buggy hunk recall."
+}

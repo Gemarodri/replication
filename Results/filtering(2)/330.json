@@ -1,0 +1,33 @@
+{
+    "Title" : "Using Citation Influence to Predict Software Defects",
+    "Id" : 330,
+    "Date" : 2013,
+    "Published" : "MSR",
+    "Authors": {
+        "Name": ["Wei Hu"],
+        "Name2": ["Kenny Wong"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : "long (10)",
+    "Project" :{ 
+        "Name": ["Eclipse","Netbeans"], 
+        "Dates":["NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#release"],
+        "Size":["2.0 - 3.4","6.1 - 7.0" ]
+        },
+    "Versioning":["CVS/Mercurial"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Bug-proneness",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "to identify defects",
+    "Summary": " use a citation influence topic model to determine dependency strengths among components and developers, analyze weak and strong
+    dependencies separately, and apply social network properties to predict defect-prone components",
+    "Outcome": " Their approach has higher accuracy than prior work."
+}

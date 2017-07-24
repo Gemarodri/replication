@@ -1,0 +1,42 @@
+{
+    "Title" : "A Study on the Role of Software Architecture in
+the Evolution and Quality of Software",
+    "Id" : 295,
+    "Date" : ,
+    "Published" : "",
+    "Authors": {
+        "Name": ["Ehsan Kouroshfar"],
+        "Name2": ["Mehdi Mirakhorli"],
+        "Name3": ["Hamid Bagheri"],
+        "Name4": ["Lu Xiao"],
+        "Name5": ["Sam Malek"],
+        "Name6": ["Yuanfang Cai"],
+        "Country":[""]
+        },
+    "Type_paper" : "",
+    "Project" :{ 
+        "Name": ["HBase","Hive","OpenJPA","Camel","Cassandra","System J"], 
+        "Dates":["NaN","NaN","NaN","NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["SVN"],
+    "Language_used":["java"],
+    "Improved_SZZ": "",
+    "TTV_SZZ": "Yes",
+    "Purpose":"Evolution and Quality of Software ",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "They used a tool call defect Extractor which parses the commit logs of projects and identifies the software
+    changes which introduced the defects/bugs in the system",
+    "UsedTool": "Defect Extractor",
+    "Summary": " The impact of architecture on the evolution of software from its change history. to examine if co-changes spanning
+    multiple architecture modules are more likely to introduce bugs than co-changes that are within modules",
+    "Outcome": "The results show that the co-changes that cross architectural module boundaries are
+more correlated with defects than co-changes within modules, implying that, to improve accuracy, bug predictors should also
+take the software architecture of the system into consideration "
+}

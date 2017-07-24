@@ -1,0 +1,41 @@
+{
+    "Title" : "Commit Guru: Analytics and Risk Prediction of Software Commits",
+    "Id" : 235,
+    "Date" : 2015,
+    "Published" : "ESEC/FSE",
+    "Authors": {
+        "Name": ["Christoffer Rosen"],
+        "Name2": ["Ben Grawi"],
+        "Name3": ["Emad Shihab"],
+        "Country": ["USA"],
+        "Country2":["Canada"]
+        },
+    "Type_paper" : "large (10)",
+    "Project" :{ 
+        "Name": [""], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["Git/SCM"],
+    "Language_used":[""],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Metrics/bug prediction",
+    "Elements_risk_assessment":"Using the annotate/blame function of the SCM tool, we
+can discover in what previous commits those lines of codes were
+modified. These commits are then marked as a potential location
+where the bug was introduced, i.e., potential risky commits. ",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To identify bug inducing changes",
+    "Summary": " Commit Guru(language agnostic analytics and prediction tool that identifies and predicts risky software commits.) automatically identifies
+    risky (i.e., bug-inducing) commits and builds a prediction model that assess the likelihood of a recent commit introducing a bug in the future.",
+    "Outcome": "They present a tool, Commit Guru, that performs
+analytics and predicts risky software commits. Commit Guru uses
+13 metrics introduced in a prior work [11] to give its analytics
+and make its predictions. "
+}

@@ -1,0 +1,35 @@
+{
+    "Title" : "Some Code Smells Have a Significant but Small Effect on Faults",
+    "Id" : 445,
+    "Date" : 2014,
+    "Published" : "ACM Transactions on Software Engineering and Methodology (TOSEM)",
+    "Authors": {
+        "Name": ["TRACY HALL"],
+        "Name2": ["MIN ZHANG"],
+        "Name3": ["DAVID BOWES"],
+        "Name4": ["YI SUN"],
+        "Country":["UK"]
+        },
+    "Type_paper" : "Journal (39)",
+    "Project" :{ 
+        "Name": ["Eclipse","Common Codec","Common DBCP","Common DbUtils","Common IO","Common Logging","Common Net","Commons ArgoUML"], 
+        "Dates":["NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["Sizes(KLOC)"],
+        "Size":[154,5,10,3,12,7,33,274 ]
+        },
+    "Versioning":["CVS/SVN"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Experimentation",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": "to collect fault data",
+    "Summary": " They investigate the relationship between faults and five of Fowler et al.’s least-studied smells in code",
+    "Outcome": " results suggest that Switch Statements had no effect on faults in any of the three systems; Message Chains 
+    increased faults in two systems; Message Chains which occurred in larger files reduced faults;"
+}
