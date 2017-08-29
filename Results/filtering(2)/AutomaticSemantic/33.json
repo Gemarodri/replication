@@ -1,0 +1,38 @@
+{
+    "Title" : "Predicting Risk of Pre-Release Code Changes with
+CheckinMentor",
+    "Id" : 33,
+    "Date" : 2013,
+    "Published" : "Software Reliability Engineering (ISSRE)",
+    "Authors": {
+        "Name": ["Alexander Tarvo"],
+        "Name2": ["Nachiappan Nagappan"],
+        "Name3": ["Thomas Zimmermann"],
+        "Name4": ["Thirumalesh Bhat"],
+        "Name5":["Jacek Czerwonka"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "Symposium (10)",
+    "Project" :{ 
+        "Name": ["Windows Phone 7 mobile OS"], 
+        "Dates":[""],
+        },
+    "Volume_data":{
+        "Metric": [],
+        "Size":[]
+        },
+    "Versioning":["VCS"],
+    "Language_used":["Not mentioned"],
+    "Improved_SZZ": "Yes ('we use our modification of the SZZ algorithm')",
+    "TTV_SZZ": "Yes",
+    "Purpose":"Bug prediction model",
+    "Elements_risk_assessment":" the fix for the bug affects the same area of the
+code (function, line) of the system",
+    "EaseOf_Reproducibility":"No",
+    "Design":"",
+    "Collection": [""],
+    "UseOF-SZZ": "to identify bug-introducing checkins",
+    "Summary": " They describe code changes with metrics and then use a statistical
+model that discriminates between faulty and non-faulty changes.",
+    "Outcome": " The model has shown high accuracy"
+}

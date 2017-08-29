@@ -1,0 +1,35 @@
+{
+    "Title" : "Evaluating Three Approaches to Extracting Fault Data from Software Change Repositories ",
+    "Id" : 13,
+    "Date" : 2010,
+    "Published" : "PROFES 2010",
+    "Authors": {
+        "Name": ["Tracy Hall"], 
+        "Name2":["David Bowes"], 
+        "Name3":["Gernot Liebchen"], 
+        "Name4":["Paul Wernick"],
+        "Country":["UK "]
+        },
+    "Type_paper" : "large (9)",
+    "Project" :{ 
+        "Name": ["Barcode open source"], 
+        "Dates":["01/01/1999 - 01/01/2010"],
+        },
+    "Volume_data":{
+        "Metric": ["diff"],
+        "Size":[199]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["C/C++"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":"Comparation methodologies, extracting fault data",
+    "Elements_risk_assessment":"There isn't because they mention SZZ but to map commits with bug reports",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative",
+    "Collection": ["Barcode repository"],
+    "UseOF-SZZ": " They comment the approach of SZZ but because this algorith searchs for fault related key word ",
+    "Summary": " They compare  the performance of three approaches to extracting fault data from the change repository. he  aim  of  the  paper  is  to  identify  the  most  reliable  approach  to  identifying  fault  
+fixing  changes  from  a  change  repository",
+    "Outcome": " main findings are that they have most confidence in their  manual evaluation of diffs to identify fault fixing changes. We had less confidence in the ability of the two automatic approaches to  separate  fault fixing from non-fault fixing changes. We conclude that it is very difficult to reliably  extract  fault  fixing  data  from  change  repositories,  especially  using  automatic tools and that we need to be cautious when reporting or using such data. "
+}

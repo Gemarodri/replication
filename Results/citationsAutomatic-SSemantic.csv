@@ -1,0 +1,101 @@
+Title:
+Locus: Locating bugs from software changes
+Program Committee Requirements Engineering in Open Source Software – the Role of the External Environment
+So You Need More Method Level Datasets for Your Software Defect Prediction?: Voilà!
+Watch out for This Commit! A Study of Influential Software Changes
+A Novel Industry Grade Dataset for Fault Prediction Based on Model-Driven Developed Automotive Embedded Software
+An empirical study of crash-inducing commits in Mozilla Firefox
+Characterization and Prediction of Issue-Related Risks in Software Projects
+Co-evolution of Infrastructure and Source Code - An Empirical Study
+Defect prediction as a multiobjective optimization problem
+Discovering loners and phantoms in commit and issue data
+nvestigating code review quality: Do people and participation matter?
+Tracking Static Analysis Violations over Time to Capture Developer Characteristics
+Understanding the triaging and fixing processes of long lived bugs
+Weighted Multi-Factor Multi-Layer Identification of Potential Causes for Events of Interest in Software Repositories
+Bug Inducing Analysis to Prevent Fault Prone Bug Fixes
+CoREBench: studying complexity of regression errors
+Covrig: a framework for the analysis of code, test, and coverage evolution in real software
+FECAR: A Feature Selection Framework for Software Defect Prediction
+mproving enterprise software maintenance efficiency through mining software repositories in an industry context
+Survey on Software Defect Prediction
+The Impact of Automatic Crash Reports on Bug Triaging and Development in Mozilla
+The Learning Curves in Open-Source Software (OSS) Development Network
+Why software repositories are not used for defect-insertion circumstance analysis more often: A case study
+A preliminary investigation of using age and distance measures in the detection of evolutionary couplings
+A study of variability spaces in open source software
+Automatic recovery of root causes from bug-fixing changes
+Bug characteristics in open source software
+Correlations between bugginess and time-based commit characteristics
+Empirical Evaluation of Bug Linking
+Identifying failure inducing developer pairs within developer networks
+Linux variability anomalies: What causes them and how do they get fixed?
+Personalized defect prediction
+Predicting risk of pre-release code changes with Checkinmentor
+Towards a Change-oriented Programming Environment
+When a Patch Goes Bad: Exploring the Properties of Vulnerability-Contributing Commits
+A Survey on Mining Software Repositories
+A Systematic Literature Review on Fault Prediction Performance in Software Engineering
+Bug Introducing Changes: A Study with Android
+Bug introducing changes: A case study with Android
+Bug prediction based on fine-grained module histories
+Diffusion of Software Features: An Exploratory Study
+Do Developers Introduce Bugs When They Do Not Communicate? The Case of Eclipse and Mozilla
+Domain specific warnings: Are they any better?
+Is It Dangerous to Use Version Control Histories to Study Source Code Evolution?
+Resolving unwanted couplings through interactive exploration of co-evolving software entities - An experience report
+Software Security Economics: Theory, in Practice
+When would this bug get reported?
+Faster issue resolution with higher technical quality of software
+A Preliminary Evaluation of Text-based and Dependency-based Techniques for Determining the Origins of Bugs
+A Systematic Review of Fault Prediction Performance in Software Engineering
+An integration resolution algorithm for mining multiple branches in version control systems
+Assessing programming language impact on development and maintenance: a study on c and c++
+BugCache for inspections: hit or miss?
+Data mining in software engineering
+Dealing with noise in defect prediction
+Do time of day and developer experience affect commit bugginess
+Ownership, experience and defects: a fine-grained study of authorship
+Prioritising Refactoring Using Code Bad Smells
+ReLink: recovering links between bugs and changes
+The Misuse of the NASA Metrics Data Program Data Sets for Automated Software Defect Prediction
+Toward Intelligent Software Defect Detection - Learning Software Defects by Example
+A Systematic Review of Fault Prediction approaches used in Software Engineering
+Automated Bug Neighborhood Analysis for Identifying Incomplete Bug Fixes
+Clones: what is that smell?
+Ownership and Experience in Fix-Inducing Code
+Prediction of Fault-prone Modules Using A Text Filtering Based Metric
+The Influence of Software Maintainability on Issue Handling
+Using Provenance to Trace Software Development Processes Statement of Affirmation
+An analysis method for improving a bug modification process in open source software development
+Building Classifiers to Identify Split Files
+Evaluating the relation between coding standard violations and faultswithin and across software versions
+Fair and balanced?: bias in bug-fix datasets
+Identifying static analysis techniques for finding non-fix hunks in fix revisions
+Learning from defect removals
+Listening to programmers &#x2014; Taxonomies and characteristics of comments in operating system code
+The promises and perils of mining git
+Toward an understanding of bug fix patterns
+University of California Riverside Quantitative Decision-making in Software Engineering Riverside for Providing an Excellent Environment for a Student 8154 Miles Away from Home. Thank You Abstract of the Dissertation Quantitative Decision-making in Software Engineering
+A Database for the Analysis of Program Change Patterns
+A segmentation-based approach for temporal analysis of software version repositories
+An empirical study of the relationships between design pattern roles and class change proneness
+Assessing the value of coding standards: An empirical study
+SZZ revisited: verifying when changes induce fixes
+The road ahead for Mining Software Repositories
+"A Bug's Life" Visualizing a Bug Database
+An empirical study on the evolution of design patterns
+Diploma Thesis Investigating Change Patterns That Fix Bugs Investigating Change Patterns That Fix Bugs
+Discovering Dynamic Developer Relationships from Software Version Histories by Time Series Segmentation
+Learning from bug-introducing changes to prevent fault prone code
+Mining Workspace Updates in CVS
+Predicting Faults from Cached History
+Prioritizing Warning Categories by Analyzing Software History
+Relating the Evolution of Design Patterns and Crosscutting Concerns
+Visual Data Mining in Software Archives to Detect How Developers Work Together
+Adaptive Bug Prediction by Analyzing Project history
+Which warnings should I fix first?
+Education Industrial Experience Teaching Experience 
+Properties of Signature Change Patterns
+Properties of Signature Change Patterns
+Thomas Zimmermann - Research Statement 

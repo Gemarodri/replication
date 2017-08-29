@@ -1,0 +1,35 @@
+{
+    "Title" : "Mining A Change History to Quickly Identify Bug Locations : A Case Study of the Eclipse Project",
+    "Id" : 5,
+    "Date" : 2013,
+    "Published" : " 2013 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)",
+    "Authors": {
+        "Name": ["Chakkrit Tantithamthavorn"],
+        "Name2": ["Rattamont Teekavanich"], 
+        "Name3": ["Akinori Ihara"], 
+        "Name4": ["Ken-ichi Matsumoto"] ,
+        "Country":["Japan"], 
+        "Country2":["Thailand"]
+        },
+    "Type_paper" : "short(6)",
+    "Project" :{ 
+        "Name": ["Eclipse Platform", "Eclipse JDT"], 
+        "Dates":["04/01/2002 - 01/31/2013", "06/01/2002 - 03/31/2013"],
+        },
+    "Volume_data":{
+        "Metric": ["#bug-report"],
+        "Size":[744,468]
+        },
+    "Versioning":["Git"],
+    "Language_used":["Java","Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes(1)",
+    "Purpose":"New approach",
+    "Elements_risk_assessment":"They use SZZ as is described in the article, using git blame to see which was the last commit touched the fixed line",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": "They used the SZZ to map bugs with fixes",
+    "Summary": " They proposed an approach to mine a change history to improve the bug localization performance",
+    "Outcome": " Their proposed approach can improve the bug localization performance and effectively identify buggy files and the experimental results show that our approach can improve the  bug localization performance and more effectively identify buggy files."
+}

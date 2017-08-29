@@ -1,0 +1,27 @@
+Title
+WhoseFault: automatic developer-to-fault assignment through fault localization
+Reflections on the NASA MDP data sets
+Covrig: A framework for the analysis of code, test, and coverage evolution in real software
+When a patch goes bad: Exploring the properties of vulnerability-contributing commits
+History slicing
+Lightweight techniques for tracking unique program statements
+Why software repositories are not used for defect-insertion circumstance analysis more often: A case study
+Learning from defect removals
+Collective personalized change classification with multiobjective search
+Four eyes are better than two: On the impact of code reviews on software quality
+Software defect prediction using static code metrics: formulating a methodology
+Identifying static analysis techniques for finding non-fix hunks in fix revisions
+An empirical study of crash-inducing commits in mozilla firefox
+Comparing text‐based and dependence‐based approaches for determining the origins of bugs
+Static analysis in practice
+Bug Inducing Analysis to Prevent Fault Prone Bug Fixes.
+Exploiting Abstract Syntax Trees to Locate Software Defects
+A preliminary evaluation of text-based and dependency-based techniques for determining the origins of bugs
+Transparently improving regression testing using symbolic execution
+Essays on empirical software engineering.
+Improving Bug Triaging Using Software Analytics 
+IMPROVING SOFTWARE QUALITY WITH SOFTWARE ERROR PREDICTION
+Analyzing how the bugs are injected into the source code.
+A public bug database of GitHub projects and its application in bug prediction
+So You Need More Method Level Datasets for Your Software Defect Prediction?: Voilà!
+Collective Personalized Change Classification With Multiobjective Search 
