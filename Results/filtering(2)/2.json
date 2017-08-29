@@ -4,10 +4,10 @@
     "Date" : 2013,
     "Published" : " IEEE 13th International Working Conference on Source Code Analysis and Manipulation (SCAM)",
     "Authors": {
-        "Name": "Tosin Daniel Oyetoyan", 
-        "Name2": "Reidar Conradi", 
-        "Name3": "Daniela Soares Cruzes",
-        "Country":"Norway"
+        "Name": ["Tosin Daniel Oyetoyan"], 
+        "Name2": ["Reidar Conradi"], 
+        "Name3": ["Daniela Soares Cruzes"],
+        "Country":["Norway"]
         },
     "Type_paper" : "large",
     "Project" :{ 

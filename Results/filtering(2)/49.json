@@ -2,7 +2,7 @@
     "Title" : "Bug Inducing Analysis to Prevent Fault Prone Bug Fixes.",
     "Id" : 49,
     "Date" : 2014,
-    "Published" : "Retrieved February",
+    "Published" : "SEKE",
     "Authors": {
         "Name": ["Haoyu Yang"],
         "Name2": ["Chen Wang"],
@@ -11,7 +11,7 @@
         "Name5": ["Zhenyu Chen"],
         "Country":["China"]
         },
-    "Type_paper" : "Journal",
+    "Type_paper" : "Conference",
     "Project" :{ 
         "Name": ["JEdit","Protostuff","Encog" ], 
         "Dates":["NaN","NaN","NaN"],

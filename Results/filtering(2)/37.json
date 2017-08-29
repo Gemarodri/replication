@@ -21,7 +21,7 @@
         "Size":[ ]
         },
     "Versioning":["CVS/Git"],
-    "Language_used":[""],
+    "Language_used":["C++"],
     "Improved_SZZ": "No",
     "TTV_SZZ": "No",
     "Purpose":" A Method to detect possibly buggy change based on a classifier trained using a project's history",

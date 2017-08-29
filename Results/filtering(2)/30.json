@@ -16,8 +16,8 @@
         "Metric": ["snapshots"],
         "Size":[943 ]
         },
-    "Versioning":[""],
-    "Language_used":[""],
+    "Versioning":["Not mentioned"],
+    "Language_used":["Java/C++"],
     "Improved_SZZ": " Yes",
     "TTV_SZZ": "YES (but in the linkage)",
     "Purpose":" replicated, empirical study",

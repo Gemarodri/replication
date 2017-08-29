@@ -4,13 +4,13 @@
     "Date" : 2013,
     "Published" : " 2013 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement",
     "Authors": {
-        "Name": "Andrew Meneely",
-        "Name2": "Harshavardhan Srinivasan",
-        "Name3": "Ayemi Musa", 
-        "Name4": "Alberto Rodríguez Tejeda", 
-        "Name5": "Matthew Mokary", 
-        "Name6": "Brian Spates",
-        "Country":"USA"
+        "Name": ["Andrew Meneely"],
+        "Name2": ["Harshavardhan Srinivasan"],
+        "Name3": ["Ayemi Musa"], 
+        "Name4": ["Alberto Rodríguez Tejeda"], 
+        "Name5": ["Matthew Mokary"], 
+        "Name6": ["Brian Spates"],
+        "Country":["USA"]
         },
     "Type_paper" : "large",
     "Project" :{ 

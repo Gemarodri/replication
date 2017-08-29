@@ -4,12 +4,12 @@
     "Date" : 2009,
     "Published" : "DSMM",
     "Authors": {
-        "Name": "Yungbum Jung", 
-        "Name2":"Hakjoo Oh", 
-        "Name3":"Kwangkeun Yi",
-        "Country":"South Korea "
+        "Name": ["Yungbum Jung"], 
+        "Name2":["Hakjoo Oh"], 
+        "Name3":["Kwangkeun Yi"],
+        "Country":["South Korea"]
         },
-    "Type_paper" : "short (5)",
+    "Type_paper" : "whorkshop (5)",
     "Project" :{ 
         "Name": ["Eclipse", "Lucene", "Columba"  ], 
         "Dates":["NaN","NaN","NaN"],
@@ -18,8 +18,8 @@
         "Metric": ["hunks"],
         "Size":[ 2146]
         },
-    "Versioning":[""],
-    "Language_used":[""],
+    "Versioning":["Not mentioned"],
+    "Language_used":["Not mentioned"],
     "Improved_SZZ": "No",
     "TTV_SZZ": "No",
     "Purpose":"Empirical experiment",

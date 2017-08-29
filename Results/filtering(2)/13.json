@@ -4,11 +4,11 @@
     "Date" : 2010,
     "Published" : "PROFES 2010",
     "Authors": {
-        "Name": "Tracy Hall", 
-        "Name2":"David Bowes", 
-        "Name3":"Gernot Liebchen", 
-        "Name4":"Paul Wernick",
-        "Country":"UK "
+        "Name": ["Tracy Hall"], 
+        "Name2":["David Bowes"], 
+        "Name3":["Gernot Liebchen"], 
+        "Name4":["Paul Wernick"],
+        "Country":["UK "]
         },
     "Type_paper" : "large (9)",
     "Project" :{ 

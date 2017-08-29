@@ -4,9 +4,9 @@
     "Date" : 2011,
     "Published" : "International Journal of Computers and Applications,",
     "Authors": {
-        "Name": "Michael VanHilst", 
-        "Name2": "Shihong Huang", 
-        "Name3": "Hugh Lindsay",
+        "Name": ["Michael VanHilst"], 
+        "Name2": ["Shihong Huang"], 
+        "Name3": ["Hugh Lindsay"],
         "Country":"USA "
         },
     "Type_paper" : "large (9)",

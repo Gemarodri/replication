@@ -4,9 +4,9 @@
     "Date" : 2014,
     "Published" : "IEEE TRANSACTIONS ON SOFTWARE ENGINEERING",
     "Authors": {
-        "Name": "Fabio Massacci",
-        "Name2": "Viet Hung Nguyen",
-        "Country":"Italy"
+        "Name": ["Fabio Massacci"],
+        "Name2": ["Viet Hung Nguyen"],
+        "Country":["Italy"]
         },
     "Type_paper" : "large (16)",
     "Project" :{ 
@@ -18,7 +18,7 @@
         "Size":[1890,843,1146,628  ]
         },
     "Versioning":[""],
-    "Language_used":[],
+    "Language_used":["HTML"],
     "Improved_SZZ": "No",
     "TTV_SZZ": "yes",
     "Purpose":"Security defect,empirical study, predictability of a VDM ",

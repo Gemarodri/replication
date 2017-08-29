@@ -4,9 +4,9 @@
     "Date" : 2009,
     "Published" : " Minning software repository",
     "Authors": {
-        "Name": "Nathaniel Ayewah",
-        "Name2": "William Pugh",
-        "Country":"USA"
+        "Name": ["Nathaniel Ayewah"],
+        "Name2": ["William Pugh"],
+        "Country":["USA"]
         },
     "Type_paper" : "short",
     "Project" :{ 
