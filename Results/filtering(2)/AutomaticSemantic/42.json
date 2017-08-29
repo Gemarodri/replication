@@ -1,0 +1,38 @@
+{
+    "Title" : "Do Developers Introduce Bugs when they do not Communicate?
+The Case of Eclipse and Mozilla",
+    "Id" : 42,
+    "Date" : 2012,
+    "Published" : "European Conference on Software Maintenance and Reengineering",
+    "Authors": {
+        "Name": ["Mario Luca Bernardi"],
+        "Name2": ["Gerardo Canfora"],
+        "Name3": ["Giuseppe A. Di Lucca"],
+        "Name4": ["Massimiliano Di Penta"],
+        "Name5":["Damiano Distante"],
+        "Country":["Italy"]
+        },
+    "Type_paper" : "Conference (10)",
+    "Project" :{ 
+        "Name": ["Eclipse","Mozilla"], 
+        "Dates":[""],
+        },
+    "Volume_data":{
+        "Metric": ["#bugs"],
+        "Size":[8923]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["Java/C/C++"],
+    "Improved_SZZ": "",
+    "TTV_SZZ": "Yes(1st)",
+    "Purpose":"Social Network Analysis/Empirical study",
+    "Elements_risk_assessment":" the annotate option of CVS is used to identify for each source line
+in f i changed to fix the bug k, the file revision where the last change to that line occurred",
+    "EaseOf_Reproducibility":"yes",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": "by identifying committers likely responsible of bug-introducing changes",
+    "Summary": " how the level of communication between committers relates to their proneness to introduce
+faults.",
+    "Outcome": " bug-introducing committers have a higher social importance than other committers"
+}

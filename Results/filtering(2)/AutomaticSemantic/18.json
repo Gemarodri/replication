@@ -1,0 +1,39 @@
+{
+    "Title" : "FECAR: A Feature Selection Framework for
+Software Defect Prediction",
+    "Id" : 18,
+    "Date" : 2014,
+    "Published" : "Annual International Computers, Software and Applications Conference",
+    "Authors": {
+        "Name": ["Shulong Liu"],
+        "Name2": ["Xiang Chen"],
+        "Name3": ["Wangshu Liu"],
+        "Name4": ["Jiaqiang Chen"],
+        "Name5":["Qing Gu"],
+        "Name6":["Daoxu Chen"],
+        "Country":["China"]
+        },
+    "Type_paper" : "Conference (10)",
+    "Project" :{ 
+        "Name": ["Eclipse","NASA"], 
+        "Dates":[""],
+        },
+    "Volume_data":{
+        "Metric": [],
+        "Size":[]
+        },
+    "Versioning":["Not mentioned"],
+    "Language_used":["Not mentioned"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":"Empirical Study",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"NO",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To find a buggy change",
+    "Summary": " They implemented the framework and performed empirical studies to investigate
+the redundancy rate and the performance of the trained defect predictors",
+    "Outcome": " new feature selection framework FECAR using FEature Clustering And feature Rank-
+ing."
+}

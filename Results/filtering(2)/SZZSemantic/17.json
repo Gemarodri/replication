@@ -1,0 +1,41 @@
+{
+    "Title" : "Local Variables with Compound Names and Comments as Signs of Fault-Prone Java Methods",
+    "Id" : 17,
+    "Date" : 2016,
+    "Published" : "Workshop on Quantitative Approaches to Software Quality (QuASoQ)",
+    "Authors": {
+        "Name": ["Hirohisa Aman"],
+        "Name2": ["Sousuke Amasaki"],
+        "Name3": ["Tomoyuki Yokogawa"],
+        "Name4": ["Minoru Kawahara"],
+        "Country":["Japan"]
+    },
+    "Type_paper" : "Workshop (8)",
+    "Project" :{ 
+        "Name": ["IP-Scanner","Checkstyle","eXo","FreeMind","ARM","Hibernate","ProjectLibre","PMD","SQuirreL"], 
+        "Dates":["Yes"],
+        },
+    "Volume_data":{
+        "Metric": ["KLOC"],
+        "Size":[1502]
+        },
+    "Versioning":["Git"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "",
+    "TTV_SZZ": "",
+    "Purpose":"fault-proneness",
+    "Elements_risk_assessment":"They are supposing that the bug fixing chunk is a real bug ",
+    "EaseOf_Reproducibility":"",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "We decide whether a code change was intended to a bug fixing or not, by checking their
+commitment message [16]",
+    "Summary": " Empirical analysis on the fault-proneness of Java methods which are collected from nine popular open
+source products ",
+    "Outcome": "(1) Methods having local variables with compound names are
+more likely to be faulty than the others; (2) Methods having
+local variables with simple and short names are unlikely to be
+faulty, but their positive effects tend to be decayed as their scopes
+get wider; (3) The presence of comments within a method body
+can also be useful sign of fault-prone method. "
+}
