@@ -1,0 +1,34 @@
+{
+    "Title" : "Bug-Inducing Language Constructs",
+    "Id" : 76,
+    "Date" : 2009,
+    "Published" : "Working Conference on Reverse Engineering (WCRE)",
+    "Authors": {
+        "Name": ["Javed Ferzund"],
+        "Name2": ["Syed Nadeem Ahsan"],
+        "Name3": ["Franz Wotawa"], 
+        "Country":["Austria"],
+        
+        },
+    "Type_paper" : "short (5)",
+    "Project" :{ 
+        "Name": ["Apache","Columba", "Eclipse", "Epiphany","Evolution","Mozilla","Nautilus","PostgreSQL"],
+        "Dates":["NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN"]
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":["C/C++/JAVA"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" Bug-Inducing",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To locate buggy commits",
+    "Summary": " They present a simple approach to extract bug-inducing hunks.",
+    "Outcome": " Most frequent bug-inducing language constructs are function calls, assignments, conditions, pointers, use of NULL, variable declaration, function declaration and return statement."
+}

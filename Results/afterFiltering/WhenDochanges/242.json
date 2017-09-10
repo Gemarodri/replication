@@ -1,0 +1,41 @@
+{
+    "Title" : "Effects of Organizational Changes on Product Metrics and Defects",
+    "Id" : 242,
+    "Date" : 2013,
+    "Published" : " Software Engineering Conference",
+    "Authors": {
+        "Name": ["Seiji Sato"],
+        "Name2": ["Hironori Washizaki"],
+        "Name3": ["Yoshiaki Fukazawa"],
+        "Name4": ["Sakae Inoue"],
+        "Name5": ["Hiroyuki Ono"],
+        "Name6": ["Yoshiiku Hanai"],
+        "Name7": ["Mikihiko Yamamoto"],
+        "Country":["Japan"]
+        },
+    "Type_paper" : " Conference (8)",
+    "Project" :{ 
+        "Name": ["OpenOffice","VirtualBox"], 
+        "Dates":["NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["Subversion"],
+    "Language_used":["C++/Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Defect origins",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": "To locate the origins of a change done in the code",
+    "Summary": "We conduct statistical analysis to investigate the relationship between
+the origins, product metrics, the number of modifications, and defects. ",
+    "Outcome": " Files that are modified by multiple organizations or developed by later 
+    organizations tend to be faultier due to the increase in complexity and modification frequency."
+}
+
+revisitedSZZ

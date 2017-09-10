@@ -1,0 +1,38 @@
+{
+    "Title" : "To what extent could we detect field defects? An extended empirical study of false negatives in static bug-finding tools",
+    "Id" : 481,
+    "Date" : 2015,
+    "Published" : "Autom. Softw. Eng.",
+    "Authors": {
+        "Name": ["Ferdian Thung"],
+        "Name2": ["David Lo"],
+        "Name3": ["Lingxiao Jiang"],
+        "Name4": ["Foyzur Rahman"],
+        "Name5": ["Premkumar T. Devanbu"],
+        "Country":["Singapore"],
+        "Country2":["USA"]
+        },
+    "Type_paper" : "Journal (42)",
+    "Project" :{ 
+        "Name": ["Lucene","Rhino","AspectJ"], 
+        "Dates":["NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#defects"],
+        "Size":[ 57,32,350]
+        },
+    "Versioning":["Git/CVS"],
+    "Language_used":["Java/JavaScript"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":"empirical study ",
+    "Elements_risk_assessment":" we extract bugs and the faulty lines of code that are responsible for the bugs.",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Bugzilla/Jira"],
+    "UseOF-SZZ": "To locate the faulty lines",
+    "Summary": " an empirical study that investigates the effectiveness of five state-of-the-art
+static bug-finding tools (FindBugs, JLint, PMD, CheckStyle, and JCSC) on hundreds of
+reported and fixed defects",
+    "Outcome": " although many field defects could be detected by static bug-finding tools, a substantial proportion"
+}

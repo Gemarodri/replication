@@ -1,0 +1,32 @@
+{
+    "Title" : "An Empirical Study of Crash-inducing Commits in Mozilla Firefox",
+    "Id" : 277,
+    "Date" : 2015,
+    "Published" : "Promise",
+    "Authors": {
+        "Name": ["Le An"],
+        "Name2": ["Foutse Khomh"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : "long (10)",
+    "Project" :{ 
+        "Name": ["Firefox"], 
+        "Dates":["2012/01/01-2012/12/01"],
+        },
+    "Volume_data":{
+        "Metric": ["#commits"],
+        "Size":[ 127212]
+        },
+    "Versioning":["Mercurial"],
+    "Language_used":["C/C++"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Crash analysis ",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To identify the commits due to which the crash-related bugs occurred",
+    "Summary": " a case study of commits that would lead to crashes, called “crash-inducing commits”, in Mozilla Firefox.",
+    "Outcome": " Crash-inducing commits are often submitted by developers with less experience."
+}

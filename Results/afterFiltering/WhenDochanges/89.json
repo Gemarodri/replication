@@ -1,0 +1,32 @@
+{
+    "Title" : "Are Developers Predictive of Defects?",
+    "Id" : 89,
+    "Date" :2009 ,
+    "Published" : "University of Calgary",
+    "Authors": {
+        "Name": ["David Ma"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : "short (8)",
+    "Project" :{ 
+        "Name": ["Eclipse"], 
+        "Dates":["2001/11/01-2006/10/01"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" Bug Prediction",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"",
+    "Design":"qualitative",
+    "Collection": ["bugzilla"],
+    "UseOF-SZZ": "Link bug report to bug fixed to see the buggy files involves",
+    "Summary": " To create a predictive model based on what a developer knows about the code they are changing. The contributions described in this paper centre around investigations into 
+    what developer attributes may be important for predictive models and the methodology used to classify and evaluate the importance of these attributes.",
+    "Outcome": " "
+}

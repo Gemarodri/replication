@@ -1,0 +1,35 @@
+{
+    "Title" : "Evaluating the impact of design pattern and anti-pattern dependencies on changes and faults",
+    "Id" : 268,
+    "Date" : 2016,
+    "Published" : "Empirical Software Engineering",
+    "Authors": {
+        "Name": ["Fehmi Jaafar"],
+        "Name2": ["Yann-Gaël Guéhéneuc"], 
+        "Name3": ["Sylvie Hamel"], 
+        "Name4": ["Foutse Khomh"],
+        "Name5": ["Mohammad Zulkernine"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : "Large (36)",
+    "Project" :{ 
+        "Name": ["ArgoUML", "JFreeChart", "XercesJ"  ], 
+        "Dates":["27/11/2008-15/12/2011","15/06/2007-20/11/2009","14/10/2003-23/11/2006"],
+        },
+    "Volume_data":{
+        "Metric": ["snapshots"],
+        "Size":[ 4480,2010,159196 ]
+        },
+    "Versioning":["CVS/SVN"],
+    "Language_used":["UML","Java","Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":"empirical study, fault-proneness, anti-patterns",
+    "Elements_risk_assessment":"They don't look if the changes done were or weren't the real cause of the bug",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"qualitative&quantitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": "Similar heuristics to map commits and ids, to identify fault fix locations and change",
+    "Summary": " We investigate the impact of such dependencies in object-oriented systems by studying the relations between the presence of static and co-change dependencies and (1) the fault-proneness, (2) the types of changes, and (3) the types of faults that these classes exhib",
+    "Outcome": "  (1) static dependencies with anti-pattern classes do have a negative impact on changes and faults and (2) co-change dependencies with anti-pattern and design pattern classes have similar negative impacts on changes and faul"
+}

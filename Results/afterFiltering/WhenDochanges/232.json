@@ -1,0 +1,34 @@
+{
+    "Title" : "DRACA: Decision-support for Root Cause Analysis and Change
+Impact Analysis",
+    "Id" : 232,
+    "Date" : 2009,
+    "Published" : "University of Waterloo",
+    "Authors": {
+        "Name": ["Sarah Nadi"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : "Master thesis",
+    "Project" :{ 
+        "Name": ["CMDB"], 
+        "Dates":["2006/01/01-2008/12/01"],
+        },
+    "Volume_data":{
+        "Metric": ["#ChangeOrders"],
+        "Size":[ 27305]
+        },
+    "Versioning":["Not mentioned"],
+    "Language_used":["Not mentioned"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":"Change impact ",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To locate inducing changes in the past",
+    "Summary": "to provide semi-automated decision
+support for root cause analysis and change impact analysis ",
+    "Outcome": " They were able to predict change sets with a combination of
+recall and precision as high as 69.8% and 88.5% respectively."
+}

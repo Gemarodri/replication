@@ -1,0 +1,37 @@
+{
+    "Title" : "Predicting Faults from Cached History",
+    "Id" : 354,
+    "Date" :2007 ,
+    "Published" : "International Conference on Software Engineering (ICSE'07) ",
+    "Authors": {
+        "Name": ["Sunghun Kim"],
+        "Name2": ["Thomas Zimmermann"],
+        "Name3": ["E. James Whitehead, Jr."],
+        "Name4": ["Andreas Zeller"],
+        "Country":["USA"],
+        "Country2": ["Germany"]
+        },
+    "Type_paper" : "Conference (10)",
+    "Project" :{ 
+        "Name": ["Apache HTTP","Subversion","PostgreSQL","Mozilla","JEdit","Columba","Eclipse"], 
+        "Dates":["Yes"],
+        },
+    "Volume_data":{
+        "Metric": ["#revisions"],
+        "Size":[ 20000]
+        },
+    "Versioning":["Subversion/CVS"],
+    "Language_used":["C/C++/Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes(1,2)",
+    "Purpose":" Fault prone/empirical evidence",
+    "Elements_risk_assessment":"use the annotation features of CVS and Subversion to
+identify bug-introducing changes ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative&quantitative",
+    "Collection": ["--"],
+    "UseOF-SZZ": "Bug-introducing changes are identified at the file and entity level, using the approach in [22].",
+    "Summary": " We analyze the version history of 7 software systems to predict the most fault prone entities and files.",
+    "Outcome": "A FixCache model that predicts the faults with high accuracy:"
+}
+

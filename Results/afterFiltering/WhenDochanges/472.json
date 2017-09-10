@@ -1,0 +1,35 @@
+{
+    "Title" : "Bug Introducing Changes: A Case Study with Android",
+    "Id" : 472,
+    "Date" : 2012,
+    "Published" : "MSR",
+    "Authors": {
+        "Name": ["Muhammad Asaduzzaman"],
+        "Name2": ["Michael C. Bullock"],
+        "Name3": ["Chanchal K. Roy"],
+        "Name4": ["Kevin A. Schneider"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : " short (4)",
+    "Project" :{ 
+        "Name": ["Android"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["Fixes"],
+        "Size":[ 854,]
+        },
+    "Versioning":["Git"],
+    "Language_used":["Not mentioned"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Locate BIC",
+    "Elements_risk_assessment":" They doesn't have into account that the BIC could be not BIC",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To locate the BIC, they didn't call their method as SZZ but they did teh same that SZZ",
+    "Summary": " In this paper,they mined the bug introducing changes in the Android platform by mapping bug reports to the changes that introduced the bugs",
+    "Outcome": " understand under which circumstances buggy code is
+injected into the Android software system"
+}

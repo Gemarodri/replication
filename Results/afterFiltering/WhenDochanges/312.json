@@ -1,0 +1,38 @@
+{
+    "Title" : "Assessing the Cost Effectiveness of Fault
+Prediction in Acceptance Testing",
+    "Id" : 312,
+    "Date" : 2013,
+    "Published" : "TRANSACTIONS ON SOFTWARE ENGINEERING",
+    "Authors": {
+        "Name": ["Akito Monden"],
+        "Name2": ["Takuma Hayashi"],
+        "Name3": ["Shoji Shinoda"],
+        "Name4": ["Kumiko Shirai"],
+        "Name5": ["Junichi Yoshida"],
+        "Name6": ["Mike Barker"],
+        "Name7": ["Kenichi Matsumoto"],
+        "Country":["Japan"]
+        },
+    "Type_paper" : "Journal (13)",
+    "Project" :{ 
+        "Name": [""], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["Not mentioned"],
+    "Language_used":["C"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" Software testing",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "",
+    "Summary": " This paper proposes using a simulation model of software testing to assess the cost effectiveness of test effort allocation strategies based on fault prediction results",
+    "Outcome": " Reduction of the test effort can be achieved by fault prediction only if the appropriate test strategy is employed with high enough fault prediction accuracy"
+}

@@ -1,0 +1,34 @@
+{
+    "Title" : "Locus: locating bugs from software changes",
+    "Id" : 100,
+    "Date" : 2016,
+    "Published" : "Automated Software Engineering (ASE), 2016 31st IEEE/ACM International Conference on",
+    "Authors": {
+        "Name": ["Ming Wen"],
+        "Name2": ["Rongxin Wu"],
+        "Name3": ["Shing-Chi Cheung"],
+        "Country":["China"]
+        },
+    "Type_paper" : "large (12)",
+    "Project" :{ 
+        "Name": ["ZXing","SWT","AspectJ","PDE","JDT","Tomcat"], 
+        "Dates":["NaN","NaN","NaN","NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["Bugs"],
+        "Size":[20,98,244,60,94,193 ]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Create a tool to locate bugs",
+    "Elements_risk_assessment":" The BIC should be not the real one",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": " SZZ algorithm was then applied to identify the inducing changes based on these fixes",
+    "Summary": "  In this study, we proposed a tool called Locus, which LOcats bugs from software Change hUnkS. As a result, from the selected hunks after filtering, Locus creates two corpora, which are NL (Natural Language) corpus and CE (Code Entity) corpus.",
+    "Outcome": " The results show that Locus outperforms existing techniques at the source file level localization significantly, Locus is also capable of locating the inducing changes within top 5 for 41.0% of the bugs. The results show that Locus can
+significantly reduce the number of lines needing to be scanned to locate the bug compared with existing techniques"
+}

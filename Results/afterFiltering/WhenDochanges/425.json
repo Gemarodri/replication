@@ -1,0 +1,36 @@
+{
+    "Title" : "Towards Building a Universal Defect Prediction Model",
+    "Id" : 425,
+    "Date" : 2014,
+    "Published" : "MSR",
+    "Authors": {
+        "Name": ["Feng Zhang"],
+        "Name2": ["Audris Mockus"],
+        "Name3": ["Iman Keivanloo"],
+        "Name4": ["Ying Zou"],
+        "Country":["Canada"],
+        "Country2":["USA"]
+        },
+    "Type_paper" : "long (10)",
+    "Project" :{ 
+        "Name": ["SourgeForge","GoogleCode"], 
+        "Dates":["01/10/2010"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["CVS/Mercurial"],
+    "Language_used":["C, C++, C#, Java,Pascal"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Bug Prediction",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To mine defect data",
+    "Summary": " They attempt to build a universal defect prediction model for a large set of projects 
+    from various contexts.",
+    "Outcome": " These results suggest that a universal defect prediction model may be an achievable goal."
+}

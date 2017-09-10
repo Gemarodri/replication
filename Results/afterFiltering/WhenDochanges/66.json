@@ -1,0 +1,35 @@
+{
+    "Title" : "Bug report recommendation for code inspection",
+    "Id" : 66,
+    "Date" : 2015,
+    "Published" : "Software Analytics (SWAN), 2015 IEEE 1st International Workshop on",
+    "Authors": {
+        "Name": ["Shin Fujiwara"],
+        "Name2": ["Hideaki Hata"],
+        "Name3": ["Akito Monden"],
+        "Name4": ["Kenichi Matsumoto"],
+        "Country":["Japan"]
+        },
+    "Type_paper" : "Workshop (4)",
+    "Project" :{ 
+        "Name": ["ecf","eclipse.pde.ui","eclipse.jdt.core"], 
+        "Dates":[" 2001/05/01-2004/12/31"],
+        },
+    "Volume_data":{
+        "Metric": ["#commits"],
+        "Size":[10786,21055,11270]
+        },
+    "Versioning":["Git"],
+    "Language_used":["java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" To recommend preacticiones a prioritized list of unresolved bug reports to accelerate bug detection.",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "Correct links between source code files and bug reports were identified based on the SZZ algorithm",
+    "Summary": " To propose to a way recommend programmers a bug report that is likely to contain failure descriptions related to a source file being inspecte",
+    "Outcome": " the accuracies of recommendations ranged from 21.74% to 60.05% in terms of the percentage of recommendations that contained relevant bug reports in a top 10
+recommended list "
+}

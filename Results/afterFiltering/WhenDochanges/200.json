@@ -1,0 +1,36 @@
+{
+    "Title" : "The Knowledge Accumulation and Transfer in Open-Source Software (OSS) Development",
+    "Id" : 200,
+    "Date" : 2015,
+    "Published" : "International Conference on System Sciences",
+    "Authors": {
+        "Name": ["Youngsoo KIM"],
+        "Name2": ["Lingxiao Jiang"],
+        "Country":["Singapore"]
+        },
+    "Type_paper" : "Conference32 (11)",
+    "Project" :{ 
+        "Name": ["20 projects" ], 
+        "Dates":["No"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["Git"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "Yes(1,2)",
+    "Purpose":" Empirical study/ software humanity",
+    "Elements_risk_assessment":"The identified code lines are treated as buggy
+lines and we count each buggy line as one bug ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": ["jira"],
+    "UseOF-SZZ": "to identify bug fixes and bug origing",
+    "Summary": " We build and estimate regression models to assess individual developers’ learning
+progress (in reducing the likelihood they make a bug). ",
+    "Outcome": " The results have implications on project management about how to split efforts on tasks that add new codes versus tasks that debug and fix existing codes. "
+}
+
+                                                                                                                           

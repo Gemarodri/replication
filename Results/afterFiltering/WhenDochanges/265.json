@@ -1,0 +1,35 @@
+{
+    "Title" : "Four Eyes Are Better Than Two: On
+the Impact of Code Reviews on Software Quality",
+    "Id" : 265,
+    "Date" : 2015,
+    "Published" : "ICSME 2015",
+    "Authors": {
+        "Name": ["Gabriele Bavota"],
+        "Name2": ["Barbara Russo"],
+        "Country":["Italy"]
+        },
+    "Type_paper" : "",
+    "Project" :{ 
+        "Name": ["Android frameworks base APIs", "LibreOffice","Scilab"], 
+        "Dates":["01/01/2010-12/01/2014","01/03/2011-01/10/2014","01/01/2010-01/09/2014"],
+        },
+    "Volume_data":{
+        "Metric": ["#CommitsReviewed","#CommitsUnreviewed"],
+        "Size":[ 9429,77677]
+        },
+    "Versioning":["Git"],
+    "Language_used":["Java/C++"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":"Mining Software Repositories ",
+    "Elements_risk_assessment":" starting from the revision rel-fix i,k − 1, for each source line in f i changed to fix the bug k the blame feature of Git is used to identify the file revision where the last change to that line occurred.",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative&quantitative",
+    "Collection": ["Gerrit"],
+    "UseOF-SZZ": "to determine commits that induce bugfixes",
+    "Summary": " exploratory study on three large open source systems that aims at investigating the influence of code review on (i) the chances of inducing bug fixes and (ii)
+the quality of the committed code components, as assessed by code coupling, complexity, and readability.",
+    "Outcome": " unreviewed commits have over two times more
+chances of introducing bugs than reviewed commits"
+}

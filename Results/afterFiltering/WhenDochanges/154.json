@@ -1,0 +1,32 @@
+{
+    "Title" : "Can faulty modules be predicted by warning messages of static code analyzer?",
+    "Id" : 154,
+    "Date" : 2012,
+    "Published" : "Advances in Software Engineering",
+    "Authors": {
+        "Name": ["Osamu Mizuno"],
+        "Name2": ["d Michi Nakai"],
+        "Country":["Japan"]
+        },
+    "Type_paper" : "journal (25)",
+    "Project" :{ 
+        "Name": ["Eclipse BIRT"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#faults"],
+        "Size":[ 4708]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["Java/C"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" detection method of fault-prone",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": " The source code module is obtained from this project by the SZZ",
+    "Summary": " They try to introduce a new metric as a fault-prone predictor. The metric is 'frequency of particular words'",
+    "Outcome": " (1) can fault-prone modules be predicted by applying a text filter to the warning messages of static code analyzer?--> YES "
+}

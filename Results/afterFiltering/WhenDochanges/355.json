@@ -1,0 +1,40 @@
+{
+    "Title" : "Do Crosscutting Concerns Cause Defects?",
+    "Id" : 355,
+    "Date" : 2007,
+    "Published" : "IEEE TRANSACTIONS ON SOFTWARE ENGINEERING",
+    "Authors": {
+        "Name": ["Marc Eaddy"],
+        "Name2": ["Thomas Zimmermann"],
+        "Name3": ["Kaitlin D. Sherwood"],
+        "Name4": ["Vibhav Garg"],
+        "Name5": ["Gail C. Murphy"],
+        "Name6": ["Nachiappan Nagappan"],
+        "Name7": ["Alfred V. Aho"],
+        "Country":["USA"],
+        "Country2":["Canada"]
+        },
+    "Type_paper" : "journal (19)",
+    "Project" :{ 
+        "Name": ["Mylyn–Bugzilla","Rhino","iBATIS"], 
+        "Dates":["NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#bugs"],
+        "Size":[ 110,241,87]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" A new framework",
+    "Elements_risk_assessment":" A program element is relevant to a bug if it was modified to fix the bug.",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Bugzilla/Jira"],
+    "UseOF-SZZ": "Associating Bugs with Program Elements",
+    "Summary": " This paper describes the experimental framework we developed to conduct the studies, the metrics we adopted and developed to measure the degree of scattering, the studies we
+performed, the efforts we undertook to remove experimental and other biases, and the results we obtained.",
+    "Outcome": " All three studies revealed a moderate to strong statistically significant
+correlation between the degree of scattering and the number of defects."
+}

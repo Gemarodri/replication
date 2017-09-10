@@ -1,0 +1,34 @@
+{
+    "Title" : "Which Warnings Should I Fix First?",
+    "Id" : 368,
+    "Date" : 2007,
+    "Published" : "ESEC/FSE",
+    "Authors": {
+        "Name": ["Sunghun Kim"],
+        "Name2": ["Michael D. Ernst"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "long (10)",
+    "Project" :{ 
+        "Name": ["Columba","Lucene","Scarab"], 
+        "Dates":["11/25/2002-06/29/2004","10/19/2001-11/9/2006","1/2/2002-11/8/2006"],
+        },
+    "Volume_data":{
+        "Metric": ["LOC (K)"],
+        "Size":[121,37,64 ]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" software maintenance",
+    "Elements_risk_assessment":" A line, l is a bug-related line iff l is modified or removed during any fix-change.",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To locate the fixes and the line bug location",
+    "Summary": " They propose a history-based warning prioritization algorithm by mining warning fix experience that is recorded in the
+software change history",
+    "Outcome": "Their prioritization algorithm improves
+warning precision to 17%, 25%, and 67% respectively."
+}

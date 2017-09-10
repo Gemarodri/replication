@@ -1,0 +1,38 @@
+{
+    "Title" : "An empirical study on developer‐related factors characterizing fix‐inducing commits",
+    "Id" : 62,
+    "Date" : 2016,
+    "Published" : "Journal of Software: Evolution and Process",
+    "Authors": {
+        "Name": ["Michele Tufano"],
+        "Name2": ["Gabriele Bavota"],
+        "Name3": ["Denys Poshyvanyk"],
+        "Name4": ["Massimiliano Di Penta"],
+        "Name5": ["Rocco Oliveto"],
+        "Name6": ["Andrea De Lucia"],
+        "Country":["USA"],
+        "Country2":["Italy"]
+        },
+    "Type_paper" : "Journal",
+    "Project" :{ 
+        "Name": ["Ant", "JMeter", "log4j", "Tomcat", "Xerces-J" ], 
+        "Dates":["01/01/2000–01/09/2013 ","01/09/1998–01/11/2013 ","01/11/2000–01/05/2013","01/03/2006–01/11/2013","01/11/1999–01/08/2013 "],
+        },
+    "Volume_data":{
+        "Metric": ["#commits","#fix‐inducing"],
+        "Size":[[12891,10198,3271,8986,5462],[1839,1833,541,1299,68]]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" To analyzes developer-related factors that could inﬂuence the likelihood for a commit to induce a ﬁx. ",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": "to identifying ﬁx-inducing changes using the SZZ algorithm",
+    "Summary": " They focus on factors that could potentially hinder developers’ ability to correctly understand the code components involved in the change to be committed as fo llows: (i) the coherence of the commit (i.e.,
+how much it is focused on a speciﬁc topic); (ii) the experience level of the developer on the ﬁles involved in the commit; and (iii) the interfering changes performed by other developers on the ﬁles involved in past commits. ",
+    "Outcome": "‘ﬁx-inducing’ commits are performed by more experienced developers; yet, those are the developers perform ing more complex changes in the system. ‘ﬁx-inducing’ commits have a higher number of past interfering changes as compared with ‘clean ’ commits"
+}

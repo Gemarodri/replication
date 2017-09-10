@@ -1,0 +1,32 @@
+{
+    "Title" : "An Implementation of Just-in-Time Fault-Prone Prediction Technique Using Text Classifier",
+    "Id" : 84,
+    "Date" : 2015,
+    "Published" : "Computer Software and Applications Conference (COMPSAC),",
+    "Authors": {
+        "Name": ["Keita Mori"],
+        "Name2": ["Osamu Mizuno"],
+        "Country":["Japan"]
+        },
+    "Type_paper" : "short (4)",
+    "Project" :{ 
+        "Name": ["Apache OpenJPA","Apache James","Eclipse Birt"], 
+        "Dates":["NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["# of modules"],
+        "Size":[21791,25394,77192]
+        },
+    "Versioning":["Git"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Fault prediction",
+    "Elements_risk_assessment":" The BIC could be not the one that SZZ flag",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To attache FIX tags to the commits which remove faults and BUG tags to the commits which induce faults",
+    "Summary": "  Building a prototype fault-prone module prediction tool using a text-filtering based technique named (Fault Prone Filtering)",
+    "Outcome": " The tool could detect 90 percent of the actual fault modules (i.e., the recall of 0.9) with the accuracy of 0.67 and the precision of 0.63 on average"
+}

@@ -1,0 +1,34 @@
+{
+    "Title" : "Has the Bug Really Been Fixed?",
+    "Id" : 61,
+    "Date" : 2010,
+    "Published" : "Proceedings of the 32nd ACM/IEEE International Conference on Software Engineering-Volume 1",
+    "Authors": {
+        "Name": ["Zhongxian Gu"],
+        "Name2": ["Earl T. Barr"],
+        "Name3": ["David J. Hamilton"],
+        "Name4": ["Zhendong Su"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "Journal (10)",
+    "Project" :{ 
+        "Name": ["Ant", "AspectJ", "Rhino "], 
+        "Dates":["NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["Database"],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":["Java"],
+    "Improved_SZZ": "yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Bad Fix problem. Empirical evidence",
+    "Elements_risk_assessment":" The fixing commit could be not a BIC",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To locate the BIC that were fixing commits",
+    "Summary": " The paper formalizes two criteria to determine whether a fix resolves a bug: coverage and disruption.",
+    "Outcome": " FIXATION, a prototype that automatically detects bad fixes for Java programs. It returns an input that still triggers the bug or reports a newly introduced bug. "
+}

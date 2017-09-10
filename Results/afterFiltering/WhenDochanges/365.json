@@ -1,0 +1,40 @@
+{
+    "Title" : "Putting it All Together:
+Using Socio-Technical Networks to Predict Failures",
+    "Id" : 365,
+    "Date" : 2009,
+    "Published" : "Software Reliability Engineering, 2009. ISSRE'09. 20th International Symposium on",
+    "Authors": {
+        "Name": ["Christian Bird"],
+        "Name2": ["Nachiappan Nagappan"],
+        "Name3": ["Harald Gall"],
+        "Name2": ["Brendan Murphy"],
+        "Name3": ["Premkumar Devanbu"],
+        "Country":["USA"],
+        "Country2":["Switzerland"]
+        },
+    "Type_paper" : "long (10)",
+    "Project" :{ 
+        "Name": ["Eclipse"], 
+        "Dates":["2001-2008"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" New algorithm",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": "“linked” bugs to their source code introduction",
+    "Summary": " the influence of combined socio-technical software networks on the fault-proneness
+of individual software components within a system",
+    "Outcome": "The method performs as well or better and is able to more accurately identify those
+software components that have more post-release failures,
+with precision and recall rates as high as 85% "
+}

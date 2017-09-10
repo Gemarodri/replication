@@ -1,0 +1,35 @@
+{
+    "Title" : "A Case Study of Committers’ Activities on the Bug Fixing Process in the Eclipse Project",
+    "Id" : 43,
+    "Date" : 2011,
+    "Published" : "International Workshop on Empirical Software Engineering in Practice 2011 ",
+    "Authors": {
+        "Name": ["Anakorn Jongyindee"],
+        "Name2": ["Masao Ohira"],
+        "Country2":["Thailand"],
+        "Name3": ["Akinori Ihara"],
+        "Name4": ["Ken-ichi Matsumoto"],
+        "Country3":["Japan"]
+        },
+    "Type_paper" : "Workshop (6)",
+    "Project" :{ 
+        "Name": ["Eclipse-Platform" ], 
+        "Dates":["2001/10/01-2010/01/31"],
+        },
+    "Volume_data":{
+        "Metric": ["bug-reports","commits","developers' activities"],
+        "Size":[ 85387,30833,2584]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":"Empirical Study",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": "They used and adaptation of the technique of SZZ to link the CVS and BTS",
+    "Summary": " It was focused on developers who played a major role in bug fixing process called Committers",
+    "Outcome": "Reopened bugs tends to have longer life cycle. "
+}

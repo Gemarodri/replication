@@ -1,0 +1,36 @@
+{
+    "Title" : "Detecting and Characterizing Semantic
+Inconsistencies in Ported Code",
+    "Id" : 317,
+    "Date" : 2013,
+    "Published" : "Automated Software Engineering (ASE), 2013 IEEE/ACM 28th International Conference on",
+    "Authors": {
+        "Name": ["Baishakhi Ray"],
+        "Name2": ["Miryung Kim"],
+        "Name3": ["Suzette Person"],
+        "Name4": ["Neha Rungta"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "Conference(11)",
+    "Project" :{ 
+        "Name": ["Linux", "FreeBSD"], 
+        "Dates":["18 years","3 years"],
+        },
+    "Volume_data":{
+        "Metric": ["#portingErrors"],
+        "Size":[113,182 ]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["Java/C/C++"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" Software maintenace",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "to identify the target patch, which introduced the porting error.",
+    "Summary": "The types of porting errors found in practice, and (2) how to detect and characterize potential porting errors. ",
+    "Outcome": " SPA can detect porting inconsistencies with 65% to 73% precision and 90 % recall, and identify inconsistency
+    types with 58% to 63 % precision and 92% to 100 % recall."
+}

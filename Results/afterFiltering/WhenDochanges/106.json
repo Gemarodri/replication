@@ -1,0 +1,34 @@
+{
+    "Title" : "Investigating the Impact of Personal, Temporal and Participation Factors on Code Review Quality",
+    "Id" : 106,
+    "Date" : 2015,
+    "Published" : "Université de Montréal",
+    "Authors": {
+        "Name": ["Yaxin Cao"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : "Master thesis (73)",
+    "Project" :{ 
+        "Name": ["ArgoUML", "ANT","Hibernate"], 
+        "Dates":["NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#Rel.", "#Dev.", "#Size(LOCs)","#AllClasses","#Changes", "#Classes Changed","#Faulty Changes"],
+        "Size":[[13,7,10], [25,51,89], [644829,1660256,7239075],[27822,14067,21876],[5300,15353,9075], [23153,64167,89658], [201,587,179] ]
+        },
+    "Versioning":["Git/SVN"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Emprical Study",
+    "Elements_risk_assessment":" we assume that the last change before the fixing change was the change that introduced the defec",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": ["BugZilla/Jira"],
+    "UseOF-SZZ": "This algorithm links each defect fix to the source code change that introduced the original defect relying on information from version control systems",
+    "Summary": " To evaluate the relationship between lexical smells and software quality as well as their interaction with design smells. They analyze to what extent classes containing lexical smells have higher (or lower) odds to change or to be subject to fault fixing 
+    than other classes containing design smells",
+    "ToolUSED": "DECOR",
+    "Outcome": " Lexical smells can make, in some cases, classes with design smells more fault-prone. (2) empirically demonstrate that classes containing design smells only are more change-
+    and fault-prone than classes with lexical smells only"
+}

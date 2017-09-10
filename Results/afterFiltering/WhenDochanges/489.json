@@ -1,0 +1,36 @@
+{
+    "Title" : "The (Un)Reliability of NVD Vulnerable Versions Data: an
+Empirical Experiment on Google Chrome Vulnerabilities",
+    "Id" : 489,
+    "Date" : 2013,
+    "Published" : "Proceedings of the 8th ACM SIGSAC symposium on Information, computer and communications security",
+    "Authors": {
+        "Name": ["Viet Hung Nguyen"],
+        "Name2": ["Fabio Massacci"],
+        "Country":["Italy"]
+        },
+    "Type_paper" : "long (8)",
+    "Project" :{ 
+        "Name": ["Chrome"], 
+        "Dates":["01/06/2012"],
+        },
+    "Volume_data":{
+        "Metric": ["#Vulnerabilities"],
+        "Size":[ 539]
+        },
+    "Versioning":["SVN"],
+    "Language_used":["HTML/Java Script"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" replication study",
+    "Elements_risk_assessment":"we execute annotate command for r f ixed − 1 of
+file f to obtain the revisions of responsible LoC. ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "to locate the vulnerable code responsible for vulnerabilities",
+    "Summary": " to validate the reliability of the NVD vulnerable version data. In this experiment, they verify 
+    for each version of Chrome that NVD claims vulnerable is actually vulnerable.",
+    "Outcome": " The experiment revealed several errors in the vulnerability data of Chrome.
+     Also, different conclusions could be obtained due to the data errors."
+}

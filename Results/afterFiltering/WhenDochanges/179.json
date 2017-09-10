@@ -1,0 +1,32 @@
+{
+    "Title" : "Analysis of Cross-System Porting and Porting Errors in Software Projects",
+    "Id" : 179,
+    "Date" : 2013,
+    "Published" : "THE UNIVERSITY OF TEXAS AT AUSTIN",
+    "Authors": {
+        "Name": ["Baishakhi Ray"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "PhD thesis (194)",
+    "Project" :{ 
+        "Name": ["Linux","FreeBSD"], 
+        "Dates":["NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#portingErrors"],
+        "Size":[295]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["C/C++/Java,"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Software evolution",
+    "Elements_risk_assessment":" No, they look manually in the PC set",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "to identify the patch that originally introduced the porting error",
+    "Summary": "To understand the extent and characteristic of porting errors in practice, we analyze the version histories for Linux and FreeBSD. Developers often document fixes to porting errors in commit messages.",
+    "ToolUsed":"REPERTOIRE",
+    "Outcome": "The cross-system porting happens periodically and the porting rate does not necessarily decrease over time."
+}

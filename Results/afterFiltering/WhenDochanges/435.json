@@ -1,0 +1,36 @@
+{
+    "Title" : "Assessing Programming Language Impact on
+Development and Maintenance: A Study on C and C++",
+    "Id" : 435,
+    "Date" : 2011,
+    "Published" : "ICSE",
+    "Authors": {
+        "Name": ["Pamela Bhattacharya"],
+        "Name2": ["Iulian Neamtiu"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "Conference (10)",
+    "Project" :{ 
+        "Name": ["Firefox","Blender","VLC","MySQL"], 
+        "Dates":["NaN","NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":[""],
+    "Language_used":["C/C++"],
+    "Improved_SZZ": "we attributed the bug to the previous release.",
+    "TTV_SZZ": "No",
+    "Purpose":" New methodology",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Bugzilla/bazaar/Launchpad"],
+    "UseOF-SZZ": "They for sure use the first part of the SZZ but the second part is used in a implicit way",
+    "Summary": " propose a novel methodology which controls for development
+process and developer competence, and quantifies how the choice of programming language impacts software quality and developer
+productivity.",
+    "Outcome": " found that using C++ instead of C results in improved software quality
+and reduced maintenance effort, and that code bases are shifting from C to C++."
+}

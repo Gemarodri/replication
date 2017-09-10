@@ -1,0 +1,39 @@
+{
+    "Title" : "When does a Refactoring Induce Bugs?
+An Empirical Study",
+    "Id" : 412,
+    "Date" : 2012,
+    "Published" : "Source Code Analysis and Manipulation (SCAM), 2012 IEEE 12th International Working Conference on",
+    "Authors": {
+        "Name": ["Gabriele Bavota"],
+        "Name2": ["Bernardino De Carluccio"],
+        "Name3": ["Andrea De Lucia"],
+        "Name4": ["Massimiliano Di Penta"],
+        "Name5": ["Rocco Oliveto"],
+        "Name6": ["Orazio Strollo"],
+        "Country":["Italy"]
+        },
+    "Type_paper" : "long (10)",
+    "Project" :{ 
+        "Name": ["Apache Ant", "Xerces", "ArgoUML"], 
+        "Dates":["01/01/2000-01/12/2010","01/10/2002-01/12/2011","01/11/1999-01/11/2010"],
+        },
+    "Volume_data":{
+        "Metric": ["#refactoring operation"],
+        "Size":[ 12922]
+        },
+    "Versioning":["Git"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Empirical Study",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Bugzilla/Jira"],
+    "UseOF-SZZ": "to determine whether it is likely that refactorings induced a fault.",
+    "Summary": " investigating to what extent refactoring activities induce faults. They automatically detect
+     (and then manually validate) 15,008 refactoring operations (of 52 different kinds) using an existing tool (Ref-Finder).",
+    "Outcome": " some kinds of refactorings are unlikely to be harmful, others, such as refactorings involving
+    hierarchies (e.g., pull up method), tend to induce faults very frequently."
+}

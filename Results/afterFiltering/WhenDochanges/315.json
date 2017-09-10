@@ -1,0 +1,35 @@
+{
+    "Title" : "Online Defect Prediction for Imbalanced Data",
+    "Id" : 315,
+    "Date" : 2015,
+    "Published" : "the University of Waterloo",
+    "Authors": {
+        "Name": ["Ming Tan"],
+        "Country":["USA"]
+        },
+    "Type_paper" : "master thesis (51)",
+    "Project" :{ 
+        "Name": ["Cisco","Linux", "PostgreSQL", "Xorg", "Eclipse", "Lucene", "Jackrabbi"], 
+        "Dates":["2003-2014","2005/04/16-2010/11/21","1996/07/09-2011/01/25","1999/11/19-2012/06/28","2001/06/05-2012/07/24","2010/03/17-2013/01/16","2004/09/13-2013/01/14"],
+        },
+    "Volume_data":{
+        "Metric": ["#changes(K)"],
+        "Size":[100,429,89,46,73,76,61]
+        },
+    "Versioning":[""],
+    "Language_used":["Java/C/C++"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Defect Prediction",
+    "Elements_risk_assessment":" A line that is deleted or changed by a bug-fixing change is a faulty line,",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To locate bug inducing changes",
+    "Summary": " They conduct the first study of applying
+change classification in practice and share the lessons we learned",
+    "Outcome": " 1)new solutions are needed to convince developers to use and believe prediction results, and prediction results need to be actionable, 
+2 ) new and improved classification algorithms are needed to explain the prediction results, and insensible and unactionable explanations need to be filtered or refined,
+3 ) new techniques are needed to improve the relatively low precision."
+}
+

@@ -1,0 +1,32 @@
+{
+    "Title" : "A detailed examination of the correlation between imports and failure-proneness of software components",
+    "Id" : 125,
+    "Date" : 2009,
+    "Published" : "In Proceedings of the 2009 3rd International Symposium on Empirical Software Engineering and Measuremen",
+    "Authors": {
+        "Name": ["Ekwa Duala-Ekoko"],
+        "Name2": ["Martin P. Robillard"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : "Long (10)",
+    "Project" :{ 
+        "Name": ["Eclipse"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" Replication Study ",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": " mapping changes in a version archive to bug reports in the bug database.",
+    "Summary": "Introducing the concept of a failure-associated type to represent the imported types referenced within methods fixed due to failures. they created a new method to identify the cause/origin of the bug",
+    "Outcome": " The results indicate that few of the types or packages imported by a failure-prone component are associated with its failures"
+}

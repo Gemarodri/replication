@@ -1,0 +1,33 @@
+{
+    "Title" : "Repeating the past experimental and empirical methods in system and software security",
+    "Id" : 124,
+    "Date" : 2007,
+    "Published" : "Naturwissenschaftlich-Technischen Fakultäten der Universität des Saarlandes",
+    "Authors": {
+        "Name": ["Stephan Neuhaus"],
+        "Country":["Germany"]
+        },
+    "Type_paper" : "PhD thesis (153)",
+    "Project" :{ 
+        "Name": ["mozilla"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#BugReports"],
+        "Size":[ 302]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["C/C++/Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" New method/algorithm",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": "It uses the first part of SZZ (to Mapping Vulnerabilities to Components )and created a new second part based on test",
+    "Summary": " It propose a new method of analyzing intrusions: instead of analyzing evidence and deducing what must have happened, 
+    it find the intrusion-causing circumstances by a series of automatic experiments",
+    "Outcome": "a distribution of vulnerabilities across the entire codebase. The number of past vulnerability reports is not a good predictor for future reports, 
+    because it would miss all the components that have only one report"
+}

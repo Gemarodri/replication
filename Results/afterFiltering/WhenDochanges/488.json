@@ -1,0 +1,33 @@
+{
+    "Title" : "Buginnings : Identifying the Origins of a Bug",
+    "Id" : 488,
+    "Date" : 2010,
+    "Published" : "ISEC",
+    "Authors": {
+        "Name": ["Vibha Singhal Sinha"],
+        "Name2": ["Saurabh Sinha"],
+        "Name3": ["Swathi Rao"],
+        "Country":["India"]
+        },
+    "Type_paper" : "long (10)",
+    "Project" :{ 
+        "Name": ["Aant","Jaba","Jedit","Lucene"], 
+        "Dates":["Yes"],
+        },
+    "Volume_data":{
+        "Metric": ["Bug-fix"],
+        "Size":[ 229]
+        },
+    "Versioning":["Not mentioned"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes(2)",
+    "TTV_SZZ": "NO",
+    "Purpose":"bug-introducing ",
+    "Elements_risk_assessment":" the chronologically last version is identified as the bug-introducing version",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "traverse backward in the code revision history to identify the versions in which the affected parts were last touched.",
+    "Summary": "we present a new approach for identifying bug-introducing code changes. ",
+    "Outcome": " A new approach more effective than the text-based approach,"
+}

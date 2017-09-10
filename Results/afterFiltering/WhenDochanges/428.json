@@ -1,0 +1,35 @@
+{
+    "Title" : "Micro Pattern Evolution",
+    "Id" : 428,
+    "Date" : 2006,
+    "Published" : "MSR",
+    "Authors": {
+        "Name": ["Sunghun Kim"],
+        "Name2": ["Kai Pan"],
+        "Name3": ["E. James Whitehead, Jr."],
+        "Country":["USA"]
+        },
+    "Type_paper" : "Long (7)",
+    "Project" :{ 
+        "Name": ["ArgoUML", "Columba","jEdit"], 
+        "Dates":["01/01/2002-01/03/2003","01/11/2002-01/01/2006","01/09/2001-01/01/2006"],
+        },
+    "Volume_data":{
+        "Metric": ["#revisions"],
+        "Size":[1262,1652,1449]
+        },
+    "Versioning":["CVS/Subversion"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" New metrics",
+    "Elements_risk_assessment":"we can find out when the problematic lines were initially added. ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "Bug-introducing changes are identified by mining change logs and project history data",
+    "Summary": " They observed the micro pattern evolution properties of three open source projects, including frequencies of micro 
+    patterns, common micro pattern evolution kinds, and bug-prone micro patterns",
+    "Outcome": " The micro pattern distributions and common change kinds of analyzed projects are similar.
+    The bug rates of patterns of different projects are somewhat similar"
+}

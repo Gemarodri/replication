@@ -1,0 +1,34 @@
+{
+    "Title" : "An Empirical Study of Highly Impactful Bugs in Mozilla Projects",
+    "Id" : 142,
+    "Date" : 2015,
+    "Published" : "Software Quality, Reliability and Security (QRS), 2015 IEEE International Conference on",
+    "Authors": {
+        "Name": ["Le An"],
+        "Name2": ["Foutse Khomh"],
+        "Country":["Canada"]
+        },
+    "Type_paper" : "Long (10)",
+    "Project" :{ 
+        "Name": ["Firefox","Fennec"], 
+        "Dates":["2012/01/01-2012/12/31"],
+        },
+    "Volume_data":{
+        "Metric": ["#Crash reports"],
+        "Size":[ 132484824, 6239077]
+        },
+    "Versioning":[""],
+    "Language_used":["C/C++"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":"New prediction model ",
+    "Elements_risk_assessment":" The buggy lines could not be buggy",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": " To locate the buggy lines",
+    "Summary": " Examining the characteristics of highlyimpactful bugs in Mozilla Firefox and Fennec for Android, and 
+    propose statistical models to help software organisations predict them early on before they impact a large population of users.",
+    "Outcome": " triaging and predicting highly-impactful bugs early (before a new release of a software system) can help reduce a 
+    large amount of crashes experienced by users, which could improve the overall quality of the software system in a more cost-effective manner"
+}

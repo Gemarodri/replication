@@ -1,0 +1,35 @@
+{
+    "Title" : "Why Software Repositories Are Not Used For 
+    Defect-Insertion Circumstance Analysis More Often: A Case Study",
+    "Id" : 226,
+    "Date" : 2014,
+    "Published" : "Information and Software Technology",
+    "Authors": {
+        "Name": ["Lutz Prechelt"],
+        "Name2": ["Alexander Pepper"],
+        "Country":["Germany"]
+        },
+    "Type_paper" : "Journal (16)",
+    "Project" :{ 
+        "Name": ["Infopark"], 
+        "Dates":["11 years"],
+        },
+    "Volume_data":{
+        "Metric": ["#commits"],
+        "Size":[45000]
+        },
+    "Versioning":["CVS/SVN/Git"],
+    "Language_used":["Not mentioned"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Defect insertion",
+    "Elements_risk_assessment":"trace backwards through the version history to identify for each of these lines the last commit that has changed the line, and ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": ["Bugzilla "],
+    "UseOF-SZZ": " Mapping defect corrections to defect insertions",
+    "Summary": " Determine the reasons why DICA is not used more often by practitioners",
+    "Outcome": " Current repository mining methods are too immature for
+successful DICA. Gradual improvements are unlikely to help; different principles of operation will be required. Even with such
+different techniques, issues with input data quality may continue to make good results difficult-to-have"
+}

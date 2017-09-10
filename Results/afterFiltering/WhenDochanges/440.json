@@ -1,0 +1,36 @@
+{
+    "Title" : "Visual assessment of software evolution",
+    "Id" : 440,
+    "Date" : 2007,
+    "Published" : "Science of Computer Programming",
+    "Authors": {
+        "Name": ["Lucian Voinea"],
+        "Name2": ["Johan Lukkien"],
+        "Name3": ["Alexandru Telea"],
+        "Country":["China"]
+        },
+    "Type_paper" : "journal (27)",
+    "Project" :{ 
+        "Name": ["VTK library"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["#files"],
+        "Size":[ 2700]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["C++"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":"New tool in software evolution ",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "",
+    "Summary": " we propose a concerted set of visualization tools and techniques for the assessment
+of software evolution based on the information stored into SCM systems.",
+    "Outcome": "We demonstrate our techniques with several use cases performed on
+real world, industry-size code bases and outline the concrete findings and ways our visualizations helped in understanding various
+types of code changes. "
+}

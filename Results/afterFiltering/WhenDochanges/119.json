@@ -1,0 +1,44 @@
+{
+    "Title" : "PREDICTING SOFTWARE DEFECTS WITH CAUSALITY TESTS",
+    "Id" : 119,
+    "Date" : 2016,
+    "Published" : " Journal of Systems and Software ",
+    "Authors": {
+        "Name": ["Nicolas Anquetil"],
+        "Name2": ["Pedro Pires"],
+        "Name3": ["marci Valente"],
+        "Name4": ["Cesar couto"],
+        "Name5": ["Roberto Bigonha"],
+        "Country":["Brazil"]
+        },
+    "Type_paper" : " journal (18)",
+
+
+
+
+
+
+    
+    "Project" :{ 
+        "Name": ["Eclipse JDT Core","Eclipse PDE UI","Equinox Framework","Lucene"], 
+        "Dates":["2001/07/01-2008/06/31","2001/05/24-2008/04/03","2003/11/25-2010/10/05","2002/06/22-2009/05/02"],
+        },
+    "Volume_data":{
+        "Metric": ["Clases"],
+        "Size":[1370,3478,615,760,6223]
+        },
+    "Versioning":["SVN/Git"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" Defect prediction approach and new tool",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative",
+    "Collection": ["Jira/Bugzilla"],
+    "UseOF-SZZ": " each bug b is linked to the classes changed to fix b",
+    "Summary": " a defect prediction approach centered on more robust evidences towards causality between source code metrics (as 
+    predictors) and the occurrence of defects",
+    "Outcome": " reached an average precision greater than 50% in three out of the four systems we evaluated. Moreover, 
+    by comparing our approach with baselines that are not based on causality tests, it achieved a better precision."
+}

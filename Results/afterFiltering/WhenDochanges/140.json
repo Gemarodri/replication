@@ -1,0 +1,33 @@
+{
+    "Title" : "Mining co-location relationships among bug reports to localize fault-prone modules",
+    "Id" : 140,
+    "Date" : 2010,
+    "Published" : "IEICE TRANSACTIONS on Information and Systems,",
+    "Authors": {
+        "Name": ["Ing-Xiang Chen"],
+        "Name2": ["Chien-Hung Li"],
+        "Name3": ["Cheng-Zen Yang"],
+        "Country":["Taiwan"]
+        },
+    "Type_paper" : "Journal (8)",
+    "Project" :{ 
+        "Name": ["Subversion","AspectJS","ArgoUML"], 
+        "Dates":["07/01-03/05","01/06-06/10","01/00-04/07"],
+        },
+    "Volume_data":{
+        "Metric": ["#FIxedBR"],
+        "Size":[211,665,1024 ]
+        },
+    "Versioning":["SVN/CVS"],
+    "Language_used":["C/Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" Bug prediction",
+    "Elements_risk_assessment":"THe BIC could be not the BIC ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": ["Tigris/Bugzilla"],
+    "UseOF-SZZ": "to locate the origin of the bug",
+    "Summary": "Study of co-location relationships among bug reports to improve the prediction accuracy of a state-of-the art learning method.",
+    "Outcome": " The proposed scheme improve the prediction accuracy by nearly 11.6% on average"
+}

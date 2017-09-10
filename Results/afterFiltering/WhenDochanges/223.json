@@ -1,0 +1,36 @@
+{
+    "Title" : "The Usual Suspects: A Case Study on Delivered Defects per Developer",
+    "Id" : 223,
+    "Date" : 2010,
+    "Published" : "ESEM",
+    "Authors": {
+        "Name": ["Rudolf Ramler"],
+        "Name2": ["Claus Klamme"],
+        "Name3": ["Thomas Natschläger"],
+        "Country":["Austria"]
+        },
+    "Type_paper" : "Conference (4)",
+    "Project" :{ 
+        "Name": ["dataset"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[]
+        },
+    "Versioning":["Not mentioned"],
+    "Language_used":["Not mentioned"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" Software mesurements",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [" "],
+    "UseOF-SZZ": " To linking defects to inducing changes",
+    "Summary": " explores and describes the difference between
+developers in terms of associated post-release (i.e., delivered)
+defects.",
+    "Outcome": " These findings emphasize that delivered defects are the result of a
+combination of activities that introduce and/or remove defects."
+}

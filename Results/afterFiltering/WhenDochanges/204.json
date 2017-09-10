@@ -1,0 +1,34 @@
+{
+    "Title" : "Empirical Study of Change-Prone and Fault-Prone Method Prediction Focusing on Comment Ownership",
+    "Id" : 204,
+    "Date" : 2016,
+    "Published" : "",
+    "Authors": {
+        "Name": ["Aji Ery Burhandenny"],
+        "Name2": ["Takashi Nakano"],
+        "Name3": ["Hirohisa Aman"],
+        "Name4": ["Minoru Kawahara"],
+        "Country":["Japan"]
+        },
+    "Type_paper" : "Conference (12)",
+    "Project" :{ 
+        "Name": ["Free Mind","Squirrel SQL Client","Hibernate","JabRef","eXo Platform"], 
+        "Dates":["01/02/2011 – 01/09/2015","01/06/2001 – 01/09/2015","01/06/2007 – 01/09/2015","01/10/2003 – 01/09/2015","01/03/2007 – 01/09/2015"],
+        },
+    "Volume_data":{
+        "Metric": ["#methods", "#sourcefiles"],
+        "Size":[75204,8980]
+        },
+    "Versioning":["Git"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":"Fault-Prone Method Prediction ",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [" "],
+    "UseOF-SZZ": " identify bug fixes, when bug-fix-related keywords or bug IDs appeared in commitment log",
+    "Summary": " to understand the relationship between the developer and their code and its contribution to change-prone and/or fault-prone method prediction",
+    "Outcome": " The results confirmed the significant influence of OCCR for predicting changes and faults in methods."
+}

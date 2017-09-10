@@ -1,0 +1,34 @@
+{
+    "Title" : "Software Defect Prediction Using Static Code Metrics :
+Formulating a Methodology",
+    "Id" : 251,
+    "Date" : 2012,
+    "Published" : "University of Hertfordshire",
+    "Authors": {
+        "Name": ["David Philip Harry Gray"],
+        "Country":["UK"]
+        },
+    "Type_paper" : "Phd Thesis (201)",
+    "Project" :{ 
+        "Name": ["NASA Metrics Data Program repository (dataset)"], 
+        "Dates":["NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["C/C++/Java/Perl"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" defect prediction",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "To determine the fix-inducing changes",
+    "Summary": " A new proposed methodology for software defect prediction, and the realisation that the findings from much prior work may be com-
+promised",
+    "Outcome": " The findings of this dissertation indicate that the blind faith in the quality of these data sets may have
+been a substantial error."
+}

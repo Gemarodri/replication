@@ -1,0 +1,33 @@
+{
+    "Title" : "Characterizing the roles of classes and their fault-proneness through change metrics",
+    "Id" : 152,
+    "Date" : 2012,
+    "Published" : " Empirical Software Engineering and Measurement (ESEM), 2012 ACM-IEEE International Symposium on",
+    "Authors": {
+        "Name": ["Maximilian Steff"],
+        "Name2": ["Barbara Russo"],
+        "Country":["Italy"]
+        },
+    "Type_paper" : "journal (25)",
+    "Project" :{ 
+        "Name": ["Spring","Eclipse"], 
+        "Dates":["2008/07/01-2011/10/16","2002/01/01-2004/12/01"],
+        },
+    "Volume_data":{
+        "Metric": ["#commits"],
+        "Size":[ 2960,17488]
+        },
+    "Versioning":["SVN/CVS"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":"fault-proneness",
+    "Elements_risk_assessment":"we can assume that in most cases we will at least have a reasonable connection between bug-introducing and bug-fixing commits. ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Jira/Bugzilla"],
+    "UseOF-SZZ": "Finding the origin of the bug",
+    "Summary": " We discussed the problems of different levels of granularity. Our method begins at a high level of detail and then differentiates 
+    between files based on the temporal characteristics of their changes.",
+    "Outcome": " The measure of structural change in concert with its complement, churn, effectively indicates fault-proneness in classes."
+}

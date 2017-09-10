@@ -1,0 +1,39 @@
+{
+    "Title" : "Investigating the relation between lexical smells and change-and fault-proneness: an empirical study",
+    "Id" : 87,
+    "Date" : 2016,
+    "Published" : "Software Quality Journal",
+    "Authors": {
+        "Name": ["Latifa Guerrouj"],
+        "Name2": ["Zeinab Kermansaravi"],
+        "Name3": ["Venera Arnaoudova"],
+        "Name4": ["Benjamin C. M. Fung"],
+        "Name5": ["Foutse Khomh"],
+        "Name6": ["Giuliano Antoniol"],
+        "Name7": ["Yann-Gae¨l Gue´he´neuc"],
+        "Country":["Canada"],
+        "Country2":["USA"]
+        },
+    "Type_paper" : "large (30)",
+    "Project" :{ 
+        "Name": ["Mozilla"], 
+        "Dates":["2013/01/01-2014/01/01"],
+        },
+    "Volume_data":{
+        "Metric": ["#Commits","#Reviews","#Writers","#reviewers"],
+        "Size":[27270,28127,784,469]
+        },
+    "Versioning":["Mercurial"],
+    "Language_used":["Java"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Empirical Study in Code Review",
+    "Elements_risk_assessment":" BIC could be not the BIC",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"quantitative&qualitative",
+    "Collection": ["Bugzilla"],
+    "UseOF-SZZ": " To detect bug-inducing changes that were then linked to the code review information extracted from the issue tracking system",
+    "Summary": " To explore the relationship between reviewers’ code inspections
+    and personal, temporal and participation factors that might affect the quality of such inspections.",
+    "Outcome": " The reasons why reviewers miss bugs are related to both their personal characteristics, as well as the technical properties of the patches under review"
+}

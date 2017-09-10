@@ -1,0 +1,36 @@
+{
+    "Title" : "An Analysis of the Effect of Code Ownership on Software Quality across Windows, Eclipse, and Firefox",
+    "Id" : 45,
+    "Date" : 2010,
+    "Published" : "University of California",
+    "Authors": {
+        "Name": ["Christian Bird"],
+        "Name2": ["Nachiappan Nagappa"],
+        "Name3": ["Brendan Murph"],
+        "Name4": ["Harald Gal"],
+        "Name5": [" Premkumar Devanbu"],
+        "Country":["EE.UU"]
+        },
+    "Type_paper" : "Technical report (14)",
+    "Project" :{ 
+        "Name": ["Windos Vista","Eclispe Java IDE","Firefox web browser"], 
+        "Dates":["NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": [""],
+        "Size":[ ]
+        },
+    "Versioning":["CVS"],
+    "Language_used":["C/C++/Java"],
+    "Improved_SZZ": "yes",
+    "TTV_SZZ": "No",
+    "Purpose":"Software development",
+    "Elements_risk_assessment":" ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"quantitative",
+    "Collection": [""],
+    "UseOF-SZZ": "used automated techniques to link closed bugs in the database to the commits that fixed them in the software repository ",
+    "Summary": " They examine the relationship between diferent ownership measures and software faults/failures in three large software projects drawn from diferent process domains",
+    "Outcome": " Measures of ownership such as the number of low-expertise developers, and the proportion of ownership for the top owner have a relationship with both pre-release faults and post-release failures.
+    However, the strength of the efects is related to the development process used. The more that a project uses an open source style process,the more that team sizes rather than ownership levels affect to failures."
+}

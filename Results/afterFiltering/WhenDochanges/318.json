@@ -1,0 +1,31 @@
+{
+    "Title" : "Using Version Control History to Follow the Changes of Source Code Elements",
+    "Id" : 318,
+    "Date" : 2013,
+    "Published" : "17th European Conference on Software Maintenance and Reengineering",
+    "Authors": {
+        "Name": ["Zoltán Tóth", "Gábor Novák", "Rudolf Ferenc", "István Siket"],
+        "Country":["Hungary","Hungary", "Hungary","Hungary"]
+        },
+    "Type_paper" : "short (4)",
+    "Project" :{ 
+        "Name": ["WebKit" ], 
+        "Dates":["01/07/2011 - 31/05/2012"],
+        },
+    "Volume_data":{
+        "Metric": ["revisions"],
+        "Size":[ ]
+        },
+    "Versioning":["VCS"],
+    "Language_used":["C++"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":"Static Analysis, Repository Mining ",
+    "Elements_risk_assessment":"Didn't look the previous commit, only focus in the changes between versions to group them ",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "They dind't use SZZ",
+    "Summary": " They developed an algorithm, which is able to follow the changes of the source code elements by using the changes of files",
+    "Outcome": " In this work we presented an algorithm which is able to extract  the  changes  from  version  control  systems  at  source code  element  level, "
+}

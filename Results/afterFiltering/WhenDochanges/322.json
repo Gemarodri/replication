@@ -1,0 +1,37 @@
+{
+    "Title" : "An Empirical Analysis of the FixCache Algorithm",
+    "Id" : 322,
+    "Date" : 2011,
+    "Published" : "MSR",
+    "Authors": {
+        "Name": ["Caitlin Sadowski"],
+        "Name2": ["Chris Lewis"],
+        "Name3": ["Zhongpeng Lin"],
+        "Name4": ["Xiaoyan Zhu"],
+        "Name5": ["E. James Whitehead, Jr"],
+        "Country":["China"],
+        "Country2":["USA"]
+        },
+    "Type_paper" : "Short (4)",
+    "Project" :{ 
+        "Name": ["Apache http","PostgreSQL","V8","Voldemort"], 
+        "Dates":["1996/01/14 - 2011/01/21","1996/07/09 - 2011/01/08","2008/06/30 - 2011/03/15","2009/01/02 - 2011/01/24"],
+        },
+    "Volume_data":{
+        "Metric": ["#revisions"],
+        "Size":[38230,36848,6178,2292 ]
+        },
+    "Versioning":["Git"],
+    "Language_used":["C/C++/Java/JavaScript"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "Yes",
+    "Purpose":" Algorithm validation",
+    "Elements_risk_assessment":" link bug-fixing hunks back to the original bug-introducing commit using SZZ",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": "to identify bug-fixing commits, and trace bug fixing commits to the time when a bug was introduced",
+    "Summary": " This paper analyzes the behaviour of the FixCache algorithm on four open source projects.",
+    "Outcome": " FixCache hit rate is found to generally increase over time for three of the four projects; file duration in cache follows 
+    a Zipf distribution; and topmost bug-fixed files go through periods of greater and lesser stability over a project’s history"
+}

@@ -1,0 +1,32 @@
+{
+    "Title" : "Effect of developer collaboration activity on software quality in two large scale projects",
+    "Id" : 25,
+    "Date" : 2016,
+    "Published" : "Journal of Systems and Software ",
+    "Authors": {
+        "Name": "Bora Çaglayan", 
+        "Name2":"Ayşe Başar Bener",
+        "Country":"Canada"
+        },
+    "Type_paper" : "large (9)",
+    "Project" :{ 
+        "Name": ["Enterprise Software","Eclipse" ], 
+        "Dates":["2001/01/01-2013/09/21", "2001/01/01-2013/09/21"],
+        },
+    "Volume_data":{
+        "Metric": ["file changes"],
+        "Size":[ 6548,41140,]
+        },
+    "Versioning":["Clearcase", "Git"],
+    "Language_used":["C/C++", "Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" Software quality",
+    "Elements_risk_assessment":" They assume that the last commit was the one which insert the bug",
+    "EaseOf_Reproducibility":"No",
+    "Design":"qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": " They group changes into defect inducing changes base on SZZ. Looking for the relation between defect-inducing and defect-fixing actiivities and developer collaboration using network metrics.",
+    "Summary": " The aim to understand the effect of collaboration on the defect proneness software.They model the collaboration of developers as an undirected network." ,
+    "Outcome": " Centrality and source code change activity of developers in the collaboration network may change their defect induction rates. Also, Contrary to the common perception, more experienced people have relatively higher defect induction rates."
+}

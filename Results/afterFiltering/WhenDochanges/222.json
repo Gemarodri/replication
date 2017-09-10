@@ -1,0 +1,33 @@
+{
+    "Title" : "RaSOSS - Remote analysis System for Open Source Software",
+    "Id" : 222,
+    "Date" : 2006,
+    "Published" : "International Conference on Software Engineering Advances",
+    "Authors": {
+        "Name": ["Timo Koponen"],
+        "Country":["Findland"]
+        },
+    "Type_paper" : "Short (6)",
+    "Project" :{ 
+        "Name": ["Apache HTTP Server"], 
+        "Dates":["04/09-05/08"],
+        },
+    "Volume_data":{
+        "Metric": ["#ResolvedDefect","#FixedDefects","#Changes"],
+        "Size":[943,288,287704]
+        },
+    "Versioning":["CVS/SVN"],
+    "Language_used":["not mentioned"],
+    "Improved_SZZ": "Yes",
+    "TTV_SZZ": "No",
+    "Purpose":" New Tool",
+    "Elements_risk_assessment":" The veracity of the defect induced changes",
+    "EaseOf_Reproducibility":"NO",
+    "Design":"quantitative",
+    "Collection": ["Bugzilla "],
+    "UseOF-SZZ": " To classify to defect induced and non-defect induce",
+    "Summary": " It presents a system, Remote Analysis System Open Source Software (RaSOSS), for analyzing 
+    maintenance process through both systems.",
+    "Outcome": "using data from DMS and VMS it is possible to analyze OSS maintenance processes. 
+    System has been very informative when evaluating OSS maintenance process."
+}

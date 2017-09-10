@@ -1,0 +1,37 @@
+{
+    "Title" : "Mutation-Aware Fault Prediction",
+    "Id" : 85,
+    "Date" : 2016,
+    "Published" : " Proceedings of the 25th International Symposium on Software Testing and Analysis",
+    "Authors": {
+        "Name": ["David Bowes"],
+        "Name2": ["Tracy Hall"],
+        "Name3": ["Mark Harman"],
+        "Name4": ["Yue Jia"],
+        "Name5": ["Federica Sarro"],
+        "Name6": ["Fan Wu"],
+        "Country":["UK"]
+        },
+    "Type_paper" : "large (12)",
+    "Project" :{ 
+        "Name": ["Apache","Eclipse","TelCom"], 
+        "Dates":["NaN","NaN","NaN"],
+        },
+    "Volume_data":{
+        "Metric": ["source code metrics"],
+        "Size":[39 ]
+        },
+    "Versioning":[""],
+    "Language_used":["Java"],
+    "Improved_SZZ": "No",
+    "TTV_SZZ": "No",
+    "Purpose":" Fault Prediction",
+    "Elements_risk_assessment":" BIC could be not the BIC",
+    "EaseOf_Reproducibility":"Yes",
+    "Design":"qualitative",
+    "Collection": [""],
+    "UseOF-SZZ": " The SZZ algorithm matches the fault fix described in the bug tracking system with corresponding commits 
+    in the version control system that fixed that fault",
+    "Summary": " Applying 4 different predictive modelling techniques to 3 large realworld systems",
+    "Outcome": " The results show that our proposal can significantly (p ≤ 0.05) improve fault prediction performance"
+}
