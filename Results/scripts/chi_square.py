@@ -12,7 +12,11 @@ def sumrowcol( df ):
 	rowsum = df.sum(axis=0) 
 	sum_data = pd.DataFrame(rowsum, columns = ["col_total"])
 	df = pd.concat([df,sum_data.T])
+	print ('############################################################')
+	print ('Print Contingency Table')
+	print ('############################################################')
 	print (df)
+	
 
 	return df
 
@@ -28,10 +32,11 @@ def expected (data,beginrow,endrow,begincol,endcol,columns,index ):
     return expected
 
 def chisquare (observed):
+	print ('############################################################')
 	print ('chi-square value, p value, expected counts')
+	print ('############################################################')
 	cs = stats.chi2_contingency(observed)
 	print (cs)
-
 
 #Data
 Manual_Analysis=[0,1,1,0,1,1,0,1,1,1,0,0,0,0,1,0,0,1,1,1,0,1,1,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,1,1,1,1,0,1,1,1,0,0,0,0,1,0,1,1,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,1,1,1,0,1,1,1,0,1,0,0,0,1,0,0,1,1,0,0,1,0,1,1,0,0,0,1,0,0,1,1,0,1,0,1,1,1,0,0,1,0,1,0,0,1,0,0,0,0,1,1,1,1,0,1,0,0,1,1,0,0,0,0,1,1,1,1,1,1,0,1,0,1,0,1,1,0,1,0,1,1,1,0,1,0,1,0,0,0,0,1,0,1]
@@ -44,6 +49,9 @@ SZZ_original =  [1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1
 SZZ_improved=   [0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1]
 
 
+print ('*************************************************************************************')
+print ('********	  		HYPOTHESIS 1	    			     ********')
+print ('*************************************************************************************')
 #hypothesis 1:  Reproducibility of the papers are independient of the awareness of the authors
 # Calculate AW+ and AW-
 AW_pos = np.array(TTV_first) & np.array(TTV_second)
@@ -71,20 +79,28 @@ datah1 = sumrowcol(data)
 
 #Observed and Expected values
 observedh1 = datah1.ix[0:2,0:4]
-print (observedh1)
 
 columns = ["Full Repro","No Repro", "Data Repro", "Package Repro"]
 index = ['Awareness','NoAwareness']
 expectedh1 = expected(datah1,0,2,0,4, columns, index)
 
+print ('############################################################')
+print ('Residuals Table')
+print ('############################################################')
 residualsh1 = expectedh1 - observedh1
 print(residualsh1)	
 
 #Calculate chi-square
 chisquare(observedh1) 
 
-
+print ('*************************************************************************************')
+print ('********	  		HYPOTHESIS 2	    			     ********')
+print ('*************************************************************************************')
 #hypothesis 2:  Reproducibility of the papers are independient of the version used
+#Calculate Repro full, repro none
+Rfull = np.array(Repro_Data) & np.array(Repro_Package)
+Rnone = np.logical_not(Repro_Data) & np.logical_not(Repro_Package)
+
 #Create crosstab 
 pos_00 = (SZZ_original & Rfull).sum()
 pos_01 = (SZZ_original & Rnone).sum()
@@ -107,22 +123,30 @@ data.columns =["Full Repro","No Repro", "Data Repro", "Package Repro"]
 datah2 = sumrowcol(data)
 
 #Observed and Expected values
-observedh2 = datah2.ix[0:2,0:4]
-print (observedh2)
+observedh2 = datah2.ix[0:3,0:4]
 
 columns = ["Full Repro","No Repro", "Data Repro", "Package Repro"]
 index = ['SZZOriginal','SZZ-Mod',"SZZ1-SZZ2"]
-expectedh2 = expected(datah2,0,2,0,4, columns, index)
+expectedh2 = expected(datah2,0,3,0,4, columns, index)
 
 
+print ('############################################################')
+print ('Residuals Table')
+print ('############################################################')
 residualsh2 = expectedh2 - observedh2
 print(residualsh2)	
 
 #Calculate chi-square
 chisquare(observedh2) 
 
-
+print ('*************************************************************************************')
+print ('********	  		HYPOTHESIS 3	    			     ********')
+print ('*************************************************************************************')
 #hypothesis 3:  SZZ Version in the papers are independient of the awareness of the authors
+# Calculate AW+ and AW-
+AW_pos = np.array(TTV_first) & np.array(TTV_second)
+AW_neg = np.logical_not(TTV_first).astype(int) & np.logical_not(TTV_second).astype(int)
+
 #Create crosstab 
 pos_00 = (SZZ_original & AW_pos).sum()
 pos_01 = (SZZ_versioned & AW_pos).sum()
@@ -140,15 +164,17 @@ datah3 = sumrowcol(data)
 
 #Observed and Expected values
 observedh3 = datah3.ix[0:2,0:3]
-print (observedh3)
 
-columns = ['Awareness','NoAwareness']
-index = ['SZZOriginal','SZZ-Mod',"SZZ1-SZZ2"]
+index = ['Awareness','NoAwareness']
+columns = ['SZZOriginal','SZZ-Mod',"SZZ1-SZZ2"]
 expectedh3 = expected(datah3,0,2,0,3, columns, index)
 
-
+print ('############################################################')
+print ('Residuals Table')
+print ('############################################################')
 residualsh3 = expectedh3 - observedh3
 print(residualsh3)	
 
 #Calculate chi-square
 chisquare(observedh3) 
+
