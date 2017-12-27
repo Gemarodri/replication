@@ -1,186 +1,58 @@
-# Running a Chi-Square Test
-# Both response variable (Awareness) and explanatory variable () are quantitative variables.In order to perform a Chi-square test, I had to categorize both these variables.
-
-# There exists 4 categories for replication (FullReplication,NoReplication,Enviroment,Package)
-
-
-# I created a binary categorical variable for Awareness, dividing papers between “FullAwareness” and “not Awarennes”
-
-# Chi square revealed that reproducibility was significantly associated with whether a paper was a aware of limitations. The Chi-square value was 8.63 and the p-value was 0.034, indicating that we should accept the null hypothesis in this instance.
-
 #Imports
 import pandas as pd
 import numpy as np
 import scipy.stats as stats
-import seaborn as sns
 
-import matplotlib.pyplot as plt
-%matplotlib inline
+def sumrowcol( df ):
+
+	colsum =df.sum(axis=1) 
+	sum_data = pd.DataFrame(colsum, columns=["row_total"])
+	df = pd.concat([df,sum_data],axis=1)
+
+	rowsum = df.sum(axis=0) 
+	sum_data = pd.DataFrame(rowsum, columns = ["col_total"])
+	df = pd.concat([df,sum_data.T])
+	print ('############################################################')
+	print ('Print Contingency Table')
+	print ('############################################################')
+	print (df)
+	
+
+	return df
+
+def expected (data,beginrow,endrow,begincol,endcol,columns,index ):
+    expected = np.outer(data["row_total"][beginrow:endrow],
+                   data.ix["col_total"][begincol:endcol])/(data["row_total"][2])
+
+    expected = pd.DataFrame(expected)
+    expected.columns = columns
+    expected.index = index
+    print (expected)
+    
+    return expected
+
+def chisquare (observed):
+	print ('############################################################')
+	print ('chi-square value, p value, expected counts')
+	print ('############################################################')
+	cs = stats.chi2_contingency(observed)
+	print (cs)
 
 #Data
-Manual_Analysis=[0,1,1,0,1,1,0,1,1,
-                 1,0,0,0,0,1,0,0,1,1,
-                 1,0,1,1,0,1,0,1,1,0,
-                 0,1,0,0,0,0,0,0,0,
-                 0,1,0,0,0,0,0,0,1,
-                 0,1,0,0,0,1,0,1,0,1,
-                 1,1,1,0,1,1,1,0,0,0,
-                 0,1,0,1,1,1,1,0,0,1,
-                 0,0,0,0,0,0,1,0,0,0,
-                 1,0,0,1,0,0,0,1,1,1,
-                 0,1,1,1,0,1,0,0,0,1,
-                 0,0,1,1,0,0,1,0,1,
-                 1,0,0,0,1,0,0,1,1,
-                 0,1,0,1,1,1,0,0,1,0,
-                 1,0,0,1,0,0,0,0,1,1,
-                 1,1,0,1,0,0,1,1,0,0,
-                 0,0,1,1,1,1,1,1,0,1,
-                 0,1,0,1,1,0,1,0,1,1,
-                 1,0,1,0,1,0,0,0,0,1,
-                 0,1]
-TTV_first=      [1,1,0,1,1,0,0,1,0,
-                 0,1,0,0,0,1,1,0,0,0,
-                 1,1,0,1,1,0,1,1,0,1,
-                 1,0,1,1,0,1,1,1,0,
-                 1,0,1,0,0,0,1,0,0,
-                 1,1,0,1,0,0,0,1,1,1,
-                 0,1,1,0,0,1,0,0,0,0,
-                 0,0,1,1,0,1,0,0,0,1,
-                 1,1,0,0,0,0,0,0,0,1,
-                 0,0,0,0,0,1,0,1,0,0,
-                 1,0,1,0,0,0,0,1,0,0,
-                 1,0,1,1,0,0,1,1,0,
-                 1,0,0,0,0,0,0,0,1,
-                 1,0,1,1,1,1,0,1,1,0,
-                 0,0,0,1,0,0,0,0,1,1,
-                 1,0,1,1,1,1,0,1,0,0,
-                 0,1,1,0,0,0,0,0,0,0,
-                 1,0,1,0,1,1,1,0,0,0,
-                 1,1,0,0,1,0,0,1,1,1,
-                 1,1]
-TTV_second=     [0,0,1,0,1,0,0,1,0,
-                 0,0,0,0,0,0,0,0,0,0,
-                 0,1,0,1,0,0,0,1,1,1,
-                 1,0,1,0,0,0,1,1,0,
-                 0,0,1,0,0,0,0,0,1,
-                 0,0,0,0,0,0,0,1,1,1,
-                 0,0,0,0,0,1,0,0,0,0,
-                 1,0,0,1,0,1,0,0,0,0,
-                 1,0,0,0,0,0,0,0,0,0,
-                 0,0,0,0,0,0,0,1,0,1,
-                 1,0,1,1,0,0,0,1,0,0,
-                 0,0,1,0,0,0,1,0,0,
-                 0,0,1,0,1,0,0,0,1,
-                 0,0,0,0,1,0,0,0,0,0,
-                 1,0,0,0,0,0,0,0,1,0,
-                 1,0,1,1,0,0,0,0,0,0,
-                 0,1,0,0,0,1,0,0,0,0,
-                 0,0,0,0,0,0,1,0,0,0,
-                 1,1,0,0,1,0,0,1,0,1,
-                 1,1]      
-SZZ_versioned=  [0,1,1,1,0,1,1,1,1,
-                 1,1,1,0,0,0,0,0,0,1,
-                 1,0,1,1,0,0,0,1,1,0,
-                 0,1,0,0,0,0,0,0,1,
-                 1,1,1,1,1,0,0,0,0,
-                 0,0,0,0,1,0,1,1,1,0,
-                 0,0,1,1,1,0,1,1,1,0,
-                 1,1,0,1,1,1,0,1,0,1,
-                 0,0,1,1,0,1,1,1,1,1,
-                 1,1,0,1,1,0,1,0,0,0,
-                 0,1,1,0,1,1,0,1,1,1,
-                 0,1,0,1,1,0,0,0,0,
-                 0,0,1,1,0,1,0,0,1,
-                 0,0,1,0,0,1,0,0,1,1,
-                 0,0,1,1,0,1,0,1,0,1,
-                 0,0,0,1,1,1,0,0,0,1,
-                 1,0,1,1,1,1,0,0,1,0,
-                 0,1,1,1,1,0,1,0,0,0,
-                 0,0,0,0,0,0,0,0,0,0,
-                 0,0]
-Repro_Data =    [1,0,0,1,1,1,0,0,1,
-                 1,0,0,0,0,1,1,0,0,0,
-                 1,1,0,0,0,0,1,0,1,1,
-                 0,0,1,1,1,1,1,1,0,
-                 0,0,1,0,0,0,1,1,1,
-                 0,0,0,1,0,1,1,0,1,1,
-                 1,1,0,1,1,1,0,1,1,0,
-                 0,0,0,1,0,1,0,1,0,0,
-                 1,1,1,0,0,0,0,1,0,1,
-                 1,0,0,0,0,1,0,1,1,1,
-                 1,1,0,1,0,0,1,1,1,0,
-                 0,0,1,0,1,1,0,1,1,
-                 0,0,0,1,0,1,1,0,1,
-                 1,1,1,0,0,1,1,0,0,0,
-                 1,1,0,1,1,0,1,1,1,1,
-                 1,0,1,1,1,1,1,1,0,1,
-                 1,1,0,0,0,0,0,0,0,1,
-                 1,0,0,0,1,1,1,0,1,1,
-                 1,1,0,0,1,0,0,0,0,0,
-                 0,0]
-Repro_Package = [0,0,0,0,1,0,0,0,0,
-                 0,0,0,0,1,0,0,0,1,1,
-                 0,0,0,0,0,0,0,0,0,0,
-                 0,1,1,1,0,0,0,1,0,
-                 0,0,1,0,0,1,1,0,0,
-                 0,0,0,0,0,0,0,0,1,0,
-                 0,0,0,0,1,0,1,0,1,0,
-                 0,1,0,1,0,0,0,0,0,0,
-                 0,0,0,0,0,0,1,0,1,0,
-                 0,0,0,0,1,0,0,1,1,0,
-                 0,0,0,1,0,1,0,0,1,0,
-                 0,0,0,0,0,1,0,0,1,
-                 0,0,0,1,0,0,1,1,0,
-                 0,0,0,0,0,0,0,0,0,1,
-                 0,0,0,0,0,0,0,0,0,0,
-                 0,0,1,1,0,0,0,0,0,0,
-                 0,0,1,0,1,0,1,1,0,0,
-                 1,0,0,0,0,0,0,0,0,1,
-                 0,0,0,0,1,0,0,0,1,0,
-                 0,1]
-SZZ_original =  [1,0,0,0,1,0,0,0,0,
-                 0,0,0,1,0,0,1,1,0,0,
-                 0,1,0,0,1,0,0,0,0,0,
-                 0,0,1,1,1,1,1,1,1,
-                 0,0,0,0,0,1,0,1,0,
-                 0,1,1,1,0,1,0,0,0,1,
-                 1,1,0,0,0,1,0,0,0,1,
-                 0,0,1,0,0,0,0,0,1,0,
-                 1,1,0,0,1,0,0,0,0,0,
-                 0,0,1,0,0,1,0,1,1,1,
-                 1,0,0,1,0,0,1,0,0,0,
-                 1,0,1,0,0,1,0,1,1,
-                 0,1,0,0,1,0,1,1,0,
-                 1,1,0,1,0,0,1,1,0,0,
-                 1,1,0,0,1,0,1,0,1,0,
-                 1,1,0,0,0,0,0,1,1,0,
-                 0,1,0,0,0,0,1,1,0,0,
-                 1,0,0,0,0,0,0,1,1,1,
-                 1,1,1,0,0,0,0,0,0,0,
-                 0,0]
-SZZ_improved=   [0,0,1,0,0,0,0,0,0,
-                 0,0,1,0,1,1,0,0,1,0,
-                 0,0,0,1,0,1,0,0,1,1,
-                 1,0,0,0,0,0,0,0,0,
-                 0,0,0,0,0,0,1,0,1,
-                 1,0,0,0,0,0,0,0,0,0,
-                 0,0,0,0,0,0,0,0,0,0,
-                 0,0,0,1,0,1,1,0,0,0,
-                 0,0,0,0,0,1,0,0,0,0,
-                 0,0,0,1,0,0,0,0,0,0,
-                 0,1,1,0,0,0,0,0,0,0,
-                 0,0,0,0,0,0,1,0,0,
-                 1,0,0,0,0,0,0,0,0,
-                 0,0,1,0,1,1,0,0,1,0,
-                 0,0,0,0,0,0,0,0,0,0,
-                 0,0,1,0,0,0,1,0,0,0,
-                 0,0,0,1,0,1,0,0,0,1,
-                 0,0,0,0,0,1,0,0,0,0,
-                 0,0,0,1,1,1,1,1,1,1,
-                 1,1]
+Manual_Analysis=[0,1,1,0,1,1,0,1,1,1,0,0,0,0,1,0,0,1,1,1,0,1,1,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,1,1,1,1,0,1,1,1,0,0,0,0,1,0,1,1,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,1,1,1,0,1,1,1,0,1,0,0,0,1,0,0,1,1,0,0,1,0,1,1,0,0,0,1,0,0,1,1,0,1,0,1,1,1,0,0,1,0,1,0,0,1,0,0,0,0,1,1,1,1,0,1,0,0,1,1,0,0,0,0,1,1,1,1,1,1,0,1,0,1,0,1,1,0,1,0,1,1,1,0,1,0,1,0,0,0,0,1,0,1]
+TTV_first=      [1,1,0,1,1,0,0,1,0,0,1,0,0,0,1,1,0,0,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,1,0,1,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,1,0,0,0,0,1,0,0,1,0,1,1,0,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,1,1,1,1,0,1,1,0,0,0,0,1,0,0,0,0,1,1,1,0,1,1,1,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,1,1,1,0,0,0,1,1,0,0,1,0,0,1,1,1,1,1]
+TTV_second=     [0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,1,1,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,1,0,0,1,0,1,1,1]      
+SZZ_versioned=  [0,1,1,1,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,1,1,1,0,1,1,1,0,1,1,0,1,1,1,0,1,0,1,0,0,1,1,0,1,1,1,1,1,1,1,0,1,1,0,1,0,0,0,0,1,1,0,1,1,0,1,1,1,0,1,0,1,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,0,1,0,0,1,1,0,0,1,1,0,1,0,1,0,1,0,0,0,1,1,1,0,0,0,1,1,0,1,1,1,1,0,0,1,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+Repro_Data =    [1,0,0,1,1,1,0,0,1,1,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,1,0,1,1,0,0,1,1,1,1,1,1,0,0,0,1,0,0,0,1,1,1,0,0,0,1,0,1,1,0,1,1,1,1,0,1,1,1,0,1,1,0,0,0,0,1,0,1,0,1,0,0,1,1,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,1,1,1,1,1,0,1,0,0,1,1,1,0,0,0,1,0,1,1,0,1,1,0,0,0,1,0,1,1,0,1,1,1,1,0,0,1,1,0,0,0,1,1,0,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0]
+Repro_Package = [0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,1]
+SZZ_original =  [1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,0,1,0,0,1,1,1,0,1,0,0,0,1,1,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,1,1,1,1,0,0,1,0,0,1,0,0,0,1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1,1,0,1,1,0,1,0,0,1,1,0,0,1,1,0,0,1,0,1,0,1,0,1,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0]
+SZZ_improved=   [0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1]
 
+
+print ('*************************************************************************************')
+print ('********	  		HYPOTHESIS 1	    			     ********')
+print ('*************************************************************************************')
 #hypothesis 1:  Reproducibility of the papers are independient of the awareness of the authors
-
 # Calculate AW+ and AW-
 AW_pos = np.array(TTV_first) & np.array(TTV_second)
 AW_neg = np.logical_not(TTV_first).astype(int) & np.logical_not(TTV_second).astype(int)
@@ -200,42 +72,31 @@ pos_12 = (AW_neg & Repro_Data).sum()
 pos_13 = (AW_neg & Repro_Package).sum()
 
 #Contingency Table
-datah1 = pd.DataFrame([[pos_00,pos_01,pos_02, pos_03],[pos_10,pos_11,pos_12, pos_13]],index=['Awareness','NoAwareness'])
-datah1.columns =["Full Repro","No Repro", "Data Repro", "Package Repro"]
-colsumh1 =datah1.sum(axis=1) 
-sum_datah1 = pd.DataFrame(colsumh1, columns=["row_total"])
-datah1 = pd.concat([datah1,sum_datah1],axis=1)
+data = pd.DataFrame([[pos_00,pos_01,pos_02, pos_03],[pos_10,pos_11,pos_12, pos_13]],index=['Awareness','NoAwareness'])
+data.columns =["Full Repro","No Repro", "Data Repro", "Package Repro"]
 
-rowsumh1 =datah1.sum(axis=0) 
-sum_data = pd.DataFrame(rowsumh1, columns = ["col_total"])
-datah1 = pd.concat([datah1,sum_data.T])
-print (datah1)
+datah1 = sumrowcol(data)
 
-#Colum percentaje
-colpcth1= datah1/rowsumh1
-print (colpcth1)
-
-
-#Calculate observed and expected tables
+#Observed and Expected values
 observedh1 = datah1.ix[0:2,0:4]
-print (observedh1)
-expectedh1 = np.outer(datah1["row_total"][0:2],
-                   datah1.ix["col_total"][0:4])/(datah1["row_total"][2])
 
-expectedh1 = pd.DataFrame(expectedh1)
-expectedh1.columns = ["Full Repro","No Repro", "Data Repro", "Package Repro"]
-expectedh1.index = ['Awareness','NoAwareness']
-expectedh1
+columns = ["Full Repro","No Repro", "Data Repro", "Package Repro"]
+index = ['Awareness','NoAwareness']
+expectedh1 = expected(datah1,0,2,0,4, columns, index)
 
-#Calculate chi-square values
-print ('chi-square value, p value, expected counts')
-cs1h1 = stats.chi2_contingency(observedh1)
-print (cs1h1)
+print ('############################################################')
+print ('Residuals Table')
+print ('############################################################')
+residualsh1 = expectedh1 - observedh1
+print(residualsh1)	
 
+#Calculate chi-square
+chisquare(observedh1) 
 
-########################################################################
+print ('*************************************************************************************')
+print ('********	  		HYPOTHESIS 2	    			     ********')
+print ('*************************************************************************************')
 #hypothesis 2:  Reproducibility of the papers are independient of the version used
-
 #Calculate Repro full, repro none
 Rfull = np.array(Repro_Data) & np.array(Repro_Package)
 Rnone = np.logical_not(Repro_Data) & np.logical_not(Repro_Package)
@@ -258,38 +119,30 @@ pos_23 = (np.array(SZZ_improved) & Repro_Package).sum()
 #Contingency Table
 data = pd.DataFrame([[pos_00,pos_01,pos_02, pos_03],[pos_10,pos_11,pos_12, pos_13],[pos_20,pos_21,pos_22, pos_23]],index=['SZZOriginal','SZZ-Mod',"SZZ1-SZZ2"])
 data.columns =["Full Repro","No Repro", "Data Repro", "Package Repro"]
-colsum =data.sum(axis=1) 
-sum_data = pd.DataFrame(colsum, columns=["row_total"])
-data = pd.concat([data,sum_data],axis=1)
 
-rowsum =data.sum(axis=0) 
-sum_data = pd.DataFrame(rowsum, columns = ["col_total"])
-data = pd.concat([data,sum_data.T])
-print (data)
+datah2 = sumrowcol(data)
 
-#Colum percentaje
-colsum=data.sum(axis=0)
-colpct= data/colsum
-print (colpct)
+#Observed and Expected values
+observedh2 = datah2.ix[0:3,0:4]
 
-observed = data.ix[0:3,0:4]
+columns = ["Full Repro","No Repro", "Data Repro", "Package Repro"]
+index = ['SZZOriginal','SZZ-Mod',"SZZ1-SZZ2"]
+expectedh2 = expected(datah2,0,3,0,4, columns, index)
 
-expected = np.outer(data["row_total"][0:3],
-                   data.ix["col_total"][0:4])/(data["row_total"][2])
 
-expected = pd.DataFrame(expected)
-expected.columns = ["Full Repro","No Repro", "Data Repro", "Package Repro"]
-expected.index = ['SZZOriginal','SZZ-Mod',"SZZ1-SZZ2"]
-expected
+print ('############################################################')
+print ('Residuals Table')
+print ('############################################################')
+residualsh2 = expectedh2 - observedh2
+print(residualsh2)	
 
-#Calculate chi-square values
-print ('chi-square value, p value, expected counts')
-cs1 = stats.chi2_contingency(observed)
-print (cs1)
+#Calculate chi-square
+chisquare(observedh2) 
 
-############################################################################
+print ('*************************************************************************************')
+print ('********	  		HYPOTHESIS 3	    			     ********')
+print ('*************************************************************************************')
 #hypothesis 3:  SZZ Version in the papers are independient of the awareness of the authors
-
 # Calculate AW+ and AW-
 AW_pos = np.array(TTV_first) & np.array(TTV_second)
 AW_neg = np.logical_not(TTV_first).astype(int) & np.logical_not(TTV_second).astype(int)
@@ -306,31 +159,22 @@ pos_12 = (SZZ_improved & AW_neg).sum()
 #Contingency Table
 data = pd.DataFrame([[pos_00,pos_01,pos_02],[pos_10,pos_11,pos_12]],index=['Awareness','NoAwareness'])
 data.columns =['SZZOriginal','SZZ-Mod',"SZZ1-SZZ2"]
-colsum =data.sum(axis=1) 
-sum_data = pd.DataFrame(colsum, columns=["row_total"])
-data = pd.concat([data,sum_data],axis=1)
 
-rowsum =data.sum(axis=0) 
-sum_data = pd.DataFrame(rowsum, columns = ["col_total"])
-data = pd.concat([data,sum_data.T])
-print (data)
+datah3 = sumrowcol(data)
 
-#Colum percentaje
-colsum=data.sum(axis=0)
-colpct= data/colsum
-print (colpct)
+#Observed and Expected values
+observedh3 = datah3.ix[0:2,0:3]
 
-observed = data.ix[0:2,0:3]
+index = ['Awareness','NoAwareness']
+columns = ['SZZOriginal','SZZ-Mod',"SZZ1-SZZ2"]
+expectedh3 = expected(datah3,0,2,0,3, columns, index)
 
-expected = np.outer(data["row_total"][0:2],
-                   data.ix["col_total"][0:3])/(data["row_total"][2])
+print ('############################################################')
+print ('Residuals Table')
+print ('############################################################')
+residualsh3 = expectedh3 - observedh3
+print(residualsh3)	
 
-expected = pd.DataFrame(expected)
-expected.index = ['Awareness','NoAwareness']
-expected.columns = ['SZZOriginal','SZZ-Mod',"SZZ1-SZZ2"]
-expected
+#Calculate chi-square
+chisquare(observedh3) 
 
-#Calculate chi-square values
-print ('chi-square value, p value, expected counts')
-cs1 = stats.chi2_contingency(observed)
-print (cs1)
